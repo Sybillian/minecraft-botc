@@ -7,7 +7,21 @@ command_history.txt
 checkbox_states.json
 spiffy_instance_data
 screenshots
-saves
+saves/New World
+saves/BotC_Map/advancements
+saves/BotC_Map/data
+saves/BotC_Map/DIM-1
+saves/BotC_Map/DIM1
+saves/BotC_Map/playerdata
+saves/BotC_Map/poi
+saves/BotC_Map/region
+saves/BotC_Map/scripts
+saves/BotC_Map/serverconfig
+saves/BotC_Map/stats
+saves/BotC_Map/icon.png
+saves/BotC_Map/level.dat
+saves/BotC_Map/level.dat_old
+saves/BotC_Map/session.lock
 resourcepacks
 mods
 logs
