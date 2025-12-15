@@ -1,10 +1,8 @@
 {
     "pack": {
-      "pack_format": 57,
-      "description": "Role icons from\nThe Yogscast",
-      "supported_formats": [
-        1,
-        1000
-      ]
+      "pack_format": 65,
+      "description": "Required assets for\nBotC modpack.",
+      "max_format": 1000,
+      "min_format": 65
     }
   }

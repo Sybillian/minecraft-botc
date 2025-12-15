@@ -1,7 +1,7 @@
 {
-  "fullscreenMode": "BORDERLESS",
+  "fullscreenMode": "OFF",
   "preferredFullscreenMode": "BORDERLESS",
   "fullscreenType": "minecraft:default",
   "borderlessFullscreenType": "windows:windowed",
-  "preferredMonitor": "-1920,0,1920,1080"
+  "preferredMonitor": "0,0,1920,1080"
 }

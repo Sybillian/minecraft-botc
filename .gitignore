@@ -9,7 +9,6 @@ spiffy_instance_data
 screenshots
 saves/New World
 saves/BotC_Map/advancements
-saves/BotC_Map/data
 saves/BotC_Map/DIM-1
 saves/BotC_Map/DIM1
 saves/BotC_Map/playerdata
@@ -29,8 +28,6 @@ flashback
 fancymenu_data
 emotes
 downloads
-datapacks
-data
 crash-reports
 cache
 .fabric

@@ -1,10 +1,8 @@
 {
     "pack": {
-      "pack_format": 57,
+      "pack_format": 65,
       "description": "Role icons from\nhttps://github.com/tomozbot/botc-icons",
-      "supported_formats": [
-        1,
-        1000
-      ]
+      "max_format": 1000,
+      "min_format": 65
     }
   }

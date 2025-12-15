@@ -1,0 +1,2 @@
+execute as @a[scores={use_carrot=1..}] if data entity @s SelectedItem.components."minecraft:custom_model_data"{strings:["script"]} run function ct:gui/script
+execute as @a[scores={use_carrot=1..}] if data entity @s SelectedItem.components."minecraft:custom_model_data"{strings:["grimoire"]} run function ct:gui/grimoire
