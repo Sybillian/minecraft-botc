@@ -1,0 +1,32 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+eu.kennytv.forcecloseloadingscreen.TitleBridgeScreen {
+}
+
+net.minecraft.class_490 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_408 {
+}
+
+net.minecraft.class_412 {
+}
+
+net.minecraft.class_419 {
+}
+

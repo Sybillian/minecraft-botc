@@ -1,0 +1,12 @@
+{
+	"id": "point",
+	"arguments": [
+		{
+			"id": "target",
+			"type": "minecraft:entity players",
+			"executes": [
+				"function ct:point/point {pointer:${player:name_unformatted},target:${target}}"
+			]
+		}
+	]
+}

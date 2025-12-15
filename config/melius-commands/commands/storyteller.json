@@ -1,0 +1,33 @@
+{
+	"id": "storyteller",
+	"require": {
+		"type": "operator",
+		"operator": 2
+	},
+	"literals": [
+		{
+			"id": "add",
+			"arguments": [
+				{
+					"id": "player",
+					"type": "minecraft:entity players",
+					"executes": [
+						"execute as ${player} run function ct:cmd/storyteller/add {target:${player}}"
+					]
+				}
+			]
+		},
+		{
+			"id": "remove",
+			"arguments": [
+				{
+					"id": "player",
+					"type": "minecraft:entity players",
+					"executes": [
+						"execute as ${player} run function ct:cmd/storyteller/remove {target:${player}}"
+					]
+				}
+			]
+		}
+	]
+}

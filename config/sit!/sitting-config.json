@@ -1,0 +1,47 @@
+{
+  "version": 1.0,
+  "enabled": true,
+  "hand-sitting": false,
+  "main-hand": {
+    "requirement": "EMPTY",
+    "requirement-options": "NONE, FILTER, EMPTY",
+    "filter": {
+      "invert-filter": false,
+      "presets": {
+        "block": false,
+        "food": false,
+        "usable": false
+      },
+      "custom-items": {
+        "item-ids": [],
+        "item-tags": [
+          "#minecraft:bookshelf_books",
+          "!#minecraft:lectern_books"
+        ]
+      }
+    }
+  },
+  "off-hand": {
+    "requirement": "FILTER",
+    "requirement-options": "NONE, FILTER, EMPTY",
+    "filter": {
+      "invert-filter": false,
+      "presets": {
+        "block": false,
+        "food": true,
+        "usable": false
+      },
+      "custom-items": {
+        "item-ids": [
+          "minecraft:filled_map",
+          "minecraft:torch",
+          "minecraft:soul_torch",
+          "minecraft:redstone_torch",
+          "minecraft:lantern",
+          "minecraft:soul_lantern"
+        ],
+        "item-tags": []
+      }
+    }
+  }
+}

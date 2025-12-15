@@ -1,0 +1,10 @@
+{
+	"id": "fearmonger",
+	"require": {
+		"type": "operator",
+		"operator": 2
+	},
+	"executes": [
+		"function ct:admin/announce/fearmonger"
+	]
+}

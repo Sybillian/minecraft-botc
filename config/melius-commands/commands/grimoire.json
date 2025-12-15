@@ -1,0 +1,6 @@
+{
+  "id": "grimoire",
+  "executes": [
+    "function ct:cmd/grimoire"
+  ]
+}

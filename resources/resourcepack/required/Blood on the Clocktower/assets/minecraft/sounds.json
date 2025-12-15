@@ -1,0 +1,42 @@
+{
+    "music.menu": {
+        "sounds": [],
+        "subtitle": "",
+        "replace": true
+    },
+    "music.game": {
+        "sounds": [],
+        "subtitle": "",
+        "replace": true
+    },
+    "music.creative": {
+        "sounds": [],
+        "subtitle": "",
+        "replace": true
+    },
+    "music.underwater": {
+        "sounds": [],
+        "subtitle": "",
+        "replace": true
+    },
+    "music.nether": {
+        "sounds": [],
+        "subtitle": "",
+        "replace": true
+    },
+    "music.dragon": {
+        "sounds": [],
+        "subtitle": "",
+        "replace": true
+    },
+    "music.end": {
+        "sounds": [],
+        "subtitle": "",
+        "replace": true
+    },
+    "music.credits": {
+        "sounds": [],
+        "subtitle": "",
+        "replace": true
+    }
+}

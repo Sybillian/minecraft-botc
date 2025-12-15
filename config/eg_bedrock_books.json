@@ -1,0 +1,13 @@
+{
+  "close_book_when_running_command": true,
+  "move_forward_page_key": "key.keyboard.page.down",
+  "move_backward_page_key": "key.keyboard.page.up",
+  "vanilla_book_key_enabled": false,
+  "vanilla_book_key": "key.keyboard.left.alt",
+  "show_x_button": true,
+  "ribbon_height": 76,
+  "debug_text_bounds": false,
+  "debug_widget_bounds": false,
+  "debug_container_data": false,
+  "debug_variables": false
+}

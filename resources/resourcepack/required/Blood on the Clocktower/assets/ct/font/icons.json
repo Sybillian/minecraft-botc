@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "ct:item/microphone.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": [
+        "\ua000"
+      ]
+    }
+  ]
+}

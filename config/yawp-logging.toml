@@ -1,0 +1,15 @@
+["YetAnotherWorldProtector logging configuration"]
+	#Enable logging of flag checks.
+	log_flag_check = false
+	#Enable logging of flag check results.
+	log_flag_result = false
+	#Enable logging of empty (without responsible region) flag check results.
+	log_empty_results = false
+	#List of flags result states which shall be logged. By default only denied results will be logged.
+	# Valid FlagStates are: allowed and denied
+	log_result_values = ["Denied"]
+	#List of flag tags which shall be logged.
+	#Valid tags are: player, beneficial, block, entity, item, environment, protection, high-frequency and * (for all).
+	log_flag_tags = ["yawp:player"]
+	#List of flags which shall be logged.
+	log_flags = ["break-blocks", "place-blocks"]

@@ -1,0 +1,156 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": {
+          "strings": [
+            "party_hat_red"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_red"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_orange"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_orange"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_yellow"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_yellow"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_lime"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_lime"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_blue"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_blue"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_purple"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_purple"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_white"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_white"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_grey"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_grey"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_green"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_green"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_light_blue"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_light_blue"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_brown"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_brown"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "party_hat_pink"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/party_hat_pink"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "cake_hat"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/partyhatpack/cake_hat"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
+    }
+  }
+}

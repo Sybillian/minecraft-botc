@@ -1,0 +1,17 @@
+[
+	{
+		"id": "cooldown",
+		"type": "node:starts_with",
+		"paths": "point",
+		"execution_modifiers": [
+			{
+				"type": "cooldown:set",
+				"id": "test",
+				"seconds": 1,
+				"failure": [
+					"tellraw @s [{\"text\":\"Slow down!\",\"bold\":false,\"color\":\"red\"}]"
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,187 @@
+{
+    "clocktower.ghost_vote": {
+        "subtitle": "§bGhost Vote Used§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/use_ghost_vote",
+                "volume": 0.5
+            }
+        ]
+    },
+    "clocktower.bell": {
+        "subtitle": "§6Nomination Bell Tolls§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/return_bell",
+                "volume": 1
+            }
+        ]
+    },
+    "clocktower.reveal_role": {
+        "subtitle": "Role Revealed",
+        "sounds": [
+            {
+                "name": "ct:clocktower/reveal_role",
+                "volume": 0.75
+            }
+        ]
+    },
+    "clocktower.light_pyre": {
+        "subtitle": "Pyre Lights",
+        "sounds": [
+            {
+                "name": "ct:clocktower/light_pyre",
+                "volume": 1
+            }
+        ]
+    },
+    "clocktower.night_death": {
+        "subtitle": "Player is Nominated",
+        "sounds": [
+            {
+                "name": "ct:clocktower/night_death",
+                "volume": 0.3
+            }
+        ]
+    },
+    "clocktower.nominate": {
+        "subtitle": "Player Dies",
+        "sounds": [
+            {
+                "name": "ct:clocktower/nominate",
+                "volume": 1
+            }
+        ]
+    },
+    "clocktower.revive": {
+        "subtitle": "Player is Revived",
+        "sounds": [
+            {
+                "name": "ct:clocktower/revive",
+                "volume": 0.8
+            },
+            {
+                "name": "ct:clocktower/revive",
+                "volume": 1,
+                "pitch": 0.9
+            },
+            {
+                "name": "ct:clocktower/revive",
+                "volume": 1,
+                "pitch": 1
+            },
+            {
+                "name": "ct:clocktower/revive",
+                "volume": 1,
+                "pitch": 1.1
+            }
+        ]
+    },
+    "clocktower.tick": {
+        "subtitle": "Clock Ticks",
+        "sounds": [
+            {
+                "name": "ct:clocktower/clock_tick",
+                "volume": 1,
+                "pitch": 0.8
+            }
+        ]
+    },
+    "clocktower.boomdandy": {
+        "subtitle": "§cBoomdandy Ticks§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/boomdandy_cd"
+            }
+        ]
+    },
+    "clocktower.night.fearmonger_victim": {
+        "subtitle": "§cFearmonger Announcement§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/fearmonger"
+            }
+        ]
+    },
+    "clocktower.night.banshee": {
+        "subtitle": "§cBanshee Announcement§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/banshee"
+            }
+        ]
+    },
+    "clocktower.night.ambient": {
+        "subtitle": "§cDemon Growls§r",
+        "sounds": [
+            {
+                "name": "minecraft:mob/warden/ambient_1",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_2",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_3",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_4",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_5",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_6",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_7",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_8",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_9",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_10",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_11",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/ambient_12",
+                "pitch": 0.3
+            },
+            {
+                "name": "minecraft:mob/warden/roar_1",
+                "pitch": 0.5
+            },
+            {
+                "name": "minecraft:mob/warden/roar_2",
+                "pitch": 0.5
+            },
+            {
+                "name": "minecraft:mob/warden/roar_3",
+                "pitch": 0.5
+            },
+            {
+                "name": "minecraft:mob/warden/roar_4",
+                "pitch": 0.5
+            },
+            {
+                "name": "minecraft:mob/warden/roar_5",
+                "pitch": 0.5
+            }
+        ]
+    }
+}

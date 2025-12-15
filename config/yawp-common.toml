@@ -1,0 +1,27 @@
+["YetAnotherWorldProtector mod server configuration"]
+	#Permission for command blocks to execute mod commands
+	command_block_execution = true
+	#Minimum OP level to use mod commands.
+	# 0 -> everyone can use the commands.
+	# 1-4 -> OP with specific level can use the commands.
+	# 5 -> no operator can use the commands.
+	# Defaults to 4.
+	# Default: 4
+	# Range: 0 ~ 5
+	command_op_level = 4
+	#Defines whether info commands for regions can be used by every player.
+	allow_info_cmds = true
+	#Defines whether mod commands are disabled for non-OP players.
+	disable_cmd_for_non_op = false
+	#Defines whether OPs/permitted players are allowed to bypass flags set in regions.
+	op_bypass_flags = false
+	#Defines whether owners of parent regions have implicit ownership rights for child regions as well
+	hierarchy_ownership = true
+	#Defines whether teleport in and out of a region is allowed by everyone. Mostly useful when using something like Waystones inside of regions.
+	allow_region_tp = false
+	#Enable creation of RegionMarker by renaming a stick in an Anvil.
+	enable_marker_creation = true
+	#Player UUIDs with permission to use mod commands.
+	# Make sure to put the UUIDs in parentheses, just like a normal string.
+	# Example: players_with_permission = ["614c9eac-11c9-3ca6-b697-938355fa8235", "b9f5e998-520a-3fa2-8208-0c20f22aa20f"]
+	players_with_permission = []

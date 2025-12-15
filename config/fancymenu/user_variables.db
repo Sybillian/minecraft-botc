@@ -1,0 +1,2378 @@
+type = user_variables
+
+variable {
+  name = p5_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = fabled_1
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = fabled_2
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = fabled_3
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = fabled_4
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = fabled_5
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r23_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r14_icon
+  value = imp
+  reset_on_launch = false
+}
+
+variable {
+  name = announcement
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r31_icon
+  value = pukka
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = version
+  value = 1.4.2
+  reset_on_launch = false
+}
+
+variable {
+  name = r26_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r4_icon
+  value = librarian
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r35_text
+  value = po_charged
+  reset_on_launch = false
+}
+
+variable {
+  name = r40_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r8_text
+  value = undertaker
+  reset_on_launch = false
+}
+
+variable {
+  name = role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r10_icon
+  value = slayer
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = minion_6
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = minion_5
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = player_11
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = minion_4
+  value = baron
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = player_12
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = minion_3
+  value = scarlet_woman
+  reset_on_launch = false
+}
+
+variable {
+  name = minion_2
+  value = spy
+  reset_on_launch = false
+}
+
+variable {
+  name = player_10
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = minion_1
+  value = poisoner
+  reset_on_launch = false
+}
+
+variable {
+  name = r11_text
+  value = butler
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = script_name
+  value = Trouble Brewing
+  reset_on_launch = false
+}
+
+variable {
+  name = r39_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r38_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r31_text
+  value = pukka_dead
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r8_icon
+  value = undertaker
+  reset_on_launch = false
+}
+
+variable {
+  name = role_scale
+  value = 2
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r34_icon
+  value = po
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r23_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r27_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r32_text
+  value = shabaloth_dead
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r18_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = requesting_chat
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = r39_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r1_text
+  value = washerwoman_town
+  reset_on_launch = false
+}
+
+variable {
+  name = developer
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r3_icon
+  value = librarian
+  reset_on_launch = false
+}
+
+variable {
+  name = r13_icon
+  value = poisoner
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r22_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = storyteller
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r24_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r1_icon
+  value = washerwoman
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r19_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r26_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r2_text
+  value = washerwoman_wrong
+  reset_on_launch = false
+}
+
+variable {
+  name = jinx_3_b
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_21
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_22
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_20
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_25
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_26
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_23
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_24
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_29
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_27
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r9_text
+  value = monk
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_28
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = minion_count
+  value = 2
+  reset_on_launch = false
+}
+
+variable {
+  name = team_color
+  value = #1464e7
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r36_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_30
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = jinx_3_a
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = day_start
+  value = 13:18
+  reset_on_launch = false
+}
+
+variable {
+  name = town_3
+  value = investigator
+  reset_on_launch = false
+}
+
+variable {
+  name = town_4
+  value = chef
+  reset_on_launch = false
+}
+
+variable {
+  name = r21_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = town_1
+  value = washerwoman
+  reset_on_launch = false
+}
+
+variable {
+  name = town_2
+  value = librarian
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = town_9
+  value = ravenkeeper
+  reset_on_launch = false
+}
+
+variable {
+  name = town_7
+  value = undertaker
+  reset_on_launch = false
+}
+
+variable {
+  name = town_8
+  value = monk
+  reset_on_launch = false
+}
+
+variable {
+  name = r18_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = town_5
+  value = empath
+  reset_on_launch = false
+}
+
+variable {
+  name = town_6
+  value = fortune_teller
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r14_text
+  value = imp
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r36_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_10
+  value = fortune_teller
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_11
+  value = butler
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_14
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = jinx_2_a
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_15
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = jinx_2_b
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_12
+  value = spy
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = pronouns
+  value = they/them
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_13
+  value = dawn
+  reset_on_launch = false
+}
+
+variable {
+  name = r16_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_18
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_19
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_16
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_17
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r34_text
+  value = po_dead
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r6_icon
+  value = investigator
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r11_icon
+  value = butler
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = jinx_1_b
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r4_text
+  value = librarian_wrong
+  reset_on_launch = false
+}
+
+variable {
+  name = jinx_1_a
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r28_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r37_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r2_icon
+  value = washerwoman
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r12_icon
+  value = drunk
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = mousing
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = r21_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_6
+  value = ravenkeeper
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_5
+  value = imp
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_4
+  value = scarlet_woman
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_3
+  value = monk
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_2
+  value = poisoner
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_1
+  value = dusk
+  reset_on_launch = false
+}
+
+variable {
+  name = r16_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = player_5
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = player_4
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = r3_text
+  value = librarian_outsider
+  reset_on_launch = false
+}
+
+variable {
+  name = player_3
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = player_2
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = player_9
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = player_8
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = player_7
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = player_6
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_9
+  value = undertaker
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_8
+  value = fortune_teller
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_7
+  value = empath
+  reset_on_launch = false
+}
+
+variable {
+  name = r30_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r33_text
+  value = shabaloth_alive
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = script_icon
+  value = trouble_brewing
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = town_count
+  value = 7
+  reset_on_launch = false
+}
+
+variable {
+  name = r19_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = demon_count
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = stored_volume
+  value = 0.5
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = r29_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = game_active
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r9_icon
+  value = monk
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = town_14
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = town_11
+  value = slayer
+  reset_on_launch = false
+}
+
+variable {
+  name = outsider_3
+  value = recluse
+  reset_on_launch = false
+}
+
+variable {
+  name = town_10
+  value = virgin
+  reset_on_launch = false
+}
+
+variable {
+  name = outsider_2
+  value = drunk
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_20
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = town_13
+  value = mayor
+  reset_on_launch = false
+}
+
+variable {
+  name = outsider_5
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_21
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = town_12
+  value = soldier
+  reset_on_launch = false
+}
+
+variable {
+  name = outsider_4
+  value = saint
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_22
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = outsider_6
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r6_text
+  value = investigator_wrong
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_27
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_28
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_29
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_23
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_24
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_25
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_26
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = outsider_1
+  value = butler
+  reset_on_launch = false
+}
+
+variable {
+  name = player_count
+  value = 10
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_10
+  value = butler
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_11
+  value = spy
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = day_minutes
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = r13_text
+  value = poisoner
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_16
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_17
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_18
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_19
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_12
+  value = dawn
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_13
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_14
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_15
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r24_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r12_text
+  value = drunk
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = random_hint
+  value = 8
+  reset_on_launch = false
+}
+
+variable {
+  name = script_json
+  value = [{"id":"_meta","author":"Olly","name":"Nice to Lleech you"},"pixie","empath","highpriestess","sailor","balloonist","preacher","acrobat","savant","philosopher","huntsman","artist","fisherman","fool","hermit","klutz","hatter","damsel","mezepheles","devilsadvocate","harpy","eviltwin","lilmonsta","legion","lleech","spiritofivory"]
+  reset_on_launch = false
+}
+
+variable {
+  name = r33_icon
+  value = shabaloth
+  reset_on_launch = false
+}
+
+variable {
+  name = stored_player_count
+  value = 10
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r28_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = other_night_order_30
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = r7_text
+  value = fortune_teller
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = editing_reminder
+  value = 2
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = outsider_count
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r27_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = r30_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = phase
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r10_text
+  value = slayer
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = r38_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r15_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r32_icon
+  value = shabaloth
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_1
+  value = dusk
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_2
+  value = minion_info
+  reset_on_launch = false
+}
+
+variable {
+  name = r20_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_3
+  value = demon_info
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_4
+  value = poisoner
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_5
+  value = washerwoman
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_6
+  value = librarian
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_7
+  value = investigator
+  reset_on_launch = false
+}
+
+variable {
+  name = bluff_2
+  value = clockmaker
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_8
+  value = chef
+  reset_on_launch = false
+}
+
+variable {
+  name = bluff_3
+  value = fortune_teller
+  reset_on_launch = false
+}
+
+variable {
+  name = first_night_order_9
+  value = empath
+  reset_on_launch = false
+}
+
+variable {
+  name = r29_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = bluff_1
+  value = soldier
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = r17_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r5_icon
+  value = investigator
+  reset_on_launch = false
+}
+
+variable {
+  name = editing_bluff
+  value = 3
+  reset_on_launch = false
+}
+
+variable {
+  name = r25_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p4_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r5_text
+  value = investigator_minion
+  reset_on_launch = false
+}
+
+variable {
+  name = r35_icon
+  value = po
+  reset_on_launch = false
+}
+
+variable {
+  name = script_creator
+  value = The Pandemonium Institute
+  reset_on_launch = false
+}
+
+variable {
+  name = r15_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = editing_player
+  value = 10
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = demon_4
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = demon_5
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r22_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = demon_6
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = demon_1
+  value = imp
+  reset_on_launch = false
+}
+
+variable {
+  name = demon_2
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = demon_3
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = day_seconds
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = r37_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p8_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p5_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r20_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p10_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r7_icon
+  value = fortune_teller
+  reset_on_launch = false
+}
+
+variable {
+  name = p2_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p9_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p3_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r17_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r25_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p6_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = r40_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p7_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p12_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p11_r3_icon
+  value = none
+  reset_on_launch = false
+}
+

@@ -1,0 +1,17 @@
+{
+  "id": "hand",
+  "literals": [
+    {
+      "id": "raise",
+      "executes": [
+        "/function ct:cmd/hand/raise"
+      ]
+    },
+    {
+      "id": "lower",
+      "executes": [
+        "/function ct:cmd/hand/lower"
+      ]
+    }
+  ]
+}

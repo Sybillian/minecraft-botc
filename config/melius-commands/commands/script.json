@@ -1,0 +1,6 @@
+{
+  "id": "script",
+  "executes": [
+    "function ct:cmd/script"
+  ]
+}

@@ -1,0 +1,23 @@
+["YetAnotherWorldProtector region configuration"]
+	#Default region priority for newly created regions.
+	# Default: 10
+	# Range: > 0
+	default_region_priority = 10
+	#Default flags for new local regions.
+	# Make sure to put the flags in double-quites, just like a normal string.
+	# Example: default_flags = ["no-pvp", "no-flight"])
+	default_flags = []
+	#Default flags for new dimensional regions.
+	# Make sure to put the flags in double-quites, just like a normal string.
+	# Example: dim_default_flags = ["invincible", "sleep", "spawning-all"])
+	dim_default_flags = []
+	#Default region priority increment/decrement.
+	# Default: 5
+	# Range: 1 ~ 1000
+	default_region_priority_inc = 5
+	#Amount of pagination entries for CLI output of flags, region, children region, players, teams, etc.
+	# Default: 5
+	# Range: 5 ~ 15
+	cli_entries_per_page = 5
+	#Enable new dimensional regions on creation.
+	dim_enable_new = true

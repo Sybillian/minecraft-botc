@@ -1,0 +1,45 @@
+{
+	"id": "rps",
+	"literals": [
+		{
+			"id": "rock",
+			"executes": [
+				"execute as @s run function ct:rps/rock"
+			]
+		},
+		{
+			"id": "paper",
+			"executes": [
+				"execute as @s run function ct:rps/paper"
+			]
+		},
+		{
+			"id": "scissors",
+			"executes": [
+				"execute as @s run function ct:rps/scissors"
+			]
+		},
+		{
+			"id": "start",
+			"arguments": [
+				{
+					"id": "cmdtarget_1",
+					"type": "minecraft:entity players",
+					"arguments": [
+						{
+							"id": "cmdtarget_2",
+							"type": "minecraft:entity players",
+							"executes": [
+								"function ct:rps/select {target_1:${cmdtarget_1},target_2:${cmdtarget_2}}"
+							]
+						}
+					]
+				}
+			],
+			"require": {
+				"type": "operator",
+				"operator": 2
+			}
+		}
+	]
+}

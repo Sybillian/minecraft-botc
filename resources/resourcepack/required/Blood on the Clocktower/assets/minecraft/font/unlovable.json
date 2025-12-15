@@ -1,0 +1,11 @@
+{
+     "providers": [
+         {
+             "type": "ttf",
+             "file": "minecraft:unlovable.ttf",
+ 			"shift": [0, 0],
+ 			"size": 20.0,
+ 			"oversample": 3.0
+         }
+ 	]
+ }

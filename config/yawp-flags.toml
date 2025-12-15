@@ -1,0 +1,12 @@
+["YetAnotherWorldProtector mod flag configuration"]
+	#Entities included/protected by the break-block and place-blocks flags. Includes entities like armor stands and pictures by default
+	covered_block_entities = ["minecraft:armor_stand", "minecraft:painting", "minecraft:item_frame", "minecraft:glow_item_frame", "minecraft:leash_knot"]
+	#Entity tags included/protected by the break-block and place-blocks flags.
+	covered_block_entity_tags = []
+	#Toggle to remove entities when adding spawning-* flags.
+	#Entities with the PersistenceRequired tag will not be removed.
+	# true -> remove entities related to this flag
+	# false -> don't remove entities
+	remove_entities_for_spawning_flags = true
+	#Flags which are disabled to reduce performance impact. This is currently limited to the following flags: `fluid_flow`, `water_flow` and `lava_flow`
+	disabled_flags = []

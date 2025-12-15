@@ -1,0 +1,10 @@
+{
+    "pack": {
+      "pack_format": 57,
+      "description": "Role icons from\nThe Yogscast",
+      "supported_formats": [
+        1,
+        1000
+      ]
+    }
+  }

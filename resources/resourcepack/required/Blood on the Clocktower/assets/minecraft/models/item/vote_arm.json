@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "ct:item/clock_hand",
+		"particle": "ct:item/clock_hand"
+	},
+	"elements": [
+		{
+			"from": [4.75, 0, -1],
+			"to": [11.25, 0, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.75, 0, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#missing"},
+				"up": {"uv": [5.48571, 0, 10.51429, 16], "texture": "#0"},
+				"down": {"uv": [5.48571, 16, 10.51429, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 14.5, -25],
+			"scale": [4, 1, 4]
+		}
+	}
+}

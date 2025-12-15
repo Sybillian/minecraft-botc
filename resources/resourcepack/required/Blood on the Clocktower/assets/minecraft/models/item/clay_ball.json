@@ -1,0 +1,18 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/clay_ball"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 256001}, "model": "item/partyhatpack/cake_hat"},
+        { "predicate": {"custom_model_data": 256002}, "model": "item/partyhatpack/colorful_flower_hat"},
+        { "predicate": {"custom_model_data": 256003}, "model": "item/partyhatpack/colorful_top_hat"},
+        { "predicate": {"custom_model_data": 256004}, "model": "item/partyhatpack/cone_hat"},
+        { "predicate": {"custom_model_data": 256005}, "model": "item/partyhatpack/jester_hat"},
+        { "predicate": {"custom_model_data": 256006}, "model": "item/partyhatpack/origami_crown"},
+        { "predicate": {"custom_model_data": 256007}, "model": "item/partyhatpack/party_glasses"},
+        { "predicate": {"custom_model_data": 256008}, "model": "item/partyhatpack/party_hat"},
+        { "predicate": {"custom_model_data": 256009}, "model": "item/partyhatpack/party_hat_v2"},
+        { "predicate": {"custom_model_data": 256010}, "model": "item/partyhatpack/wizard_party_hat"}
+     ]
+}
