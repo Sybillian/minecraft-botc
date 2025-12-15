@@ -788,7 +788,7 @@ variable {
 
 variable {
   name = day_start
-  value = 13:18
+  value = 22:35
   reset_on_launch = false
 }
 
@@ -1028,7 +1028,7 @@ variable {
 
 variable {
   name = p10_role
-  value = none
+  value = scapegoat
   reset_on_launch = false
 }
 
@@ -1274,7 +1274,7 @@ variable {
 
 variable {
   name = player_1
-  value = Nobody!
+  value = Alex
   reset_on_launch = false
 }
 
@@ -1418,7 +1418,7 @@ variable {
 
 variable {
   name = stored_volume
-  value = 0.5
+  value = 0.0
   reset_on_launch = false
 }
 
@@ -1742,7 +1742,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 8
+  value = 12
   reset_on_launch = false
 }
 
@@ -1820,7 +1820,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
@@ -1868,7 +1868,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 4
   reset_on_launch = false
 }
 
@@ -2150,7 +2150,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 10
+  value = 1
   reset_on_launch = false
 }
 

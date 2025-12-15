@@ -1,0 +1,8 @@
+Changes and features:
+- Updated the "Blood on the Clocktower" logo to be a custom version instead of TPI's.
+- The Grimoire will no longer display icons and buttons for empty seats.
+
+Fixed bugs:
+#8: The Storyteller can hear demon sounds at night.bug
+#3: Home compasses are not cleared on game reset.
+#1: Alive players have a space after their names in chat after being resurrected.
