@@ -84,3 +84,8 @@ execute as @a[tag=storyteller] run fmvariable set p9_alive false true
 execute as @a[tag=storyteller] run fmvariable set p10_alive false true
 execute as @a[tag=storyteller] run fmvariable set p11_alive false true
 execute as @a[tag=storyteller] run fmvariable set p12_alive false true
+
+
+execute as @a[tag=storyteller] run fmvariable set bluff_1 false none
+execute as @a[tag=storyteller] run fmvariable set bluff_2 false none
+execute as @a[tag=storyteller] run fmvariable set bluff_3 false none

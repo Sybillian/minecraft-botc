@@ -1,8 +1,19 @@
 Changes and features:
 - Updated the "Blood on the Clocktower" logo to be a custom version instead of TPI's.
 - The Grimoire will no longer display icons and buttons for empty seats.
+- The Storyteller can now assign players a Traveler character.
+- "Good" and "Evil" reminder tokens are now available regardless of selected script (thanks boofsly).
+- Phobos scripts can now display up to 16 Townsfolk. Please do not make a script with 16 Townsfolk.
 
 Fixed bugs:
-#8: The Storyteller can hear demon sounds at night.bug
+#29: Exorcist is lacking an asterisk.
+#8: The Storyteller can hear demon sounds at night.
+#6: "Reset Game" does not reset demon bluffs.
 #3: Home compasses are not cleared on game reset.
 #1: Alive players have a space after their names in chat after being resurrected.
+- Fixed the bluffs menu missing the last few townsfolk roles.
+- Fixed Storytellers getting set to Spectator when relogging.
+- Fixed players joining mid-game incrementing the player count.
+- Fixed vote toggle items not being cleared when a vote is manually ended.
+- Fixed sounds sometimes continuing when a vote is manually ended.
+- Fixed Balloonist having four (old) reminder tokens instead of the one it actually needs.

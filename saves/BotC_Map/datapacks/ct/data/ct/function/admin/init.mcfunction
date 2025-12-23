@@ -46,6 +46,8 @@ bossbar set day_time style progress
 bossbar set day_time max 300
 bossbar set day_time value 300
 
+data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bone_collector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
+
 #team modify red suffix {"text":" ☠","color":"dark_gray"}
 team add 00_spectator
 team add 99_storyteller

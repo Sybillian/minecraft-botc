@@ -1,6 +1,8 @@
 data modify storage ct:script reminders.id set from storage ct:script reminders_stored[0]
 data remove storage ct:script reminders_stored[0]
 
+data modify storage ct:script in_reminders append value "good"
+data modify storage ct:script in_reminders append value "evil"
 execute if data storage ct:script formatted_characters[{id:"acrobat"}] run data modify storage ct:script in_reminders append value "acrobat_dead"
 execute if data storage ct:script formatted_characters[{id:"alchemist"}] run data modify storage ct:script in_reminders append value "alchemist"
 execute if data storage ct:script formatted_characters[{id:"alhadikhia"}] run data modify storage ct:script in_reminders append value "al_hadikhia_1"
@@ -15,10 +17,7 @@ execute if data storage ct:script formatted_characters[{id:"apprentice"}] run da
 execute if data storage ct:script formatted_characters[{id:"artist"}] run data modify storage ct:script in_reminders append value "artist"
 execute if data storage ct:script formatted_characters[{id:"assassin"}] run data modify storage ct:script in_reminders append value "assassin_dead"
 execute if data storage ct:script formatted_characters[{id:"assassin"}] run data modify storage ct:script in_reminders append value "assassin_no_ability"
-execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script in_reminders append value "balloonist_town"
-execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script in_reminders append value "balloonist_outsider"
-execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script in_reminders append value "balloonist_minion"
-execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script in_reminders append value "balloonist_demon"
+execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script in_reminders append value "balloonist"
 execute if data storage ct:script formatted_characters[{id:"banshee"}] run data modify storage ct:script in_reminders append value "banshee"
 execute if data storage ct:script formatted_characters[{id:"barber"}] run data modify storage ct:script in_reminders append value "barber"
 execute if data storage ct:script formatted_characters[{id:"barista"}] run data modify storage ct:script in_reminders append value "barista_sober"
@@ -168,6 +167,8 @@ execute if data storage ct:script formatted_characters[{id:"yaggababble"}] run d
 execute if data storage ct:script formatted_characters[{id:"zombuul"}] run data modify storage ct:script in_reminders append value "zombuul_died"
 execute if data storage ct:script formatted_characters[{id:"zombuul"}] run data modify storage ct:script in_reminders append value "zombuul_dead"
 
+data modify storage ct:script reminder_img append value "good"
+data modify storage ct:script reminder_img append value "evil"
 execute if data storage ct:script formatted_characters[{id:"acrobat"}] run data modify storage ct:script reminder_img append value "acrobat"
 execute if data storage ct:script formatted_characters[{id:"alchemist"}] run data modify storage ct:script reminder_img append value "alchemist"
 execute if data storage ct:script formatted_characters[{id:"alhadikhia"}] run data modify storage ct:script reminder_img append value "al_hadikhia"
@@ -182,9 +183,6 @@ execute if data storage ct:script formatted_characters[{id:"apprentice"}] run da
 execute if data storage ct:script formatted_characters[{id:"artist"}] run data modify storage ct:script reminder_img append value "artist"
 execute if data storage ct:script formatted_characters[{id:"assassin"}] run data modify storage ct:script reminder_img append value "assassin"
 execute if data storage ct:script formatted_characters[{id:"assassin"}] run data modify storage ct:script reminder_img append value "assassin"
-execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script reminder_img append value "balloonist"
-execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script reminder_img append value "balloonist"
-execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script reminder_img append value "balloonist"
 execute if data storage ct:script formatted_characters[{id:"balloonist"}] run data modify storage ct:script reminder_img append value "balloonist"
 execute if data storage ct:script formatted_characters[{id:"banshee"}] run data modify storage ct:script reminder_img append value "banshee"
 execute if data storage ct:script formatted_characters[{id:"barber"}] run data modify storage ct:script reminder_img append value "barber"

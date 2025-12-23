@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1765774397991
+  last_edited_time = 1766352936819
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 10
-  [loading_requirement_container_meta:1218fe91-e677-4cc2-b5fa-282003258023-1765781218031] = [groups:][instances:]
+  [loading_requirement_container_meta:57c6803d-c42a-4c5a-83ae-495340f17091-1766512300996] = [groups:][instances:]
 }
 
 customization {
@@ -365,8 +365,11 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
-  [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
+  [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
+  [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:0ddabf8c-a094-467c-a4ce-6af10191fbaf-1766352927660][action_type:set_variable] = editing_player:1
+  [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;0ddabf8c-a094-467c-a4ce-6af10191fbaf-1766352927660;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

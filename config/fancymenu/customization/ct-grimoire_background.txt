@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1765781217963
+  last_edited_time = 1766513266421
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
-  layout_index = 1
-  [loading_requirement_container_meta:7f82064e-797b-4159-a51e-7b286e5c8f0b-1765781202228] = [groups:][instances:]
+  layout_index = 0
+  [loading_requirement_container_meta:5f0dad7d-0efc-4f96-85cc-4b295bcb9a57-1766513123094] = [groups:][instances:]
 }
 
 customization {
@@ -41,9 +41,10 @@ scroll_list_customization {
 
 layout_action_executable_blocks {
   close_screen_executable_block_identifier = e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106
-  [executable_action_instance:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683][action_type:disable_layout] = ct-grimoire_actions
+  [executable_action_instance:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683][action_type:disable_layout] = ct-p1_role_toggler_travelers
   [executable_action_instance:43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856][action_type:disable_layout] = ct-p1_role_toggler
-  [executable_block:e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106][type:generic] = [executables:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683;43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856;]
+  [executable_action_instance:598e1784-9545-4b91-bc1c-1bb082c5dcb0-1766512151618][action_type:disable_layout] = ct-grimoire_actions
+  [executable_block:e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106][type:generic] = [executables:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683;43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856;598e1784-9545-4b91-bc1c-1bb082c5dcb0-1766512151618;]
 }
 
 element {
@@ -115,8 +116,8 @@ element {
   auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -164
-  y = -268
+  x = -171
+  y = -269
   width = 648
   height = 493
   stretch_x = false
@@ -136,7 +137,7 @@ element {
   advanced_rotation_mode = false
   vertical_tilt_degrees = 0.0
   advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
+  horizontal_tilt_degrees = -3.75
   advanced_horizontal_tilt_mode = false
 }
 
@@ -1011,8 +1012,7 @@ element {
   stretch_y = false
   stay_on_screen = true
   element_loading_requirement_container_identifier = 397a5c78-d69b-4924-b4be-41753cbe61e2-1765774718690
-  [loading_requirement_container_meta:397a5c78-d69b-4924-b4be-41753cbe61e2-1765774718690] = [groups:][instances:26827c3d-3d68-4744-b05b-b5d94189f183-1765774764708;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:26827c3d-3d68-4744-b05b-b5d94189f183-1765774764708] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"3"]$
+  [loading_requirement_container_meta:397a5c78-d69b-4924-b4be-41753cbe61e2-1765774718690] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -8358,8 +8358,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 3840
-  auto_sizing_base_screen_height = 2164
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = mid-centered
   x = 411
