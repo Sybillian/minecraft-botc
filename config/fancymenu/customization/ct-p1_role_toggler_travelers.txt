@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1766512337166
+  last_edited_time = 1766521376818
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:66a5410d-46b9-42cc-a712-8ea6d8fd9153-1766512423378] = [groups:][instances:]
+  [loading_requirement_container_meta:34da352a-752c-4113-97c6-c069cb7a3b53-1766521377692] = [groups:][instances:]
 }
 
 customization {
@@ -158,10 +158,13 @@ element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-p1_role_toggler_travelers
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
+  backgroundnormal = [source:location]ct:textures/item/vote_no.png
+  backgroundhovered = [source:location]ct:textures/item/vote_no.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  description = Close Menu
   label = 
   navigatable = false
   widget_active_state_requirement_container_identifier = c96b891e-c0f8-470a-91ce-6284a41e1483-1752204281836
@@ -1412,10 +1415,13 @@ element {
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-p1_role_toggler_travelers
   [executable_action_instance:97eb43c4-09cc-464c-bcff-63cf2d527a8f-1766352990336][action_type:enable_layout] = ct-p1_role_toggler
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;97eb43c4-09cc-464c-bcff-63cf2d527a8f-1766352990336;]
+  backgroundnormal = [source:location]ct:textures/role/mayor.png
+  backgroundhovered = [source:location]ct:textures/role/mayor.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  description = View Regular Characters
   label = 
   navigatable = false
   widget_active_state_requirement_container_identifier = c96b891e-c0f8-470a-91ce-6284a41e1483-1752204281836

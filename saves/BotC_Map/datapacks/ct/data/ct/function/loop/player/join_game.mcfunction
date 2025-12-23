@@ -1,6 +1,8 @@
 tellraw @s[tag=!joined] [{"text":"! ","color":"green","bold":true},{"text":"Welcome! Please set your pronouns using ","color":"gray","bold":false},{"text":"/pronouns set <pronouns>","color":"white","bold":false},{"text":" to display them below your username.","color":"gray","bold":false}]
 tag @s add joined
 
+execute unless score @s game_id = active_game game_id run function ct:loop/player/make_spectator
+
 execute if score phase game_data matches 1.. unless score @s id matches 1.. run tellraw @s[tag=!storyteller] [{"text":"! ","color":"yellow","bold":true},{"text":"A game is currently active. Please mute your microphone until it ends.","color":"gray","bold":false}]
 execute if score phase game_data matches 1.. unless score @s id matches 1.. run gamemode spectator @s[tag=!storyteller]
 

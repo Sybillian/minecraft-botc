@@ -10,9 +10,9 @@ execute as @a[tag=!storyteller] unless entity @s[scores={role=130}] run tag @s a
 execute if entity @a[scores={role=130},tag=voting_yes] unless entity @a[tag=not_legion,tag=voting_yes] run tellraw @a[tag=storyteller] [{"text":"! ","bold":true,"color":"dark_red"},{"text":"Only Legion voted.","bold":false,"color":"red"}]
 
 clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]}]
-clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["vote_yes"]}]
-clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["vote_no"]}]
-clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["vote_ghost"]}]
+clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_yes"]}]
+clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]}]
+clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_ghost"]}]
 item replace entity @e[type=minecraft:armor_stand,limit=1,tag=clock_arm] armor.head with minecraft:air
 
 scoreboard players set total vote 0

@@ -6,7 +6,6 @@ execute as @a run fmvariable set role false none
 fmvariable set game_active false false
 execute as @a run fmvariable set phase false 0
 
-scoreboard players reset @a
 scoreboard players set start vote 0
 scoreboard players set current vote 0
 scoreboard players set first vote 0
@@ -17,6 +16,13 @@ scoreboard players set current_day game_data 0
 scoreboard players set phase game_data 0
 scoreboard players reset @a id
 scoreboard players reset @a role
+scoreboard players reset @a game_id
+scoreboard players reset @a pointing_at
+scoreboard players reset @a pointing
+scoreboard players reset @a use_carrot
+scoreboard players reset @a vote
+scoreboard players reset @a rps
+scoreboard players reset @a vc
 team leave @a
 team join 99_storyteller @a[tag=storyteller]
 tag @a remove has_role
@@ -41,7 +47,7 @@ clear @a minecraft:player_head
 clear @a minecraft:writable_book
 clear @a minecraft:compass
 tp @a[team=00_spectator] 229 66 -953
-gamemode survival @a[team=00_spectator]
+gamemode adventure @a[team=00_spectator]
 team leave @a[team=00_spectator]
 gamerule doDaylightCycle false
 time set 12000

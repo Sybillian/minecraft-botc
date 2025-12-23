@@ -4,6 +4,9 @@ Changes and features:
 - The Storyteller can now assign players a Traveler character.
 - "Good" and "Evil" reminder tokens are now available regardless of selected script (thanks boofsly).
 - Phobos scripts can now display up to 16 Townsfolk. Please do not make a script with 16 Townsfolk.
+- The Grimoire's "player actions" menu will now appear next to the relevant player's icon instead of in the middle of the Grim.
+- Moved "Reset Game" and "TP All to Town" to new Storyteller "Actions Menu" found in the bottom right of the Grimoire.
+- Added "Teleport Evil players to church" and "Teleport all players to their homes" options to the news Actions Menu.
 
 Fixed bugs:
 #29: Exorcist is lacking an asterisk.
@@ -17,3 +20,4 @@ Fixed bugs:
 - Fixed vote toggle items not being cleared when a vote is manually ended.
 - Fixed sounds sometimes continuing when a vote is manually ended.
 - Fixed Balloonist having four (old) reminder tokens instead of the one it actually needs.
+#7: Fixed players leaving during one game and rejoining during another causing issues.

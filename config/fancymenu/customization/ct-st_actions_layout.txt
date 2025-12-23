@@ -1,0 +1,291 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = ct-st_actions
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1766523137565
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:6a24f33e-e95d-4b01-b97d-e6c6fc406634-1766522418184] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 2.0
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  button_element_executable_block_identifier = a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958
+  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Teleport Evil players to church
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958
+  [loading_requirement_container_meta:1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = bd6aa58b-9651-4dea-9ed4-a2e654bc404e-1766521817958
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -95
+  y = -43
+  width = 191
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 91fda2ba-01f8-4448-977b-021683d567f8-1766521817957
+  [loading_requirement_container_meta:91fda2ba-01f8-4448-977b-021683d567f8-1766521817957] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  button_element_executable_block_identifier = a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958
+  [executable_action_instance:787a6584-c880-4258-a105-6d73761ff5c1-1766522339962][action_type:sendmessage] = /function ct:admin/force_chairs
+  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:787a6584-c880-4258-a105-6d73761ff5c1-1766522339962;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Teleport all players to their seats
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958
+  [loading_requirement_container_meta:1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 662bcd36-5f9e-4233-a1c0-9408ac7c4dd2-1766521841889
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -95
+  y = -21
+  width = 191
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 91fda2ba-01f8-4448-977b-021683d567f8-1766521817957
+  [loading_requirement_container_meta:91fda2ba-01f8-4448-977b-021683d567f8-1766521817957] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  button_element_executable_block_identifier = a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958
+  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Teleport all players to their homes
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958
+  [loading_requirement_container_meta:1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 8737cbb0-8c8c-4a7e-9297-1118ba9fc60d-1766521870805
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -95
+  y = 1
+  width = 191
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 91fda2ba-01f8-4448-977b-021683d567f8-1766521817957
+  [loading_requirement_container_meta:91fda2ba-01f8-4448-977b-021683d567f8-1766521817957] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  button_element_executable_block_identifier = c9bf46d5-fd59-41c2-92d5-825b97374d09-1751840677855
+  [executable_action_instance:199206b8-d8bf-4172-a51f-a03c6b98c0c4-1751852009900][action_type:closegui] = 
+  [executable_action_instance:4f0bb6df-e85a-49ff-8da3-32067bbaa8ce-1751840892352][action_type:opengui] = ct-confirm_reset
+  [executable_block:c9bf46d5-fd59-41c2-92d5-825b97374d09-1751840677855][type:generic] = [executables:199206b8-d8bf-4172-a51f-a03c6b98c0c4-1751852009900;4f0bb6df-e85a-49ff-8da3-32067bbaa8ce-1751840892352;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = Are you sure??
+  description = This will end the game.%n%This CANNOT be reversed.
+  label = Reset Game
+  navigatable = true
+  widget_active_state_requirement_container_identifier = f1e87c1f-dee5-4f50-bed7-50d7d23b9fd0-1751840677855
+  [loading_requirement_container_meta:f1e87c1f-dee5-4f50-bed7-50d7d23b9fd0-1751840677855] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = a4dc1c09-5630-4679-ae1c-fd5c7ff6351d-1766521992260
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -95
+  y = 44
+  width = 191
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 1387ba75-0f42-4f73-830d-49b2f59ddfca-1751840677855
+  [loading_requirement_container_meta:1387ba75-0f42-4f73-830d-49b2f59ddfca-1751840677855] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+

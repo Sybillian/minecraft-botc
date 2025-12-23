@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = role_scale
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
@@ -788,7 +788,7 @@ variable {
 
 variable {
   name = day_start
-  value = 15:28
+  value = 14:56
   reset_on_launch = false
 }
 
@@ -1088,7 +1088,7 @@ variable {
 
 variable {
   name = p1_role
-  value = none
+  value = imp
   reset_on_launch = false
 }
 
@@ -1274,7 +1274,7 @@ variable {
 
 variable {
   name = player_1
-  value = Nobody!
+  value = Steve
   reset_on_launch = false
 }
 
@@ -1304,7 +1304,7 @@ variable {
 
 variable {
   name = player_2
-  value = Nobody!
+  value = Alex
   reset_on_launch = false
 }
 
@@ -1436,7 +1436,7 @@ variable {
 
 variable {
   name = game_active
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -1868,7 +1868,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 2
   reset_on_launch = false
 }
 
@@ -2150,7 +2150,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 1
+  value = 2
   reset_on_launch = false
 }
 
@@ -2240,7 +2240,7 @@ variable {
 
 variable {
   name = p2_role
-  value = none
+  value = butler
   reset_on_launch = false
 }
 
