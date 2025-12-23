@@ -47,7 +47,7 @@ clear @a minecraft:player_head
 clear @a minecraft:writable_book
 clear @a minecraft:compass
 tp @a[team=00_spectator] 229 66 -953
-gamemode adventure @a[team=00_spectator]
+gamemode adventure @a[tag=!storyteller]
 team leave @a[team=00_spectator]
 gamerule doDaylightCycle false
 time set 12000

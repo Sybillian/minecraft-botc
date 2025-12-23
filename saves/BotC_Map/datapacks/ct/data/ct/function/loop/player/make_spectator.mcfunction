@@ -1,6 +1,7 @@
 scoreboard players reset @s id
 scoreboard players reset @s role
 team join 00_spectator @s
+tellraw @a[tag=storyteller] [{"text":"! ","color":"yellow","bold":true},{"selector":"@s","bold":false},{"text":" has joined as a spectator. You can use ","color":"gray","bold":false},{"text":"/traveler","color":"white","bold":false},{"text":" to add them to the game if you like.","color":"gray","bold":false}]
 tag @s remove has_role
 tag @s remove nominee
 tag @s remove voting_no
