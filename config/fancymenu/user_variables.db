@@ -1088,7 +1088,7 @@ variable {
 
 variable {
   name = p1_role
-  value = imp
+  value = none
   reset_on_launch = false
 }
 
@@ -1274,7 +1274,7 @@ variable {
 
 variable {
   name = player_1
-  value = Steve
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1304,7 +1304,7 @@ variable {
 
 variable {
   name = player_2
-  value = Alex
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1436,7 +1436,7 @@ variable {
 
 variable {
   name = game_active
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1868,7 +1868,7 @@ variable {
 
 variable {
   name = phase
-  value = 2
+  value = 0
   reset_on_launch = false
 }
 
@@ -2150,7 +2150,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
@@ -2240,7 +2240,7 @@ variable {
 
 variable {
   name = p2_role
-  value = butler
+  value = none
   reset_on_launch = false
 }
 

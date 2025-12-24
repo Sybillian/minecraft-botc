@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-settings
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1766524513957
+  last_edited_time = 1766537844795
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5e7532bd-27e8-439e-9a2d-fd86763272fc-1766524507429] = [groups:][instances:]
+  [loading_requirement_container_meta:4b341923-7174-40dc-97eb-41b94b5fe375-1766537779155] = [groups:][instances:]
 }
 
 customization {
@@ -208,7 +208,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_height = 1083
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 193083be-bc32-4b44-b980-40339479eebd-1766514544875
@@ -414,6 +414,70 @@ element {
   anchor_point_element = 563158a6-e5bc-426b-98a9-37980868717f-1766515230924
   x = -16
   y = 40
+  width = 168
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 65bff06d-b8af-4a52-bd03-631e061a170a-1766514621154
+  [loading_requirement_container_meta:65bff06d-b8af-4a52-bd03-631e061a170a-1766514621154] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  button_element_executable_block_identifier = b558ad9c-1130-4c67-9d1d-b3d829337ede-1766514621154
+  [executable_block:b558ad9c-1130-4c67-9d1d-b3d829337ede-1766514621154][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = If enabled, Storytellers will appear in the list of players currently in your private voice chat.%n%%n%DEFAULT: OFF
+  label = Show ST in Private Chats: ON
+  navigatable = true
+  widget_active_state_requirement_container_identifier = a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154
+  [loading_requirement_container_meta:a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 6114c75b-3c0a-4457-857d-b5439ee7f9ee-1766537783250
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1083
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 193083be-bc32-4b44-b980-40339479eebd-1766514544875
+  x = -16
+  y = 62
   width = 168
   height = 20
   stretch_x = false

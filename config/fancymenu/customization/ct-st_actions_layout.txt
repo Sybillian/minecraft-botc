@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-st_actions
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1766525345304
+  last_edited_time = 1766543731502
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:decdd292-b419-46da-8e33-ac0c1627b01c-1766525324584] = [groups:][instances:]
+  [loading_requirement_container_meta:54d18cc4-00a3-4f30-85ff-d6236addb77f-1766543703277] = [groups:][instances:]
 }
 
 customization {
@@ -38,15 +38,18 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958
-  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:]
+  [executable_action_instance:6ef21511-bbd5-4629-8848-21b3125d8259-1766540362935][action_type:sendmessage] = /tpchurch
+  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:6ef21511-bbd5-4629-8848-21b3125d8259-1766540362935;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Teleport Evil players to church
+  description = This button is only available at night time.
+  label = Teleport Minions and Demons to church
   navigatable = true
   widget_active_state_requirement_container_identifier = 1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958
-  [loading_requirement_container_meta:1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958] = [groups:][instances:]
+  [loading_requirement_container_meta:1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958] = [groups:][instances:66e5dfbb-657a-4ea3-84e2-c31d28d189d2-1766540776650;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:66e5dfbb-657a-4ea3-84e2-c31d28d189d2-1766540776650] = phase:4
   is_template = false
   template_apply_width = false
   template_apply_height = false
@@ -73,9 +76,9 @@ element {
   auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -95
+  x = -105
   y = -43
-  width = 191
+  width = 210
   height = 20
   stretch_x = false
   stretch_y = false
@@ -136,9 +139,9 @@ element {
   auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -95
+  x = -105
   y = -21
-  width = 191
+  width = 210
   height = 20
   stretch_x = false
   stretch_y = false
@@ -163,7 +166,8 @@ element {
 
 element {
   button_element_executable_block_identifier = a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958
-  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:]
+  [executable_action_instance:0614b265-6788-4933-b7e6-0ddf04d19f79-1766538954165][action_type:sendmessage] = /tpallhome
+  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:0614b265-6788-4933-b7e6-0ddf04d19f79-1766538954165;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -198,9 +202,9 @@ element {
   auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -95
+  x = -105
   y = 1
-  width = 191
+  width = 210
   height = 20
   stretch_x = false
   stretch_y = false
@@ -264,9 +268,9 @@ element {
   auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -95
-  y = 52
-  width = 191
+  x = -105
+  y = 45
+  width = 210
   height = 20
   stretch_x = false
   stretch_y = false
@@ -296,10 +300,12 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  description = This feature is not yet implemented.
   label = Fabled/Lorics
   navigatable = true
   widget_active_state_requirement_container_identifier = 1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958
-  [loading_requirement_container_meta:1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958] = [groups:][instances:]
+  [loading_requirement_container_meta:1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958] = [groups:][instances:710f3959-0b1b-48ae-ab9b-9c09105b1f91-1766540801678;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:710f3959-0b1b-48ae-ab9b-9c09105b1f91-1766540801678] = phase:999
   is_template = false
   template_apply_width = false
   template_apply_height = false
@@ -326,9 +332,73 @@ element {
   auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -95
+  x = -105
   y = 23
-  width = 191
+  width = 210
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 91fda2ba-01f8-4448-977b-021683d567f8-1766521817957
+  [loading_requirement_container_meta:91fda2ba-01f8-4448-977b-021683d567f8-1766521817957] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  button_element_executable_block_identifier = a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958
+  [executable_action_instance:6101b64c-c8b8-4f43-9200-1f4131efe9af-1766543717303][action_type:closegui] = 
+  [executable_action_instance:5ecba1bd-5e81-4fa6-aead-4a7d9a8fc48a-1766541093819][action_type:opengui] = ct-grimoire
+  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:6101b64c-c8b8-4f43-9200-1f4131efe9af-1766543717303;5ecba1bd-5e81-4fa6-aead-4a7d9a8fc48a-1766541093819;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Close menu
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958
+  [loading_requirement_container_meta:1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 1b145f0b-9f07-4606-ab77-21b516b4e1cb-1766540920433
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -105
+  y = 78
+  width = 210
   height = 20
   stretch_x = false
   stretch_y = false
