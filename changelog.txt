@@ -1,5 +1,6 @@
 Changes and features:
 - Updated the "Blood on the Clocktower" logo to be a custom version instead of TPI's.
+- Players can now use the vanilla server list instead of connecting to my server directly.
 - The Grimoire will no longer display icons and buttons for empty seats.
 - The Storyteller can now assign players a Traveler character.
 - "Good" and "Evil" reminder tokens are now available regardless of selected script (thanks boofsly).
