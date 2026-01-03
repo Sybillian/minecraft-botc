@@ -788,7 +788,7 @@ variable {
 
 variable {
   name = day_start
-  value = 14:56
+  value = 11:56
   reset_on_launch = false
 }
 
@@ -2000,7 +2000,7 @@ variable {
 
 variable {
   name = bluff_2
-  value = none
+  value = slayer
   reset_on_launch = false
 }
 
@@ -2012,7 +2012,7 @@ variable {
 
 variable {
   name = bluff_3
-  value = none
+  value = mayor
   reset_on_launch = false
 }
 
@@ -2030,7 +2030,7 @@ variable {
 
 variable {
   name = bluff_1
-  value = none
+  value = soldier
   reset_on_launch = false
 }
 

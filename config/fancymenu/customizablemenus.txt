@@ -30,3 +30,6 @@ net.minecraft.class_412 {
 net.minecraft.class_419 {
 }
 
+net.minecraft.class_500 {
+}
+
