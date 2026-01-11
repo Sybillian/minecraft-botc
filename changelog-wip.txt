@@ -1,4 +1,5 @@
 Changes and features:
+- Imported tomzobot icons for new characters.
 
 Fixed bugs:
 - Townsfolk 2-4 display in the incorrect order in the bag.

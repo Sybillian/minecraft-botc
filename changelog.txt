@@ -6,3 +6,10 @@ Changes and features:
 Fixed bugs:
 - Townsfolk 2-4 display in the incorrect order in the bag.
 - also probably a longer piece of text so as to see if it wraps correctly, but I assume it will since everything else has been fine historically
+- I'm also adding a few more lines
+- I want to make it go past the size
+- so that a scroll bar happens
+- gonna keep going
+- just a little longer
+- a bit further
+- thanks for playing!
