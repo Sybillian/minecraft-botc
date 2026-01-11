@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = eu.kennytv.forcecloseloadingscreen.TitleBridgeScreen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1767418005594
+  last_edited_time = 1767418842974
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:af06cccf-7320-4644-97d4-c18dfef8b4ce-1767417989726] = [groups:][instances:]
+  [loading_requirement_container_meta:4fbdda69-e0a1-43e4-8323-f5a54881e9f3-1767418828286] = [groups:][instances:]
 }
 
 customization {

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-bag
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1765944885925
+  last_edited_time = 1768077671876
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:c96bf9ae-3ee7-43e5-bb43-e3dc82dda5da-1766512422586] = [groups:][instances:]
+  [loading_requirement_container_meta:3065cb0b-2c57-46fd-836f-b0cefc453fab-1768077671952] = [groups:][instances:]
 }
 
 customization {
@@ -278,7 +278,7 @@ element {
 }
 
 element {
-  source = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.png
+  source = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -326,7 +326,7 @@ element {
 }
 
 element {
-  source = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.png
+  source = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -374,7 +374,7 @@ element {
 }
 
 element {
-  source = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.png
+  source = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -1431,9 +1431,9 @@ element {
 
 element {
   checkbox_element_executable_block_identifier = 758e0e2d-92f0-4c28-a632-e9288342323f-1751841375567
-  [executable_action_instance:62089888-b69e-408f-90db-fe222e81847d-1751841601300][action_type:sendmessage] = /scoreboard players set {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}} role_list {"placeholder":"switch_case","values":{"value":"$$value","cases":"true:1,false:0","default":"default case"}}
+  [executable_action_instance:62089888-b69e-408f-90db-fe222e81847d-1751841601300][action_type:sendmessage] = /scoreboard players set {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}} role_list {"placeholder":"switch_case","values":{"value":"$$value","cases":"true:1,false:0","default":"default case"}}
   [executable_block:758e0e2d-92f0-4c28-a632-e9288342323f-1751841375567][type:generic] = [executables:62089888-b69e-408f-90db-fe222e81847d-1751841601300;]
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.desc"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 60bad071-0997-4fe8-a042-962e17d0a6ef-1751841375567
   [loading_requirement_container_meta:60bad071-0997-4fe8-a042-962e17d0a6ef-1751841375567] = [groups:][instances:]
@@ -1478,9 +1478,9 @@ element {
 
 element {
   checkbox_element_executable_block_identifier = 758e0e2d-92f0-4c28-a632-e9288342323f-1751841375567
-  [executable_action_instance:62089888-b69e-408f-90db-fe222e81847d-1751841601300][action_type:sendmessage] = /scoreboard players set {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}} role_list {"placeholder":"switch_case","values":{"value":"$$value","cases":"true:1,false:0","default":"default case"}}
+  [executable_action_instance:62089888-b69e-408f-90db-fe222e81847d-1751841601300][action_type:sendmessage] = /scoreboard players set {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}} role_list {"placeholder":"switch_case","values":{"value":"$$value","cases":"true:1,false:0","default":"default case"}}
   [executable_block:758e0e2d-92f0-4c28-a632-e9288342323f-1751841375567][type:generic] = [executables:62089888-b69e-408f-90db-fe222e81847d-1751841601300;]
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.desc"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 60bad071-0997-4fe8-a042-962e17d0a6ef-1751841375567
   [loading_requirement_container_meta:60bad071-0997-4fe8-a042-962e17d0a6ef-1751841375567] = [groups:][instances:]
@@ -1525,9 +1525,9 @@ element {
 
 element {
   checkbox_element_executable_block_identifier = 758e0e2d-92f0-4c28-a632-e9288342323f-1751841375567
-  [executable_action_instance:62089888-b69e-408f-90db-fe222e81847d-1751841601300][action_type:sendmessage] = /scoreboard players set {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}} role_list {"placeholder":"switch_case","values":{"value":"$$value","cases":"true:1,false:0","default":"default case"}}
+  [executable_action_instance:62089888-b69e-408f-90db-fe222e81847d-1751841601300][action_type:sendmessage] = /scoreboard players set {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}} role_list {"placeholder":"switch_case","values":{"value":"$$value","cases":"true:1,false:0","default":"default case"}}
   [executable_block:758e0e2d-92f0-4c28-a632-e9288342323f-1751841375567][type:generic] = [executables:62089888-b69e-408f-90db-fe222e81847d-1751841601300;]
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.desc"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 60bad071-0997-4fe8-a042-962e17d0a6ef-1751841375567
   [loading_requirement_container_meta:60bad071-0997-4fe8-a042-962e17d0a6ef-1751841375567] = [groups:][instances:]

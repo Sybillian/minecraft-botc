@@ -1,0 +1,4 @@
+Changes and features:
+
+Fixed bugs:
+- Townsfolk 2-4 display in the incorrect order in the bag.

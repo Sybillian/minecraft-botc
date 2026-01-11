@@ -98,7 +98,7 @@ variable {
 
 variable {
   name = version
-  value = 1.4.4-DEV
+  value = 1.4.4
   reset_on_launch = false
 }
 
@@ -218,7 +218,7 @@ variable {
 
 variable {
   name = p2_r1_text
-  value = none
+  value = vortox
   reset_on_launch = false
 }
 
@@ -374,7 +374,7 @@ variable {
 
 variable {
   name = p2_r1_icon
-  value = none
+  value = vortox
   reset_on_launch = false
 }
 
@@ -740,7 +740,7 @@ variable {
 
 variable {
   name = minion_count
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
@@ -788,7 +788,7 @@ variable {
 
 variable {
   name = day_start
-  value = 11:56
+  value = 18:29
   reset_on_launch = false
 }
 
@@ -1394,7 +1394,7 @@ variable {
 
 variable {
   name = town_count
-  value = 7
+  value = 5
   reset_on_launch = false
 }
 
@@ -1418,7 +1418,7 @@ variable {
 
 variable {
   name = stored_volume
-  value = 0.0
+  value = 0.5
   reset_on_launch = false
 }
 
@@ -1622,7 +1622,7 @@ variable {
 
 variable {
   name = player_count
-  value = 10
+  value = 9
   reset_on_launch = false
 }
 
@@ -1652,7 +1652,7 @@ variable {
 
 variable {
   name = day_minutes
-  value = 1
+  value = 2
   reset_on_launch = false
 }
 
@@ -1742,13 +1742,13 @@ variable {
 
 variable {
   name = random_hint
-  value = 12
+  value = 5
   reset_on_launch = false
 }
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Olly","name":"Nice to Lleech you"},"pixie","empath","highpriestess","sailor","balloonist","preacher","acrobat","savant","philosopher","huntsman","artist","fisherman","fool","hermit","klutz","hatter","damsel","mezepheles","devilsadvocate","harpy","eviltwin","lilmonsta","legion","lleech","exorcist"]
+  value = [{"id":"_meta","author":"Sybillian","name":"Pages Turning"},"noble","clockmaker","librarian","empath","fortuneteller","oracle","monk","seamstress","slayer","soldier","cannibal","ravenkeeper","mayor","lunatic","drunk","recluse","saint","poisoner","spy","marionette","baron","imp","ojo","fanggu"]
   reset_on_launch = false
 }
 
@@ -1760,7 +1760,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 10
+  value = 9
   reset_on_launch = false
 }
 
@@ -1832,7 +1832,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 0
+  value = 2
   reset_on_launch = false
 }
 
@@ -2000,7 +2000,7 @@ variable {
 
 variable {
   name = bluff_2
-  value = slayer
+  value = none
   reset_on_launch = false
 }
 
@@ -2012,7 +2012,7 @@ variable {
 
 variable {
   name = bluff_3
-  value = mayor
+  value = none
   reset_on_launch = false
 }
 
@@ -2030,7 +2030,7 @@ variable {
 
 variable {
   name = bluff_1
-  value = soldier
+  value = none
   reset_on_launch = false
 }
 
@@ -2150,7 +2150,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 1
+  value = 6
   reset_on_launch = false
 }
 
