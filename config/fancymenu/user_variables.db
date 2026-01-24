@@ -158,7 +158,7 @@ variable {
 
 variable {
   name = role
-  value = goblin
+  value = none
   reset_on_launch = false
 }
 
@@ -788,7 +788,7 @@ variable {
 
 variable {
   name = day_start
-  value = 19:13
+  value = 19:17
   reset_on_launch = false
 }
 

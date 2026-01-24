@@ -1,6 +1,0 @@
-[general]
-enableConfigGui = true
-enableNameTags = true
-allowScrolling = true
-restrictResizeToOP = false
-resizeWhitelist = []
