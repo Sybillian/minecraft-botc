@@ -1,3 +1,4 @@
+BotC v1.4.4 - Jan 17, 2026
 Changes and features:
 - #1: sometext
 - and also a bit more

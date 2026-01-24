@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = p5_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -158,7 +158,7 @@ variable {
 
 variable {
   name = role
-  value = none
+  value = goblin
   reset_on_launch = false
 }
 
@@ -218,7 +218,7 @@ variable {
 
 variable {
   name = p2_r1_text
-  value = vortox
+  value = none
   reset_on_launch = false
 }
 
@@ -374,7 +374,7 @@ variable {
 
 variable {
   name = p2_r1_icon
-  value = vortox
+  value = none
   reset_on_launch = false
 }
 
@@ -572,7 +572,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -746,7 +746,7 @@ variable {
 
 variable {
   name = team_color
-  value = #1464e7
+  value = #1e14ff4949e7
   reset_on_launch = false
 }
 
@@ -788,7 +788,7 @@ variable {
 
 variable {
   name = day_start
-  value = 18:29
+  value = 19:13
   reset_on_launch = false
 }
 
@@ -1141,6 +1141,12 @@ variable {
 }
 
 variable {
+  name = gamemode
+  value = creative
+  reset_on_launch = false
+}
+
+variable {
   name = p3_r5_icon
   value = none
   reset_on_launch = false
@@ -1394,7 +1400,7 @@ variable {
 
 variable {
   name = town_count
-  value = 5
+  value = 3
   reset_on_launch = false
 }
 
@@ -1417,14 +1423,8 @@ variable {
 }
 
 variable {
-  name = stored_volume
-  value = 0.5
-  reset_on_launch = false
-}
-
-variable {
   name = p4_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1622,7 +1622,7 @@ variable {
 
 variable {
   name = player_count
-  value = 9
+  value = 5
   reset_on_launch = false
 }
 
@@ -1742,7 +1742,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 5
+  value = 1
   reset_on_launch = false
 }
 
@@ -1760,7 +1760,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 9
+  value = 8
   reset_on_launch = false
 }
 
@@ -1802,7 +1802,7 @@ variable {
 
 variable {
   name = p1_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1820,7 +1820,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 1
+  value = 2
   reset_on_launch = false
 }
 
@@ -1832,7 +1832,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 2
+  value = 0
   reset_on_launch = false
 }
 
@@ -1856,7 +1856,7 @@ variable {
 
 variable {
   name = p8_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1868,7 +1868,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 4
   reset_on_launch = false
 }
 
@@ -1898,7 +1898,7 @@ variable {
 
 variable {
   name = p2_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2036,7 +2036,7 @@ variable {
 
 variable {
   name = p3_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2150,7 +2150,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 6
+  value = 3
   reset_on_launch = false
 }
 
@@ -2222,7 +2222,7 @@ variable {
 
 variable {
   name = p6_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2276,7 +2276,7 @@ variable {
 
 variable {
   name = p9_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2360,7 +2360,7 @@ variable {
 
 variable {
   name = p7_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 

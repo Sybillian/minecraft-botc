@@ -129,6 +129,7 @@
     "showCollisionMesh": false,
     "showLightBlocks": false,
     "showStructureVoidBlocks": false,
+    "showMovingPistonBlocks": false,
     "expandHitboxesToFullCube": false,
     "makeFluidHitboxesSolid": false,
     "preventInteractions": false
@@ -142,7 +143,9 @@
   "builderTools": {
     "showBuilderToolSlot": true,
     "directionLock": true,
-    "symmetryRange": 128
+    "symmetryRange": 128,
+    "magicSelectCount": 128,
+    "middleClick": "EXTEND_SELECT"
   },
   "creativeMenu": {
     "showColorPicker": true,

@@ -1,5 +1,9 @@
 Changes and features:
 - Imported tomzobot icons for new characters.
+- BotC options menu is now only accessible while in a BotC world.
+- Added a button for the ST to toggle gamemodes.
+- Added a highlight when hovering over ST chat request button.
+- Added a modpack credits screen.
 
 Fixed bugs:
 - Townsfolk 2-4 display in the incorrect order in the bag.
