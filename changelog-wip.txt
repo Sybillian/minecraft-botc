@@ -4,6 +4,16 @@ Changes and features:
 - Added a button for the ST to toggle gamemodes.
 - Added a highlight when hovering over ST chat request button.
 - Added a modpack credits screen.
+- #11: Added /alhadikhia to send Al-Hadikhia selection announcements.
+- #19: Added a message displaying the required majority when votes start.
+- #20: Added a countdown to vote start.
+- SVC group HUD can no longer be enabled.
+- Cleaned out unused FM variables.
+- Messages during the nomination phase that mention a player now color the player's name appropriately.
+- Removed SimpleMacro.
+- Removed Simple Discord RPC (for now).
 
 Fixed bugs:
 - Townsfolk 2-4 display in the incorrect order in the bag.
+- Vote announcement message is missing a period.
+- Clock arm points to nominated player instead of their seat.

@@ -108,6 +108,7 @@ team modify 99_storyteller color gray
 scoreboard objectives add math dummy
 scoreboard players set minute math 60
 scoreboard players set second math 20
+scoreboard players set half math 2
 
 scoreboard objectives add vote dummy
 scoreboard players set first vote 0

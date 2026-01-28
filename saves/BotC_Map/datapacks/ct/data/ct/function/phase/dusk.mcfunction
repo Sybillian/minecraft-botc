@@ -20,6 +20,9 @@ team modify 10_light_blue nametagVisibility always
 team modify 11_brown nametagVisibility always
 team modify 12_pink nametagVisibility always
 
+scoreboard players set current_majority vote 0
+scoreboard players set already_incremented vote 0
+
 execute as @a at @s run playsound ct:clocktower.bell voice @s
 
 tellraw @a [{"text":"⌚ ","color":"red"},{"text":"Time for private conversations has ended!","color":"gray"}]

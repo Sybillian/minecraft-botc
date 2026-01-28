@@ -77,6 +77,16 @@
             }
         ]
     },
+    "clocktower.timer_reduce": {
+        "subtitle": "Countdown Increments",
+        "sounds": [
+            {
+                "name": "ct:clocktower/timer_reduce",
+                "volume": 0.8,
+                "pitch": 1
+            }
+        ]
+    },
     "clocktower.tick": {
         "subtitle": "Clock Ticks",
         "sounds": [
@@ -92,6 +102,22 @@
         "sounds": [
             {
                 "name": "ct:clocktower/boomdandy_cd"
+            }
+        ]
+    },
+    "clocktower.night.alhad_announcement": {
+        "subtitle": "§cAl-Hadikhia Announces§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/alhad_announce"
+            }
+        ]
+    },
+    "clocktower.night.alhad_name": {
+        "subtitle": "§cAl-Hadikhia Chooses§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/alhad_name"
             }
         ]
     },

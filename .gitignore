@@ -21,6 +21,7 @@ saves/BotC_Map/icon.png
 saves/BotC_Map/level.dat
 saves/BotC_Map/level.dat_old
 saves/BotC_Map/session.lock
+saves/BotC_Map/entities
 saves/Medieval House Pack v3 World
 debug
 .minecraft-botc/data
@@ -35,6 +36,7 @@ crash-reports
 cache
 .fabric
 /datapacks
+/data
 config/axiom
 config/carpet
 config/enhancedgroups
@@ -79,3 +81,5 @@ config/yawp-common.toml
 config/yawp-flags.toml
 config/yawp-logging.toml
 config/yawp-region-defaults.toml
+config/voicechat-client
+config/simplemacro

@@ -1,0 +1,25 @@
+
+team modify 01_red prefix ""
+team modify 02_orange prefix ""
+team modify 03_yellow prefix ""
+team modify 04_lime prefix ""
+team modify 05_blue prefix ""
+team modify 06_purple prefix ""
+team modify 07_white prefix ""
+team modify 08_gray prefix ""
+team modify 09_green prefix ""
+team modify 10_light_blue prefix ""
+team modify 11_brown prefix ""
+team modify 12_pink prefix ""
+team modify 01_red color red
+team modify 02_orange color gold
+team modify 03_yellow color yellow
+team modify 04_lime color green
+team modify 05_blue color blue
+team modify 06_purple color dark_purple
+team modify 07_white color white
+team modify 08_gray color gray
+team modify 09_green color dark_green
+team modify 10_light_blue color aqua
+team modify 11_brown color gold
+team modify 12_pink color light_purple

@@ -1,0 +1,12 @@
+{
+	"id": "alhadikhia",
+	"arguments": [
+		{
+			"id": "target",
+			"type": "minecraft:entity players",
+			"executes": [
+				"function ct:cmd/alhadikhia/announce {p:${target}}"
+			]
+		}
+	]
+}

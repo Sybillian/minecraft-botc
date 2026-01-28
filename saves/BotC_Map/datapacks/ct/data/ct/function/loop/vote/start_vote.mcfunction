@@ -20,8 +20,17 @@ scoreboard players add current vote 1
 execute if score current vote > player_count game_data run scoreboard players set current vote 1
 scoreboard players operation start vote = current vote
 execute as @a if score @s id = current vote run tag @s add vote_start
-tellraw @a [{"text":"A vote is starting on "},{"selector":"@a[tag=nominee]"},{"text":", starting with "},{"selector":"@a[tag=vote_start]"}]
+
+execute if score current_majority vote matches 0 run scoreboard players operation majority math = alive_players game_data
+execute if score current_majority vote matches 0 run scoreboard players operation modulo math = alive_players game_data
+execute if score current_majority vote matches 0 run scoreboard players operation majority math /= half math
+execute if score current_majority vote matches 0 run scoreboard players operation modulo math %= half math
+execute if score current_majority vote matches 0 run scoreboard players operation majority math += modulo math
+function ct:util/disable_colors
+execute if score current_majority vote matches 0 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":". ",color:white},{"score":{"name":"majority","objective":"math"},bold:true,color:white},{"text":" votes will execute them.",bold:false,color:white}]
+execute unless score current_majority vote matches 0 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":". ",color:white},{"score":{"name":"current_majority","objective":"vote"},bold:true,color:white},{"text":" votes will execute them.",bold:false,color:white}]
+function ct:util/enable_colors
 tag @a remove vote_start
 item replace entity @e[type=minecraft:armor_stand,limit=1,tag=clock_arm] armor.head with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["vote_arm"]}]
 clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]}]
-schedule function ct:loop/vote/cycle 2s
+function ct:loop/vote/cd/3

@@ -7,6 +7,7 @@ fmvariable set game_active false false
 execute as @a run fmvariable set phase false 0
 
 scoreboard players set start vote 0
+scoreboard players set current_majority vote 0
 scoreboard players set current vote 0
 scoreboard players set first vote 0
 scoreboard players set total vote 0

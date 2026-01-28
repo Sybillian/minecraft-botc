@@ -2,13 +2,13 @@
 #General Config Section. See https://srpc.fdd-docs.com/introduction/
 [general]
 	#The Application ID of the Discord App to use
-	applicationID = "1408959470784221195"
+	applicationID = "762726289341677668"
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
-	launcherIntegration = true
+	launcherIntegration = false
 	#Allow using local image files, as RPC icons
 	rpcImageServer = false
 	#The URL of the RPC image server that will be used for local images. Restart required when changed
@@ -19,7 +19,7 @@
 #The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[init.presence]]
@@ -30,11 +30,11 @@
 		#The second line of text under the app name
 		state = "Game Starting..."
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["mclogo"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{game.mods}} mods installed"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -45,7 +45,7 @@
 #The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[main_menu.presence]]
@@ -56,11 +56,11 @@
 		#The second line of text under the app name
 		state = "Chilling in the menu"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -71,7 +71,7 @@
 #The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[server_list.presence]]
@@ -82,11 +82,11 @@
 		#The second line of text under the app name
 		state = "Searching for friends"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -97,7 +97,7 @@
 #The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[realms_list.presence]]
@@ -108,11 +108,11 @@
 		#The second line of text under the app name
 		state = "Browsing Realms"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -123,7 +123,7 @@
 #The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[join_game.presence]]
@@ -134,11 +134,11 @@
 		#The second line of text under the app name
 		state = "Joining Game"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -149,7 +149,7 @@
 #The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[single_player.presence]]
@@ -160,11 +160,11 @@
 		#The second line of text under the app name
 		state = "Playing lonely mode"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -175,7 +175,7 @@
 #The Multi Player Event
 [multi_player]
 	#Enable/Disable the Multi Player Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[multi_player.presence]]
@@ -186,11 +186,11 @@
 		#The second line of text under the app name
 		state = "Playing online"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -201,7 +201,7 @@
 #The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[realms.presence]]
@@ -212,11 +212,11 @@
 		#The second line of text under the app name
 		state = "Playing on a Realm"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -227,7 +227,7 @@
 #The Paused Event
 [paused]
 	#Enable/Disable the Pause Event
-	enabled = false
+	enabled = true
 
 	#List of RPCs that will be displayed at random
 	[[paused.presence]]
@@ -238,11 +238,11 @@
 		#The second line of text under the app name
 		state = "Game Paused"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -258,15 +258,15 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "...in Minecraft!"
+		description = "Playing Minecraft"
 		#The second line of text under the app name
-		state = "12/12 players are alive."
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["imp"]
+		largeImageKey = ["mclogonew"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["imp"]
+		smallImageKey = ["mclogo"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{game.mods}} mods installed"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -300,11 +300,11 @@
 			#The second line of text under the app name
 			state = ""
 			#The Asset ID or URLs of images to randomly use for the large image
-			largeImageKey = ["imp"]
+			largeImageKey = ["overworld"]
 			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the Overworld"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["imp"]
+			smallImageKey = ["mclogo"]
 			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
 			#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -325,11 +325,11 @@
 			#The second line of text under the app name
 			state = ""
 			#The Asset ID or URLs of images to randomly use for the large image
-			largeImageKey = ["imp"]
+			largeImageKey = ["nether"]
 			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the Nether"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["imp"]
+			smallImageKey = ["mclogo"]
 			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
 			#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -350,11 +350,11 @@
 			#The second line of text under the app name
 			state = ""
 			#The Asset ID or URLs of images to randomly use for the large image
-			largeImageKey = ["imp"]
+			largeImageKey = ["end"]
 			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the End"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["imp"]
+			smallImageKey = ["mclogo"]
 			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
 			#The Twitch or Youtube URL to use when type is set to STREAMING

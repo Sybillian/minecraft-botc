@@ -139,7 +139,7 @@ execute if score party_mode game_data matches 1 run item replace entity @a[team=
 execute if score party_mode game_data matches 1 run item replace entity @a[tag=storyteller] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
 execute if score party_mode game_data matches 1 run item replace entity Zinneko armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["cake_hat"]},minecraft:equippable={slot:"head"},minecraft:item_name="Cake Hat"]
 
-execute as @a run scoreboard players operation @s game_data = @s id
+# execute as @a run scoreboard players operation @s game_data = @s id
 
 scoreboard players set player_count game_data 0
 execute as @a[tag=!storyteller] run scoreboard players add player_count game_data 1

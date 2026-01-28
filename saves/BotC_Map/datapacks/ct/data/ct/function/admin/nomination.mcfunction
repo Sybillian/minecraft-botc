@@ -4,7 +4,9 @@ execute as @a at @s run playsound ct:clocktower.nominate voice @s ~ ~ ~
 item replace entity @a[tag=!expended_ghost,tag=!storyteller] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"NO",color:"red",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 item replace entity @a[tag=storyteller] hotbar.5 with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]},custom_name=[{text:"Start Vote",color:"white",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 tag @a[tag=!expended_ghost] add voting_no
-tellraw @a [{"selector":"@a[tag=nominee]"},{"text":" has been nominated for execution."}]
+function ct:util/disable_colors
+tellraw @a [{"selector":"@a[tag=nominee]"},{"text":" has been nominated for execution.",color:white}]
+function ct:util/enable_colors
 
 ## This is stupid
 execute if entity @a[scores={id=1}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=1}] run data modify entity @s view_range set value 1
@@ -23,5 +25,7 @@ execute if entity @a[scores={id=13}] as @e[type=minecraft:item_display,tag=vote_
 execute if entity @a[scores={id=14}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=14}] run data modify entity @s view_range set value 1
 execute if entity @a[scores={id=15}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=15}] run data modify entity @s view_range set value 1
 
-rotate @e[tag=clock_arm,limit=1] facing entity @a[tag=nominee,limit=1]
+execute as @e[type=minecraft:item_display,tag=vote_marker] if score @s id = @a[tag=nominee,limit=1] id run tag @s add arm_target
+rotate @e[tag=clock_arm,limit=1] facing entity @e[type=minecraft:item_display,tag=vote_marker,tag=arm_target,limit=1]
+tag @e[type=minecraft:item_display,tag=vote_marker,tag=arm_target] remove arm_target
 item replace entity @e[type=minecraft:armor_stand,limit=1,tag=clock_arm] armor.head with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["vote_arm"]}]
