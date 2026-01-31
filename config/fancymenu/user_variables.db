@@ -212,7 +212,7 @@ variable {
 
 variable {
   name = player_1
-  value = Nobody!
+  value = Alex
   reset_on_launch = false
 }
 
@@ -260,7 +260,7 @@ variable {
 
 variable {
   name = player_3
-  value = Nobody!
+  value = Alexest
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_2
-  value = Nobody!
+  value = Alexer
   reset_on_launch = false
 }
 
@@ -488,7 +488,7 @@ variable {
 
 variable {
   name = last_nom
-  value = none
+  value = Alex
   reset_on_launch = false
 }
 
@@ -590,7 +590,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 5
+  value = 12
   reset_on_launch = false
 }
 
@@ -746,7 +746,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 2
   reset_on_launch = false
 }
 
@@ -998,7 +998,7 @@ variable {
 
 variable {
   name = day_start
-  value = 19:25
+  value = 22:27
   reset_on_launch = false
 }
 

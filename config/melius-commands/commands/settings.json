@@ -1,0 +1,21 @@
+{
+  "id": "settings",
+  "literals": [
+    {
+      "id": "clock_speed",
+      "arguments": [
+        {
+          "id": "speed",
+          "type": "brigadier:float 1 40",
+          "executes": [
+            "function ct:cmd/clock_speed {n:${speed}}"
+          ]
+        }
+      ],
+      "require": {
+        "type": "operator",
+        "operator": 2
+      }
+    }
+  ]
+}

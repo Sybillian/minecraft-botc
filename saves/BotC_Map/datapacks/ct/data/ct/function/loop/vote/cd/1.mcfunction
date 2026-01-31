@@ -28,4 +28,4 @@ team modify 11_brown prefix {"text":"◆ ","color":"#724728"}
 team modify 12_pink prefix {"text":"◆ ","color":"#FF55FF"}
 
 execute as @a at @s run playsound ct:clocktower.timer_reduce voice @s ~ ~ ~ 1 1
-schedule function ct:loop/vote/cycle 1s
+schedule function ct:loop/vote/cd/0 1s

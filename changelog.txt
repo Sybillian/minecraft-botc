@@ -5,6 +5,7 @@ Changes and features:
 - Added a button for the ST to toggle gamemodes.
 - Added a highlight when hovering over ST chat request button.
 - Added a modpack credits screen.
+- Added the ability for Storytellers to modify the voting clock speed.
 - #11: Added /alhadikhia to send Al-Hadikhia selection announcements.
 - #19: Added a message displaying the required majority when votes start.
 - #20: Added a countdown to vote start.

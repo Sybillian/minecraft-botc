@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-settings
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1766537844795
+  last_edited_time = 1769832558534
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4b341923-7174-40dc-97eb-41b94b5fe375-1766537779155] = [groups:][instances:]
+  [loading_requirement_container_meta:cc3c1e0f-6898-4977-845a-2492b49d8e9b-1769832530377] = [groups:][instances:]
 }
 
 customization {
@@ -239,17 +239,18 @@ element {
 
 element {
   slider_type = decimal_range
-  pre_selected_value = 2
+  pre_selected_value = {"placeholder":"calc","values":{"expression":"{"placeholder":"scoreboard_score","values":{"player":"clock_speed","objective":"settings"}} / 10","decimal":"true"}}
   slider_label = Voting Delay: $$values
-  min_range_value = 0.2
-  max_range_value = 3.0
+  min_range_value = 0.1
+  max_range_value = 4.0
   rounding_decimal_place = 1
   slider_list_value_0 = OFF
   slider_list_value_1 = Small
   slider_list_value_2 = Medium
   slider_list_value_3 = Large
   slider_element_executable_block_identifier = b7215360-91fa-48ed-a983-140d2ca5e9db-1761252152548
-  [executable_block:b7215360-91fa-48ed-a983-140d2ca5e9db-1761252152548][type:generic] = [executables:]
+  [executable_action_instance:73eddedd-1d6d-448f-92a7-fe279842fcb0-1769832164810][action_type:sendmessage] = /settings clock_speed {"placeholder":"calc","values":{"expression":"$$value * 10","decimal":"false"}}
+  [executable_block:b7215360-91fa-48ed-a983-140d2ca5e9db-1761252152548][type:generic] = [executables:73eddedd-1d6d-448f-92a7-fe279842fcb0-1769832164810;]
   tooltip = During voting, there will be this much time between each player's vote registering.%n%%n%DEFAULT: 2.0s
   restart_background_animations = true
   nine_slice_custom_background = false
