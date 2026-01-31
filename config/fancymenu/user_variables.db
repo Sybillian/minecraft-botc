@@ -122,7 +122,7 @@ variable {
 
 variable {
   name = version
-  value = 1.4.4
+  value = 1.4.5-DEV
   reset_on_launch = false
 }
 
@@ -482,6 +482,12 @@ variable {
 
 variable {
   name = p10_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = last_nom
   value = none
   reset_on_launch = false
 }
@@ -992,7 +998,7 @@ variable {
 
 variable {
   name = day_start
-  value = 17:35
+  value = 19:25
   reset_on_launch = false
 }
 

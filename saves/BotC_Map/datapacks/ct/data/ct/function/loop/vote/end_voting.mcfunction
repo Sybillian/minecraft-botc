@@ -24,6 +24,20 @@ scoreboard players set total vote 0
 scoreboard players set first vote 0
 scoreboard players set current vote 0
 
+tag @a[tag=nominee] add last_nom
+execute if entity @a[scores={id=1},tag=last_nom] if data block 223 66 -950 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 223 66 -950 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=2},tag=last_nom] if data block 222 66 -953 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 222 66 -953 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=3},tag=last_nom] if data block 223 66 -956 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 223 66 -956 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=4},tag=last_nom] if data block 226 66 -959 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 226 66 -959 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=5},tag=last_nom] if data block 229 66 -960 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 229 66 -960 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=6},tag=last_nom] if data block 232 66 -959 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 232 66 -959 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=7},tag=last_nom] if data block 235 66 -956 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 235 66 -956 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=8},tag=last_nom] if data block 236 66 -953 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 236 66 -953 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=9},tag=last_nom] if data block 235 66 -950 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 235 66 -950 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=10},tag=last_nom] if data block 232 66 -947 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 232 66 -947 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=11},tag=last_nom] if data block 229 66 -946 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 229 66 -946 front_text.messages[1].hover_event.name
+execute if entity @a[scores={id=11},tag=last_nom] if data block 226 66 -947 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 226 66 -947 front_text.messages[1].hover_event.name
+execute as @a run function ct:loop/vote/save_nom with storage ct:data last_nom
 tag @a[tag=not_legion] remove not_legion
 tag @a[tag=nominee] remove nominee
 tag @a[tag=voting_yes] remove voting_yes

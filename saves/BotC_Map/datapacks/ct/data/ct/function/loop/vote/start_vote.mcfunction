@@ -30,7 +30,9 @@ function ct:util/disable_colors
 execute if score current_majority vote matches 0 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":". ",color:white},{"score":{"name":"majority","objective":"math"},bold:true,color:white},{"text":" votes will execute them.",bold:false,color:white}]
 execute unless score current_majority vote matches 0 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":". ",color:white},{"score":{"name":"current_majority","objective":"vote"},bold:true,color:white},{"text":" votes will execute them.",bold:false,color:white}]
 function ct:util/enable_colors
+
 tag @a remove vote_start
+tag @a[tag=last_nom] remove last_nom
 item replace entity @e[type=minecraft:armor_stand,limit=1,tag=clock_arm] armor.head with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["vote_arm"]}]
 clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]}]
 function ct:loop/vote/cd/3

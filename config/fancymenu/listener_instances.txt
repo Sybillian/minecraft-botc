@@ -1,0 +1,23 @@
+type = listener_instances
+
+listener_instance {
+  listener_instance_identifier = fa22204f-04ca-421e-8f4a-219c8d3884d8-1769649244299
+  listener_provider_identifier = fm_variable_updated
+  listener_instance_action_script_identifier = b0f12ce6-cb6b-4c78-af76-9c716718d1cf-1769649244299
+  [executable_action_instance:c94baaaa-78e4-4c2d-9352-7a1e74c59963-1769649323400][action_type:edit_minecraft_option] = soundCategory_block:0
+  [executable_block:cd27f009-a603-4532-a129-8bd14d000b3a-1769649316734][type:if] = [executables:c94baaaa-78e4-4c2d-9352-7a1e74c59963-1769649323400;]
+  [if_executable_block_body:cd27f009-a603-4532-a129-8bd14d000b3a-1769649316734] = b0023888-0ea0-4568-bdb0-d513f49eb730-1769649248408
+  [loading_requirement_container_meta:b0023888-0ea0-4568-bdb0-d513f49eb730-1769649248408] = [groups:group_1769649606372;][instances:]
+  [loading_requirement_group:group_1769649606372] = [group_mode:or]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][group:group_1769649606372][req_id:4b34a112-6b70-4688-a9a0-a6a5982955a2-1769649612172] = phase:0
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][group:group_1769649606372][req_id:34de2b69-e923-4938-9220-be585ca28f89-1769649628703] = phase:3
+  [if_executable_block_collapsed:cd27f009-a603-4532-a129-8bd14d000b3a-1769649316734] = false
+  [executable_action_instance:d9eead79-1dbe-4d6e-a0ec-f384875a27e2-1769649421342][action_type:edit_minecraft_option] = soundCategory_block:0.5
+  [executable_block:468dccf3-53b4-4262-9626-5071c1b99501-1769649415056][type:if] = [executables:d9eead79-1dbe-4d6e-a0ec-f384875a27e2-1769649421342;]
+  [if_executable_block_body:468dccf3-53b4-4262-9626-5071c1b99501-1769649415056] = 36230c7d-f7dc-4790-88cd-4e08dfdb8d0d-1769649399067
+  [loading_requirement_container_meta:36230c7d-f7dc-4790-88cd-4e08dfdb8d0d-1769649399067] = [groups:][instances:cf867992-4ca9-41ca-871f-0426262baaf2-1769649399946;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:cf867992-4ca9-41ca-871f-0426262baaf2-1769649399946] = phase:4
+  [if_executable_block_collapsed:468dccf3-53b4-4262-9626-5071c1b99501-1769649415056] = false
+  [executable_block:b0f12ce6-cb6b-4c78-af76-9c716718d1cf-1769649244299][type:generic] = [executables:cd27f009-a603-4532-a129-8bd14d000b3a-1769649316734;468dccf3-53b4-4262-9626-5071c1b99501-1769649415056;]
+}
+
