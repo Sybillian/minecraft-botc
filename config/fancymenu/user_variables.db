@@ -212,7 +212,7 @@ variable {
 
 variable {
   name = player_1
-  value = Alex
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -260,7 +260,7 @@ variable {
 
 variable {
   name = player_3
-  value = Alexest
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_2
-  value = Alexer
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = town_count
-  value = 7
+  value = 3
   reset_on_launch = false
 }
 
@@ -488,7 +488,7 @@ variable {
 
 variable {
   name = last_nom
-  value = Alex
+  value = none
   reset_on_launch = false
 }
 
@@ -500,7 +500,7 @@ variable {
 
 variable {
   name = player_count
-  value = 12
+  value = 5
   reset_on_launch = false
 }
 
@@ -566,13 +566,13 @@ variable {
 
 variable {
   name = random_hint
-  value = 3
+  value = 12
   reset_on_launch = false
 }
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","highpriestess","balloonist","chambermaid","dreamer","towncrier","nightwatchman","juggler","cannibal","farmer","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","assassin","boomdandy","yaggababble","kazali","vortox","legion","barista","harlot","gunslinger","bonecollector","judge","djinn"]
+  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","highpriestess","balloonist","chambermaid","dreamer","towncrier","nightwatchman","juggler","cannibal","farmer","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","assassin","boomdandy","yaggababble","kazali","vortox","legion","barista","harlot","gunslinger","bonecollector","judge","djinn","ojo"]
   reset_on_launch = false
 }
 
@@ -590,7 +590,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 12
+  value = 5
   reset_on_launch = false
 }
 
@@ -680,7 +680,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 2
+  value = 0
   reset_on_launch = false
 }
 
@@ -746,7 +746,7 @@ variable {
 
 variable {
   name = phase
-  value = 2
+  value = 0
   reset_on_launch = false
 }
 
@@ -776,7 +776,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -932,13 +932,13 @@ variable {
 
 variable {
   name = minion_count
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
 variable {
   name = team_color
-  value = #cf0606
+  value = #1e14ff4949e7
   reset_on_launch = false
 }
 
@@ -998,7 +998,7 @@ variable {
 
 variable {
   name = day_start
-  value = 22:27
+  value = 16:42
   reset_on_launch = false
 }
 

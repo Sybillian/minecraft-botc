@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-bag
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1769832437458
+  last_edited_time = 1770100796686
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:52da8596-5247-493f-baad-457a7dda95e3-1769832404952] = [groups:][instances:]
+  [loading_requirement_container_meta:f470f2e5-c030-4d8e-b43e-cc27edc392ac-1770100796809] = [groups:][instances:]
 }
 
 customization {
@@ -4359,8 +4359,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477
-  [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:admin/setup/initial_load {script:[{"id":"_meta","name":"Bad Moon Rising(1)"},"grandmother","sailor","chambermaid","exorcist","innkeeper","gambler","gossip","courtier","professor","minstrel","tealady","pacifist","fool","tinker","moonchild","goon","lunatic","godfather","devilsadvocate","assassin","mastermind","zombuul","pukka","shabaloth","po"]}
-  [executable_action_instance:4caa8981-024c-47ae-b021-922f831cf33a-1758083341796][action_type:sendmessage] = /function ct:admin/setup/convert_to_ids {script:[{"id":"_meta","name":"Bad Moon Rising(1)"},"grandmother","sailor","chambermaid","exorcist","innkeeper","gambler","gossip","courtier","professor","minstrel","tealady","pacifist","fool","tinker","moonchild","goon","lunatic","godfather","devilsadvocate","assassin","mastermind","zombuul","pukka","shabaloth","po"]}
+  [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:admin/setup/initial_load {script:[{"id":"_meta","name":"Bad Moon Rising"},"grandmother","sailor","chambermaid","exorcist","innkeeper","gambler","gossip","courtier","professor","minstrel","tealady","pacifist","fool","tinker","moonchild","goon","lunatic","godfather","devilsadvocate","assassin","mastermind","zombuul","pukka","shabaloth","po"]}
+  [executable_action_instance:4caa8981-024c-47ae-b021-922f831cf33a-1758083341796][action_type:sendmessage] = /function ct:admin/setup/convert_to_ids {script:[{"id":"_meta","name":"Bad Moon Rising"},"grandmother","sailor","chambermaid","exorcist","innkeeper","gambler","gossip","courtier","professor","minstrel","tealady","pacifist","fool","tinker","moonchild","goon","lunatic","godfather","devilsadvocate","assassin","mastermind","zombuul","pukka","shabaloth","po"]}
   [executable_action_instance:f56467c4-af8d-4c72-9122-307f7824566e-1757379929287][action_type:sendmessage] = /function ct:admin/setup/reminder_tokens
   [executable_action_instance:910d3b68-78ac-4068-a2ca-1c6c5b5f54f7-1757379943443][action_type:sendmessage] = /function ct:admin/setup/characters
   [executable_action_instance:80addfc1-f98c-4fd2-ace8-e032ad43c5d8-1757379952643][action_type:sendmessage] = /function ct:admin/setup/night_order

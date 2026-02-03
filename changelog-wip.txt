@@ -14,10 +14,12 @@ Changes and features:
 - Moved "Mark for Execution" button to the chat screen.
 - Cleaned out unused FM variables.
 - Messages during the nomination phase that mention a player now color the player's name appropriately.
+- Buttons with not-yet-implemented functionality are now greyed out.
 - Removed SimpleMacro.
 - Removed Simple Discord RPC (for now).
 
 Fixed bugs:
+- #2: Scripts always display "Trouble Brewing" information.
 - #5: Block sounds are now set to 0% at night and 50% at dawn instead of trying to fiddle around with storing values.
 - Townsfolk 2-4 display in the incorrect order in the bag.
 - Vote announcement message is missing a period.

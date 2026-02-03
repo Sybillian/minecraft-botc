@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-settings
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1769832558534
+  last_edited_time = 1770102686824
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:cc3c1e0f-6898-4977-845a-2492b49d8e9b-1769832530377] = [groups:][instances:]
+  [loading_requirement_container_meta:716f462c-674b-400b-87e0-03761e8ee28d-1770102663246] = [groups:][instances:]
 }
 
 customization {
@@ -184,7 +184,8 @@ element {
   label = Demon Sounds: ON
   navigatable = true
   widget_active_state_requirement_container_identifier = a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154
-  [loading_requirement_container_meta:a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154] = [groups:][instances:]
+  [loading_requirement_container_meta:a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154] = [groups:][instances:f163b4e9-5e84-4648-b483-a415e7da2174-1770102673881;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:f163b4e9-5e84-4648-b483-a415e7da2174-1770102673881] = ["mode":"equals","text":"t","compare_with":"e"]$
   is_template = false
   template_apply_width = false
   template_apply_height = false
@@ -385,7 +386,8 @@ element {
   label = Timer Ends Day Immediately: OFF
   navigatable = true
   widget_active_state_requirement_container_identifier = a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154
-  [loading_requirement_container_meta:a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154] = [groups:][instances:]
+  [loading_requirement_container_meta:a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154] = [groups:][instances:f35413de-e937-4a23-a711-b6a7411c4e92-1770102681362;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:f35413de-e937-4a23-a711-b6a7411c4e92-1770102681362] = ["mode":"equals","text":"t","compare_with":"e"]$
   is_template = false
   template_apply_width = false
   template_apply_height = false
@@ -409,7 +411,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_height = 1083
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 563158a6-e5bc-426b-98a9-37980868717f-1766515230924
@@ -449,7 +451,8 @@ element {
   label = Show ST in Private Chats: ON
   navigatable = true
   widget_active_state_requirement_container_identifier = a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154
-  [loading_requirement_container_meta:a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154] = [groups:][instances:]
+  [loading_requirement_container_meta:a0d3a0d9-a07a-4325-b8ee-d88cb49b4297-1766514621154] = [groups:][instances:5a0f478d-1e77-45eb-989b-c0315713716b-1770102666982;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:5a0f478d-1e77-45eb-989b-c0315713716b-1770102666982] = ["mode":"equals","text":"t","compare_with":"e"]$
   is_template = false
   template_apply_width = false
   template_apply_height = false
