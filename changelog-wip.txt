@@ -1,4 +1,4 @@
-BotC v1.4.5 - Jan 28, 2026
+BotC v1.4.5 - Feb 3, 2026
 Changes and features:
 - #11: Added /alhadikhia to send Al-Hadikhia selection announcements.
 - #19: Added a message displaying the required majority when votes start.
