@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-changelog
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1769643223390
+  last_edited_time = 1770421715251
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ff52a4f5-2995-4c85-843d-a75ffb2617a4-1769643211284] = [groups:][instances:]
+  [loading_requirement_container_meta:6730ac6c-b121-4dd2-826e-3ac4d3a8efe1-1770421676982] = [groups:][instances:]
 }
 
 menu_background {
@@ -86,7 +86,7 @@ element {
 }
 
 element {
-  interactable = false
+  interactable = true
   source = [source:web]https://raw.githubusercontent.com/Sybillian/minecraft-botc/refs/heads/main/changelog.txt
   source_mode = resource
   shadow = true

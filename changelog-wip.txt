@@ -1,28 +1,7 @@
-BotC v1.4.5 - Feb 3, 2026
+BotC v1.4.6 - Feb 3, 2026
 Changes and features:
-- #11: Added /alhadikhia to send Al-Hadikhia selection announcements.
-- #19: Added a message displaying the required majority when votes start.
-- #20: Added a countdown to vote start.
-- #33: Added a changelog screen.
-- Added a button for the ST to toggle gamemodes.
-- Added a highlight when hovering over ST chat request button.
-- Added a modpack credits screen.
-- Added a check for new versions, and an alert on the main menu if an update is available.
-- Imported tomzobot icons for new characters.
-- BotC options menu is now only accessible while in a BotC world.
-- SVC group HUD can no longer be enabled.
-- Moved "Mark for Execution" button to the chat screen.
-- Cleaned out unused FM variables.
-- Messages during the nomination phase that mention a player now color the player's name appropriately.
-- Buttons with not-yet-implemented functionality are now greyed out.
-- Removed SimpleMacro.
-- Removed Simple Discord RPC (for now).
+- The Singleplayer menu can now be accessed by clicking on the Blood on the Clocktower logo while holding Left Shift.
+- Added custom banners in preparation for the new map.
 
 Fixed bugs:
-- #2: Scripts always display "Trouble Brewing" information.
-- #5: Block sounds are now set to 0% at night and 50% at dawn instead of trying to fiddle around with storing values.
-- Townsfolk 2-4 display in the incorrect order in the bag.
-- Vote announcement message is missing a period.
-- Clock arm points to nominated player instead of their seat.
-- Player 10 shroud does not appear in the Grimoire.
-- Voice chat settings should no longer be cleared when the modpack updates, AFTER this one.
+- Changelog cannot be scrolled.

@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "ct:black",
+    "ct:blue",
+    "ct:cyan",
+    "ct:green",
+    "ct:grey",
+    "ct:lavender",
+    "ct:lime",
+    "ct:magenta",
+    "ct:mint",
+    "ct:navy",
+    "ct:orange",
+    "ct:purple",
+    "ct:red",
+    "ct:white",
+    "ct:yellow"
+  ]
+}
