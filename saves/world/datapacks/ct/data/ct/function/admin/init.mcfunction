@@ -17,13 +17,13 @@ persistentgroup remove "White House"
 persistentgroup remove "Gray House"
 persistentgroup remove "Black House"
 
-persistentgroup add "Beet Field"
-persistentgroup add "Wheat Field"
-persistentgroup add "Church of Miku"
-persistentgroup add "Graveyard"
-persistentgroup add "Inn"
-persistentgroup add "Greenhouse"
-persistentgroup add "Town Square"
+persistentgroup remove "Beet Field"
+persistentgroup remove "Wheat Field"
+persistentgroup remove "Church of Miku"
+persistentgroup remove "Graveyard"
+persistentgroup remove "Inn"
+persistentgroup remove "Greenhouse"
+persistentgroup remove "Town Square"
 
 persistentgroup add "Red House" isolated true ct
 persistentgroup add "Orange House" isolated true ct
@@ -59,6 +59,8 @@ bossbar set day_time value 300
 
 data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bone_collector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
 
+team add 00_spectator
+team add 99_storyteller
 team add 01_red
 team add 02_orange
 team add 03_yellow
@@ -161,6 +163,7 @@ scoreboard players set current_day game_data 0
 scoreboard objectives add use_carrot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add role dummy
 scoreboard objectives add id dummy
+scoreboard objectives add role_list dummy
 
 scoreboard objectives add settings dummy
 scoreboard players set clock_speed settings 20
@@ -168,6 +171,9 @@ scoreboard players set birthday_mode settings 0
 scoreboard players set organ_grinder settings 0
 scoreboard players set phase_causes_tp settings 0
 scoreboard players set timer_ends_day settings 0
+
+scoreboard objectives setdisplay sidebar.team.aqua game_data
+scoreboard objectives setdisplay sidebar.team.black settings
 
 gamerule announceAdvancements false
 gamerule commandBlockOutput false

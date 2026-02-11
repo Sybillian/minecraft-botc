@@ -13,7 +13,19 @@ variable {
 }
 
 variable {
+  name = p15_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p6_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p13_r3_icon
   value = none
   reset_on_launch = false
 }
@@ -56,7 +68,7 @@ variable {
 
 variable {
   name = dev
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -109,14 +121,32 @@ variable {
 }
 
 variable {
+  name = player_15
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
   name = p5_role
   value = none
   reset_on_launch = false
 }
 
 variable {
+  name = player_13
+  value = Nobody!
+  reset_on_launch = false
+}
+
+variable {
   name = p5_r5_text
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = player_14
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -146,6 +176,18 @@ variable {
 
 variable {
   name = p3_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p13_r5_icon
   value = none
   reset_on_launch = false
 }
@@ -259,6 +301,12 @@ variable {
 }
 
 variable {
+  name = p14_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
   name = player_3
   value = Nobody!
   reset_on_launch = false
@@ -343,8 +391,26 @@ variable {
 }
 
 variable {
+  name = p15_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = script_name
   value = Trouble Brewing
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_r4_icon
+  value = none
   reset_on_launch = false
 }
 
@@ -368,6 +434,12 @@ variable {
 
 variable {
   name = p8_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r2_icon
   value = none
   reset_on_launch = false
 }
@@ -398,6 +470,12 @@ variable {
 
 variable {
   name = p5_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r6_icon
   value = none
   reset_on_launch = false
 }
@@ -457,6 +535,12 @@ variable {
 }
 
 variable {
+  name = p15_r3_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p9_r2_text
   value = none
   reset_on_launch = false
@@ -488,12 +572,18 @@ variable {
 
 variable {
   name = last_nom
-  value = Sir_Winn
+  value = none
   reset_on_launch = false
 }
 
 variable {
   name = p11_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_r1_text
   value = none
   reset_on_launch = false
 }
@@ -506,6 +596,18 @@ variable {
 
 variable {
   name = p1_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p13_r3_text
   value = none
   reset_on_launch = false
 }
@@ -541,6 +643,18 @@ variable {
 }
 
 variable {
+  name = p14_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p13_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p8_r1_text
   value = none
   reset_on_launch = false
@@ -566,7 +680,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 10
+  value = 11
   reset_on_launch = false
 }
 
@@ -584,6 +698,12 @@ variable {
 
 variable {
   name = p8_r6_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r4_text
   value = none
   reset_on_launch = false
 }
@@ -715,8 +835,26 @@ variable {
 }
 
 variable {
+  name = p13_role
+  value = soldier
+  reset_on_launch = false
+}
+
+variable {
   name = p8_alive
   value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p13_r4_icon
+  value = none
   reset_on_launch = false
 }
 
@@ -769,6 +907,12 @@ variable {
 }
 
 variable {
+  name = p13_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p9_r5_text
   value = none
   reset_on_launch = false
@@ -776,12 +920,24 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_r6_text
+  value = none
   reset_on_launch = false
 }
 
 variable {
   name = p6_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r1_icon
   value = none
   reset_on_launch = false
 }
@@ -817,6 +973,12 @@ variable {
 }
 
 variable {
+  name = p13_r2_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p7_r2_text
   value = none
   reset_on_launch = false
@@ -835,7 +997,19 @@ variable {
 }
 
 variable {
+  name = p15_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p6_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p13_r6_icon
   value = none
   reset_on_launch = false
 }
@@ -896,7 +1070,7 @@ variable {
 
 variable {
   name = editing_bluff
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -967,6 +1141,18 @@ variable {
 }
 
 variable {
+  name = p13_alive
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r3_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p4_r2_text
   value = none
   reset_on_launch = false
@@ -1009,7 +1195,19 @@ variable {
 }
 
 variable {
+  name = p14_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p5_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p13_r5_text
   value = none
   reset_on_launch = false
 }
@@ -1040,7 +1238,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 5
+  value = 15
   reset_on_launch = false
 }
 
@@ -1069,6 +1267,12 @@ variable {
 }
 
 variable {
+  name = p13_r4_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p11_r2_icon
   value = none
   reset_on_launch = false
@@ -1082,6 +1286,12 @@ variable {
 
 variable {
   name = p2_r4_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r4_icon
   value = none
   reset_on_launch = false
 }
@@ -1118,6 +1328,18 @@ variable {
 
 variable {
   name = p1_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_r5_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p13_r6_text
   value = none
   reset_on_launch = false
 }
@@ -1177,6 +1399,12 @@ variable {
 }
 
 variable {
+  name = p14_r2_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p10_r6_icon
   value = none
   reset_on_launch = false
@@ -1185,6 +1413,18 @@ variable {
 variable {
   name = p10_alive
   value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_r6_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r3_icon
+  value = none
   reset_on_launch = false
 }
 
@@ -1219,6 +1459,12 @@ variable {
 }
 
 variable {
+  name = p13_r1_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p1_r2_icon
   value = none
   reset_on_launch = false
@@ -1226,6 +1472,12 @@ variable {
 
 variable {
   name = p3_r5_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_r3_text
   value = none
   reset_on_launch = false
 }
@@ -1250,6 +1502,12 @@ variable {
 
 variable {
   name = p11_r1_text
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p14_r1_text
   value = none
   reset_on_launch = false
 }

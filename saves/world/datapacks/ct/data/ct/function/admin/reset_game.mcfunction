@@ -34,7 +34,6 @@ tag @a remove expended_ghost
 tag @a remove will_die
 tag @a remove dead
 tag @a remove marked_for_execution
-tag @a remove about_to_die
 tag @a remove playing_rps
 tag @a remove requesting_chat
 tag @a remove raising_hand

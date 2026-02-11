@@ -8,5 +8,6 @@ Changes and features:
 
 Fixed bugs:
 - Changelog cannot be scrolled.
-- Fixed singleplayer world screen not having a custom background.
-- Fixed singleplayer loading screen not having a custom background.
+- "Mark for execution" displays for all players, not just Storytellers.
+- Singleplayer world list does not have a custom background.
+- Singleplayer loading screen does not have a custom background.

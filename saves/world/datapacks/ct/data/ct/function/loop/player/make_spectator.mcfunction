@@ -10,7 +10,6 @@ tag @s remove expended_ghost
 tag @s remove will_die
 tag @s remove dead
 tag @s remove marked_for_execution
-tag @s remove about_to_die
 tag @s remove playing_rps
 tag @s remove requesting_chat
 tag @s remove raising_hand
