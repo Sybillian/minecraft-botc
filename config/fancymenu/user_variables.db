@@ -122,7 +122,7 @@ variable {
 
 variable {
   name = version
-  value = 1.4.5
+  value = 1.5.0
   reset_on_launch = false
 }
 
@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = town_count
-  value = 3
+  value = 5
   reset_on_launch = false
 }
 
@@ -488,7 +488,7 @@ variable {
 
 variable {
   name = last_nom
-  value = none
+  value = Sir_Winn
   reset_on_launch = false
 }
 
@@ -500,7 +500,7 @@ variable {
 
 variable {
   name = player_count
-  value = 5
+  value = 8
   reset_on_launch = false
 }
 
@@ -524,7 +524,7 @@ variable {
 
 variable {
   name = day_minutes
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -566,13 +566,13 @@ variable {
 
 variable {
   name = random_hint
-  value = 12
+  value = 10
   reset_on_launch = false
 }
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","highpriestess","balloonist","chambermaid","dreamer","towncrier","nightwatchman","juggler","cannibal","farmer","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","assassin","boomdandy","yaggababble","kazali","vortox","legion","barista","harlot","gunslinger","bonecollector","judge","djinn","ojo"]
+  value = [{"id":"_meta","author":"Taylor &amp; Viva La Sam","name":"The Ones You Least Expect"},"steward","shugenja","pixie","fortuneteller","towncrier","monk","exorcist","gossip","artist","seamstress","philosopher","huntsman","soldier","sweetheart","recluse","damsel","drunk","godfather","summoner","assassin","goblin","yaggababble","nodashii","ojo","po","barista","harlot","beggar","scapegoat","bishop"]
   reset_on_launch = false
 }
 
@@ -590,7 +590,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 5
+  value = 8
   reset_on_launch = false
 }
 
@@ -680,7 +680,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -746,7 +746,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -896,7 +896,7 @@ variable {
 
 variable {
   name = editing_bluff
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -998,7 +998,7 @@ variable {
 
 variable {
   name = day_start
-  value = 16:42
+  value = 18:33
   reset_on_launch = false
 }
 
@@ -1040,7 +1040,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 1
+  value = 5
   reset_on_launch = false
 }
 
@@ -1076,7 +1076,7 @@ variable {
 
 variable {
   name = day_seconds
-  value = 30
+  value = 0
   reset_on_launch = false
 }
 

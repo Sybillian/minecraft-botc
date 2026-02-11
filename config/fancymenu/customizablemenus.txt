@@ -36,3 +36,9 @@ net.minecraft.class_500 {
 de.maxhenkel.voicechat.gui.group.GroupScreen {
 }
 
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_526 {
+}
+

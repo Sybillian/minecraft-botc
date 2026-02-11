@@ -1,7 +1,12 @@
 BotC v1.4.6 - Feb 3, 2026
 Changes and features:
+- The modpack now includes a homemade map!
+- Added custom banners for the new map.
+- Added new menu backgrounds reflecting the new map.
 - The Singleplayer menu can now be accessed by clicking on the Blood on the Clocktower logo while holding Left Shift.
-- Added custom banners in preparation for the new map.
+- Changed house/player colors to a more colorblind-friendly set.
 
 Fixed bugs:
 - Changelog cannot be scrolled.
+- Fixed singleplayer world screen not having a custom background.
+- Fixed singleplayer loading screen not having a custom background.
