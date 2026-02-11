@@ -1,5 +1,5 @@
-fill 228 66 -952 230 66 -954 minecraft:campfire[facing=east,lit=false] replace minecraft:campfire
-fill 227 68 -955 231 68 -951 minecraft:light[level=0] replace minecraft:barrier
+fill 125 72 65 128 72 62 minecraft:campfire[facing=north,lit=false] replace minecraft:campfire
+fill 129 73 61 124 73 66 minecraft:light[level=0] replace minecraft:barrier
 function ct:util/disable_colors
 tellraw @a [{"selector":"@s"},{"text":" has been executed.","color":"red"}]
 function ct:util/enable_colors

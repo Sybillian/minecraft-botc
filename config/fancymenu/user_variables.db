@@ -379,6 +379,12 @@ variable {
 }
 
 variable {
+  name = p14_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p6_r3_icon
   value = none
   reset_on_launch = false
@@ -680,7 +686,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 11
+  value = 10
   reset_on_launch = false
 }
 
@@ -836,7 +842,7 @@ variable {
 
 variable {
   name = p13_role
-  value = soldier
+  value = none
   reset_on_launch = false
 }
 
@@ -884,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -956,6 +962,12 @@ variable {
 
 variable {
   name = p8_role
+  value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p15_role
   value = none
   reset_on_launch = false
 }
@@ -1184,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 18:33
+  value = 02:07
   reset_on_launch = false
 }
 
@@ -1238,7 +1250,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 15
+  value = 1
   reset_on_launch = false
 }
 

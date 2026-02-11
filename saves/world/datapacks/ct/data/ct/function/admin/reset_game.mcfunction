@@ -64,6 +64,9 @@ execute as @a run fmvariable set p9_role false none
 execute as @a run fmvariable set p10_role false none
 execute as @a run fmvariable set p11_role false none
 execute as @a run fmvariable set p12_role false none
+execute as @a run fmvariable set p13_role false none
+execute as @a run fmvariable set p14_role false none
+execute as @a run fmvariable set p15_role false none
 
 execute as @a run fmvariable set player_1 false Nobody!
 execute as @a run fmvariable set player_2 false Nobody!
@@ -77,45 +80,27 @@ execute as @a run fmvariable set player_9 false Nobody!
 execute as @a run fmvariable set player_10 false Nobody!
 execute as @a run fmvariable set player_11 false Nobody!
 execute as @a run fmvariable set player_12 false Nobody!
+execute as @a run fmvariable set player_13 false Nobody!
+execute as @a run fmvariable set player_14 false Nobody!
+execute as @a run fmvariable set player_15 false Nobody!
 
-team modify 01_red prefix {"text":"◆ ","color":"#FF5555"}
-team modify 02_orange prefix {"text":"◆ ","color":"#F07613"}
-team modify 03_yellow prefix {"text":"◆ ","color":"#FFFF55"}
-team modify 04_lime prefix {"text":"◆ ","color":"#55FF55"}
-team modify 05_blue prefix {"text":"◆ ","color":"#35399D"}
-team modify 06_purple prefix {"text":"◆ ","color":"#792AAC"}
-team modify 07_white prefix {"text":"◆ ","color":"#E9ECEC"}
-team modify 08_gray prefix {"text":"◆ ","color":"#3E4447"}
-team modify 09_green prefix {"text":"◆ ","color":"#546D1B"}
-team modify 10_light_blue prefix {"text":"◆ ","color":"#3AAFD9"}
-team modify 11_brown prefix {"text":"◆ ","color":"#724728"}
-team modify 12_pink prefix {"text":"◆ ","color":"#FF55FF"}
+function ct:util/disable_colors
 
-team modify 01_red suffix ""
-team modify 02_orange suffix ""
-team modify 03_yellow suffix ""
-team modify 04_lime suffix ""
-team modify 05_blue suffix ""
-team modify 06_purple suffix ""
-team modify 07_white suffix ""
-team modify 08_gray suffix ""
-team modify 09_green suffix ""
-team modify 10_light_blue suffix ""
-team modify 11_brown suffix ""
-team modify 12_pink suffix ""
-
-data modify block 223 66 -950 front_text.messages[1] set value {"selector":"@a[team=01_red]"}
-data modify block 222 66 -953 front_text.messages[1] set value {"selector":"@a[team=02_orange]"}
-data modify block 223 66 -956 front_text.messages[1] set value {"selector":"@a[team=03_yellow]"}
-data modify block 226 66 -959 front_text.messages[1] set value {"selector":"@a[team=04_lime]"}
-data modify block 229 66 -960 front_text.messages[1] set value {"selector":"@a[team=05_blue]"}
-data modify block 232 66 -959 front_text.messages[1] set value {"selector":"@a[team=06_purple]"}
-data modify block 235 66 -956 front_text.messages[1] set value {"selector":"@a[team=07_white]"}
-data modify block 236 66 -953 front_text.messages[1] set value {"selector":"@a[team=08_gray]"}
-data modify block 235 66 -950 front_text.messages[1] set value {"selector":"@a[team=09_green]"}
-data modify block 232 66 -947 front_text.messages[1] set value {"selector":"@a[team=10_light_blue]"}
-data modify block 229 66 -946 front_text.messages[1] set value {"selector":"@a[team=11_brown]"}
-data modify block 226 66 -947 front_text.messages[1] set value {"selector":"@a[team=12_pink]"}
+data modify block 121 72 68 front_text.messages[1] set value {"selector":"@a[team=01_red]"}
+data modify block 120 72 65 front_text.messages[1] set value {"selector":"@a[team=02_orange]"}
+data modify block 120 72 62 front_text.messages[1] set value {"selector":"@a[team=03_yellow]"}
+data modify block 121 72 59 front_text.messages[1] set value {"selector":"@a[team=04_lime]"}
+data modify block 122 72 58 front_text.messages[1] set value {"selector":"@a[team=05_green]"}
+data modify block 125 72 57 front_text.messages[1] set value {"selector":"@a[team=06_mint]"}
+data modify block 128 72 57 front_text.messages[1] set value {"selector":"@a[team=07_cyan]"}
+data modify block 131 72 58 front_text.messages[1] set value {"selector":"@a[team=08_blue]"}
+data modify block 132 72 59 front_text.messages[1] set value {"selector":"@a[team=09_navy]"}
+data modify block 133 72 62 front_text.messages[1] set value {"selector":"@a[team=10_purple]"}
+data modify block 133 72 65 front_text.messages[1] set value {"selector":"@a[team=11_lavender]"}
+data modify block 132 72 68 front_text.messages[1] set value {"selector":"@a[team=12_magenta]"}
+data modify block 131 72 69 front_text.messages[1] set value {"selector":"@a[team=13_white]"}
+data modify block 128 72 70 front_text.messages[1] set value {"selector":"@a[team=14_gray]"}
+data modify block 125 72 70 front_text.messages[1] set value {"selector":"@a[team=15_black]"}
 
 execute as @a[tag=storyteller] run function ct:admin/give_script
 execute as @a[tag=storyteller] run schedule function ct:admin/reset_st_variables 1s

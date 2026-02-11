@@ -1,41 +1,354 @@
 {
-    "model": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
-      "component": "minecraft:custom_model_data",
-      "cases": [
-        { "when": { "strings": [ "script" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/knowledge_book" } },
-        { "when": { "strings": [ "grimoire" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/grimoire" } },
-        { "when": { "strings": [ "ct_bag" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/ct_bag" } },
-        { "when": { "strings": [ "start_vote" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/start_vote" } },
-        { "when": { "strings": [ "advance_phase" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/advance_phase" } },
-        { "when": { "strings": [ "vote_arm" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/vote_arm" } },
-        { "when": { "strings": [ "6_min_day" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/6_min_day" } },
-        { "when": { "strings": [ "5_min_day" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/5_min_day" } },
-        { "when": { "strings": [ "4_min_day" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/4_min_day" } },
-        { "when": { "strings": [ "3_min_day" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/3_min_day" } },
-        { "when": { "strings": [ "voting_yes" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/vote_yes" } },
-        { "when": { "strings": [ "voting_no" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/vote_no" } },
-        { "when": { "strings": [ "voting_ghost" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/vote_ghost" } },
-        { "when": { "strings": [ "mic" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/microphone" } },
-        { "when": { "strings": [ "exclamation_red" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/exclamation_red" } },
-        { "when": { "strings": [ "exclamation_yellow" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/exclamation_yellow" } },
-        { "when": { "strings": [ "house_red" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/red" } },
-        { "when": { "strings": [ "house_orange" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/orange" } },
-        { "when": { "strings": [ "house_yellow" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/yellow" } },
-        { "when": { "strings": [ "house_green" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/green" } },
-        { "when": { "strings": [ "house_blue" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/blue" } },
-        { "when": { "strings": [ "house_purple" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/purple" } },
-        { "when": { "strings": [ "house_brown" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/brown" } },
-        { "when": { "strings": [ "house_pink" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/pink" } },
-        { "when": { "strings": [ "house_lime" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/lime" } },
-        { "when": { "strings": [ "house_white" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/white" } },
-        { "when": { "strings": [ "house_light_blue" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/light_blue" } },
-        { "when": { "strings": [ "house_gray" ] }, "model": { "type": "minecraft:model", "model": "minecraft:item/house/gray" } }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/carrot_on_a_stick"
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": {
+          "strings": [
+            "script"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/knowledge_book"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "grimoire"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/grimoire"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "ct_bag"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ct_bag"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "start_vote"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/start_vote"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "advance_phase"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/advance_phase"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "vote_arm"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vote_arm"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "6_min_day"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/6_min_day"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "5_min_day"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/5_min_day"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "4_min_day"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/4_min_day"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "3_min_day"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/3_min_day"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "voting_yes"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vote_yes"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "voting_no"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vote_no"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "voting_ghost"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vote_ghost"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "mic"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/microphone"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "exclamation_red"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/exclamation_red"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "exclamation_yellow"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/exclamation_yellow"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_black"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/black"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_blue"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/blue"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_cyan"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/cyan"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_green"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/green"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_grey"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/grey"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_lavender"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/lavender"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_lime"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/lime"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_magenta"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/magenta"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_mint"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/mint"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_navy"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/navy"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_orange"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/orange"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_purple"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/purple"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_red"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/red"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_white"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/white"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_yellow"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/yellow"
+        }
       }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
     }
   }
+}

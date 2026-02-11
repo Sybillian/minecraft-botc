@@ -139,6 +139,7 @@ scoreboard players set total vote 0
 scoreboard objectives add vc dummy
 scoreboard objectives add rps dummy
 scoreboard objectives add pointing dummy
+scoreboard objectives add point_at dummy
 scoreboard objectives add game_id dummy
 
 ## Phases:
