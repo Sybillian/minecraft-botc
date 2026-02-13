@@ -692,7 +692,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Taylor &amp; Viva La Sam","name":"The Ones You Least Expect"},"steward","shugenja","pixie","fortuneteller","towncrier","monk","exorcist","gossip","artist","seamstress","philosopher","huntsman","soldier","sweetheart","recluse","damsel","drunk","godfather","summoner","assassin","goblin","yaggababble","nodashii","ojo","po","barista","harlot","beggar","scapegoat","bishop"]
+  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","highpriestess","balloonist","chambermaid","dreamer","towncrier","nightwatchman","juggler","cannibal","farmer","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","assassin","boomdandy","yaggababble","vortox","legion","fanggu","djinn"]
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 02:07
+  value = 22:13
   reset_on_launch = false
 }
 

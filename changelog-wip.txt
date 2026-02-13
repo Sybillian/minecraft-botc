@@ -3,8 +3,11 @@ Changes and features:
 - The modpack now includes a homemade map!
 - Added custom banners for the new map.
 - Added new menu backgrounds reflecting the new map.
+- Added a particle to show who's on the block.
 - The Singleplayer menu can now be accessed by clicking on the Blood on the Clocktower logo while holding Left Shift.
 - Changed house/player colors to a more colorblind-friendly set.
+- Ghost vote particles now play at all times during dusk instead of just during votes.
+- Removed Clean F3 as it is not being updated to modern versions.
 
 Fixed bugs:
 - Changelog cannot be scrolled.

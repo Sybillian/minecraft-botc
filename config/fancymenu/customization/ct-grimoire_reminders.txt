@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1770788953141
+  last_edited_time = 1770953368836
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 100
-  [loading_requirement_container_meta:f28d689d-0319-40ae-a7d6-2a71c0ee6499-1770789539659] = [groups:][instances:]
+  [loading_requirement_container_meta:01d10e1c-ca6c-4a9e-8db6-4098f4e33993-1770953556499] = [groups:][instances:]
 }
 
 customization {

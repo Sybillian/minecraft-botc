@@ -40,21 +40,21 @@ data modify block 125 72 70 front_text.messages[1] set value {"selector":"@a[tea
 
 data remove storage ct:players players
 
-execute if data block 121 72 68 front_text.messages[1].text run data modify storage ct:players players.p1 set from block 223 66 -950 front_text.messages[1].hover_event.name
-execute if data block 120 72 65 front_text.messages[1].text run data modify storage ct:players players.p2 set from block 222 66 -953 front_text.messages[1].hover_event.name
-execute if data block 120 72 62 front_text.messages[1].text run data modify storage ct:players players.p3 set from block 223 66 -956 front_text.messages[1].hover_event.name
-execute if data block 121 72 59 front_text.messages[1].text run data modify storage ct:players players.p4 set from block 226 66 -959 front_text.messages[1].hover_event.name
-execute if data block 122 72 58 front_text.messages[1].text run data modify storage ct:players players.p5 set from block 229 66 -960 front_text.messages[1].hover_event.name
-execute if data block 125 72 57 front_text.messages[1].text run data modify storage ct:players players.p6 set from block 232 66 -959 front_text.messages[1].hover_event.name
-execute if data block 128 72 57 front_text.messages[1].text run data modify storage ct:players players.p7 set from block 235 66 -956 front_text.messages[1].hover_event.name
-execute if data block 131 72 58 front_text.messages[1].text run data modify storage ct:players players.p8 set from block 236 66 -953 front_text.messages[1].hover_event.name
-execute if data block 132 72 59 front_text.messages[1].text run data modify storage ct:players players.p9 set from block 235 66 -950 front_text.messages[1].hover_event.name
-execute if data block 133 72 62 front_text.messages[1].text run data modify storage ct:players players.p10 set from block 232 66 -947 front_text.messages[1].hover_event.name
-execute if data block 133 72 65 front_text.messages[1].text run data modify storage ct:players players.p11 set from block 229 66 -946 front_text.messages[1].hover_event.name
-execute if data block 132 72 68 front_text.messages[1].text run data modify storage ct:players players.p12 set from block 226 66 -947 front_text.messages[1].hover_event.name
-execute if data block 131 72 69 front_text.messages[1].text run data modify storage ct:players players.p13 set from block 226 66 -947 front_text.messages[1].hover_event.name
-execute if data block 128 72 70 front_text.messages[1].text run data modify storage ct:players players.p14 set from block 226 66 -947 front_text.messages[1].hover_event.name
-execute if data block 125 72 70 front_text.messages[1].text run data modify storage ct:players players.p15 set from block 226 66 -947 front_text.messages[1].hover_event.name
+execute if data block 121 72 68 front_text.messages[1].text run data modify storage ct:players players.p1 set from block 121 72 68 front_text.messages[1].hover_event.name
+execute if data block 120 72 65 front_text.messages[1].text run data modify storage ct:players players.p2 set from block 120 72 65 front_text.messages[1].hover_event.name
+execute if data block 120 72 62 front_text.messages[1].text run data modify storage ct:players players.p3 set from block 120 72 62 front_text.messages[1].hover_event.name
+execute if data block 121 72 59 front_text.messages[1].text run data modify storage ct:players players.p4 set from block 121 72 59 front_text.messages[1].hover_event.name
+execute if data block 122 72 58 front_text.messages[1].text run data modify storage ct:players players.p5 set from block 122 72 58 front_text.messages[1].hover_event.name
+execute if data block 125 72 57 front_text.messages[1].text run data modify storage ct:players players.p6 set from block 125 72 57 front_text.messages[1].hover_event.name
+execute if data block 128 72 57 front_text.messages[1].text run data modify storage ct:players players.p7 set from block 128 72 57 front_text.messages[1].hover_event.name
+execute if data block 131 72 58 front_text.messages[1].text run data modify storage ct:players players.p8 set from block 131 72 58 front_text.messages[1].hover_event.name
+execute if data block 132 72 59 front_text.messages[1].text run data modify storage ct:players players.p9 set from block 132 72 59 front_text.messages[1].hover_event.name
+execute if data block 133 72 62 front_text.messages[1].text run data modify storage ct:players players.p10 set from block 133 72 62 front_text.messages[1].hover_event.name
+execute if data block 133 72 65 front_text.messages[1].text run data modify storage ct:players players.p11 set from block 133 72 65 front_text.messages[1].hover_event.name
+execute if data block 132 72 68 front_text.messages[1].text run data modify storage ct:players players.p12 set from block 132 72 68 front_text.messages[1].hover_event.name
+execute if data block 131 72 69 front_text.messages[1].text run data modify storage ct:players players.p13 set from block 131 72 69 front_text.messages[1].hover_event.name
+execute if data block 128 72 70 front_text.messages[1].text run data modify storage ct:players players.p14 set from block 128 72 70 front_text.messages[1].hover_event.name
+execute if data block 125 72 70 front_text.messages[1].text run data modify storage ct:players players.p15 set from block 125 72 70 front_text.messages[1].hover_event.name
 
 execute unless data block 121 72 68 front_text.messages[1].text run data modify storage ct:players players.p1 set value "Nobody!"
 execute unless data block 120 72 65 front_text.messages[1].text run data modify storage ct:players players.p2 set value "Nobody!"
