@@ -1,1 +1,0 @@
-$execute as @a run fmvariable set last_nom false $(name)

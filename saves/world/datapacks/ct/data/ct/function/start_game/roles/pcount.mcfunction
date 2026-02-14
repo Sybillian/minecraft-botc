@@ -1,5 +1,0 @@
-$fmvariable set player_count false $(player)
-$fmvariable set town_count false $(town)
-$fmvariable set outsider_count false $(outsider)
-$fmvariable set minion_count false $(minion)
-$fmvariable set demon_count false $(demon)

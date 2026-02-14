@@ -1,1 +1,0 @@
-schedule function ct:loop/vote/block_particle 0.5s

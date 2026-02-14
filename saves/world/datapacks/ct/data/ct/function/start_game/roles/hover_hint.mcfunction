@@ -1,1 +1,0 @@
-tellraw @a[tag=!storyteller] [{"text":"! ","color":"yellow","bold":true},{"text":"Press T to release your mouse, then hover over your character icon in the top left to see your ability.","color":"gray","bold":false}]

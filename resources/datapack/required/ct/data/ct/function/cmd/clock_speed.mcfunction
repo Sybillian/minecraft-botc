@@ -1,0 +1,1 @@
+$scoreboard players set clock_speed settings $(n)

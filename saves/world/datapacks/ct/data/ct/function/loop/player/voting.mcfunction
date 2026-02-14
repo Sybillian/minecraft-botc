@@ -1,2 +1,0 @@
-title @s[tag=!storyteller,tag=voting_yes] actionbar [{"text":"You are voting","color":"white"},{"text":" YES ","color":"green"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
-title @s[tag=!storyteller,tag=!voting_yes] actionbar [{"text":"You are voting","color":"white"},{"text":" NO ","color":"red"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]

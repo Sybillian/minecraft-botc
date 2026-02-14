@@ -686,7 +686,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 10
+  value = 1
   reset_on_launch = false
 }
 

@@ -1,0 +1,2 @@
+tellraw @s [{"text":"! ","color":"yellow","bold":true},{"text":"You have selected ","color":"gray","bold":false},{"text":"SCISSORS","color":"gray","bold":true},{"text":".","color":"gray","bold":false}]
+scoreboard players set @s rps 3

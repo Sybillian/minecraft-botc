@@ -4,6 +4,7 @@ Changes and features:
 - Added custom banners for the new map.
 - Added new menu backgrounds reflecting the new map.
 - Added a particle to show who's on the block.
+- Added a link to the modpack Discord on the main menu.
 - The Singleplayer menu can now be accessed by clicking on the Blood on the Clocktower logo while holding Left Shift.
 - Changed house/player colors to a more colorblind-friendly set.
 - Ghost vote particles now play at all times during dusk instead of just during votes.
