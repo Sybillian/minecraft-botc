@@ -1,10 +1,12 @@
-BotC v1.4.6 - Feb 3, 2026
+BotC v1.5.0 - Feb 13, 2026
 Changes and features:
 - The modpack now includes a homemade map!
 - Added custom banners for the new map.
 - Added new menu backgrounds reflecting the new map.
 - Added a particle to show who's on the block.
 - Added a link to the modpack Discord on the main menu.
+- Added a button to clear execution mark.
+- The datapack is now builtin instead of being within the world.
 - The Singleplayer menu can now be accessed by clicking on the Blood on the Clocktower logo while holding Left Shift.
 - Changed house/player colors to a more colorblind-friendly set.
 - Ghost vote particles now play at all times during dusk instead of just during votes.
@@ -13,5 +15,5 @@ Changes and features:
 Fixed bugs:
 - Changelog cannot be scrolled.
 - "Mark for execution" displays for all players, not just Storytellers.
-- Singleplayer world list does not have a custom background.
-- Singleplayer loading screen does not have a custom background.
+- Many screens do not have a custom background.
+- All players can see the Add Mark button, not just Storytellers.
