@@ -1,4 +1,13 @@
 {
+    "clocktower.vote": {
+        "subtitle": "§eVoted§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/use_vote",
+                "volume": 0.5
+            }
+        ]
+    },
     "clocktower.ghost_vote": {
         "subtitle": "§bGhost Vote Used§r",
         "sounds": [

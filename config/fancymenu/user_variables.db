@@ -686,7 +686,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 7
+  value = 9
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 

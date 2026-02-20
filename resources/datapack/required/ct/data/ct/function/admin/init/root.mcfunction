@@ -83,6 +83,7 @@ scoreboard players set day_max game_data 300
 scoreboard players operation day_value game_data = day_max game_data
 scoreboard players operation day_seconds game_data = day_value game_data
 
+# scoreboard players set has_initialized game_data 0
 scoreboard players set ghost_votes game_data 0
 scoreboard players set alive_players game_data 0
 scoreboard players set current_day game_data 0

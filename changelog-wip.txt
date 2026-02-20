@@ -1,44 +1,15 @@
-BotC v1.5.1 - Feb 13, 2026
+BotC v1.5.2 - Feb XX, 2026
 Changes and features:
-- Util functions are better named and utilized now.
-- Init sequence is now automatically run on world load.
-- World protection is now handled in the init sequence.
-- Trouble Brewing is now loaded by default.
-- World icon is now the same as the pack icon.
-- Consolidated icons in the grim slightly.
+- #45: Add an in-game link to the project's Issues page for easy bug reporting.
+- #46 (partial): Add an in-game explainer on how to use the pack
+- Added a screen to view all Travellers, which can be accessed from the script menu.
+- Added a sound for when a regular vote is taken. I don't love this sound; it may change or be removed in the future, but for the time being it's helpful to keep track of vote counts.
+- Ghost vote sound can now be heard more clearly from a distance.
+- Removed /traveler prompt on spectator join until that command actually exists.
 
 Fixed bugs:
-- Seat colors apply to player names when they should not.
-- Bakery does not have a voice chat.
-- Wheat Field and Beet Field voice chats don't work.
-- Voice chat barriers are not appearing when there are 2+ players in a chat on the new map.
-- Voice chats are not auto-initialized.
-- Storyteller options (currently just clock time) should be disabled if you are not a Storyteller.
-- Storyteller prefix in tab is not handled by init sequence.
-- Spectator prefix in tab is not handled by init sequence.
-- Spectators not teleporting to the correct location on the new map on join and game reset.
-- Spectators are shown as "Not in a house" to Storytellers.
-- joined_game scoreboard objective isn't initialized.
-- Vanilla UI elements (like the chat) should display on top of custom ones.
-- Add Server screen doesn't have a custom background.
-- Night Order screen only displays Trouble Brewing.
-- New seats in the grim display the wrong characters.
-- New seats in the grim display the wrong names.
-- "Teleport Players to Seats" button is not updated for the new map.
-- The player 7 character icon is displaying in the grim when it should not.
-- "Light Pyre" teleports players to the old location.
-- Voting doesn't work for new seats.
-- Clock arm targeting wrong entity type.
-- Adventure mode is not forced on first join.
-- Players can sometimes spawn in the wrong place on first join.
-- Players who left while in a game and returned after a reset are not re-initialized.
-- Players leaving before the game does not reduce player count for the purposes of character distribution displays.
-- New seats' "Dead" state is not reset with game reset.
-- Some seats around town use trapdoors instead of regular doors for their backs.
-- The Magenta and Lavender players are swapped in some places.
-- Skulls can appear on player seats due to the team suffixes not getting reset correctly.
-- Block sounds are enabled during night and disabled during the day, instead of the inverse.
-- Server configs should just be included in the regular config folder.
+#47: Setup Bag doesn't scale properly with different aspect ratios
+#50: Some commands that should be op-only are not
 
 todo:
 - ST tp to house

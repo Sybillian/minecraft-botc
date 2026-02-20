@@ -1,5 +1,9 @@
 {
 	"id": "alhadikhia",
+	"require": {
+		"type": "operator",
+		"operator": 2
+	},
 	"arguments": [
 		{
 			"id": "target",

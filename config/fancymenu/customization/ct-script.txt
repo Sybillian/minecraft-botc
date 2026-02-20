@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-script
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1771213215597
+  last_edited_time = 1771553954056
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:2d23a6f7-f4aa-49c2-a5ba-a19868e90c22-1771220357862] = [groups:][instances:]
+  [loading_requirement_container_meta:bb212283-d462-4e30-a059-7165fe370aae-1771556355162] = [groups:][instances:]
 }
 
 customization {
@@ -4197,9 +4197,9 @@ element {
 
 element {
   button_element_executable_block_identifier = a888f561-44b5-4c52-950f-16a8b50dd725-1749872348747
-  [executable_action_instance:aeeb685a-0a45-45a1-ac26-080452aae316-1749945701657][action_type:closegui] = 
-  [executable_action_instance:4f50dd8d-8559-4f11-a324-8400b968395e-1749928956334][action_type:opengui] = ct-night-order
-  [executable_block:a888f561-44b5-4c52-950f-16a8b50dd725-1749872348747][type:generic] = [executables:aeeb685a-0a45-45a1-ac26-080452aae316-1749945701657;4f50dd8d-8559-4f11-a324-8400b968395e-1749928956334;]
+  [executable_action_instance:48d54d0d-c490-44fa-9c7f-3de18f7befb0-1771553891363][action_type:closegui] = 
+  [executable_action_instance:c5cb9629-9b93-4a51-a95c-3ae0fb61632e-1771553899092][action_type:opengui] = ct-travelers
+  [executable_block:a888f561-44b5-4c52-950f-16a8b50dd725-1749872348747][type:generic] = [executables:48d54d0d-c490-44fa-9c7f-3de18f7befb0-1771553891363;c5cb9629-9b93-4a51-a95c-3ae0fb61632e-1771553899092;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -4207,8 +4207,7 @@ element {
   label = View Travelers
   navigatable = true
   widget_active_state_requirement_container_identifier = ccc2366b-1fb4-4590-9951-f59f4fdffffc-1749872348747
-  [loading_requirement_container_meta:ccc2366b-1fb4-4590-9951-f59f4fdffffc-1749872348747] = [groups:][instances:d435e1e2-d2d0-40a7-b365-cb324dc0c8ef-1770102633804;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:d435e1e2-d2d0-40a7-b365-cb324dc0c8ef-1770102633804] = ["mode":"equals","text":"yes","compare_with":"no"]$
+  [loading_requirement_container_meta:ccc2366b-1fb4-4590-9951-f59f4fdffffc-1749872348747] = [groups:][instances:]
   is_template = false
   template_apply_width = false
   template_apply_height = false

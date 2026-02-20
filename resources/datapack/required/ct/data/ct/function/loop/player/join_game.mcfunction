@@ -1,3 +1,5 @@
+execute if score has_initialized game_data matches 0 run function ct:util/send_tutorial
+
 tellraw @s[tag=!joined] [{"text":"! ","color":"green","bold":true},{"text":"Welcome! Please set your pronouns using ","color":"gray","bold":false},{"text":"/pronouns set <pronouns>","color":"white","bold":false},{"text":" to display them below your username.","color":"gray","bold":false}]
 tp @s[tag=!joined] 122 72 70 -145 0
 gamemode adventure @s[tag=!joined]

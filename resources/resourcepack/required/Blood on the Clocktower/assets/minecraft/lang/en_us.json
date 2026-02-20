@@ -227,7 +227,7 @@
     "clocktower.role.deviant.desc": "If you were funny today, you cannot die by exile.",
     "clocktower.role.apprentice.desc": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",
     "clocktower.role.matron.desc": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
-    "clocktower.role.voudon.desc": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required.",
+    "clocktower.role.voudon.desc": "Only you & the dead can vote. They don't need a vote token to do so. A 50 percent majority isn't required.",
     "clocktower.role.judge.desc": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
     "clocktower.role.bishop.desc": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day.",
     "clocktower.role.cacklejack.desc": "Each day, choose a player: a different player changes character tonight.",
