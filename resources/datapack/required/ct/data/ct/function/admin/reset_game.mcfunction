@@ -119,6 +119,7 @@ data modify block 131 72 69 front_text.messages[1] set value {"selector":"@a[tea
 data modify block 128 72 70 front_text.messages[1] set value {"selector":"@a[team=14_gray]"}
 data modify block 125 72 70 front_text.messages[1] set value {"selector":"@a[team=15_black]"}
 execute as @e[type=minecraft:item_display,tag=house_head] run data modify entity @s view_range set value 0
+execute as @e[type=minecraft:text_display,tag=home_label] run data modify entity @s view_range set value 0
 
 execute as @a[tag=storyteller] run function ct:admin/give_script
 execute as @a[tag=storyteller] run schedule function ct:admin/reset_st_variables 1s

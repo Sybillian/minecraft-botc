@@ -88,6 +88,9 @@ data modify entity @e[tag=house_head,limit=1,scores={house_id=13}] item.componen
 data modify entity @e[tag=house_head,limit=1,scores={house_id=14}] item.components.minecraft:profile.name set from storage ct:players players.p14
 data modify entity @e[tag=house_head,limit=1,scores={house_id=15}] item.components.minecraft:profile.name set from storage ct:players players.p15
 
+execute as @e[type=minecraft:text_display,tag=home_label] run data modify entity @s view_range set value 0
+execute as @e[type=minecraft:text_display,tag=home_label] if score @s house_id <= player_count game_data run data modify entity @s view_range set value 1
+
 function ct:util/color_prefixes
 
 scoreboard players set @a[team=01_red] id 1
@@ -152,3 +155,4 @@ execute as @a[tag=storyteller] run function ct:start_game/roles/set_grim_variabl
 execute as @a[tag=!has_role,tag=!storyteller,sort=random,limit=1] run function ct:start_game/give_role
 execute as @a[tag=!has_role,tag=!storyteller,sort=random,limit=1] run function ct:start_game/random_roles
 schedule function ct:start_game/roles/reveal_to_st 1t
+schedule function ct:start_game/apply_labels 2t

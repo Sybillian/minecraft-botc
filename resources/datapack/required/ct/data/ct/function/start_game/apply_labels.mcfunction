@@ -1,0 +1,17 @@
+function ct:util/color_names
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=1}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=1}]","color":"#e6194B"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=2}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=2}]","color":"#f58231"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=3}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=3}]","color":"#ffe119"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=4}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=4}]","color":"#bfef45"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=5}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=5}]","color":"#3cb44b"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=6}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=6}]","color":"#aaffc3"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=7}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=7}]","color":"#42d4f4"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=8}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=8}]","color":"#4363d8"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=9}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=9}]","color":"#000075"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=10}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=10}]","color":"#911eb4"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=11}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=11}]","color":"#f032e6"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=12}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=12}]","color":"#dcbeff"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=13}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=13}]","color":"#ffffff"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=14}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=14}]","color":"#a9a9a9"}]
+data modify entity @e[type=minecraft:text_display,tag=home_label,limit=1,scores={house_id=15}] text set value [{"text":"Home of\n"},{"selector":"@p[scores={id=15}]","color":"#000000"}]
+function ct:util/color_prefixes

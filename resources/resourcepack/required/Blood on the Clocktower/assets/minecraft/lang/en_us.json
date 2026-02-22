@@ -1,5 +1,17 @@
 {
     //
+    // REPLACED BLOCKS
+    //
+    "block.minecraft.gray_carpet": "Navy Carpet",
+    "block.minecraft.cyan_carpet": "Mint Carpet",
+    "block.minecraft.pink_carpet": "Lavender Carpet",
+    "block.minecraft.gray_wool": "Navy Wool",
+    "block.minecraft.cyan_wool": "Mint Wool",
+    "block.minecraft.pink_wool": "Lavender Wool",
+    "block.minecraft.gray_bed": "Navy Bed",
+    "block.minecraft.cyan_bed": "Mint Bed",
+    "block.minecraft.pink_bed": "Lavender Bed",
+    //
     // MENU
     //
     "soundCategory.voice": "Clocktower Sounds",
