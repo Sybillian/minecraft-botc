@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-player_grim
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1771789608558
+  last_edited_time = 1771821230091
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:54391357-42db-493d-aedf-c10c3c7aaa46-1771789563931] = [groups:][instances:]
+  [loading_requirement_container_meta:5f1eb6bc-e867-468c-ae81-57518cf6042d-1771821220574] = [groups:][instances:]
 }
 
 customization {
@@ -41,10 +41,9 @@ scroll_list_customization {
 
 layout_action_executable_blocks {
   close_screen_executable_block_identifier = e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106
-  [executable_action_instance:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683][action_type:disable_layout] = ct-role_toggler_travelers
-  [executable_action_instance:43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856][action_type:disable_layout] = ct-role_toggler
-  [executable_action_instance:598e1784-9545-4b91-bc1c-1bb082c5dcb0-1766512151618][action_type:disable_layout] = ct-grimoire_actions
-  [executable_block:e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106][type:generic] = [executables:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683;43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856;598e1784-9545-4b91-bc1c-1bb082c5dcb0-1766512151618;]
+  [executable_action_instance:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683][action_type:disable_layout] = ct-role_toggler_travelers_player
+  [executable_action_instance:43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856][action_type:disable_layout] = ct-role_toggler_player
+  [executable_block:e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106][type:generic] = [executables:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683;43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856;]
 }
 
 element {
@@ -986,9 +985,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:c723f56c-d427-45e2-b878-a5cdcbaba6b7-1752629630563][action_type:set_variable] = editing_player:11
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:74da69ad-00c1-40de-b75d-2c7c8cc1107f-1753143160238][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:054c6b8b-373a-4b64-b047-3f382610ceb2-1753143172710]
-  [executable_action_instance:9ada1696-96b8-47fd-ac58-dd462efb3528-1753143162543][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:9ada1696-96b8-47fd-ac58-dd462efb3528-1753143162543][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:054c6b8b-373a-4b64-b047-3f382610ceb2-1753143172710][type:else] = [executables:9ada1696-96b8-47fd-ac58-dd462efb3528-1753143162543;]
   [if_executable_block_body:74da69ad-00c1-40de-b75d-2c7c8cc1107f-1753143160238] = 903b5694-9bd3-4d1e-a2f6-dbc543a13cbd-1753143152816
   [loading_requirement_container_meta:903b5694-9bd3-4d1e-a2f6-dbc543a13cbd-1753143152816] = [groups:][instances:4bd89f71-7940-470a-89ba-33b375b4adaa-1753143153586;]
@@ -1060,9 +1059,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:a5ef530b-4cf2-4260-9c2d-887d96a0d2a6-1752628804815][action_type:set_variable] = editing_player:12
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:00c1a8b1-5135-4e08-a12c-cbde44f2311b-1753140946326][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:fbfd323a-bfb6-41ca-97b4-aab00a4e3212-1753140987601]
-  [executable_action_instance:60b53102-7248-4420-a7f7-16f7138d61df-1753141001007][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:60b53102-7248-4420-a7f7-16f7138d61df-1753141001007][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:fbfd323a-bfb6-41ca-97b4-aab00a4e3212-1753140987601][type:else] = [executables:60b53102-7248-4420-a7f7-16f7138d61df-1753141001007;]
   [if_executable_block_body:00c1a8b1-5135-4e08-a12c-cbde44f2311b-1753140946326] = a77099b3-f931-44c8-bd9d-897e12b2eb57-1753140937439
   [loading_requirement_container_meta:a77099b3-f931-44c8-bd9d-897e12b2eb57-1753140937439] = [groups:][instances:2fda197c-8f30-45d8-97b7-dd7875e1e919-1753140938455;]
@@ -1134,9 +1133,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:6ab922da-a013-4b50-aea5-f9b25d8eb8f6-1753142609568][action_type:set_variable] = editing_player:1
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:25844b61-bf96-42b5-a7ba-2c0ff1d731e8-1753142600137][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:3e7fad33-894e-4b5a-bf94-ade3dd175c6d-1753142643654]
-  [executable_action_instance:7b898ae4-1888-4c21-83a0-05cfdc136810-1753142647452][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:7b898ae4-1888-4c21-83a0-05cfdc136810-1753142647452][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:3e7fad33-894e-4b5a-bf94-ade3dd175c6d-1753142643654][type:else] = [executables:7b898ae4-1888-4c21-83a0-05cfdc136810-1753142647452;]
   [if_executable_block_body:25844b61-bf96-42b5-a7ba-2c0ff1d731e8-1753142600137] = 6c87b733-fa41-4392-bcf7-71ebd62dc388-1753142590400
   [loading_requirement_container_meta:6c87b733-fa41-4392-bcf7-71ebd62dc388-1753142590400] = [groups:][instances:fc0dd44d-52c5-4938-b472-fcd276101160-1753142591360;]
@@ -1208,9 +1207,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:46b8f5d8-1d99-4c7a-a8cd-5e69ed599c3f-1752629714588][action_type:set_variable] = editing_player:2
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:34869aba-c594-40a7-88cd-4eebcb586bbe-1753142846470][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:977b23d3-2997-43e7-a867-cfa92dc0cfd8-1753142854201]
-  [executable_action_instance:ec79aa1f-1f42-4716-bb20-b0ede36c7b2f-1753142855375][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:ec79aa1f-1f42-4716-bb20-b0ede36c7b2f-1753142855375][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:977b23d3-2997-43e7-a867-cfa92dc0cfd8-1753142854201][type:else] = [executables:ec79aa1f-1f42-4716-bb20-b0ede36c7b2f-1753142855375;]
   [if_executable_block_body:34869aba-c594-40a7-88cd-4eebcb586bbe-1753142846470] = f1520277-b1dc-4e4d-aa6a-f241c810f561-1753142835080
   [loading_requirement_container_meta:f1520277-b1dc-4e4d-aa6a-f241c810f561-1753142835080] = [groups:][instances:3eb942c4-2629-48e1-86ec-7aaf89c5ab86-1753142836715;]
@@ -1282,9 +1281,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:1f377bb7-6722-4b20-a4cf-1776117fedb1-1752629725215][action_type:set_variable] = editing_player:3
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:d2d0b84f-5a00-494a-9035-8c1be279f1af-1753142899568][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:2dd029a7-e364-4af1-9b1d-e35382fb0b95-1753142909990]
-  [executable_action_instance:b06e522e-01e2-4728-89e6-f30326f9b5b1-1753142911584][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:b06e522e-01e2-4728-89e6-f30326f9b5b1-1753142911584][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:2dd029a7-e364-4af1-9b1d-e35382fb0b95-1753142909990][type:else] = [executables:b06e522e-01e2-4728-89e6-f30326f9b5b1-1753142911584;]
   [if_executable_block_body:d2d0b84f-5a00-494a-9035-8c1be279f1af-1753142899568] = 276bbfcd-fc53-42b7-baa3-02bb09d645e8-1753142889961
   [loading_requirement_container_meta:276bbfcd-fc53-42b7-baa3-02bb09d645e8-1753142889961] = [groups:][instances:20095998-dbbf-4a3e-a264-660a0f5d055d-1753142892051;]
@@ -1356,9 +1355,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:b684e394-eed5-449d-9f1a-c383091f38a0-1752629733456][action_type:set_variable] = editing_player:4
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:aa453f6d-bbfe-4809-b2ce-f6984c0f0453-1753142959185][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:0469323a-4062-4700-a9ab-003628efdb61-1753142960843]
-  [executable_action_instance:63d5b7cd-52e8-486d-8114-9a4307f7eb10-1753142945180][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:63d5b7cd-52e8-486d-8114-9a4307f7eb10-1753142945180][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:0469323a-4062-4700-a9ab-003628efdb61-1753142960843][type:else] = [executables:63d5b7cd-52e8-486d-8114-9a4307f7eb10-1753142945180;]
   [if_executable_block_body:aa453f6d-bbfe-4809-b2ce-f6984c0f0453-1753142959185] = 41ed68d9-4aa9-4169-9286-4324e0996988-1753142951894
   [loading_requirement_container_meta:41ed68d9-4aa9-4169-9286-4324e0996988-1753142951894] = [groups:][instances:258c692d-6115-4c2a-b121-b7395933085d-1753142952898;]
@@ -1430,9 +1429,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:19f123a9-ba40-461c-8d7f-df1ec2f65860-1752629746619][action_type:set_variable] = editing_player:5
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:6e218c47-2867-42dd-a821-86afe7f6e46e-1753142983490][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:1fb07d9c-04b6-48ce-bd3a-e4c235b90f67-1753142987222]
-  [executable_action_instance:df4dc93e-125b-42aa-819f-eea47b9b1c49-1753142988641][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:df4dc93e-125b-42aa-819f-eea47b9b1c49-1753142988641][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:1fb07d9c-04b6-48ce-bd3a-e4c235b90f67-1753142987222][type:else] = [executables:df4dc93e-125b-42aa-819f-eea47b9b1c49-1753142988641;]
   [if_executable_block_body:6e218c47-2867-42dd-a821-86afe7f6e46e-1753142983490] = 03ef6680-95ee-4300-b125-4316f1b150c7-1753142975684
   [loading_requirement_container_meta:03ef6680-95ee-4300-b125-4316f1b150c7-1753142975684] = [groups:][instances:d2cc169a-a985-4412-8090-0586bc385481-1753142976495;]
@@ -1504,9 +1503,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:53fc3a51-08bf-4fc8-8414-781380e976a7-1752629696027][action_type:set_variable] = editing_player:6
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:fb4d825f-a2b8-4b55-8701-5af03c7348d3-1753143042492][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:057051c4-a072-4f3c-82bd-c6a6584befc2-1753143045285]
-  [executable_action_instance:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:057051c4-a072-4f3c-82bd-c6a6584befc2-1753143045285][type:else] = [executables:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199;]
   [if_executable_block_body:fb4d825f-a2b8-4b55-8701-5af03c7348d3-1753143042492] = 1fa90768-ecab-41dc-8934-65a0bb9ffc1f-1753143031585
   [loading_requirement_container_meta:1fa90768-ecab-41dc-8934-65a0bb9ffc1f-1753143031585] = [groups:][instances:f8608d32-0e21-44ad-a7ec-ccd44588b2b9-1753143033601;]
@@ -1578,9 +1577,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:71d860c9-b9af-40dd-8945-e944bb0158b0-1752629685539][action_type:set_variable] = editing_player:7
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:5a71f49e-6fb4-4aa0-be43-6026de6aa81e-1753143073565][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:6a0fa724-c911-425b-bbf7-e76a28340f45-1753143078213]
-  [executable_action_instance:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:6a0fa724-c911-425b-bbf7-e76a28340f45-1753143078213][type:else] = [executables:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108;]
   [if_executable_block_body:5a71f49e-6fb4-4aa0-be43-6026de6aa81e-1753143073565] = 275bdd60-95dc-40e7-944c-732b9b7a988b-1753143066349
   [loading_requirement_container_meta:275bdd60-95dc-40e7-944c-732b9b7a988b-1753143066349] = [groups:][instances:dd6738b3-5999-46ff-8ca2-84724f759c6b-1753143067338;]
@@ -1652,9 +1651,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:685df338-6eab-47cc-bc8f-2fba2ecb1fcf-1752629673068][action_type:set_variable] = editing_player:8
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:e99ce885-a201-4550-81ac-c329e35ac966-1753143210221][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:f5ea460b-f136-439e-88db-fd991f37aa71-1753143224260]
-  [executable_action_instance:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:f5ea460b-f136-439e-88db-fd991f37aa71-1753143224260][type:else] = [executables:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278;]
   [if_executable_block_body:e99ce885-a201-4550-81ac-c329e35ac966-1753143210221] = fa56947d-ae3d-4afa-bda7-140d7d2bfa9c-1753143202359
   [loading_requirement_container_meta:fa56947d-ae3d-4afa-bda7-140d7d2bfa9c-1753143202359] = [groups:][instances:2c34ec8e-837c-48d2-9e4c-bc0ed608455f-1753143203386;]
@@ -1726,9 +1725,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:591d449a-481d-4301-bfdd-aa92bc69a774-1752629664210][action_type:set_variable] = editing_player:9
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:c3d0e3a4-5c87-458a-991d-d5fa1ae2d891-1753143109277][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:0d44c226-b322-4aed-be81-48ced524750a-1753143111217]
-  [executable_action_instance:f80f25ef-90b0-4644-8736-bf57e5549f51-1753143092005][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:f80f25ef-90b0-4644-8736-bf57e5549f51-1753143092005][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:0d44c226-b322-4aed-be81-48ced524750a-1753143111217][type:else] = [executables:f80f25ef-90b0-4644-8736-bf57e5549f51-1753143092005;]
   [if_executable_block_body:c3d0e3a4-5c87-458a-991d-d5fa1ae2d891-1753143109277] = ce84b4e4-77d4-4b95-931a-609458c47f78-1753143098407
   [loading_requirement_container_meta:ce84b4e4-77d4-4b95-931a-609458c47f78-1753143098407] = [groups:][instances:896f4d0a-fb38-4211-bb32-637c3ce708e6-1753143100536;]
@@ -1800,9 +1799,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:b00b6d78-f13c-48b2-864f-e874fd71d296-1752629646253][action_type:set_variable] = editing_player:10
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:a4726420-8400-4bab-b8e3-d92d18d0c0aa-1753143143797][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:017e54e6-c014-486f-be40-d406ac602d4c-1753143145562]
-  [executable_action_instance:4fd42667-2f7c-4cd3-8f3a-5f9c1048bcb0-1753143119526][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:4fd42667-2f7c-4cd3-8f3a-5f9c1048bcb0-1753143119526][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:017e54e6-c014-486f-be40-d406ac602d4c-1753143145562][type:else] = [executables:4fd42667-2f7c-4cd3-8f3a-5f9c1048bcb0-1753143119526;]
   [if_executable_block_body:a4726420-8400-4bab-b8e3-d92d18d0c0aa-1753143143797] = 2a99b424-cefb-4e8e-9aa4-03a63a4682f3-1753143136223
   [loading_requirement_container_meta:2a99b424-cefb-4e8e-9aa4-03a63a4682f3-1753143136223] = [groups:][instances:ec7cf493-12ba-4ed7-9e14-d3ad3b4cc964-1753143137065;]
@@ -9860,9 +9859,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:53fc3a51-08bf-4fc8-8414-781380e976a7-1752629696027][action_type:set_variable] = editing_player:15
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:fb4d825f-a2b8-4b55-8701-5af03c7348d3-1753143042492][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:057051c4-a072-4f3c-82bd-c6a6584befc2-1753143045285]
-  [executable_action_instance:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:057051c4-a072-4f3c-82bd-c6a6584befc2-1753143045285][type:else] = [executables:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199;]
   [if_executable_block_body:fb4d825f-a2b8-4b55-8701-5af03c7348d3-1753143042492] = 1fa90768-ecab-41dc-8934-65a0bb9ffc1f-1753143031585
   [loading_requirement_container_meta:1fa90768-ecab-41dc-8934-65a0bb9ffc1f-1753143031585] = [groups:][instances:f8608d32-0e21-44ad-a7ec-ccd44588b2b9-1753143033601;]
@@ -9934,9 +9933,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:71d860c9-b9af-40dd-8945-e944bb0158b0-1752629685539][action_type:set_variable] = editing_player:14
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:5a71f49e-6fb4-4aa0-be43-6026de6aa81e-1753143073565][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:6a0fa724-c911-425b-bbf7-e76a28340f45-1753143078213]
-  [executable_action_instance:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:6a0fa724-c911-425b-bbf7-e76a28340f45-1753143078213][type:else] = [executables:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108;]
   [if_executable_block_body:5a71f49e-6fb4-4aa0-be43-6026de6aa81e-1753143073565] = 275bdd60-95dc-40e7-944c-732b9b7a988b-1753143066349
   [loading_requirement_container_meta:275bdd60-95dc-40e7-944c-732b9b7a988b-1753143066349] = [groups:][instances:dd6738b3-5999-46ff-8ca2-84724f759c6b-1753143067338;]
@@ -10008,9 +10007,9 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:685df338-6eab-47cc-bc8f-2fba2ecb1fcf-1752629673068][action_type:set_variable] = editing_player:13
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:e99ce885-a201-4550-81ac-c329e35ac966-1753143210221][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:f5ea460b-f136-439e-88db-fd991f37aa71-1753143224260]
-  [executable_action_instance:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278][action_type:toggle_layout] = ct-grimoire_actions
+  [executable_action_instance:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278][action_type:toggle_layout] = ct-role_toggler_player
   [executable_block:f5ea460b-f136-439e-88db-fd991f37aa71-1753143224260][type:else] = [executables:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278;]
   [if_executable_block_body:e99ce885-a201-4550-81ac-c329e35ac966-1753143210221] = fa56947d-ae3d-4afa-bda7-140d7d2bfa9c-1753143202359
   [loading_requirement_container_meta:fa56947d-ae3d-4afa-bda7-140d7d2bfa9c-1753143202359] = [groups:][instances:2c34ec8e-837c-48d2-9e4c-bc0ed608455f-1753143203386;]

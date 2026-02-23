@@ -1,4 +1,4 @@
-schedule function ct:assign/hover_hint 3s
+schedule function ct:start_game/roles/hover_hint 3s
 execute as @a at @s run playsound ct:clocktower.reveal_role voice @s ~ ~ ~ 1 1
 
 execute as @a[scores={role=1..13}] run title @s subtitle {"text":"(Good Townsfolk)"}

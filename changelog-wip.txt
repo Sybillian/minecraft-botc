@@ -1,19 +1,24 @@
 BotC v1.5.2 - Feb XX, 2026
+This version features the first iteration of the player-facing "Grimoire" for keeping track of claims! It is an extremely bare-minimum version right now and will get quite a bit better in the future.
+
 Changes and features:
+- #15: Add a player-facing Grimoire for notekeeping.
 - #45: Add an in-game link to the project's Issues page for easy bug reporting.
-- #46 (partial): Add an in-game explainer on how to use the pack
+- #46 (partial): Add an in-game explainer on how to use the pack.
 - Added a screen to view all Travellers, which can be accessed from the script menu.
 - Added a sound for when a regular vote is taken. I don't love this sound; it may change or be removed in the future, but for the time being it's helpful to keep track of vote counts.
 - Added a note on the pause screen warning that the pack is in an early stage of development.
+- Added a prompt to hover over your character icon to read the description.
 - Instead of big ugly banners, houses will now display the name and face of the player they belong to next to the entrance.
 - Ghost vote sound can now be heard more clearly from a distance.
 - Houses now have carpets and beds that closely match their assigned color. (thanks @boofsly!)
 - Removed /traveler prompt on spectator join until that command actually exists.
+- Removed SimpleRPC until I find a better alternative.
 
 Fixed bugs:
-- #47: Setup Bag doesn't scale properly with different aspect ratios
-- #50: Some commands that should be op-only are not
-- #51: Colors in the Grimoire do not closely match house colors in-game
+- #47: Setup Bag doesn't scale properly with different aspect ratios.
+- #50: Some commands that should be op-only are not.
+- #51: Colors in the Grimoire do not closely match house colors in-game.
 - #52: Wiki Links in the Script do not work for characters who have a space in their name. (thanks @JakeHumphries4!)
 - Changelog screen has no background.
 - Greenhouse and mint house voice chats have slightly incorrect bounds.

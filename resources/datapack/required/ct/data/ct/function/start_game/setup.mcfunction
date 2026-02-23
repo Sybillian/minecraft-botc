@@ -150,7 +150,7 @@ item replace entity @a[tag=!storyteller] hotbar.0 with minecraft:writable_book[m
 execute as @a run function ct:admin/give_script
 
 function ct:phase/night
-execute as @a[tag=storyteller] run function ct:start_game/roles/set_grim_variables with storage ct:players players
+execute as @a run function ct:start_game/roles/set_grim_variables with storage ct:players players
 
 execute as @a[tag=!has_role,tag=!storyteller,sort=random,limit=1] run function ct:start_game/give_role
 execute as @a[tag=!has_role,tag=!storyteller,sort=random,limit=1] run function ct:start_game/random_roles

@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Nobody!
+  value = Alex
   reset_on_launch = false
 }
 
@@ -320,7 +320,7 @@ variable {
 
 variable {
   name = player_2
-  value = Nobody!
+  value = Sybillian
   reset_on_launch = false
 }
 
@@ -716,7 +716,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 8
+  value = 15
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 1
+  value = 4
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1070,7 +1070,7 @@ variable {
 
 variable {
   name = bluff_1
-  value = poppy_grower
+  value = none
   reset_on_launch = false
 }
 
@@ -1082,7 +1082,7 @@ variable {
 
 variable {
   name = editing_bluff
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -1124,7 +1124,7 @@ variable {
 
 variable {
   name = team_color
-  value = #1464e7
+  value = #1e14ff4949e7
   reset_on_launch = false
 }
 
