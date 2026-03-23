@@ -7,7 +7,5 @@ Character icons included in this project are from https://github.com/tomozbot/bo
 
 A list of unimplemented features and issues can be found on this repository's Issues tab.
 
-For private play I am currently using a world only approved for private use, which is not included with the modpack. When this pack is finished, it will include a map on which to play the game. Until then, this pack is meant for play on my server specifically and will not work if you don't have a world set up for it.
-
 ## Installation
 On the client side, all players need to do is install the modpack via Modrinth. On the server side, a world must be set up and everything in the ./server folder needs to be dropped into your server's root folder. This is due to configurations for certain mods (TAB, SimpleVoiceChat) being server-side only instead of per-client or per-world.
