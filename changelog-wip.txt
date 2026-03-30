@@ -25,6 +25,19 @@ Changes and features:
   - Steward
   - Fearmonger
   - General
+  - Lord of Typhon
+  - Bootlegger
+  - Damsel
+  - Banshee
+  - Klutz
+  - Pukka
+  - Plague Doctor
+  - Cerenovus
+  - Buddhist
+  - Ferryman
+  - Virgin
+  - Fiddler
+  - Shugenja
 - Updated credits to contain all current pixel art contributors. Thanks everyone!
 
 Fixed bugs:
