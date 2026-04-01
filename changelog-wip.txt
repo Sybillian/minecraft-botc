@@ -1,7 +1,14 @@
 BotC v1.5.4 - April XX, 2026
 
 Changes and features:
-- Added a ton of pixel icons.
+- Added pixel icons for all remaining characters.
+- Pixel art icons are now included as part of the base default resource pack.
+- Playtest icons are no longer loaded by default and can optionally be equipped.
+- Updated world and resource pack icons to use the new Imp icon.
 - Updated credits to contain all current pixel art contributors. Thanks everyone!
 
 Fixed bugs:
+- #82: Spectators can generate chunks. (thanks @Dream0Slayer!)
+- #84: Grimoire Keybind does not work for players. (thanks @LordWoolfy!)
+- #85: Player grim does not mark players as alive again after the game ends.
+- "Travelers aren't implemented yet" warning on the Travelers screen disappears if you've closed the pause menu warning.

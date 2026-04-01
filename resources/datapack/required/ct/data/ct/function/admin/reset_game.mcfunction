@@ -123,4 +123,4 @@ execute as @e[type=minecraft:item_display,tag=house_head] run data modify entity
 execute as @e[type=minecraft:text_display,tag=home_label] run data modify entity @s view_range set value 0
 
 execute as @a[tag=storyteller] run function ct:admin/give_script
-execute as @a[tag=storyteller] run schedule function ct:admin/reset_st_variables 1s
+schedule function ct:admin/reset_st_variables 1s

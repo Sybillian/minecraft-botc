@@ -1,0 +1,8 @@
+{
+    "pack": {
+      "pack_format": 65,
+      "description": "Character icons from\nhttps://github.com/tomozbot/botc-icons",
+      "max_format": 1000,
+      "min_format": 65
+    }
+  }

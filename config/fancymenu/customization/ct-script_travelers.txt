@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-travelers
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1774580290306
+  last_edited_time = 1775011093402
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ae5d419b-49c5-4257-a8b1-70172430efc0-1774580215595] = [groups:][instances:]
+  [loading_requirement_container_meta:0c137665-31c1-4d6f-8ed1-e0a601c4426d-1775011086727] = [groups:][instances:]
 }
 
 customization {
@@ -3072,8 +3072,7 @@ element {
   stretch_y = false
   stay_on_screen = true
   element_loading_requirement_container_identifier = 33124e9c-80fc-42dd-b5ec-ae24fb91abf6-1771789202850
-  [loading_requirement_container_meta:33124e9c-80fc-42dd-b5ec-ae24fb91abf6-1771789202850] = [groups:][instances:cdf69231-8183-4244-9c7e-e49f55b2c69d-1771789202850;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:cdf69231-8183-4244-9c7e-e49f55b2c69d-1771789202850] = closed_warning:false
+  [loading_requirement_container_meta:33124e9c-80fc-42dd-b5ec-ae24fb91abf6-1771789202850] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

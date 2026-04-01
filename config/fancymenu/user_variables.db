@@ -266,7 +266,7 @@ variable {
 
 variable {
   name = p2_r1_text
-  value = fisherman
+  value = none
   reset_on_launch = false
 }
 
@@ -500,7 +500,7 @@ variable {
 
 variable {
   name = p2_r2_icon
-  value = gossip
+  value = none
   reset_on_launch = false
 }
 
@@ -536,7 +536,7 @@ variable {
 
 variable {
   name = p1_r2_text
-  value = philosopher_is
+  value = none
   reset_on_launch = false
 }
 
@@ -554,7 +554,7 @@ variable {
 
 variable {
   name = p2_r1_icon
-  value = fisherman
+  value = none
   reset_on_launch = false
 }
 
@@ -716,7 +716,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 12
+  value = 10
   reset_on_launch = false
 }
 
@@ -740,7 +740,7 @@ variable {
 
 variable {
   name = p1_r3_text
-  value = mezepheles_evil
+  value = none
   reset_on_launch = false
 }
 
@@ -794,7 +794,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 4
+  value = 1
   reset_on_launch = false
 }
 
@@ -872,7 +872,7 @@ variable {
 
 variable {
   name = p4_r1_icon
-  value = mezepheles
+  value = none
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1124,7 +1124,7 @@ variable {
 
 variable {
   name = team_color
-  value = #ff4949
+  value = #cf0606
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 19:02
+  value = 21:48
   reset_on_launch = false
 }
 
@@ -1256,7 +1256,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 5
+  value = 2
   reset_on_launch = false
 }
 
@@ -1406,7 +1406,7 @@ variable {
 
 variable {
   name = p1_r3_icon
-  value = mezepheles
+  value = none
   reset_on_launch = false
 }
 
@@ -1490,7 +1490,7 @@ variable {
 
 variable {
   name = p1_r2_icon
-  value = philosopher
+  value = none
   reset_on_launch = false
 }
 
@@ -1508,13 +1508,13 @@ variable {
 
 variable {
   name = p2_r2_text
-  value = gossip
+  value = none
   reset_on_launch = false
 }
 
 variable {
   name = p4_r1_text
-  value = mezepheles_no_ability
+  value = none
   reset_on_launch = false
 }
 

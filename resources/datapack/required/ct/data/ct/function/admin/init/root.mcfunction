@@ -130,6 +130,7 @@ gamerule mobGriefing false
 gamerule playersSleepingPercentage 101
 gamerule reducedDebugInfo true
 gamerule sendCommandFeedback false
+gamerule spectatorsGenerateChunks false
 gamerule spawnRadius 1
 
 difficulty peaceful

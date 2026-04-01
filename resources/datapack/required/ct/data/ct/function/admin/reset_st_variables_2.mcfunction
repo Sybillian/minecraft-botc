@@ -1,94 +1,164 @@
-execute as @a[tag=storyteller] run fmvariable set p7_r1_text false none
-execute as @a[tag=storyteller] run fmvariable set p7_r2_text false none
-execute as @a[tag=storyteller] run fmvariable set p7_r3_text false none
-execute as @a[tag=storyteller] run fmvariable set p7_r4_text false none
-execute as @a[tag=storyteller] run fmvariable set p7_r5_text false none
-execute as @a[tag=storyteller] run fmvariable set p7_r6_text false none
-execute as @a[tag=storyteller] run fmvariable set p8_r1_text false none
-execute as @a[tag=storyteller] run fmvariable set p8_r2_text false none
-execute as @a[tag=storyteller] run fmvariable set p8_r3_text false none
-execute as @a[tag=storyteller] run fmvariable set p8_r4_text false none
-execute as @a[tag=storyteller] run fmvariable set p8_r5_text false none
-execute as @a[tag=storyteller] run fmvariable set p8_r6_text false none
-execute as @a[tag=storyteller] run fmvariable set p9_r1_text false none
-execute as @a[tag=storyteller] run fmvariable set p9_r2_text false none
-execute as @a[tag=storyteller] run fmvariable set p9_r3_text false none
-execute as @a[tag=storyteller] run fmvariable set p9_r4_text false none
-execute as @a[tag=storyteller] run fmvariable set p9_r5_text false none
-execute as @a[tag=storyteller] run fmvariable set p9_r6_text false none
-execute as @a[tag=storyteller] run fmvariable set p10_r1_text false none
-execute as @a[tag=storyteller] run fmvariable set p10_r2_text false none
-execute as @a[tag=storyteller] run fmvariable set p10_r3_text false none
-execute as @a[tag=storyteller] run fmvariable set p10_r4_text false none
-execute as @a[tag=storyteller] run fmvariable set p10_r5_text false none
-execute as @a[tag=storyteller] run fmvariable set p10_r6_text false none
-execute as @a[tag=storyteller] run fmvariable set p11_r1_text false none
-execute as @a[tag=storyteller] run fmvariable set p11_r2_text false none
-execute as @a[tag=storyteller] run fmvariable set p11_r3_text false none
-execute as @a[tag=storyteller] run fmvariable set p11_r4_text false none
-execute as @a[tag=storyteller] run fmvariable set p11_r5_text false none
-execute as @a[tag=storyteller] run fmvariable set p11_r6_text false none
-execute as @a[tag=storyteller] run fmvariable set p12_r1_text false none
-execute as @a[tag=storyteller] run fmvariable set p12_r2_text false none
-execute as @a[tag=storyteller] run fmvariable set p12_r3_text false none
-execute as @a[tag=storyteller] run fmvariable set p12_r4_text false none
-execute as @a[tag=storyteller] run fmvariable set p12_r5_text false none
-execute as @a[tag=storyteller] run fmvariable set p12_r6_text false none
+fmvariable set p1_r1_text false none
+fmvariable set p1_r2_text false none
+fmvariable set p1_r3_text false none
+fmvariable set p1_r4_text false none
+fmvariable set p1_r5_text false none
+fmvariable set p1_r6_text false none
+fmvariable set p2_r1_text false none
+fmvariable set p2_r2_text false none
+fmvariable set p2_r3_text false none
+fmvariable set p2_r4_text false none
+fmvariable set p2_r5_text false none
+fmvariable set p2_r6_text false none
+fmvariable set p3_r1_text false none
+fmvariable set p3_r2_text false none
+fmvariable set p3_r3_text false none
+fmvariable set p3_r4_text false none
+fmvariable set p3_r5_text false none
+fmvariable set p3_r6_text false none
+fmvariable set p4_r1_text false none
+fmvariable set p4_r2_text false none
+fmvariable set p4_r3_text false none
+fmvariable set p4_r4_text false none
+fmvariable set p4_r5_text false none
+fmvariable set p4_r6_text false none
+fmvariable set p5_r1_text false none
+fmvariable set p5_r2_text false none
+fmvariable set p5_r3_text false none
+fmvariable set p5_r4_text false none
+fmvariable set p5_r5_text false none
+fmvariable set p5_r6_text false none
+fmvariable set p6_r1_text false none
+fmvariable set p6_r2_text false none
+fmvariable set p6_r3_text false none
+fmvariable set p6_r4_text false none
+fmvariable set p6_r5_text false none
+fmvariable set p6_r6_text false none
 
-execute as @a[tag=storyteller] run fmvariable set p7_r1_icon false none
-execute as @a[tag=storyteller] run fmvariable set p7_r2_icon false none
-execute as @a[tag=storyteller] run fmvariable set p7_r3_icon false none
-execute as @a[tag=storyteller] run fmvariable set p7_r4_icon false none
-execute as @a[tag=storyteller] run fmvariable set p7_r5_icon false none
-execute as @a[tag=storyteller] run fmvariable set p7_r6_icon false none
-execute as @a[tag=storyteller] run fmvariable set p8_r1_icon false none
-execute as @a[tag=storyteller] run fmvariable set p8_r2_icon false none
-execute as @a[tag=storyteller] run fmvariable set p8_r3_icon false none
-execute as @a[tag=storyteller] run fmvariable set p8_r4_icon false none
-execute as @a[tag=storyteller] run fmvariable set p8_r5_icon false none
-execute as @a[tag=storyteller] run fmvariable set p8_r6_icon false none
-execute as @a[tag=storyteller] run fmvariable set p9_r1_icon false none
-execute as @a[tag=storyteller] run fmvariable set p9_r2_icon false none
-execute as @a[tag=storyteller] run fmvariable set p9_r3_icon false none
-execute as @a[tag=storyteller] run fmvariable set p9_r4_icon false none
-execute as @a[tag=storyteller] run fmvariable set p9_r5_icon false none
-execute as @a[tag=storyteller] run fmvariable set p9_r6_icon false none
-execute as @a[tag=storyteller] run fmvariable set p10_r1_icon false none
-execute as @a[tag=storyteller] run fmvariable set p10_r2_icon false none
-execute as @a[tag=storyteller] run fmvariable set p10_r3_icon false none
-execute as @a[tag=storyteller] run fmvariable set p10_r4_icon false none
-execute as @a[tag=storyteller] run fmvariable set p10_r5_icon false none
-execute as @a[tag=storyteller] run fmvariable set p10_r6_icon false none
-execute as @a[tag=storyteller] run fmvariable set p11_r1_icon false none
-execute as @a[tag=storyteller] run fmvariable set p11_r2_icon false none
-execute as @a[tag=storyteller] run fmvariable set p11_r3_icon false none
-execute as @a[tag=storyteller] run fmvariable set p11_r4_icon false none
-execute as @a[tag=storyteller] run fmvariable set p11_r5_icon false none
-execute as @a[tag=storyteller] run fmvariable set p11_r6_icon false none
-execute as @a[tag=storyteller] run fmvariable set p12_r1_icon false none
-execute as @a[tag=storyteller] run fmvariable set p12_r2_icon false none
-execute as @a[tag=storyteller] run fmvariable set p12_r3_icon false none
-execute as @a[tag=storyteller] run fmvariable set p12_r4_icon false none
-execute as @a[tag=storyteller] run fmvariable set p12_r5_icon false none
-execute as @a[tag=storyteller] run fmvariable set p12_r6_icon false none
+fmvariable set p1_r1_icon false none
+fmvariable set p1_r2_icon false none
+fmvariable set p1_r3_icon false none
+fmvariable set p1_r4_icon false none
+fmvariable set p1_r5_icon false none
+fmvariable set p1_r6_icon false none
+fmvariable set p2_r1_icon false none
+fmvariable set p2_r2_icon false none
+fmvariable set p2_r3_icon false none
+fmvariable set p2_r4_icon false none
+fmvariable set p2_r5_icon false none
+fmvariable set p2_r6_icon false none
+fmvariable set p3_r1_icon false none
+fmvariable set p3_r2_icon false none
+fmvariable set p3_r3_icon false none
+fmvariable set p3_r4_icon false none
+fmvariable set p3_r5_icon false none
+fmvariable set p3_r6_icon false none
+fmvariable set p4_r1_icon false none
+fmvariable set p4_r2_icon false none
+fmvariable set p4_r3_icon false none
+fmvariable set p4_r4_icon false none
+fmvariable set p4_r5_icon false none
+fmvariable set p4_r6_icon false none
+fmvariable set p5_r1_icon false none
+fmvariable set p5_r2_icon false none
+fmvariable set p5_r3_icon false none
+fmvariable set p5_r4_icon false none
+fmvariable set p5_r5_icon false none
+fmvariable set p5_r6_icon false none
+fmvariable set p6_r1_icon false none
+fmvariable set p6_r2_icon false none
+fmvariable set p6_r3_icon false none
+fmvariable set p6_r4_icon false none
+fmvariable set p6_r5_icon false none
+fmvariable set p6_r6_icon false none
 
-execute as @a[tag=storyteller] run fmvariable set p1_alive false true
-execute as @a[tag=storyteller] run fmvariable set p2_alive false true
-execute as @a[tag=storyteller] run fmvariable set p3_alive false true
-execute as @a[tag=storyteller] run fmvariable set p4_alive false true
-execute as @a[tag=storyteller] run fmvariable set p5_alive false true
-execute as @a[tag=storyteller] run fmvariable set p6_alive false true
-execute as @a[tag=storyteller] run fmvariable set p7_alive false true
-execute as @a[tag=storyteller] run fmvariable set p8_alive false true
-execute as @a[tag=storyteller] run fmvariable set p9_alive false true
-execute as @a[tag=storyteller] run fmvariable set p10_alive false true
-execute as @a[tag=storyteller] run fmvariable set p11_alive false true
-execute as @a[tag=storyteller] run fmvariable set p12_alive false true
-execute as @a[tag=storyteller] run fmvariable set p13_alive false true
-execute as @a[tag=storyteller] run fmvariable set p14_alive false true
-execute as @a[tag=storyteller] run fmvariable set p15_alive false true
-
-
-execute as @a[tag=storyteller] run fmvariable set bluff_1 false none
-execute as @a[tag=storyteller] run fmvariable set bluff_2 false none
-execute as @a[tag=storyteller] run fmvariable set bluff_3 false none
+fmvariable set p7_r1_text false none
+fmvariable set p7_r2_text false none
+fmvariable set p7_r3_text false none
+fmvariable set p7_r4_text false none
+fmvariable set p7_r5_text false none
+fmvariable set p7_r6_text false none
+fmvariable set p8_r1_text false none
+fmvariable set p8_r2_text false none
+fmvariable set p8_r3_text false none
+fmvariable set p8_r4_text false none
+fmvariable set p8_r5_text false none
+fmvariable set p8_r6_text false none
+fmvariable set p9_r1_text false none
+fmvariable set p9_r2_text false none
+fmvariable set p9_r3_text false none
+fmvariable set p9_r4_text false none
+fmvariable set p9_r5_text false none
+fmvariable set p9_r6_text false none
+fmvariable set p10_r1_text false none
+fmvariable set p10_r2_text false none
+fmvariable set p10_r3_text false none
+fmvariable set p10_r4_text false none
+fmvariable set p10_r5_text false none
+fmvariable set p10_r6_text false none
+fmvariable set p11_r1_text false none
+fmvariable set p11_r2_text false none
+fmvariable set p11_r3_text false none
+fmvariable set p11_r4_text false none
+fmvariable set p11_r5_text false none
+fmvariable set p11_r6_text false none
+fmvariable set p12_r1_text false none
+fmvariable set p12_r2_text false none
+fmvariable set p12_r3_text false none
+fmvariable set p12_r4_text false none
+fmvariable set p12_r5_text false none
+fmvariable set p12_r6_text false none
+fmvariable set p7_r1_icon false none
+fmvariable set p7_r2_icon false none
+fmvariable set p7_r3_icon false none
+fmvariable set p7_r4_icon false none
+fmvariable set p7_r5_icon false none
+fmvariable set p7_r6_icon false none
+fmvariable set p8_r1_icon false none
+fmvariable set p8_r2_icon false none
+fmvariable set p8_r3_icon false none
+fmvariable set p8_r4_icon false none
+fmvariable set p8_r5_icon false none
+fmvariable set p8_r6_icon false none
+fmvariable set p9_r1_icon false none
+fmvariable set p9_r2_icon false none
+fmvariable set p9_r3_icon false none
+fmvariable set p9_r4_icon false none
+fmvariable set p9_r5_icon false none
+fmvariable set p9_r6_icon false none
+fmvariable set p10_r1_icon false none
+fmvariable set p10_r2_icon false none
+fmvariable set p10_r3_icon false none
+fmvariable set p10_r4_icon false none
+fmvariable set p10_r5_icon false none
+fmvariable set p10_r6_icon false none
+fmvariable set p11_r1_icon false none
+fmvariable set p11_r2_icon false none
+fmvariable set p11_r3_icon false none
+fmvariable set p11_r4_icon false none
+fmvariable set p11_r5_icon false none
+fmvariable set p11_r6_icon false none
+fmvariable set p12_r1_icon false none
+fmvariable set p12_r2_icon false none
+fmvariable set p12_r3_icon false none
+fmvariable set p12_r4_icon false none
+fmvariable set p12_r5_icon false none
+fmvariable set p12_r6_icon false none
+fmvariable set p1_alive false true
+fmvariable set p2_alive false true
+fmvariable set p3_alive false true
+fmvariable set p4_alive false true
+fmvariable set p5_alive false true
+fmvariable set p6_alive false true
+fmvariable set p7_alive false true
+fmvariable set p8_alive false true
+fmvariable set p9_alive false true
+fmvariable set p10_alive false true
+fmvariable set p11_alive false true
+fmvariable set p12_alive false true
+fmvariable set p13_alive false true
+fmvariable set p14_alive false true
+fmvariable set p15_alive false true
+fmvariable set bluff_1 false none
+fmvariable set bluff_2 false none
+fmvariable set bluff_3 false none
