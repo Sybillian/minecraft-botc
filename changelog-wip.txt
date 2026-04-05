@@ -1,23 +1,7 @@
-BotC v1.5.4 - April 04, 2026
+BotC v1.6.0 - April XX, 2026
 
 Changes and features:
-- Added pixel icons for all remaining characters.
-- Pixel art icons are now included as part of the base default resource pack.
-- Playtest icons are no longer loaded by default and can optionally be equipped.
-- Updated world and resource pack icons to use the new Imp icon.
-- Updated credits to contain all current pixel art contributors. Thanks everyone!
-- Instead of spectators appearing in the actionbar list of players in a private room, an eye icon will appear if there are any spectators present.
-- A few sets of of commands that targeted @a over and over were optimized into their own function targeting @s.
-- Added a button to clear characters from the Player Grimoire and clear bluffs from either Grimoire.
-- Added the ability to add spectators before the game starts using /spectator (NOT /spectate).
+- 
 
 Fixed bugs:
-- #63: Spectators affect the displayed player count needed to execute a player.
-- #81: Dead players' skulls are not cleared when rejoining after the game has ended.
-- #82: Spectators can generate chunks. (thanks @Dream0Slayer!)
-- #84: Grimoire Keybind does not work for players. (thanks @LordWoolfy!)
-- #85: Player grim does not mark players as alive again after the game ends.
-- #91: Player Names are incorrectly formatted in the Grimoire due to Markdown. (Thanks @Jvkeh!)
-- "Travelers aren't implemented yet" warning on the Travelers screen disappears if you've closed the pause menu warning.
-- Bossbar of who is voting is not displaying.
-- Fixed many commands targeting spectators when they should not.
+- 
