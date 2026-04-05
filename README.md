@@ -8,4 +8,16 @@ Character icons included in this project are from https://github.com/tomozbot/bo
 A list of unimplemented features and issues can be found on this repository's Issues tab.
 
 ## Installation
-On the client side, all players need to do is install the modpack via Modrinth. On the server side, a world must be set up and everything in the ./server folder needs to be dropped into your server's root folder. This is due to configurations for certain mods (TAB, SimpleVoiceChat) being server-side only instead of per-client or per-world.
+### Client Side
+All players need to do is install the modpack via Modrinth. If Modrinth is not an option for some reason, an alternative launcher that can use Modrinth's .mrpack format should be fine. CurseForge is not supported.
+
+### Server Side
+- Install the modpack as you would any other.
+- Move the contents of `./server/config` into `./config`.
+- Move the contents of `./saves` into your server's root folder.
+- [Setup Simple Voice Chat](https://modrepo.de/minecraft/voicechat/wiki/server_setup).
+- Op yourself from the server console.
+- Run `/reload`.
+- Run `/function ct:init/yawp_reset`.
+- Run `/function ct:init/yawp_regions`.
+- Done!
