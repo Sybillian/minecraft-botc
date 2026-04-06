@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-st_actions
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1771181091079
+  last_edited_time = 1775448844858
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:062c2f60-d634-4166-b595-bb3ee7d47f65-1771181041037] = [groups:][instances:]
+  [loading_requirement_container_meta:dc673fd5-d106-4872-aa7f-01874b90cda8-1775448819422] = [groups:][instances:]
 }
 
 customization {
@@ -172,6 +172,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  description = Players who are already in a house will not be able to detect this being pressed.
   label = Teleport all players to their homes
   navigatable = true
   widget_active_state_requirement_container_identifier = 1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958

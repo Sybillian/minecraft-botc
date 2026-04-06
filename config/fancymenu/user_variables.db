@@ -428,7 +428,7 @@ variable {
 
 variable {
   name = town_count
-  value = 3
+  value = 7
   reset_on_launch = false
 }
 
@@ -596,7 +596,7 @@ variable {
 
 variable {
   name = player_count
-  value = 5
+  value = 10
   reset_on_launch = false
 }
 
@@ -686,7 +686,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 10
+  value = 7
   reset_on_launch = false
 }
 
@@ -716,7 +716,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 6
+  value = 10
   reset_on_launch = false
 }
 
@@ -1082,7 +1082,7 @@ variable {
 
 variable {
   name = editing_bluff
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -1118,7 +1118,7 @@ variable {
 
 variable {
   name = minion_count
-  value = 1
+  value = 2
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 13:40
+  value = 18:59
   reset_on_launch = false
 }
 
@@ -1256,7 +1256,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 1
+  value = 10
   reset_on_launch = false
 }
 
@@ -1298,7 +1298,7 @@ variable {
 
 variable {
   name = day_seconds
-  value = 0
+  value = 30
   reset_on_launch = false
 }
 
@@ -1478,7 +1478,7 @@ variable {
 
 variable {
   name = closed_warning
-  value = false
+  value = true
   reset_on_launch = false
 }
 
