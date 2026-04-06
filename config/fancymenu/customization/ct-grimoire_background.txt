@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1775448799586
+  last_edited_time = 1775451112672
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:d62aee8c-540e-46e3-8508-bb40e9db47ed-1775448750351] = [groups:][instances:]
+  [loading_requirement_container_meta:0913c4df-6e55-4347-a727-3b0d8574a4d0-1775451094219] = [groups:][instances:]
 }
 
 customization {
@@ -571,7 +571,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%Demon Bluffs%n%^^^
+  source = ^^^%n%{"placeholder":"local","values":{"key":"clocktower.ui.demon_bluffs"}}%n%^^^
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -10679,7 +10679,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Actions Menu
+  label = {"placeholder":"local","values":{"key":"clocktower.button.action_menu.label"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 93360239-d86e-418f-b448-a1a6d763dc39-1766522367102
   [loading_requirement_container_meta:93360239-d86e-418f-b448-a1a6d763dc39-1766522367102] = [groups:][instances:]

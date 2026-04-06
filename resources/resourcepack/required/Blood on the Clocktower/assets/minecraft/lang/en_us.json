@@ -23,6 +23,34 @@
     "clocktower.header.jinxes": "Jinxes",
     "clocktower.header.fabled": "Fabled",
     "clocktower.header.travelers": "Travelers",
+    // Buttons
+    "clocktower.button.action_menu.label": "Action Menu",
+    "clocktower.button.tp_church.label": "Teleport Minions and Demons to church",
+    "clocktower.button.tp_church.hint_disabled": "This button is only available at night time.",
+    "clocktower.button.tp_seats.label": "Teleport all players to their seats",
+    "clocktower.button.tp_homes.label": "Teleport all players to their homes",
+    "clocktower.button.tp_homes.hint": "Players who are already in a house will not be able to detect this being pressed.",
+    "clocktower.button.npcs.label": "Fabled/Lorics",
+    "clocktower.button.npcs.hint": "This feature is not yet implemented.",
+    "clocktower.button.reset_game.label": "Reset Game",
+    "clocktower.button.reset_game.label_alt": "Are you sure??",
+    "clocktower.button.reset_game.hint": "This will end the game.\nThis CANNOT be reversed.",
+    "clocktower.button.close_menu.label": "Close menu",
+    // UI Labels
+    "clocktower.ui.demon_bluffs": "Demon Bluffs",
+    "clocktower.ui.first_night_order": "First Night",
+    "clocktower.ui.other_nights_order": "Other Nights",
+    // Items
+    "clocktower.item.skull.name": "Notebook [Right Click]",
+    "clocktower.item.skull.lore": "whatever lore",
+    "clocktower.item.notebook.name": "Notebook [Right Click]",
+    "clocktower.item.notebook.lore": "whatever lore",
+    "clocktower.item.grimoire.name": "Grimoire [Right Click]",
+    "clocktower.item.grimoire.lore": "whatever lore",
+    "clocktower.item.script.name": "Script [Right Click]",
+    "clocktower.item.script.lore": "whatever lore",
+    "clocktower.item.start_vote.name": "Start Vote [Right Click]",
+    "clocktower.item.start_vote.lore": "whatever lore",
     //
     // LOADING SCREENS
     //
