@@ -73,3 +73,4 @@ config/simplemacro
 config/fancymenu/user_variables.db
 /saves/world/poi
 /saves/world/stats
+/.mixin.out
