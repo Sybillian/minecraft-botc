@@ -152,7 +152,7 @@ variable {
 
 variable {
   name = version
-  value = 1.5.4
+  value = 1.5.5
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 18:59
+  value = 23:01
   reset_on_launch = false
 }
 
@@ -1256,7 +1256,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 10
+  value = 1
   reset_on_launch = false
 }
 

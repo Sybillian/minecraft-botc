@@ -1,7 +1,9 @@
 BotC v1.6.0 - April XX, 2026
 
 Changes and features:
-- 
+- actions menu; boom, fear, al hadikhia, roshambo, leviathan, restore dead tokens
 
 Fixed bugs:
-- 
+- #70: Block sounds are not muted on nights 1 and 3.
+- #87: Compasses not handed out on night one.
+- Fixed spectator 👁️ in voice chats icon using the wrong font.

@@ -1,18 +1,20 @@
 type = listener_instances
 
 listener_instance {
-  listener_instance_identifier = fa22204f-04ca-421e-8f4a-219c8d3884d8-1769649244299
-  listener_provider_identifier = fm_variable_updated
-  listener_instance_action_script_identifier = b0f12ce6-cb6b-4c78-af76-9c716718d1cf-1769649244299
-  [executable_action_instance:c94baaaa-78e4-4c2d-9352-7a1e74c59963-1769649323400][action_type:edit_minecraft_option] = soundCategory_block:0
-  [executable_block:cd27f009-a603-4532-a129-8bd14d000b3a-1769649316734][type:if] = [executables:c94baaaa-78e4-4c2d-9352-7a1e74c59963-1769649323400;][appended:d9681a31-a94d-4db7-9cf4-378e99094fc1-1771213565847]
-  [executable_action_instance:e5faf74b-86d8-46a5-960c-383a768c6c3b-1771213568813][action_type:edit_minecraft_option] = soundCategory_block:0.5
-  [executable_block:d9681a31-a94d-4db7-9cf4-378e99094fc1-1771213565847][type:else] = [executables:e5faf74b-86d8-46a5-960c-383a768c6c3b-1771213568813;]
-  [if_executable_block_body:cd27f009-a603-4532-a129-8bd14d000b3a-1769649316734] = b0023888-0ea0-4568-bdb0-d513f49eb730-1769649248408
-  [loading_requirement_container_meta:b0023888-0ea0-4568-bdb0-d513f49eb730-1769649248408] = [groups:][instances:3c6c11e6-b0f8-4135-8011-b7831d3637bd-1771213898777;436eac58-aa30-4830-80e2-6c12901aaf6d-1771213924631;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:3c6c11e6-b0f8-4135-8011-b7831d3637bd-1771213898777] = ["mode":"equals","text":"$$var_name","compare_with":"phase"]$
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:436eac58-aa30-4830-80e2-6c12901aaf6d-1771213924631] = ["mode":"equals","number":"$$new_value","compare_with":"4"]$
-  [if_executable_block_collapsed:cd27f009-a603-4532-a129-8bd14d000b3a-1769649316734] = false
-  [executable_block:b0f12ce6-cb6b-4c78-af76-9c716718d1cf-1769649244299][type:generic] = [executables:cd27f009-a603-4532-a129-8bd14d000b3a-1769649316734;]
+  listener_instance_identifier = 925c7381-9c2f-4378-8521-424a17a52a07-1775533477238
+  listener_provider_identifier = world_sound_triggered
+  listener_instance_action_script_identifier = e723f91f-98cc-4387-9c17-727f254c2ff8-1775533477238
+  [executable_action_instance:d21e5c88-7b6d-4194-951c-691b39421ff4-1775533955746][action_type:edit_minecraft_option] = soundCategory_block:1
+  [executable_block:c0591d5b-4995-45da-b847-5a75c3cab9dd-1775533582888][type:if] = [executables:d21e5c88-7b6d-4194-951c-691b39421ff4-1775533955746;][appended:0559ce14-5f3f-45a3-a689-13cebed21b3f-1775534042807]
+  [executable_action_instance:131393f0-c3bd-4dd7-b4ec-f16f4f87635d-1775534050931][action_type:edit_minecraft_option] = soundCategory_block:0
+  [executable_block:0559ce14-5f3f-45a3-a689-13cebed21b3f-1775534042807][type:else-if] = [executables:131393f0-c3bd-4dd7-b4ec-f16f4f87635d-1775534050931;]
+  [else_if_executable_block_body:0559ce14-5f3f-45a3-a689-13cebed21b3f-1775534042807] = ad9eb952-d250-4c31-abe3-e54d6a0bb0dc-1775534024338
+  [loading_requirement_container_meta:ad9eb952-d250-4c31-abe3-e54d6a0bb0dc-1775534024338] = [groups:][instances:c7308431-bd18-4b83-a035-5a5ca7102e68-1775534026015;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:c7308431-bd18-4b83-a035-5a5ca7102e68-1775534026015] = ["mode":"equals","text":"$$sound_resource_location","compare_with":"ct:sounds/clocktower/signal/disable_sounds.ogg"]$
+  [if_executable_block_body:c0591d5b-4995-45da-b847-5a75c3cab9dd-1775533582888] = b4af1321-a226-4c37-9543-89a0e94ad9b3-1775533569252
+  [loading_requirement_container_meta:b4af1321-a226-4c37-9543-89a0e94ad9b3-1775533569252] = [groups:][instances:0d002165-a6d0-442f-823e-7d0fe16f450d-1775533571851;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:0d002165-a6d0-442f-823e-7d0fe16f450d-1775533571851] = ["mode":"equals","text":"$$sound_resource_location","compare_with":"ct:sounds/clocktower/signal/enable_sounds.ogg"]$
+  [if_executable_block_collapsed:c0591d5b-4995-45da-b847-5a75c3cab9dd-1775533582888] = false
+  [executable_block:e723f91f-98cc-4387-9c17-727f254c2ff8-1775533477238][type:generic] = [executables:c0591d5b-4995-45da-b847-5a75c3cab9dd-1775533582888;]
 }
 

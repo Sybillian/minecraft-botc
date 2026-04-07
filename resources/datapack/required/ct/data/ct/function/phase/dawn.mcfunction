@@ -21,6 +21,7 @@ team modify 13_white nametagVisibility always
 team modify 14_gray nametagVisibility always
 team modify 15_black nametagVisibility always
 
+execute as @a[tag=!storyteller,tag=!spectator] at @s run playsound ct:clocktower.enable_sounds
 execute as @a at @s run playsound ct:clocktower.bell voice @s ~ ~ ~ 1 1.2
 
 tellraw @a [{"text":"⌚ ","color":"yellow"},{"text":"The sun has risen! Please return to the town square.","color":"gray"}]

@@ -1,4 +1,27 @@
 {
+    "clocktower.disable_sounds": {
+        "sounds": [
+            {
+                "name": "ct:clocktower/signal/disable_sounds"
+            }
+        ]
+    },
+    "clocktower.enable_sounds": {
+        "sounds": [
+            {
+                "name": "ct:clocktower/signal/enable_sounds"
+            }
+        ]
+    },
+    "clocktower.leviathan": {
+        "subtitle": "§eLeviathan Announced§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/leviathan",
+                "volume": 0.75
+            }
+        ]
+    },
     "clocktower.vote": {
         "subtitle": "§eVoted§r",
         "sounds": [

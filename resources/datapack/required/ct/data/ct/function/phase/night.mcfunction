@@ -6,6 +6,7 @@ execute as @e[type=minecraft:item_display,tag=exclamation_red] run data modify e
 scoreboard players add current_day game_data 1
 execute as @a[tag=!storyteller,tag=!spectator] run loot give @s loot ct:compass
 
+execute as @a[tag=!storyteller,tag=!spectator] at @s run playsound ct:clocktower.disable_sounds
 execute as @a run playsound ct:clocktower.bell voice @s ~ ~ ~ 1 0.7
 
 team modify 99_storyteller nametagVisibility never

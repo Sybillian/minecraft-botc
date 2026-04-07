@@ -23,7 +23,10 @@
     "clocktower.header.jinxes": "Jinxes",
     "clocktower.header.fabled": "Fabled",
     "clocktower.header.travelers": "Travelers",
-    // Buttons
+    // Main Menu
+    "clocktower.ui.holiday.christmas": "Merry Christmas!",
+    "clocktower.ui.holiday.pride": "Happy Pride Month!",
+    // Grimoire Action Menu Buttons
     "clocktower.button.action_menu.label": "Action Menu",
     "clocktower.button.tp_church.label": "Teleport Minions and Demons to church",
     "clocktower.button.tp_church.hint_disabled": "This button is only available at night time.",
@@ -36,6 +39,18 @@
     "clocktower.button.reset_game.label_alt": "Are you sure??",
     "clocktower.button.reset_game.hint": "This will end the game.\nThis CANNOT be reversed.",
     "clocktower.button.close_menu.label": "Close menu",
+    // Grimoire Toggle Menu Buttons
+    "clocktower.button.organ_grinder.label": "Toggle Organ Grinder ability",
+    "clocktower.button.organ_grinder.hint": "When active, players will be unable to see who is and is not voting.\nCurrently: %s",
+    "clocktower.button.voudon.label": "Toggle Voudon ability",
+    "clocktower.button.voudon.hint": "When active, only the Voudon and dead players can vote, and do not need a vote token to do so.\nCurrently: %s",
+    "clocktower.button.banshee_ability.label": "Grant/Revoke Banshee ability",
+    "clocktower.button.banshee.label": "Announce Banshee death",
+    "clocktower.button.al_hadikhia.label": "Announce Al-Hadikhia targets",
+    "clocktower.button.leviathan.label": "Announce Leviathan in play",
+    "clocktower.button.fearmonger.label": "Announce Fearmonger target change",
+    "clocktower.button.psychopath.label": "Play Roshambo",
+    "clocktower.button.boomdandy.label": "Start Boomdandy timer",
     // UI Labels
     "clocktower.ui.demon_bluffs": "Demon Bluffs",
     "clocktower.ui.first_night_order": "First Night",
