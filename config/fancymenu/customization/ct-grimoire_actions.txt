@@ -240,7 +240,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_1]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -568,7 +568,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_2]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -896,7 +896,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_3]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -1224,7 +1224,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_4]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -1552,7 +1552,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_5]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -1880,7 +1880,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_6]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2208,7 +2208,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_7]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2536,7 +2536,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_8]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2864,7 +2864,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_9]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -3192,7 +3192,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_10]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -3520,7 +3520,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_11]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -3848,7 +3848,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_12]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -4176,7 +4176,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_13]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -4504,7 +4504,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_14]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -4832,7 +4832,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
-  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_{"placeholder":"scoreboard_score","values":{"player":"{"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}}","objective":"game_data"}}]
+  [executable_action_instance:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598][action_type:sendmessage] = /tp @s @e[type=marker,limit=1,tag=house_15]
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:87e3b156-0547-40d9-9680-bbe498fa04be-1753144431598;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
