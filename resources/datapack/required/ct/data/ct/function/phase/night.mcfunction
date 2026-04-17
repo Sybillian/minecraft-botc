@@ -31,6 +31,6 @@ scoreboard players set already_incremented vote 0
 
 tellraw @a [{"text":"⌚ ","color":"blue"},{"text":"Night has fallen. Please return to your homes.","color":"gray"}]
 
-execute if score phase_causes_tp settings matches 1 run tpallhome
+execute if score phase_causes_tp settings matches 1 run function ct:cmd/tpallhome
 
 function ct:admin/variables/score

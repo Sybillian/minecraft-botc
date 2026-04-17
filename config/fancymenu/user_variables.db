@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Steve5
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -284,7 +284,7 @@ variable {
 
 variable {
   name = player_5
-  value = Steve2
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -296,7 +296,7 @@ variable {
 
 variable {
   name = player_4
-  value = steve4
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -308,7 +308,7 @@ variable {
 
 variable {
   name = player_3
-  value = Steve1
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -320,7 +320,7 @@ variable {
 
 variable {
   name = player_2
-  value = steve3
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -578,7 +578,7 @@ variable {
 
 variable {
   name = last_nom
-  value = Steve5
+  value = none
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 17:59
+  value = 01:31
   reset_on_launch = false
 }
 
