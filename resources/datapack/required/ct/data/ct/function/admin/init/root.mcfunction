@@ -1,8 +1,6 @@
 function ct:admin/init/voice_chats
 function ct:admin/init/yawp_flags
 
-scoreboard players reset * vc
-
 bossbar add day_time "Time for Conversations:"
 bossbar set day_time color blue
 bossbar set day_time players @a
@@ -21,6 +19,7 @@ bossbar set botc:votes value 10
 
 data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bone_collector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
 data modify storage ct:seats seats set value [{username:"Nobody",role:0,alive:0,reminders:[]}]
+data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}
 
 team add 00_spectator
 team add 99_storyteller
@@ -62,22 +61,6 @@ team modify 00_spectator color gray
 team modify 99_storyteller color gray
 function ct:util/color_prefixes
 
-scoreboard objectives add math dummy
-scoreboard players set minute math 60
-scoreboard players set second math 20
-scoreboard players set half math 2
-
-scoreboard objectives add vote dummy
-scoreboard players set first vote 0
-scoreboard players set current vote 0
-scoreboard players set total vote 0
-
-scoreboard objectives add vc dummy
-scoreboard objectives add rps dummy
-scoreboard objectives add pointing dummy
-scoreboard objectives add pointing_at dummy
-scoreboard objectives add game_id dummy
-
 ## Phases:
 # 0: Game Inactive
 # 1: Dawn (leave houses, come to town square)
@@ -85,55 +68,10 @@ scoreboard objectives add game_id dummy
 # 3: Dusk (return to town square, nominations)
 # 4: Night (return to houses)
 
-execute as @a run fmvariable set phase false 1
+execute as @a run fmvariable set phase false 0
 
-scoreboard objectives add join_game minecraft.custom:minecraft.leave_game
-scoreboard objectives add game_data dummy
-scoreboard players set phase game_data 0
-scoreboard players set day_max game_data 300
-scoreboard players operation day_value game_data = day_max game_data
-scoreboard players operation day_seconds game_data = day_value game_data
-
-# scoreboard players set has_initialized game_data 0
-scoreboard players set ghost_votes game_data 0
-scoreboard players set alive_players game_data 0
-scoreboard players set current_day game_data 0
-
-scoreboard objectives add use_carrot minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add role dummy
-scoreboard objectives add id dummy
-scoreboard objectives add house_id dummy
-scoreboard objectives add role_list dummy
-
-scoreboard objectives add settings dummy
-scoreboard players set clock_speed settings 20
-scoreboard players set birthday_mode settings 0
-scoreboard players set organ_grinder settings 0
-scoreboard players set phase_causes_tp settings 0
-scoreboard players set timer_ends_day settings 0
-
-scoreboard objectives setdisplay sidebar.team.aqua game_data
-scoreboard objectives setdisplay sidebar.team.black settings
-
-gamerule announceAdvancements false
-gamerule commandBlockOutput false
-gamerule disableRaids true
-gamerule doDaylightCycle false
-gamerule doWeatherCycle false
-gamerule doImmediateRespawn true
-gamerule doMobSpawning false
-gamerule doTraderSpawning false
-gamerule randomTickSpeed 0
-gamerule drowningDamage false
-gamerule fallDamage false
-gamerule fireDamage false
-gamerule freezeDamage false
-gamerule keepInventory true
-gamerule mobGriefing false
-gamerule playersSleepingPercentage 101
-gamerule reducedDebugInfo true
-gamerule sendCommandFeedback false
-gamerule spectatorsGenerateChunks false
-gamerule spawnRadius 1
+function ct:admin/init/scores
+function ct:admin/init/gamerules
+execute if score dev_mode game_data matches 1 run function ct:admin/init/dev_mode
 
 difficulty peaceful

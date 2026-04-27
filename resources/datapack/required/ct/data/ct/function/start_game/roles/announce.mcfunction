@@ -22,12 +22,10 @@ execute as @a[scores={role=500..599}] run fmvariable set team_color false #cf060
 tag @a[scores={role=500..599}] add traveller
 
 execute as @a[tag=storyteller] run title @s subtitle {"text":"Neutral"}
+execute as @a[tag=storyteller] run title @s title {"text":"The Storyteller","color":"#FFFF55"}
+execute as @a[tag=storyteller] run fmvariable set role false none
 
-execute as @a[scores={role=1}] run title @s title {"text":"The Librarian","color":"#1464e7"}
-execute as @a[scores={role=14}] run title @s title {"text":"The Butler","color":"#1464e7"}
-execute as @a[scores={role=18}] run title @s title {"text":"The Poisoner","color":"#ff4949"}
-execute as @a[scores={role=22}] run title @s title {"text":"The Imp","color":"#cf0606"}
-
+## 1-199: TOWNSFOLK
 execute as @a[scores={role=1}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.balloonist.name",color:"#1464e7"}]
 execute as @a[scores={role=2}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.banshee.name",color:"#1464e7"}]
 execute as @a[scores={role=3}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.bountyhunter.name",color:"#1464e7"}]
@@ -338,6 +336,3 @@ execute as @a[scores={role=514}] run fmvariable set role false scapegoat
 execute as @a[scores={role=515}] run fmvariable set role false gnome
 execute as @a[scores={role=516}] run fmvariable set role false bishop
 execute as @a[scores={role=517}] run fmvariable set role false voudon
-
-execute as @a[tag=storyteller] run title @s title {"text":"The Storyteller","color":"#FFFF55"}
-execute as @a[tag=storyteller] run fmvariable set role false none

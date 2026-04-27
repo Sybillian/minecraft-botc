@@ -1,0 +1,1 @@
+$fmvariable set p$(player)_role false $(character)

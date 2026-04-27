@@ -3,6 +3,9 @@ execute as @e[type=minecraft:item_display,tag=exclamation_red] run data modify e
 execute as @e[type=minecraft:item_display,tag=vc] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=house] run data modify entity @s view_range set value 0
 
+data modify storage ct:seats seats set value [{username:"Nobody",role:0,alive:0,reminders:[]}]
+data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}
+
 scoreboard players set start vote 0
 scoreboard players set current_majority vote 0
 scoreboard players set current vote 0

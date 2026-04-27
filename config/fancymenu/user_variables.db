@@ -578,7 +578,7 @@ variable {
 
 variable {
   name = last_nom
-  value = Selina
+  value = Alex
   reset_on_launch = false
 }
 
@@ -1124,7 +1124,7 @@ variable {
 
 variable {
   name = team_color
-  value = #1464e7
+  value = #cf0606
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 19:06
+  value = 02:03
   reset_on_launch = false
 }
 
@@ -1256,7 +1256,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 3
+  value = 15
   reset_on_launch = false
 }
 
@@ -1316,7 +1316,7 @@ variable {
 
 variable {
   name = announced_player
-  value = Sybillian
+  value = _poof_
   reset_on_launch = false
 }
 

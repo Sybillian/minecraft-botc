@@ -1,3 +1,4 @@
+scoreboard players set dev_mode game_data 0
 scoreboard players set has_initialized game_data 0
 team leave @s
 fmvariable set storyteller false false

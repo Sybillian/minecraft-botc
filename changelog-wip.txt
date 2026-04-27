@@ -35,6 +35,8 @@ Fixed bugs:
 - #70: Block sounds are not muted on nights 1 and 3.
 - #80: Starting a game with more than 15 non-ST players in the lobby breaks the game.
 - #87: Compasses not handed out on night one.
+- #96: Player Names are incorrectly formatted in the Al-Had announcement due to Markdown. (thanks @Jvkeh!)
+- #97: Non-Storytellers using the /grimoire command open the Storyteller Grim.
 - #99: Spectators get given Village Idiot/Legion tokens. (thanks @Jvkeh!)
 - Spectator 👁️ in voice chats icon uses the wrong font.
 - The button to change seat 15's character is clickable when there are not 15 players.

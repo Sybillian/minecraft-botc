@@ -1,0 +1,2 @@
+$execute if score $(character) role_list matches 0 run return run scoreboard players set $(character) role_list 1
+$execute if score $(character) role_list matches 1 run return run scoreboard players set $(character) role_list 0

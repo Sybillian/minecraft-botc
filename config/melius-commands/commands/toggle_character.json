@@ -1,0 +1,12 @@
+{
+	"id": "toggle_character",
+	"arguments": [
+		{
+			"id": "character",
+			"type": "brigadier:string word",
+			"executes": [
+				"function ct:cmd/toggle_character {character:${character}}"
+			]
+		}
+	]
+}

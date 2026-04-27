@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-quick_actions
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1775844213466
+  last_edited_time = 1777272382931
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:33188554-e4fb-47cf-9b7c-79f8a95df19a-1775844153295] = [groups:][instances:]
+  [loading_requirement_container_meta:aee398f9-6389-4368-b74a-6d814f6ade7a-1777272364325] = [groups:][instances:]
 }
 
 menu_background {
@@ -41,68 +41,5 @@ scroll_list_customization {
 }
 
 layout_action_executable_blocks {
-}
-
-element {
-  button_element_executable_block_identifier = 24f657b8-e5cc-4348-9ddc-0bda9c63352d-1775843877868
-  [executable_action_instance:c72f0bd2-4838-43a3-9abe-ff846d4a967e-1775843882085][action_type:sendmessage] = hi
-  [executable_block:24f657b8-e5cc-4348-9ddc-0bda9c63352d-1775843877868][type:generic] = [executables:c72f0bd2-4838-43a3-9abe-ff846d4a967e-1775843882085;]
-  restartbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  label = New Button
-  navigatable = true
-  widget_active_state_requirement_container_identifier = a6b11066-cabd-435c-ad66-70fe3a3e0537-1775843877868
-  [loading_requirement_container_meta:a6b11066-cabd-435c-ad66-70fe3a3e0537-1775843877868] = [groups:][instances:]
-  is_template = false
-  template_apply_width = false
-  template_apply_height = false
-  template_apply_posx = false
-  template_apply_posy = false
-  template_apply_opacity = false
-  template_apply_visibility = false
-  template_apply_label = false
-  template_share_with = buttons
-  nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
-  element_type = custom_button
-  instance_identifier = 1407504a-0129-4077-a5a3-d253294f669b-1775843877868
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
-  fade_in_speed = 1.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1084
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 122
-  y = 90
-  width = 100
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 56771c68-e370-43be-9ef3-e4382b1bc58d-1775843877868
-  [loading_requirement_container_meta:56771c68-e370-43be-9ef3-e4382b1bc58d-1775843877868] = [groups:][instances:]
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
 }
 

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-st_actions
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1775587723641
+  last_edited_time = 1777262496561
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4c1e683e-ecd8-4d15-9757-b529c3c7f1d4-1776480457559] = [groups:][instances:]
+  [loading_requirement_container_meta:6905f939-1ecd-4568-976f-b586129fc34c-1777272385596] = [groups:][instances:]
 }
 
 customization {
@@ -103,13 +103,13 @@ element {
 element {
   button_element_executable_block_identifier = 9c5128b4-7953-46d1-9fc9-60954451bbe9-1775512316061
   [executable_block:9c5128b4-7953-46d1-9fc9-60954451bbe9-1775512316061][type:generic] = [executables:]
-  backgroundnormal = [source:location]ct:textures/role/organ_grinder.png
-  backgroundhovered = [source:location]ct:textures/role/organ_grinder.png
+  backgroundnormal = [source:location]ct:textures/role/organgrinder.png
+  backgroundhovered = [source:location]ct:textures/role/organgrinder.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = {"placeholder":"local","values":{"key":"clocktower.button.organ_grinder.label"}}%n%{"placeholder":"local","values":{"key":"clocktower.button.organ_grinder.hint"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.button.organgrinder.label"}}%n%{"placeholder":"local","values":{"key":"clocktower.button.organgrinder.hint"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = fdb36793-03dd-4903-8bad-69093faadde3-1775512316061
@@ -378,13 +378,13 @@ element {
 element {
   button_element_executable_block_identifier = 9c5128b4-7953-46d1-9fc9-60954451bbe9-1775512316061
   [executable_block:9c5128b4-7953-46d1-9fc9-60954451bbe9-1775512316061][type:generic] = [executables:]
-  backgroundnormal = [source:location]ct:textures/role/al_hadikhia.png
-  backgroundhovered = [source:location]ct:textures/role/al_hadikhia.png
+  backgroundnormal = [source:location]ct:textures/role/alhadikhia.png
+  backgroundhovered = [source:location]ct:textures/role/alhadikhia.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = {"placeholder":"local","values":{"key":"clocktower.button.al_hadikhia.label"}}%n%{"placeholder":"local","values":{"key":"clocktower.button.al_hadikhia.hint"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.button.alhadikhia.label"}}%n%{"placeholder":"local","values":{"key":"clocktower.button.alhadikhia.hint"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = fdb36793-03dd-4903-8bad-69093faadde3-1775512316061
