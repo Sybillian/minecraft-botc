@@ -1,0 +1,16 @@
+player Alex spawn
+player Steve spawn
+player Ari spawn
+player Efe spawn
+player Kai spawn
+player Makena spawn
+player Noor spawn
+player Sunny spawn
+player Zuri spawn
+player Celeste spawn
+player Russel spawn
+player Selina spawn
+player Shane spawn
+player Anya spawn
+player Olivia spawn
+player Will spawn

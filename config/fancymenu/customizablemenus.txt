@@ -57,3 +57,6 @@ net.minecraft.class_422 {
 net.minecraft.class_433 {
 }
 
+de.maxhenkel.voicechat.gui.VoiceChatScreen {
+}
+

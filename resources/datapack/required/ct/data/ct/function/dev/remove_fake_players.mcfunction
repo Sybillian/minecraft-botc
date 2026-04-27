@@ -1,0 +1,16 @@
+kill Alex
+kill Steve
+kill Ari
+kill Efe
+kill Kai
+kill Makena
+kill Noor
+kill Sunny
+kill Zuri
+kill Celeste
+kill Russel
+kill Selina
+kill Shane
+kill Anya
+kill Olivia
+kill Will

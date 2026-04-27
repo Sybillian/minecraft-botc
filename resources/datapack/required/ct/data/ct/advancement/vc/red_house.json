@@ -1,0 +1,60 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"box_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 82,
+								"max": 85
+							},
+							"y": {
+								"min": 77,
+								"max": 80
+							},
+							"z": {
+								"min": 108,
+								"max": 115.5
+							}
+						}
+					}
+				}
+			}
+		},
+		"box_2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 81,
+								"max": 82
+							},
+							"y": {
+								"min": 77,
+								"max": 79
+							},
+							"z": {
+								"min": 108,
+								"max": 110
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"box_1",
+			"box_2"
+		]
+	],
+	"rewards": {
+		"function": "ct:voicechat/red_house"
+	}
+}

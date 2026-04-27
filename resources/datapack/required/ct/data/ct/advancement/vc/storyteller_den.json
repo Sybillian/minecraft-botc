@@ -1,0 +1,31 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"box_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 118,
+								"max": 124
+							},
+							"y": {
+								"min": 72,
+								"max": 76
+							},
+							"z": {
+								"min": 92,
+								"max": 97
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ct:voicechat/storyteller_den"
+	}
+}

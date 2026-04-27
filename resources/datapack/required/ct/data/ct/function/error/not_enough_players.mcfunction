@@ -1,0 +1,1 @@
+tellraw @s [{"translate":"clocktower.prefix.error"},{"translate":"clocktower.error.not_enough_players","color":"gray"}]

@@ -20,11 +20,25 @@ Changes and features:
   - TP players to seats
   - Pause during nominations
 - Chat commands that previously required operator status to run now require that you are marked as a Storyteller. This does not completely eliminate the need to be an operator to Storytell, but it is progress towards that.
-- Many texts are now translation strings.
+- Many texts are now translation strings. This is not yet comprehensive.
+- Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing.
+- Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag).
+- Character numerical IDs are now in alphabetical order and categorized by character type. The alphabetical order will most likely not be maintained when new characters are added, they'll just be tacked on the end.
+  - 1-199: Townsfolk
+  - 200-299: Outsiders
+  - 300-399: Minions
+  - 400-499 Demons
+  - 500-599 Travellers
+  - 600-699: NPCs
 
 Fixed bugs:
 - #70: Block sounds are not muted on nights 1 and 3.
+- #80: Starting a game with more than 15 non-ST players in the lobby breaks the game.
 - #87: Compasses not handed out on night one.
+- #99: Spectators get given Village Idiot/Legion tokens. (thanks @Jvkeh!)
 - Spectator 👁️ in voice chats icon uses the wrong font.
 - The button to change seat 15's character is clickable when there are not 15 players.
 - Custom banner patterns refer to a nonexistent translation string.
+- There are several accessible holes in the terrain.
+- Some voice chats can be entered or left by standing in non-whole blocks (panes, iron bars, fences).
+- The Acrobat is missing a * in its character description.

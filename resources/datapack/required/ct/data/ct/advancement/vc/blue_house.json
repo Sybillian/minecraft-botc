@@ -1,0 +1,31 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"box_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 163,
+								"max": 168
+							},
+							"y": {
+								"min": 71,
+								"max": 76
+							},
+							"z": {
+								"min": 32,
+								"max": 37
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ct:voicechat/blue_house"
+	}
+}

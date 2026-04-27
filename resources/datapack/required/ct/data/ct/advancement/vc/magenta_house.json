@@ -1,0 +1,31 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"box_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 150,
+								"max": 159
+							},
+							"y": {
+								"min": 70,
+								"max": 76
+							},
+							"z": {
+								"min": 80,
+								"max": 85
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ct:voicechat/magenta_house"
+	}
+}

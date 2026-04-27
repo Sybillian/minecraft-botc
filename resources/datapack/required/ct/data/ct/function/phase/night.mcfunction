@@ -1,5 +1,6 @@
 execute as @a run fmvariable set phase false 4
 scoreboard players set phase game_data 4
+execute as @a run attribute @s minecraft:movement_speed modifier add ct:travel_speed 1.5 add_multiplied_base
 time set 20000
 execute as @e[type=minecraft:item_display,tag=house] run data modify entity @s view_range set value 1
 execute as @e[type=minecraft:item_display,tag=exclamation_red] run data modify entity @s view_range set value 0

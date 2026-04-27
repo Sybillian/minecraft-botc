@@ -1,0 +1,1 @@
+execute if score @s vc matches 0 run function ct:loop/vc/set_score

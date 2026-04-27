@@ -1,0 +1,31 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"box_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 93.5,
+								"max": 110
+							},
+							"y": {
+								"min": 77,
+								"max": 89
+							},
+							"z": {
+								"min": 103.5,
+								"max": 115.5
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ct:voicechat/graveyard"
+	}
+}

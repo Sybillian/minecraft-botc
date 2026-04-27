@@ -68,7 +68,7 @@ variable {
 
 variable {
   name = dev
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -578,7 +578,7 @@ variable {
 
 variable {
   name = last_nom
-  value = none
+  value = Selina
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 01:31
+  value = 19:06
   reset_on_launch = false
 }
 

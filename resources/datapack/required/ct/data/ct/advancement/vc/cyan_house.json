@@ -1,0 +1,60 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"box_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 142,
+								"max": 148
+							},
+							"y": {
+								"min": 79,
+								"max": 83
+							},
+							"z": {
+								"min": 13,
+								"max": 20
+							}
+						}
+					}
+				}
+			}
+		},
+		"box_2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 141,
+								"max": 142
+							},
+							"y": {
+								"min": 79,
+								"max": 81
+							},
+							"z": {
+								"min": 16,
+								"max": 17
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"box_1",
+			"box_2"
+		]
+	],
+	"rewards": {
+		"function": "ct:voicechat/cyan_house"
+	}
+}

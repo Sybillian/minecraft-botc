@@ -1,0 +1,8 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"area": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

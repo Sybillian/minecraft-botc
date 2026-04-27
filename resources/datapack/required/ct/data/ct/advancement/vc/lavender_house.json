@@ -1,0 +1,31 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"box_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 166,
+								"max": 174
+							},
+							"y": {
+								"min": 71,
+								"max": 75
+							},
+							"z": {
+								"min": 86,
+								"max": 89
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ct:voicechat/lavender_house"
+	}
+}

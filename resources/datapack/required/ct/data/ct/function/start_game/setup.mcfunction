@@ -1,3 +1,19 @@
+scoreboard players set player_count game_data 0
+execute as @a[tag=!storyteller,tag=!spectator] run scoreboard players add player_count game_data 1
+execute if score player_count game_data matches ..4 run return run function ct:error/not_enough_players
+execute as @a if score player_count game_data matches 5 run function ct:start_game/roles/pcount {player:5,town:3,outsider:0,minion:1,demon:1}
+execute as @a if score player_count game_data matches 6 run function ct:start_game/roles/pcount {player:6,town:3,outsider:1,minion:1,demon:1}
+execute as @a if score player_count game_data matches 7 run function ct:start_game/roles/pcount {player:7,town:5,outsider:0,minion:1,demon:1}
+execute as @a if score player_count game_data matches 8 run function ct:start_game/roles/pcount {player:8,town:5,outsider:1,minion:1,demon:1}
+execute as @a if score player_count game_data matches 9 run function ct:start_game/roles/pcount {player:9,town:5,outsider:2,minion:1,demon:1}
+execute as @a if score player_count game_data matches 10 run function ct:start_game/roles/pcount {player:10,town:7,outsider:0,minion:2,demon:1}
+execute as @a if score player_count game_data matches 11 run function ct:start_game/roles/pcount {player:11,town:7,outsider:1,minion:2,demon:1}
+execute as @a if score player_count game_data matches 12 run function ct:start_game/roles/pcount {player:12,town:7,outsider:2,minion:2,demon:1}
+execute as @a if score player_count game_data matches 13 run function ct:start_game/roles/pcount {player:13,town:9,outsider:0,minion:3,demon:1}
+execute as @a if score player_count game_data matches 14 run function ct:start_game/roles/pcount {player:14,town:9,outsider:1,minion:3,demon:1}
+execute as @a if score player_count game_data matches 15 run function ct:start_game/roles/pcount {player:15,town:9,outsider:2,minion:3,demon:1}
+execute if score player_count game_data matches 16.. run return run function ct:error/too_many_players
+
 execute store result score active_game game_id run random value 1..2147483647
 scoreboard players operation @a[tag=!storyteller] game_id = active_game game_id
 scoreboard players set @a[tag=!storyteller] role 0
@@ -128,21 +144,6 @@ scoreboard players set @a[team=15_black] id 15
 # execute if score birthday_mode settings matches 1 run item replace entity Zinneko armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["cake_hat"]},minecraft:equippable={slot:"head"},minecraft:item_name="Cake Hat"]
 
 # execute as @a run scoreboard players operation @s game_data = @s id
-
-scoreboard players set player_count game_data 0
-execute as @a[tag=!storyteller,tag=!spectator] run scoreboard players add player_count game_data 1
-execute if score player_count game_data matches ..4 run tellraw @a[tag=storyteller] [{"text":"You need at least 5 players to play."}]
-execute as @a if score player_count game_data matches 5 run function ct:start_game/roles/pcount {player:5,town:3,outsider:0,minion:1,demon:1}
-execute as @a if score player_count game_data matches 6 run function ct:start_game/roles/pcount {player:6,town:3,outsider:1,minion:1,demon:1}
-execute as @a if score player_count game_data matches 7 run function ct:start_game/roles/pcount {player:7,town:5,outsider:0,minion:1,demon:1}
-execute as @a if score player_count game_data matches 8 run function ct:start_game/roles/pcount {player:8,town:5,outsider:1,minion:1,demon:1}
-execute as @a if score player_count game_data matches 9 run function ct:start_game/roles/pcount {player:9,town:5,outsider:2,minion:1,demon:1}
-execute as @a if score player_count game_data matches 10 run function ct:start_game/roles/pcount {player:10,town:7,outsider:0,minion:2,demon:1}
-execute as @a if score player_count game_data matches 11 run function ct:start_game/roles/pcount {player:11,town:7,outsider:1,minion:2,demon:1}
-execute as @a if score player_count game_data matches 12 run function ct:start_game/roles/pcount {player:12,town:7,outsider:2,minion:2,demon:1}
-execute as @a if score player_count game_data matches 13 run function ct:start_game/roles/pcount {player:13,town:9,outsider:0,minion:3,demon:1}
-execute as @a if score player_count game_data matches 14 run function ct:start_game/roles/pcount {player:14,town:9,outsider:1,minion:3,demon:1}
-execute as @a if score player_count game_data matches 15 run function ct:start_game/roles/pcount {player:15,town:9,outsider:2,minion:3,demon:1}
 
 execute as @e[type=minecraft:item_display,tag=house_head] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=house_head] if score @s house_id <= player_count game_data run data modify entity @s view_range set value 1

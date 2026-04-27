@@ -26,6 +26,8 @@ persistentgroup remove "Bakery"
 persistentgroup remove "Town Square"
 persistentgroup remove "Storyteller Den"
 
+persistentgroup remove "Night Chat"
+
 persistentgroup add "Red House" isolated true ct
 persistentgroup add "Orange House" isolated true ct
 persistentgroup add "Yellow House" isolated true ct
@@ -51,3 +53,5 @@ persistentgroup add "Greenhouse" isolated false ct
 persistentgroup add "Bakery" isolated false ct
 persistentgroup add "Storyteller Den" isolated false ct
 persistentgroup add "Town Square" open false ct
+
+persistentgroup add "Night Chat" open false ct

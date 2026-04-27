@@ -1,0 +1,84 @@
+{
+	"parent": "ct:vc/root",
+	"criteria": {
+		"box_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 168,
+								"max": 173
+							},
+							"y": {
+								"min": 71,
+								"max": 77
+							},
+							"z": {
+								"min": 107,
+								"max": 114
+							}
+						}
+					}
+				}
+			}
+		},
+		"box_2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 169,
+								"max": 172
+							},
+							"y": {
+								"min": 75,
+								"max": 79
+							},
+							"z": {
+								"min": 107,
+								"max": 113
+							}
+						}
+					}
+				}
+			}
+		},
+		"box_3": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 165,
+								"max": 176
+							},
+							"y": {
+								"min": 72,
+								"max": 77
+							},
+							"z": {
+								"min": 108,
+								"max": 113
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"box_1",
+			"box_2",
+			"box_3"
+		]
+	],
+	"rewards": {
+		"function": "ct:voicechat/grey_house"
+	}
+}

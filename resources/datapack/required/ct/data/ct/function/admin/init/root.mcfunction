@@ -1,6 +1,8 @@
 function ct:admin/init/voice_chats
 function ct:admin/init/yawp_flags
 
+scoreboard players reset * vc
+
 bossbar add day_time "Time for Conversations:"
 bossbar set day_time color blue
 bossbar set day_time players @a
@@ -18,6 +20,7 @@ bossbar set botc:votes max 10
 bossbar set botc:votes value 10
 
 data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bone_collector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
+data modify storage ct:seats seats set value [{username:"Nobody",role:0,alive:0,reminders:[]}]
 
 team add 00_spectator
 team add 99_storyteller
