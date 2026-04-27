@@ -1,11 +1,5 @@
 {
 	"id": "tpchurch",
-	"require": {
-		"type": "entity",
-		"value": {
-			"team": "99_storyteller"
-		}
-	},
 	"executes": [
 		"function ct:cmd/tpchurch"
 	]

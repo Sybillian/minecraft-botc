@@ -1,11 +1,5 @@
 {
 	"id": "set_nominator",
-	"require": {
-		"type": "entity",
-		"value": {
-			"team": "99_storyteller"
-		}
-	},
 	"arguments": [
 		{
 			"id": "target",

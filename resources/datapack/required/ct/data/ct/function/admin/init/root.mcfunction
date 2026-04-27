@@ -18,7 +18,7 @@ bossbar set botc:votes max 10
 bossbar set botc:votes value 10
 
 data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bone_collector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
-data modify storage ct:seats seats set value [{username:"Nobody",role:0,alive:0,reminders:[]}]
+data modify storage ct:seats seats set value [{placeholder:true},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]
 data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}
 
 team add 00_spectator

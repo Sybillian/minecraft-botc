@@ -1,1 +1,0 @@
-tellraw @a[tag=storyteller] {"text":"Error: Someone tried to add/remove a spectator, but that cannot be done while a game is active.","color":"red"}

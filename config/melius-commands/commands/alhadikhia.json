@@ -1,11 +1,5 @@
 {
 	"id": "alhadikhia",
-	"require": {
-		"type": "entity",
-		"value": {
-			"team": "99_storyteller"
-		}
-	},
 	"arguments": [
 		{
 			"id": "target",

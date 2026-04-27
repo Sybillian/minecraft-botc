@@ -1,11 +1,5 @@
 {
 	"id": "spectator",
-	"require": {
-		"type": "entity",
-		"value": {
-			"team": "99_storyteller"
-		}
-	},
 	"literals": [
 		{
 			"id": "add",

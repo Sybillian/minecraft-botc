@@ -20,6 +20,7 @@ scoreboard objectives add rps dummy
 scoreboard objectives add pointing dummy
 scoreboard objectives add pointing_at dummy
 scoreboard objectives add game_id dummy
+scoreboard objectives add vote_value dummy
 
 scoreboard objectives add game_data dummy
 scoreboard players set phase game_data 0

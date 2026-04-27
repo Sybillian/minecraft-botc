@@ -1,11 +1,5 @@
 {
 	"id": "quickactions",
-	"require": {
-		"type": "entity",
-		"value": {
-			"team": "99_storyteller"
-		}
-	},
 	"executes": [
 		"function ct:cmd/quick_actions"
 	]

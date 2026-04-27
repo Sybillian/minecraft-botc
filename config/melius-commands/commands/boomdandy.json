@@ -1,11 +1,5 @@
 {
 	"id": "boomdandy",
-	"require": {
-		"type": "entity",
-		"value": {
-			"team": "99_storyteller"
-		}
-	},
 	"executes": [
 		"function ct:loop/boomdandy/start"
 	]

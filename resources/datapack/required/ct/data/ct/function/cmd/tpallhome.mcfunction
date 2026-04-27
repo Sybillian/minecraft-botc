@@ -1,4 +1,5 @@
-execute if score phase game_data matches 0 run return run tellraw @s [{"text":"! ","color":"red","bold":true},{"text":"This command can only be run during a game.","color":"gray","bold":false}]
+execute if entity @s[tag=!storyteller] run return run function ct:error/not_storyteller
+execute if score phase game_data matches 0 run return run function ct:error/game_not_active
 
 tellraw @s [{"text":"! ","color":"yellow","bold":true},{"text":"All players were teleported to their homes.","color":"gray","bold":false}]
 

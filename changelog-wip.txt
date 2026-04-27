@@ -24,12 +24,14 @@ Changes and features:
 - Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing.
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag).
 - Character numerical IDs are now in alphabetical order and categorized by character type. The alphabetical order will most likely not be maintained when new characters are added, they'll just be tacked on the end.
-  - 1-199: Townsfolk
+  - 001-199: Townsfolk
   - 200-299: Outsiders
   - 300-399: Minions
-  - 400-499 Demons
-  - 500-599 Travellers
+  - 400-499: Demons
+  - 500-599: Travellers
   - 600-699: NPCs
+- Storyteller permission checks to run commands are now within the functions instead of the command json file.
+- Many commands now check that a game is active before they can be run.
 
 Fixed bugs:
 - #70: Block sounds are not muted on nights 1 and 3.
@@ -44,3 +46,5 @@ Fixed bugs:
 - There are several accessible holes in the terrain.
 - Some voice chats can be entered or left by standing in non-whole blocks (panes, iron bars, fences).
 - The Acrobat is missing a * in its character description.
+- "Dev Mode" does not persist across /reloads.
+- Players dying during the day doesn't update alive player/dead votes count in the Grimoire.

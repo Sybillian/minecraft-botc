@@ -138,6 +138,9 @@
     //
     "clocktower.error.too_many_players": "A game cannot start with more than 15 players. Please use %s to make some players spectators.",
     "clocktower.error.not_enough_players": "A game needs at least 5 non-Storyteller players to start.",
+    "clocktower.error.not_storyteller": "You must be a Storyteller to do this.",
+    "clocktower.error.game_not_active": "This command can only be run during a game.",
+    "clocktower.error.game_active": "This command cannot be run during a game.",
     //
     // RANDOM STRINGS
     //

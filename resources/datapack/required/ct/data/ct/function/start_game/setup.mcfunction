@@ -158,5 +158,6 @@ execute as @a run function ct:start_game/roles/set_grim_variables with storage c
 
 execute as @a[tag=!has_role,tag=!storyteller,tag=!spectator,sort=random,limit=1] run function ct:start_game/give_role
 execute as @a[tag=!has_role,tag=!storyteller,tag=!spectator,sort=random,limit=1] run function ct:start_game/random_roles
+scoreboard players set @a[tag=!storyteller,tag=!spectator] vote_value 1
 schedule function ct:start_game/roles/reveal_to_st 1t
 schedule function ct:start_game/apply_labels 2t

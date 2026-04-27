@@ -1,11 +1,5 @@
 {
 	"id": "banshee",
-	"require": {
-		"type": "entity",
-		"value": {
-			"team": "99_storyteller"
-		}
-	},
 	"executes": [
 		"function ct:cmd/banshee/announce"
 	]
