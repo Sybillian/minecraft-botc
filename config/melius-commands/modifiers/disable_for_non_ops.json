@@ -1,0 +1,30 @@
+{
+  "type": "node:strict",
+  "paths": [
+    "msg",
+    "tell",
+    "w",
+    "teammsg",
+    "tm",
+    "autojoingroup",
+    "character",
+    "collective",
+    "config",
+    "fabric-command-api-v2:client",
+    "fcc",
+    "forcejoingroup",
+    "instantgroup",
+    "list",
+    "persistentgroup",
+    "trigger",
+    "voicechat",
+    "yawp"
+  ],
+  "requirement_modifier": {
+    "type": "requirement:replace",
+    "predicate": {
+      "type": "operator",
+      "operator": 2
+    }
+  }
+}

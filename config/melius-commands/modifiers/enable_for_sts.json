@@ -1,0 +1,28 @@
+{
+  "type": "node:starts_with",
+  "paths": [
+    "function",
+    "execute",
+    "gamemode",
+    "tp",
+    "bossbar"
+  ],
+  "requirement_modifier": {
+    "type": "requirement:replace",
+    "predicate": {
+      "type": "any",
+      "values": [
+        {
+          "type": "entity",
+          "value": {
+            "team": "99_storyteller"
+          }
+        },
+        {
+          "type": "operator",
+          "operator": 2
+        }
+      ]
+    }
+  }
+}

@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:37b1c159-2117-4bf5-9af6-5200d1d81bc3-1770953459030] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
+  [loading_requirement_container_meta:ec540d90-0d4c-4c92-8f51-8b823b347077-1777419801115] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.night_order.first[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
   [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834] = ["mode":"smaller-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"current_day","objective":"game_data"}}","compare_with":"1"]$
 }

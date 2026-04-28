@@ -44,7 +44,7 @@ scoreboard objectives add house_id dummy
 scoreboard objectives add settings dummy
 scoreboard players set clock_speed settings 20
 scoreboard players set birthday_mode settings 0
-scoreboard players set organgrinder settings 0
+scoreboard players set organ_grinder settings 0
 scoreboard players set phase_causes_tp settings 0
 scoreboard players set timer_ends_day settings 0
 

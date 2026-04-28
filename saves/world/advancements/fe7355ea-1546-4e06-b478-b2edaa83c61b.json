@@ -5,12 +5,6 @@
     },
     "done": true
   },
-  "ct:vc/outside": {
-    "criteria": {
-      "area": "2026-04-27 02:02:34 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-04-27 02:04:30 -0500"
@@ -170,6 +164,18 @@
   "minecraft:recipes/building_blocks/polished_tuff": {
     "criteria": {
       "has_tuff": "2026-04-27 18:16:56 -0500"
+    },
+    "done": true
+  },
+  "ct:vc/outside": {
+    "criteria": {
+      "area": "2026-04-28 18:07:35 -0500"
+    },
+    "done": true
+  },
+  "ct:vc/inn": {
+    "criteria": {
+      "box_1": "2026-04-28 18:12:17 -0500"
     },
     "done": true
   },

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-script
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777271865194
+  last_edited_time = 1777420641698
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:cf41b359-8145-40f7-b115-657e88476e5b-1777405472409] = [groups:][instances:]
+  [loading_requirement_container_meta:16b9dc20-e53b-4ad7-b652-02e27a4f4306-1777420643546] = [groups:][instances:]
 }
 
 customization {
@@ -2549,7 +2549,7 @@ element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
   [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false

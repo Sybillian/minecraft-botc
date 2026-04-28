@@ -4,12 +4,12 @@ layout-meta {
   identifier = ct-player_grim
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1775256930850
-  is_enabled = false
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 100
-  [loading_requirement_container_meta:6da6080a-520e-47e9-b0dc-850d85b08c60-1775781228120] = [groups:][instances:]
+  [loading_requirement_container_meta:40c7feb2-932d-45d6-92d0-d0892fe2635d-1777419167749] = [groups:][instances:]
 }
 
 customization {
