@@ -1,0 +1,29 @@
+{
+  "nametags": [
+    {
+      "id": "ct:name",
+      "display": "%player:displayname_visual%",
+      "update_interval": 1,
+      "visible_radius": -1.0,
+      "hidden_radius": -1.0
+    },
+    {
+      "id": "ct:pronoun",
+      "display": "%playerpronouns:pronouns%",
+      "update_interval": 1,
+      "visible_radius": -1.0,
+      "hidden_radius": -1.0,
+      "observee_predicate": {
+        "type": "negate",
+        "value": {
+          "type": "equal",
+          "value_1": {
+            "type": "placeholder",
+            "placeholder": "playerpronouns:pronouns"
+          },
+          "value_2": "Unknown"
+        }
+      }
+    }
+  ]
+}
