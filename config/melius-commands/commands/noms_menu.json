@@ -1,0 +1,6 @@
+{
+	"id": "noms_menu",
+	"executes": [
+		"function ct:cmd/nom/noms_menu"
+	]
+}

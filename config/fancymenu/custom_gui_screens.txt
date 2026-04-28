@@ -37,6 +37,17 @@ custom_gui {
 }
 
 custom_gui {
+  identifier = ct-noms
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = false
+}
+
+custom_gui {
   identifier = ct-timer
   title = 
   allow_esc = true
@@ -100,17 +111,6 @@ custom_gui {
   pause_game = false
   popup_mode = false
   popup_mode_background_overlay = true
-}
-
-custom_gui {
-  identifier = ct-quick_actions
-  title = 
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = false
-  popup_mode = false
-  popup_mode_background_overlay = false
 }
 
 custom_gui {

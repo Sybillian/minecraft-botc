@@ -1,6 +1,0 @@
-{
-	"id": "quickactions",
-	"executes": [
-		"function ct:cmd/quick_actions"
-	]
-}

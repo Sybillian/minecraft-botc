@@ -20,4 +20,5 @@ $execute if score $(p) id matches 13 if data block 131 72 69 front_text.messages
 $execute if score $(p) id matches 14 if data block 128 72 70 front_text.messages[1].text run data modify storage ct:nominations current_nominee set from block 128 72 70 front_text.messages[1].hover_event.name
 $execute if score $(p) id matches 15 if data block 125 72 70 front_text.messages[1].text run data modify storage ct:nominations current_nominee set from block 125 72 70 front_text.messages[1].hover_event.name
 
+closeguiscreen @s
 execute as @e[type=minecraft:item_display,tag=nominee_arm,limit=1] run function ct:cmd/nom/long_arm with storage ct:nominations
