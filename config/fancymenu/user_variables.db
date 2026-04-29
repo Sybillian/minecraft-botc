@@ -794,7 +794,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 1
+  value = 2
   reset_on_launch = false
 }
 
@@ -1574,7 +1574,7 @@ variable {
 
 variable {
   name = p1_role
-  value = none
+  value = yaggababble
   reset_on_launch = false
 }
 

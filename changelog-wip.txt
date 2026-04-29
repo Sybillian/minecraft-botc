@@ -20,10 +20,14 @@ Changes and features:
 - Added timer settings:
   - TP players to seats
   - Pause during nominations
-- Chat commands that previously required operator status to run now require that you are marked as a Storyteller. This does not completely eliminate the need to be an operator to Storytell, but it is progress towards that.
 - Many texts are now translation strings. This is not yet comprehensive.
 - Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing.
-- Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag).
+- Many commands now check that a game is active before they can be run.
+- /tell (and its variants) are now disabled for non-Storytellers.
+- Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller. (#75)
+
+Technical changes:
+- Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.
 - Character numerical IDs are now in alphabetical order and categorized by character type. The alphabetical order will most likely not be maintained when new characters are added, they'll just be tacked on the end.
   - 001-199: Townsfolk
   - 200-299: Outsiders
@@ -32,10 +36,8 @@ Changes and features:
   - 500-599: Travellers
   - 600-699: NPCs
 - Storyteller permission checks to run commands are now within the functions instead of the command json file.
-- Many commands now check that a game is active before they can be run.
 - TAB mod has been removed in favor of CustomNameTags, which is much less buggy and lets pronouns be seen at a greater distance.
-- /tell (and its variants) are now disabled for non-Storytellers.
-- Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller. (#75)
+- Script data is no longer stored on players, and is now exclusively stored and referenced in ct:script
 
 Fixed bugs:
 - #70: Block sounds are not muted on nights 1 and 3.

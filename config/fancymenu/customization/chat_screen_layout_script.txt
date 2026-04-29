@@ -76,10 +76,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -123,7 +123,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -142,10 +142,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[1]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[1]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[1]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -189,7 +189,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e3e40541-d2ee-4a0a-b8d2-aae770177f84-1758852133030
   [loading_requirement_container_meta:e3e40541-d2ee-4a0a-b8d2-aae770177f84-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[1]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -208,10 +208,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[2]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[2]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[2]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -255,7 +255,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 898674af-aa0f-4b7c-a458-1a0765c4011a-1758852133030
   [loading_requirement_container_meta:898674af-aa0f-4b7c-a458-1a0765c4011a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[2]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -274,10 +274,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[3]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[3]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[3]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -322,7 +322,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 7b39e243-d760-457c-9620-3570cfe48d2c-1758852133030
   [loading_requirement_container_meta:7b39e243-d760-457c-9620-3570cfe48d2c-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[3]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -341,10 +341,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[5]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[5]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[5]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[5]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[5]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[5]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -388,7 +388,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 20312cea-31cd-4cdb-b114-60f28130fbc2-1758852133030
   [loading_requirement_container_meta:20312cea-31cd-4cdb-b114-60f28130fbc2-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[5]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[5]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -407,10 +407,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[6]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[6]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[6]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[6]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[6]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[6]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -454,7 +454,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = cff82ecf-0af5-4657-9f2a-aeb7d4f4e446-1758852133030
   [loading_requirement_container_meta:cff82ecf-0af5-4657-9f2a-aeb7d4f4e446-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[6]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[6]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -473,10 +473,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[7]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[7]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[7]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[7]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[7]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[7]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -520,7 +520,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 162356eb-38e2-47d0-9c9f-4ff7a63eb3a4-1758852133030
   [loading_requirement_container_meta:162356eb-38e2-47d0-9c9f-4ff7a63eb3a4-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[7]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[7]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -539,10 +539,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[8]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[8]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[8]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[8]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[8]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[8]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -586,7 +586,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 368d73a7-1675-4eff-b19d-7b157547d2ca-1758852133030
   [loading_requirement_container_meta:368d73a7-1675-4eff-b19d-7b157547d2ca-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[8]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[8]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -605,10 +605,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[9]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[9]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[9]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[9]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[9]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[9]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -652,7 +652,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e6c31648-be09-4766-9bfe-091b5179cda9-1758852133030
   [loading_requirement_container_meta:e6c31648-be09-4766-9bfe-091b5179cda9-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[9]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[9]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -671,10 +671,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[10]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[10]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[10]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[10]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[10]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[10]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -718,7 +718,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3005cb30-0d22-41fd-be3e-3f4cb47dc779-1758852133030
   [loading_requirement_container_meta:3005cb30-0d22-41fd-be3e-3f4cb47dc779-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[10]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[10]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -737,10 +737,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[11]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[11]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[11]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[11]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[11]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[11]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -784,7 +784,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 45266b09-8526-422a-8f2e-8ab16fb801e8-1758852133030
   [loading_requirement_container_meta:45266b09-8526-422a-8f2e-8ab16fb801e8-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[11]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[11]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -803,10 +803,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[4]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[4]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[4]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[4]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[4]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[4]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -850,7 +850,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = b2f9eb84-b246-470b-9dd7-7bd4a7f4982c-1758852133030
   [loading_requirement_container_meta:b2f9eb84-b246-470b-9dd7-7bd4a7f4982c-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[4]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[4]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -869,10 +869,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[12]","refresh_cooldown_ms":"100"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[12]"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[12]","refresh_cooldown_ms":"100"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[12]","refresh_cooldown_ms":"100"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[12]"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[12]"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -916,7 +916,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = ab8dc1ca-7c4e-446f-bbf7-c792c199c86b-1758852133030
   [loading_requirement_container_meta:ab8dc1ca-7c4e-446f-bbf7-c792c199c86b-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[12]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[12]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

@@ -170,7 +170,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -579,7 +579,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -652,7 +652,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -725,7 +725,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -798,7 +798,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -871,7 +871,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -944,7 +944,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1017,7 +1017,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1090,7 +1090,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1163,7 +1163,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1229,7 +1229,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1302,7 +1302,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1368,7 +1368,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1434,7 +1434,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1500,7 +1500,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1566,7 +1566,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1632,7 +1632,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1698,7 +1698,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1764,7 +1764,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1830,7 +1830,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1896,7 +1896,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1962,7 +1962,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2028,7 +2028,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2094,7 +2094,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2160,7 +2160,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2226,7 +2226,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2292,7 +2292,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2358,7 +2358,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2424,7 +2424,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2497,7 +2497,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2570,7 +2570,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2643,7 +2643,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2716,7 +2716,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2789,7 +2789,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2862,7 +2862,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2935,7 +2935,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}","compare_with":"{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[20]","refresh_cooldown_ms":"100"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
