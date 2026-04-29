@@ -168,6 +168,4 @@ data modify storage ct:script night_order.other append value "dawn"
 
 #data remove storage ct:script order[0]
 
-item modify entity @a hotbar.8 {function:"minecraft:copy_custom_data",source:{type:"minecraft:storage",source:"ct:script"},ops:[{source:"night_order",target:"script.night_order",op:"replace"}]}
 execute as @a run function ct:admin/give_script
-#execute if data storage ct:script order_stored[0] run function ct:admin/setup/night_order

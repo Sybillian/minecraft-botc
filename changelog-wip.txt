@@ -1,6 +1,7 @@
 BotC v1.6.0 - April XX, 2026
 
 Changes and features:
+- Added the ability to set your preferred name with /nick. Non-vanilla UI will still display usernames.
 - Added a radial menu (opened with C by default) to quickly select nominator and nominee without having to open the Grimoire. (#31)
 - Added the ability to import a script from a file.
 - Added icons to "Teleport to seats" and "Teleport to homes" buttons.

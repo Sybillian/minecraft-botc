@@ -156,9 +156,3 @@ execute if data storage ct:script characters{id:"bishop"} run data modify storag
 execute if data storage ct:script characters{id:"cacklejack"} run data modify storage ct:script in_characters.travelers append value "cacklejack"
 execute if data storage ct:script characters{id:"gangster"} run data modify storage ct:script in_characters.travelers append value "gangster"
 execute if data storage ct:script characters{id:"gnome"} run data modify storage ct:script in_characters.travelers append value "gnome"
-
-
-#data remove storage ct:script characters[0]
-
-execute unless data storage ct:script characters_stored[0] run item modify entity @a hotbar.8 {function:"minecraft:copy_custom_data",source:{type:"minecraft:storage",source:"ct:script"},ops:[{source:"in_characters",target:"script.characters",op:"replace"}]}
-execute if data storage ct:script characters_stored[0] run function ct:admin/setup/characters

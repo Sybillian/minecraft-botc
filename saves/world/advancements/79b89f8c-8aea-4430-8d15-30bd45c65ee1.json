@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-28 21:34:48 -0500"
+    },
+    "done": true
+  },
+  "ct:vc/outside": {
+    "criteria": {
+      "area": "2026-04-28 21:34:48 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4556
+}

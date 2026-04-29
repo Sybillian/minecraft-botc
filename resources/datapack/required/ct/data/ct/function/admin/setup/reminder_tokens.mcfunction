@@ -332,9 +332,3 @@ execute if data storage ct:script formatted_characters[{id:"xaan"}] run data mod
 execute if data storage ct:script formatted_characters[{id:"yaggababble"}] run data modify storage ct:script reminder_img append value "yaggababble"
 execute if data storage ct:script formatted_characters[{id:"zombuul"}] run data modify storage ct:script reminder_img append value "zombuul"
 execute if data storage ct:script formatted_characters[{id:"zombuul"}] run data modify storage ct:script reminder_img append value "zombuul"
-
-#data remove storage ct:script reminders_stored[0]
-
-item modify entity @a hotbar.8 {function:"minecraft:copy_custom_data",source:{type:"minecraft:storage",source:"ct:script"},ops:[{source:"in_reminders",target:"script.reminders",op:"replace"}]}
-item modify entity @a hotbar.8 {function:"minecraft:copy_custom_data",source:{type:"minecraft:storage",source:"ct:script"},ops:[{source:"reminder_img",target:"script.reminder_imgs",op:"replace"}]}
-#execute if data storage ct:script reminders_stored[0] run function ct:admin/setup/reminder_tokens
