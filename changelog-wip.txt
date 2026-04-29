@@ -2,19 +2,19 @@ BotC v1.6.0 - April XX, 2026
 
 Changes and features:
 - Added the ability to set your preferred name with /nick. Non-vanilla UI will still display usernames.
-- Added a radial menu (opened with C by default) to quickly select nominator and nominee without having to open the Grimoire. (#31)
+- Added a radial menu (opened with C by default) to quickly select nominator and nominee without having to open the Grimoire.
 - Added the ability to import a script from a file.
 - Added icons to "Teleport to seats" and "Teleport to homes" buttons.
 - Added an explanatory tooltip to the "Teleport to homes" button.
 - Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
-  - Toggle Organ Grinder ability (#9)
-  - Toggle Voudon ability (#38)
-  - Toggle Banshee ability (#12)
+  - Toggle Organ Grinder ability
+  - Toggle Voudon ability
+  - Toggle Banshee ability
   - Announce Banshee
   - Start cult vote
-  - Restore ghost votes (#40)
+  - Restore ghost votes
   - Announce Al-Hadikhia
-  - Announce Leviathan (#39)
+  - Announce Leviathan
   - Announce Fearmonger
   - Play Roshambo
   - Start Boomdandy timer
@@ -25,7 +25,7 @@ Changes and features:
 - Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing.
 - Many commands now check that a game is active before they can be run.
 - /tell (and its variants) are now disabled for non-Storytellers.
-- Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller. (#75)
+- Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller.
 
 Technical changes:
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.
