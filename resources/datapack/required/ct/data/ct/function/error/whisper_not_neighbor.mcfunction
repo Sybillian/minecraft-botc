@@ -1,0 +1,1 @@
+tellraw @s [{"translate":"clocktower.prefix.error"},{"translate":"clocktower.error.whisper_not_neighbor","color":"gray"}]

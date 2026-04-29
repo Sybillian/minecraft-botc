@@ -141,10 +141,15 @@
     "clocktower.error.not_storyteller": "You must be a Storyteller to do this.",
     "clocktower.error.game_not_active": "This command can only be run during a game.",
     "clocktower.error.game_active": "This command cannot be run during a game.",
+    "clocktower.error.whisper_not_neighbor": "During a game, you can only whisper to your neighbors or the Storyteller.",
+    "clocktower.error.whisper_self": "You can't whisper to yourself!",
     //
     // RANDOM STRINGS
     //
     "clocktower.command.spectator": "/spectator",
+    "clocktower.command.msg": "%s §7→ %s§7: %s",
+    "clocktower.command.msg.you": "You",
+    "clocktower.command.msg.st_visible": "This message is visible to you, the recipient, and the Storyteller.",
     //
     // ROLE NAMES
     //

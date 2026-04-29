@@ -1,0 +1,18 @@
+{
+  "id": "whisper",
+  "arguments": [
+    {
+      "id": "target",
+      "type": "minecraft:entity players",
+      "arguments": [
+        {
+          "id": "msg",
+          "type": "minecraft:message",
+          "executes": [
+            "function ct:cmd/whisper {player:${player:name_unformatted},target:${target},msg:\"${msg}\"}"
+          ]
+        }
+      ]
+    }
+  ]
+}

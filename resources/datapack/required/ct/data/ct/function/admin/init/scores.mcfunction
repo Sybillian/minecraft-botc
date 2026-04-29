@@ -15,6 +15,7 @@ scoreboard players set current vote 0
 scoreboard players set total vote 0
 
 # Self-explanatory
+scoreboard objectives add neighbor_check dummy
 scoreboard objectives add vc dummy
 scoreboard objectives add rps dummy
 scoreboard objectives add pointing dummy
