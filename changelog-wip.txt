@@ -21,6 +21,7 @@ Changes and features:
 - Added timer settings:
   - TP players to seats
   - Pause during nominations
+- The bag menu has been totally redone, notably eliminating the need for the Fix Leftover Roles button. The current layout is not very colorblind-friendly and will be improved further in the future.
 - Players can now whisper to their neighbors and to Storytellers during the game using /whisper. When a game is not active, anyone can whisper to anyone. These messages are always visible to Storytellers.
 - Many texts are now translation strings. This is not yet comprehensive.
 - Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing.
@@ -28,6 +29,7 @@ Changes and features:
 - /tell (and its aliases) are now disabled for non-Storytellers.
 - Many commands that are not relevant to the game are hidden for non-ops.
 - Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller.
+- "Requesting Storyteller Chat" is now automatically toggled off when a Storyteller is in the same room as you.
 
 Technical changes:
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.

@@ -1,2 +1,3 @@
 tellraw @s [{"text":"! ","color":"yellow","bold":true},{"text":"You are now requesting a Storyteller chat. They will get to you as soon as possible.","color":"gray","bold":false}]
 tag @s[tag=!requesting_chat] add requesting_chat
+fmvariable set requesting_chat false true
