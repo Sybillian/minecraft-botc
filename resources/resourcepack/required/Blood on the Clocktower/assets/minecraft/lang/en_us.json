@@ -74,6 +74,8 @@
     "clocktower.button.psychopath.hint": "Starts a game of Roshambo (Rock-Paper-Scissors) between two players.",
     "clocktower.button.boomdandy.label": "§c§lStart Boomdandy timer§r",
     "clocktower.button.boomdandy.hint": "Starts a 10-to-1 countdown until an explosion effect plays, and enables players using /point.",
+    "clocktower.button.ferryman.label": "§e§lRestore Vote Tokens§r",
+    "clocktower.button.ferryman.hint": "Restore the vote tokens of all dead players using the Ferryman's ability.",
     // UI Labels
     "clocktower.ui.demon_bluffs": "Demon Bluffs",
     "clocktower.ui.first_night_order": "First Night",
@@ -131,7 +133,7 @@
     //
     // PREFIXES
     //
-    "clocktower.prefix.error": "§c§l!§r ",
+    "clocktower.prefix.notification": "§l!§r ",
     "clocktower.prefix.the": "The ",
     //
     // ERROR MESSAGES
@@ -143,6 +145,10 @@
     "clocktower.error.game_active": "This command cannot be run during a game.",
     "clocktower.error.whisper_not_neighbor": "During a game, you can only whisper to your neighbors or the Storyteller.",
     "clocktower.error.whisper_self": "You can't whisper to yourself!",
+    //
+    // NOTICE MESSAGES
+    //
+    "clocktower.notice.ferryman": "The Ferryman has restored all dead players' vote tokens.",
     //
     // RANDOM STRINGS
     //

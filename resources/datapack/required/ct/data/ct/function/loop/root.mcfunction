@@ -1,4 +1,3 @@
-execute as @a at @s run function ct:voicechat/leave
 execute as @a[scores={use_carrot=1..}] run function ct:loop/player/use_item
 
 execute as @a unless score @s join_game matches 0 run function ct:loop/player/join_game
@@ -16,3 +15,4 @@ execute as @a[tag=requesting_chat] run title @s actionbar [{"text":"! ","color":
 scoreboard players set player_count game_data 0
 execute as @a[tag=!storyteller,tag=!spectator] run scoreboard players add player_count game_data 1
 execute unless score player_count game_data = stored_player_count game_data run function ct:util/update_game_data
+execute as @a at @s run function ct:voicechat/leave

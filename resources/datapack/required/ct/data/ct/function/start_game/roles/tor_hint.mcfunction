@@ -1,0 +1,1 @@
+tellraw @a[tag=!storyteller,tag=!spectator] [{"text":"! ","color":"dark_green","bold":true},{"text":"The Tor has prevented you from learning your character. You learn it if you die.","color":"gray","bold":false}]

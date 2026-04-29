@@ -17,7 +17,9 @@ execute if score player_count game_data matches 16.. run return run function ct:
 execute store result score active_game game_id run random value 1..2147483647
 scoreboard players operation @a[tag=!storyteller] game_id = active_game game_id
 scoreboard players set @a[tag=!storyteller] role 0
+scoreboard players set @a[tag=!storyteller] reveal_cd 140
 execute as @a run fmvariable set role false none
+execute as @a run fmvariable set game_active false true
 title @a times 1s 2s 1s
 
 gamemode spectator @a[tag=spectator]

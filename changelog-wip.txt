@@ -1,4 +1,4 @@
-BotC v1.6.0 - April XX, 2026
+BotC v1.6.0 - May XX, 2026
 
 Changes and features:
 - Added the ability to set your preferred name with /nick. Non-vanilla UI will still display usernames.
@@ -18,6 +18,7 @@ Changes and features:
   - Announce Fearmonger
   - Play Roshambo
   - Start Boomdandy timer
+  - Restore vote tokens
 - Added timer settings:
   - TP players to seats
   - Pause during nominations
@@ -30,6 +31,7 @@ Changes and features:
 - Many commands that are not relevant to the game are hidden for non-ops.
 - Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller.
 - "Requesting Storyteller Chat" is now automatically toggled off when a Storyteller is in the same room as you.
+- Your character is now revealed to you as soon as you enter your house, instead of the Storyteller having to do it.
 
 Technical changes:
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.
@@ -45,6 +47,7 @@ Technical changes:
 - Script data is no longer stored on players, and is now exclusively stored and referenced in ct:script
 
 Fixed bugs:
+- #64: Not all windows in the yellow house get blocked by particles.
 - #70: Block sounds are not muted on nights 1 and 3.
 - #80: Starting a game with more than 15 non-ST players in the lobby breaks the game.
 - #87: Compasses not handed out on night one.

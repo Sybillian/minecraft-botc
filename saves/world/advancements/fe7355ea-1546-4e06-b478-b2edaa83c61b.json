@@ -167,9 +167,9 @@
     },
     "done": true
   },
-  "ct:vc/outside": {
+  "minecraft:recipes/misc/map": {
     "criteria": {
-      "area": "2026-04-28 23:54:35 -0500"
+      "has_compass": "2026-04-29 00:48:15 -0500"
     },
     "done": true
   },

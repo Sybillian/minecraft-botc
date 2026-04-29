@@ -1,0 +1,6 @@
+{
+	"id": "ferryman",
+	"executes": [
+		"function ct:cmd/ferryman"
+	]
+}

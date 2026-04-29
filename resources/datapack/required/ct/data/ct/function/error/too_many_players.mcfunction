@@ -1,1 +1,1 @@
-tellraw @s [{"translate":"clocktower.prefix.error"},{"translate":"clocktower.error.too_many_players","color":"gray","with":[{"translate":"clocktower.command.spectator","color":"white"}]}]
+tellraw @s [{"translate":"clocktower.prefix.error",color:"yellow"},{"translate":"clocktower.error.too_many_players","color":"gray","with":[{"translate":"clocktower.command.spectator","color":"white"}]}]

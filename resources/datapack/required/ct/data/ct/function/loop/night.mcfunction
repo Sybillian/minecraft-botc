@@ -3,6 +3,11 @@ execute unless entity @a[tag=!storyteller,tag=!in_house,tag=!spectator] unless e
 execute store result score growl game_data run random value 0..3000
 execute if score growl game_data matches 1 if score current_day game_data matches 2.. as @r[tag=!storyteller,tag=!spectator] at @s run playsound ct:clocktower.night.ambient voice @a ~ ~ ~10
 
+execute as @a[scores={reveal_cd=139},tag=!spectator,tag=!storyteller] if score @s vc = @s id run function ct:start_game/roles/youare
+execute as @a[tag=!spectator,tag=!storyteller,scores={reveal_cd=1..}] if score @s vc = @s id run scoreboard players remove @s reveal_cd 1
+execute as @a[scores={reveal_cd=60}] run function ct:start_game/roles/announce
+execute as @a[scores={reveal_cd=1}] run function ct:start_game/roles/hover_hint
+
 ## Window/Door Particles
 # Red
 particle minecraft:dust{scale:4,color:0} 80.81 77.91 109 0 0.5 0.6 1 3 normal @a[tag=in_house,team=01_red]
@@ -13,6 +18,8 @@ particle minecraft:dust{scale:4,color:0} 68.51 77.00 124.00 0.3 0.5 0 1 3 normal
 
 # Yellow
 particle minecraft:dust{scale:4,color:0} 55.19 77.00 111.48 0 0.5 0.3 1 3 normal @a[tag=in_house,team=03_yellow]
+particle minecraft:dust{scale:4,color:0} 55.19 83.00 111.48 0 0.5 0.3 1 3 normal @a[tag=in_house,team=03_yellow]
+particle minecraft:dust{scale:4,color:0} 49.48 78.00 121.19 0.3 0.5 0 1 3 normal @a[tag=in_house,team=03_yellow]
 particle minecraft:dust{scale:4,color:0} 53.53 78.00 113.63 0.3 0.5 0 1 1 normal @a[tag=in_house,team=03_yellow]
 particle minecraft:dust{scale:4,color:0} 53.50 78.00 109.38 0.3 0.5 0 1 1 normal @a[tag=in_house,team=03_yellow]
 
