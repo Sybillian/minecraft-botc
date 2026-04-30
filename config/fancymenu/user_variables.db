@@ -134,7 +134,7 @@ variable {
 
 variable {
   name = player_13
-  value = efe
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = player_14
-  value = Steve
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Sybillian
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_11
-  value = Ari
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -284,19 +284,19 @@ variable {
 
 variable {
   name = player_5
-  value = Makena
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_12
-  value = Alex
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Celeste
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -308,43 +308,43 @@ variable {
 
 variable {
   name = player_3
-  value = anya
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_10
-  value = Shane
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Sunny
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = noor
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_8
-  value = Olivia
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Selina
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = Russel
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -470,7 +470,7 @@ variable {
 
 variable {
   name = game_active
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -596,7 +596,7 @@ variable {
 
 variable {
   name = player_count
-  value = 14
+  value = 15
   reset_on_launch = false
 }
 
@@ -806,7 +806,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 1
+  value = 2
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 4
+  value = 0
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 00:00
+  value = 13:26
   reset_on_launch = false
 }
 
@@ -1256,7 +1256,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 6
+  value = 15
   reset_on_launch = false
 }
 

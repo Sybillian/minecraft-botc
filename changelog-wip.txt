@@ -6,6 +6,7 @@ Changes and features:
 - Added the ability to import a script from a file.
 - Added icons to "Teleport to seats" and "Teleport to homes" buttons.
 - Added an explanatory tooltip to the "Teleport to homes" button.
+- Added an alert that appears in the bag screen if you have selected a role that affects setup.
 - Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
   - Toggle Organ Grinder ability
   - Toggle Voudon ability
@@ -25,10 +26,9 @@ Changes and features:
 - The bag menu has been totally redone, notably eliminating the need for the Fix Leftover Roles button. The current layout is not very colorblind-friendly and will be improved further in the future.
 - Players can now whisper to their neighbors and to Storytellers during the game using /whisper. When a game is not active, anyone can whisper to anyone. These messages are always visible to Storytellers.
 - Many texts are now translation strings. This is not yet comprehensive.
-- Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing.
 - Many commands now check that a game is active before they can be run.
-- /tell (and its aliases) are now disabled for non-Storytellers.
 - Many commands that are not relevant to the game are hidden for non-ops.
+- /tell (and its aliases) are now disabled for non-Storytellers.
 - Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller.
 - "Requesting Storyteller Chat" is now automatically toggled off when a Storyteller is in the same room as you.
 - Your character is now revealed to you as soon as you enter your house, instead of the Storyteller having to do it.
@@ -42,23 +42,26 @@ Technical changes:
   - 400-499: Demons
   - 500-599: Travellers
   - 600-699: NPCs
-- Storyteller permission checks to run commands are now within the functions instead of the command json file.
+- Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing.
+- Storyteller permission checks to run commands are now within the functions instead of the command's .json file.
 - TAB mod has been removed in favor of CustomNameTags, which is much less buggy and lets pronouns be seen at a greater distance.
 - Script data is no longer stored on players, and is now exclusively stored and referenced in ct:script
+- Voting strength now correlates to a score instead of a strict +1
+- "Dev Mode" is now a little more official. If active, /reloads and joining the world does not automatically run init functions.
 
 Fixed bugs:
 - #64: Not all windows in the yellow house get blocked by particles.
 - #70: Block sounds are not muted on nights 1 and 3.
 - #80: Starting a game with more than 15 non-ST players in the lobby breaks the game.
+- #83: Reminder tokens are broken for player 13, 14, and 15. (thanks @LordWoolfy!)
 - #87: Compasses not handed out on night one.
 - #96: Player Names are incorrectly formatted in the Al-Had announcement due to Markdown. (thanks @Jvkeh!)
 - #97: Non-Storytellers using the /grimoire command open the Storyteller Grim.
 - #99: Spectators get given Village Idiot/Legion tokens. (thanks @Jvkeh!)
-- Spectator 👁️ in voice chats icon uses the wrong font.
+- Players dying during the day doesn't update alive player/dead votes count in the Grimoire.
 - The button to change seat 15's character is clickable when there are not 15 players.
 - Custom banner patterns refer to a nonexistent translation string.
+- The Acrobat is missing a * in its character description.
 - There are several accessible holes in the terrain.
 - Some voice chats can be entered or left by standing in non-whole blocks (panes, iron bars, fences).
-- The Acrobat is missing a * in its character description.
-- "Dev Mode" does not persist across /reloads.
-- Players dying during the day doesn't update alive player/dead votes count in the Grimoire.
+- Spectator 👁️ in voice chats icon uses the wrong font.

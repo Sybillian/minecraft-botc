@@ -173,5 +173,11 @@
     },
     "done": true
   },
+  "ct:vc/outside": {
+    "criteria": {
+      "area": "2026-04-29 12:28:02 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }

@@ -1,3 +1,4 @@
+# execute if (nom active) return;
 scoreboard players remove day_seconds game_data 1
 scoreboard players remove day_value game_data 1
 execute if score day_seconds game_data matches -1 run scoreboard players remove day_minutes game_data 1
