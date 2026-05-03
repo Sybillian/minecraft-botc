@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-bag
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777271637814
-  is_enabled = false
+  last_edited_time = 1777789928486
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:dabc1bb8-8645-45fb-880d-482ea98a847f-1777483899592] = [groups:][instances:]
+  [loading_requirement_container_meta:4149fe3e-abf6-445b-acfa-537189e034e7-1777789918059] = [groups:][instances:]
 }
 
 customization {
@@ -33,14 +33,10 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = dff0939b-0f79-4c56-b001-7e6cb63318ec-1756676226537
-  [executable_action_instance:1aa60695-c037-4b36-bda1-4350233fb311-1756676280832][action_type:sendmessage] = /function ct:admin/setup/initial_load {script:{"placeholder":"getvariable","values":{"name":"script_json"}}}
-  [executable_action_instance:feb647be-1499-452f-bfa4-09ed4e105917-1758081256078][action_type:sendmessage] = /function ct:admin/setup/convert_to_ids {script:{"placeholder":"getvariable","values":{"name":"script_json"}}}
-  [executable_action_instance:21fce60b-bd88-4220-83e8-58c225020222-1756676346738][action_type:sendmessage] = /function ct:admin/setup/reminder_tokens
-  [executable_action_instance:2f6b56d6-ed4d-4e51-8a51-b239737c3b52-1756676357532][action_type:sendmessage] = /function ct:admin/setup/characters
-  [executable_action_instance:e3a3bbfc-43fe-4925-bc53-4a91d181dc05-1756952514601][action_type:sendmessage] = /function ct:admin/setup/night_order
+  [executable_action_instance:1aa60695-c037-4b36-bda1-4350233fb311-1756676280832][action_type:sendmessage] = /function ct:script/set_imported {script:{"placeholder":"getvariable","values":{"name":"script_json"}}}
   [executable_action_instance:44b61c07-5c19-40c3-b91f-b9c7edd8bd3e-1761176634425][action_type:enable_layout] = ct-bag_layout
   [executable_action_instance:84724035-6d7f-4587-8dcb-53f800f1416d-1761176645083][action_type:disable_layout] = ct-bag_import
-  [executable_block:dff0939b-0f79-4c56-b001-7e6cb63318ec-1756676226537][type:generic] = [executables:1aa60695-c037-4b36-bda1-4350233fb311-1756676280832;feb647be-1499-452f-bfa4-09ed4e105917-1758081256078;21fce60b-bd88-4220-83e8-58c225020222-1756676346738;2f6b56d6-ed4d-4e51-8a51-b239737c3b52-1756676357532;e3a3bbfc-43fe-4925-bc53-4a91d181dc05-1756952514601;44b61c07-5c19-40c3-b91f-b9c7edd8bd3e-1761176634425;84724035-6d7f-4587-8dcb-53f800f1416d-1761176645083;]
+  [executable_block:dff0939b-0f79-4c56-b001-7e6cb63318ec-1756676226537][type:generic] = [executables:1aa60695-c037-4b36-bda1-4350233fb311-1756676280832;44b61c07-5c19-40c3-b91f-b9c7edd8bd3e-1761176634425;84724035-6d7f-4587-8dcb-53f800f1416d-1761176645083;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -350,12 +346,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477
-  [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:admin/setup/initial_load {script:[{"id":"_meta","name":"Trouble Brewing"},"washerwoman","librarian","investigator","chef","empath","fortuneteller","undertaker","monk","ravenkeeper","virgin","slayer","soldier","mayor","butler","drunk","recluse","saint","poisoner","spy","scarletwoman","baron","imp"]}
-  [executable_action_instance:ad8a507d-08b8-4055-8d84-843736d4b9d1-1758083238517][action_type:sendmessage] = /function ct:admin/setup/convert_to_ids {script:[{"id":"_meta","name":"Trouble Brewing"},"washerwoman","librarian","investigator","chef","empath","fortuneteller","undertaker","monk","ravenkeeper","virgin","slayer","soldier","mayor","butler","drunk","recluse","saint","poisoner","spy","scarletwoman","baron","imp"]}
-  [executable_action_instance:f56467c4-af8d-4c72-9122-307f7824566e-1757379929287][action_type:sendmessage] = /function ct:admin/setup/reminder_tokens
-  [executable_action_instance:910d3b68-78ac-4068-a2ca-1c6c5b5f54f7-1757379943443][action_type:sendmessage] = /function ct:admin/setup/characters
-  [executable_action_instance:80addfc1-f98c-4fd2-ace8-e032ad43c5d8-1757379952643][action_type:sendmessage] = /function ct:admin/setup/night_order
-  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;ad8a507d-08b8-4055-8d84-843736d4b9d1-1758083238517;f56467c4-af8d-4c72-9122-307f7824566e-1757379929287;910d3b68-78ac-4068-a2ca-1c6c5b5f54f7-1757379943443;80addfc1-f98c-4fd2-ace8-e032ad43c5d8-1757379952643;]
+  [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:script/set_imported {script:[{"id":"_meta","name":"Trouble Brewing"},"washerwoman","librarian","investigator","chef","empath","fortuneteller","undertaker","monk","ravenkeeper","virgin","slayer","soldier","mayor","butler","drunk","recluse","saint","poisoner","spy","scarletwoman","baron","imp"]}
+  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -417,12 +409,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477
-  [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:admin/setup/initial_load {script:[{"id":"_meta","name":"Sects and Violets"},"clockmaker","dreamer","snakecharmer","mathematician","flowergirl","towncrier","oracle","savant","seamstress","philosopher","artist","juggler","sage","mutant","sweetheart","barber","klutz","eviltwin","witch","cerenovus","pithag","fanggu","vigormortis","nodashii","vortox"]}
-  [executable_action_instance:61ec7eab-eb8f-41d5-b7f2-995a4362dfe9-1758083313697][action_type:sendmessage] = /function ct:admin/setup/convert_to_ids {script:[{"id":"_meta","name":"Sects and Violets"},"clockmaker","dreamer","snakecharmer","mathematician","flowergirl","towncrier","oracle","savant","seamstress","philosopher","artist","juggler","sage","mutant","sweetheart","barber","klutz","eviltwin","witch","cerenovus","pithag","fanggu","vigormortis","nodashii","vortox"]}
-  [executable_action_instance:f56467c4-af8d-4c72-9122-307f7824566e-1757379929287][action_type:sendmessage] = /function ct:admin/setup/reminder_tokens
-  [executable_action_instance:910d3b68-78ac-4068-a2ca-1c6c5b5f54f7-1757379943443][action_type:sendmessage] = /function ct:admin/setup/characters
-  [executable_action_instance:80addfc1-f98c-4fd2-ace8-e032ad43c5d8-1757379952643][action_type:sendmessage] = /function ct:admin/setup/night_order
-  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;61ec7eab-eb8f-41d5-b7f2-995a4362dfe9-1758083313697;f56467c4-af8d-4c72-9122-307f7824566e-1757379929287;910d3b68-78ac-4068-a2ca-1c6c5b5f54f7-1757379943443;80addfc1-f98c-4fd2-ace8-e032ad43c5d8-1757379952643;]
+  [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:script/set_imported {script:[{"id":"_meta","name":"Sects and Violets"},"clockmaker","dreamer","snakecharmer","mathematician","flowergirl","towncrier","oracle","savant","seamstress","philosopher","artist","juggler","sage","mutant","sweetheart","barber","klutz","eviltwin","witch","cerenovus","pithag","fanggu","vigormortis","nodashii","vortox"]}
+  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -484,12 +472,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477
-  [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:admin/setup/initial_load {script:[{"id":"_meta","name":"Bad Moon Rising"},"grandmother","sailor","chambermaid","exorcist","innkeeper","gambler","gossip","courtier","professor","minstrel","tealady","pacifist","fool","tinker","moonchild","goon","lunatic","godfather","devilsadvocate","assassin","mastermind","zombuul","pukka","shabaloth","po"]}
-  [executable_action_instance:4caa8981-024c-47ae-b021-922f831cf33a-1758083341796][action_type:sendmessage] = /function ct:admin/setup/convert_to_ids {script:[{"id":"_meta","name":"Bad Moon Rising"},"grandmother","sailor","chambermaid","exorcist","innkeeper","gambler","gossip","courtier","professor","minstrel","tealady","pacifist","fool","tinker","moonchild","goon","lunatic","godfather","devilsadvocate","assassin","mastermind","zombuul","pukka","shabaloth","po"]}
-  [executable_action_instance:f56467c4-af8d-4c72-9122-307f7824566e-1757379929287][action_type:sendmessage] = /function ct:admin/setup/reminder_tokens
-  [executable_action_instance:910d3b68-78ac-4068-a2ca-1c6c5b5f54f7-1757379943443][action_type:sendmessage] = /function ct:admin/setup/characters
-  [executable_action_instance:80addfc1-f98c-4fd2-ace8-e032ad43c5d8-1757379952643][action_type:sendmessage] = /function ct:admin/setup/night_order
-  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;4caa8981-024c-47ae-b021-922f831cf33a-1758083341796;f56467c4-af8d-4c72-9122-307f7824566e-1757379929287;910d3b68-78ac-4068-a2ca-1c6c5b5f54f7-1757379943443;80addfc1-f98c-4fd2-ace8-e032ad43c5d8-1757379952643;]
+  [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:script/set_imported {script:[{"id":"_meta","name":"Bad Moon Rising"},"grandmother","sailor","chambermaid","exorcist","innkeeper","gambler","gossip","courtier","professor","minstrel","tealady","pacifist","fool","tinker","moonchild","goon","lunatic","godfather","devilsadvocate","assassin","mastermind","zombuul","pukka","shabaloth","po"]}
+  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

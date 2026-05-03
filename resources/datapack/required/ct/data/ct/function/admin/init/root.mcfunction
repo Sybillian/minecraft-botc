@@ -17,9 +17,10 @@ bossbar set botc:votes style progress
 bossbar set botc:votes max 10
 bossbar set botc:votes value 10
 
-data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bone_collector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
+data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bonecollector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
 data modify storage ct:seats seats set value [{placeholder:true},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]
 data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}
+function ct:data/character_data
 
 team add 00_spectator
 team add 99_storyteller

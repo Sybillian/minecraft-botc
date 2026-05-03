@@ -1,0 +1,4 @@
+$execute if data storage ct:character_data characters.$(char).name run data modify storage ct:script script.$(type) append value {id:$(char)}
+$execute if data storage ct:character_data characters.$(char).first run data modify storage ct:script night_order.first append value $(char)
+$execute if data storage ct:character_data characters.$(char).other run data modify storage ct:script night_order.other append value $(char)
+$execute if data storage ct:character_data characters.$(char).reminders run data modify storage ct:script reminders append from storage ct:character_data characters.$(char).reminders[]

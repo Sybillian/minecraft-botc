@@ -48,6 +48,7 @@ Technical changes:
 - Script data is no longer stored on players, and is now exclusively stored and referenced in ct:script
 - Voting strength now correlates to a score instead of a strict +1
 - "Dev Mode" is now a little more official. If active, /reloads and joining the world does not automatically run init functions.
+- The way scripts are imported has been redone, making it dramatically more efficient and laying groundwork for homebrew support in the future.
 
 Fixed bugs:
 - #64: Not all windows in the yellow house get blocked by particles.
@@ -65,3 +66,4 @@ Fixed bugs:
 - There are several accessible holes in the terrain.
 - Some voice chats can be entered or left by standing in non-whole blocks (panes, iron bars, fences).
 - Spectator 👁️ in voice chats icon uses the wrong font.
+- The Virgin lacks a "no ability" reminder token.

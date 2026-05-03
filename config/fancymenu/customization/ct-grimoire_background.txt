@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777487226513
+  last_edited_time = 1777788539970
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:7f0df2ad-5954-45d2-ad77-49d07a16c158-1777487105010] = [groups:][instances:]
+  [loading_requirement_container_meta:8f57fd68-6668-4d31-aa4b-7a778780618c-1777788500756] = [groups:][instances:]
 }
 
 customization {
@@ -856,7 +856,7 @@ element {
   [executable_block:f08585af-fc8a-460c-a8bf-5f322b6e90cd-1751836324804][type:generic] = [executables:]
   backgroundnormal = [source:local]/config/fancymenu/assets/menu/icon_frame_blue.png
   backgroundhovered = [source:local]/config/fancymenu/assets/menu/icon_frame_blue.png
-  background_texture_inactive = [source:local]/config/fancymenu/assets/menu/icon_frame_light_blue.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/menu/icon_frame_blue.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

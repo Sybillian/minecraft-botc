@@ -699,7 +699,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -748,7 +748,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -797,7 +797,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -846,7 +846,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -919,7 +919,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -968,7 +968,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1017,7 +1017,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[1]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[1]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1066,7 +1066,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[2]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[2]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1115,7 +1115,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[3]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[3]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1164,7 +1164,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[8]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[8]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1213,7 +1213,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[9]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[9]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1262,7 +1262,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[10]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[10]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1311,7 +1311,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[11]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[11]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1360,7 +1360,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[12]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[12]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1434,7 +1434,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[3]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[3]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1508,7 +1508,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[4]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[4]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1582,7 +1582,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[7]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[7]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1656,7 +1656,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[8]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[8]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1730,7 +1730,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[9]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[9]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1804,7 +1804,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[11]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[11]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1878,7 +1878,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[10]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[10]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1952,7 +1952,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[5]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[5]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2026,7 +2026,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[6]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[6]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2100,7 +2100,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2174,7 +2174,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[1]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[1]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2248,7 +2248,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[2]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[2]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2322,7 +2322,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[12]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[12]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2371,7 +2371,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[13]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[13]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2420,7 +2420,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[14]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[14]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2494,7 +2494,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[13]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[13]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2568,7 +2568,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[14]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[14]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2617,7 +2617,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[15]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[15]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2666,7 +2666,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[16]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[16]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2740,7 +2740,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[15]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[15]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2814,7 +2814,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[16]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[16]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2863,7 +2863,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[21]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[21]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2912,7 +2912,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[22]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[22]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -2961,7 +2961,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[23]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[23]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3010,7 +3010,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[24]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[24]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3059,7 +3059,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[17]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[17]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3108,7 +3108,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[18]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[18]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3157,7 +3157,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[19]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[19]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3206,7 +3206,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[20]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[20]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3255,7 +3255,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[25]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[25]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3304,7 +3304,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[26]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[26]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3353,7 +3353,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[27]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[27]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3402,7 +3402,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[28]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[28]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3451,7 +3451,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[29]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[29]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3525,7 +3525,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[20]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[20]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3599,7 +3599,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[21]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[21]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3673,7 +3673,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[24]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[24]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3747,7 +3747,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[25]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[25]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3821,7 +3821,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[26]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[26]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3895,7 +3895,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[28]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[28]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -3969,7 +3969,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[27]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[27]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4043,7 +4043,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[22]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[22]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4117,7 +4117,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[23]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[23]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4191,7 +4191,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[17]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[17]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4265,7 +4265,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[18]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[18]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4339,7 +4339,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[19]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[19]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4413,7 +4413,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[29]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[29]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4462,7 +4462,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4511,7 +4511,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4560,7 +4560,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4609,7 +4609,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4682,7 +4682,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4731,7 +4731,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4780,7 +4780,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[1]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[1]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4829,7 +4829,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[2]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[2]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4878,7 +4878,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[3]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[3]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4927,7 +4927,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[8]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[8]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -4976,7 +4976,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[9]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[9]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5025,7 +5025,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[10]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[10]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5074,7 +5074,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[11]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[11]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5123,7 +5123,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[12]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[12]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5197,7 +5197,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[3]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[3]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5271,7 +5271,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[4]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[4]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5345,7 +5345,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[7]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[7]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5419,7 +5419,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[8]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[8]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5493,7 +5493,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[9]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[9]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5567,7 +5567,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[11]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[11]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5641,7 +5641,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[10]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[10]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5715,7 +5715,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[5]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[5]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5789,7 +5789,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[6]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[6]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5863,7 +5863,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -5937,7 +5937,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[1]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[1]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6011,7 +6011,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[2]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[2]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6085,7 +6085,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[12]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[12]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6134,7 +6134,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[13]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[13]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6183,7 +6183,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[14]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[14]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6257,7 +6257,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[13]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[13]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6331,7 +6331,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[14]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[14]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6380,7 +6380,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[15]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[15]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6429,7 +6429,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[16]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[16]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6503,7 +6503,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[15]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[15]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6577,7 +6577,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[16]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[16]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6626,7 +6626,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[21]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[21]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6675,7 +6675,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[22]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[22]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6724,7 +6724,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[23]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[23]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6773,7 +6773,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[24]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[24]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6822,7 +6822,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[17]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[17]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6871,7 +6871,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[18]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[18]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6920,7 +6920,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[19]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[19]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -6969,7 +6969,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[20]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[20]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7018,7 +7018,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[25]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[25]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7067,7 +7067,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[26]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[26]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7116,7 +7116,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[27]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[27]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7165,7 +7165,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[28]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[28]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7214,7 +7214,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[29]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[29]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7288,7 +7288,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[20]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[20]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7362,7 +7362,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[21]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[21]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7436,7 +7436,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[24]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[24]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7510,7 +7510,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[25]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[25]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7584,7 +7584,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[26]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[26]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7658,7 +7658,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[28]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[28]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7732,7 +7732,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[27]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[27]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7806,7 +7806,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[22]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[22]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7880,7 +7880,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[23]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[23]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -7954,7 +7954,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[17]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[17]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -8028,7 +8028,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[18]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[18]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -8102,7 +8102,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[19]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[19]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -8176,7 +8176,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[29]"}}","compare_with":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"in_characters.town[20]"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[29]"}}","compare_with":"none"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -8194,7 +8194,7 @@ element {
 }
 
 element {
-  source = [source:location]ct:textures/script/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"icon"}}.png
+  source = [source:location]ct:textures/script/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"meta.icon"}}.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -8242,7 +8242,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"name"}}"%n%Script created by: {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"author"}}%n%^^^
+  source = ^^^%n%"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"meta.name"}}"%n%Script created by: {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"meta.author"}}%n%^^^
   source_mode = direct
   shadow = true
   scale = 1.0
