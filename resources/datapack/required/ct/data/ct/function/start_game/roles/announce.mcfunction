@@ -1,6 +1,6 @@
-execute at @s run playsound ct:clocktower.reveal_role voice @s ~ ~ ~ 1 0.5
 
-execute if data storage ct:script in_characters.lorics[{id:tor}] run return run function ct:start_game/roles/hidden_character
+execute if data storage ct:script script.npcs[{id:tor}] run return run function ct:start_game/roles/hidden_character
+execute at @s run playsound ct:clocktower.reveal_role voice @s ~ ~ ~ 1 1
 
 execute as @s[scores={role=1..199}] run title @s subtitle {"text":"(Good Townsfolk)"}
 execute as @s[scores={role=1..199}] run fmvariable set team_color false #1464e7

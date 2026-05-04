@@ -38,6 +38,7 @@ team modify 14_gray suffix {"text":""}
 team modify 15_black suffix {"text":""}
 
 function ct:util/color_prefixes
+function ct:util/reset_in_roles
 
 data modify block 121 72 68 front_text.messages[1] set value {"selector":"@a[team=01_red]"}
 data modify block 120 72 65 front_text.messages[1] set value {"selector":"@a[team=02_orange]"}

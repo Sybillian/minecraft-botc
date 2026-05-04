@@ -4,6 +4,8 @@ Changes and features:
 - Added the ability to set your preferred name with /nick. Non-vanilla UI will still display usernames.
 - Added a radial menu (opened with C by default) to quickly select nominator and nominee without having to open the Grimoire.
 - Added the ability to import a script from a file.
+- Added the ability to view Fabled and Lorics in the script menu.
+- Added functionality to not reveal player's roles if the Tor is in play.
 - Added icons to "Teleport to seats" and "Teleport to homes" buttons.
 - Added an explanatory tooltip to the "Teleport to homes" button.
 - Added an alert that appears in the bag screen if you have selected a role that affects setup.
@@ -12,7 +14,7 @@ Changes and features:
   - Toggle Voudon ability
   - Toggle Banshee ability
   - Announce Banshee
-  - Start cult vote
+  ### - Start cult vote
   - Restore ghost votes
   - Announce Al-Hadikhia
   - Announce Leviathan

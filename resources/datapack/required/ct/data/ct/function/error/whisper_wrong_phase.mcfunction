@@ -1,0 +1,1 @@
+tellraw @s [{"translate":"clocktower.prefix.notification",color:"yellow"},{"translate":"clocktower.error.whisper_wrong_phase","color":"gray"}]

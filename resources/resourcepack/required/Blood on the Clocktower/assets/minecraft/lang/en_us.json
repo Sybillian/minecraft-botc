@@ -145,6 +145,7 @@
     "clocktower.error.game_active": "This command cannot be run during a game.",
     "clocktower.error.whisper_not_neighbor": "During a game, you can only whisper to your neighbors or the Storyteller.",
     "clocktower.error.whisper_self": "You can't whisper to yourself!",
+    "clocktower.error.whisper_wrong_phase": "You cannot whisper during the private chats phase.",
     //
     // NOTICE MESSAGES
     //

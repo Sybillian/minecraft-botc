@@ -1,4 +1,5 @@
 schedule function ct:start_game/roles/tor_hint 3s
+execute at @s run playsound ct:clocktower.reveal_role voice @s ~ ~ ~ 1 0.5
 
 tag @a[scores={role=1..199}] add town
 tag @a[scores={role=200..299}] add outsider

@@ -1,0 +1,6 @@
+{
+	"id": "tpseats",
+	"executes": [
+		"function ct:cmd/tpseats"
+	]
+}

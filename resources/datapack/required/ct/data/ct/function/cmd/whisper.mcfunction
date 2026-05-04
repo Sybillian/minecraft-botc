@@ -6,6 +6,7 @@ scoreboard players set @s[tag=storyteller] neighbor_check 1
 execute if score phase game_data matches 0 run scoreboard players set @s neighbor_check 1
 execute unless score @s neighbor_check matches -1..1 run return run function ct:error/whisper_not_neighbor
 execute if score @s neighbor_check matches 0 run return run function ct:error/whisper_self
+execute if score phase game_data matches 2 run return run function ct:error/whisper_wrong_phase
 
 # tellraw @s {"text":"hiii",hover_event:{action:show_text,value:{translate:"clocktower.command.msg.st_visible"}}}
 $tellraw $(player) [{translate:"clocktower.command.msg",color:gray,with:[{translate:"clocktower.command.msg.you",color:gray},{text:$(target),color:gray},{text:"$(msg)",color:gray}],hover_event:{action:show_text,value:{translate:"clocktower.command.msg.st_visible"}}}]

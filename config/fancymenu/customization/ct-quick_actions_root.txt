@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-quick_actions
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777851044731
+  last_edited_time = 1777865152138
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:eaf5f4f4-70c8-4c2f-b029-4e8bf32750d2-1777851033902] = [groups:][instances:]
+  [loading_requirement_container_meta:c54c7f50-8084-46cd-bb56-49dd84d1e467-1777865147162] = [groups:][instances:]
 }
 
 menu_background {
@@ -159,7 +159,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1060
+  auto_sizing_base_screen_height = 1084
   sticky_anchor = false
   anchor_point = bottom-right
   x = -110
@@ -376,6 +376,71 @@ element {
   element_loading_requirement_container_identifier = f75a70d7-7669-4de0-a738-dc34e2690ccf-1777850341468
   [loading_requirement_container_meta:f75a70d7-7669-4de0-a738-dc34e2690ccf-1777850341468] = [groups:][instances:aeef5da0-e8a2-43c6-b90b-a5738fb77801-1777850341468;]
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:aeef5da0-e8a2-43c6-b90b-a5738fb77801-1777850341468] = quickaction:tp
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  button_element_executable_block_identifier = 7b47d48e-9821-4d21-9059-258758a1fc61-1754439563935
+  [executable_action_instance:484d038d-4bb4-4d24-b389-f5a62989920b-1777865063454][action_type:sendmessage] = /noms_menu
+  [executable_action_instance:89f9fe2c-f013-4c10-985d-e316f9c3aa91-1777865132680][action_type:closegui] = 
+  [executable_block:7b47d48e-9821-4d21-9059-258758a1fc61-1754439563935][type:generic] = [executables:484d038d-4bb4-4d24-b389-f5a62989920b-1777865063454;89f9fe2c-f013-4c10-985d-e316f9c3aa91-1777865132680;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Nominate
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 6db33429-1dea-4c3b-9223-a9c044f359c9-1754439563935
+  [loading_requirement_container_meta:6db33429-1dea-4c3b-9223-a9c044f359c9-1754439563935] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 3f88fc9d-2677-4d98-8ba0-2ec6d081adc3-1777865025799
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1084
+  sticky_anchor = false
+  anchor_point = bottom-right
+  x = -110
+  y = -45
+  width = 108
+  height = 14
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 8de3e812-f9c2-4f0f-b6db-0b9cac04f5ec-1754439563935
+  [loading_requirement_container_meta:8de3e812-f9c2-4f0f-b6db-0b9cac04f5ec-1754439563935] = [groups:][instances:d699c3f8-8634-4ee8-aed7-8da822721eb6-1768681817654;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:d699c3f8-8634-4ee8-aed7-8da822721eb6-1768681817654] = storyteller:true
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

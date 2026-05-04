@@ -1,6 +1,6 @@
+execute if score dev_mode game_data matches 1 run return fail
 function ct:admin/init/voice_chats
 function ct:admin/init/yawp_flags
-execute if score dev_mode game_data matches 1 run return fail
 
 bossbar add day_time "Time for Conversations:"
 bossbar set day_time color blue

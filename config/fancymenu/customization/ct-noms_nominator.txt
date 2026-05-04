@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-noms
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777853399144
+  last_edited_time = 1777864931218
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:23489ca8-317e-4d59-998f-d74975b2e8fd-1777854730633] = [groups:][instances:]
+  [loading_requirement_container_meta:8199b0f5-4738-4d29-84b4-10122b05e349-1777865153651] = [groups:][instances:]
 }
 
 customization {
@@ -39,7 +39,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -108,7 +108,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -182,7 +182,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -224,7 +224,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -293,7 +293,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -337,7 +337,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -406,7 +406,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -450,7 +450,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -519,7 +519,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -563,7 +563,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -632,7 +632,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -676,7 +676,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -745,7 +745,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -789,7 +789,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -858,7 +858,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -902,7 +902,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -971,7 +971,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1015,7 +1015,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1084,7 +1084,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1128,7 +1128,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1197,7 +1197,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1241,7 +1241,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1310,7 +1310,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1354,7 +1354,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1423,7 +1423,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1467,7 +1467,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1536,7 +1536,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1580,7 +1580,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1649,7 +1649,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1693,7 +1693,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
@@ -1762,7 +1762,7 @@ element {
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
-  fade_in_speed = 30.0
+  fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0

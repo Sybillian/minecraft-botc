@@ -6,7 +6,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player: if they are or become drunk or poisoned tonight, you die.",\
 			"flavor": "Welcome, one and all, to the greatest show on earth.",\
 			"name": "Acrobat",\
-			"other": "The Acrobat chooses a player. :reminder:",\
+			"other": "The Acrobat chooses a player.",\
       "reminders": [{text:acrobat_dead,icon:acrobat}]\
 		},\
 		"alchemist": {\
@@ -21,7 +21,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",\
 			"flavor": "Alsukut min dhahab.",\
 			"name": "Al-Hadikhia",\
-			"other": "The Al-Hadikhia chooses 3 players. :reminder: :reminder: :reminder: In order, wake each target. They nod or shake their head. Put them to sleep before waking the next target.",\
+			"other": "The Al-Hadikhia chooses 3 players. In order, wake each target. They nod or shake their head. Put them to sleep before waking the next target.",\
       "reminders": [{text:alhadikhia_1,icon:alhadikhia},{text:alhadikhia_2,icon:alhadikhia},{text:alhadikhia_3,icon:alhadikhia},{text:alhadikhia_die,icon:alhadikhia},{text:alhadikhia_live,icon:alhadikhia}],\
 			"jinxes": [{id:mastermind},{id:princess},{id:scarletwoman}]\
 		},\
@@ -41,14 +41,14 @@ data merge storage ct:character_data \
 		},\
 		"angel": {\
 			"ability": "Something bad might happen to whoever is most responsible for the death of a new player.",\
-			"first": "Announce which players are protected by the Angel. :reminder:",\
+			"first": "Announce which players are protected by the Angel.",\
 			"flavor": "Let those who are without sin dare to raise their hand to my chosen, for I shall strike such fools down with the fury and righteousness of a thousand storms.",\
 			"name": "Angel",\
       "reminders": [{text:angel_protect,icon:angel},{text:angel_something_bad,icon:angel}]\
 		},\
 		"apprentice": {\
 			"ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",\
-			"first": "Show the *YOU ARE* info token, then a Townsfolk or Minion token. Swap the Apprentice & Townsfolk or Minion tokens. :reminder:",\
+			"first": "Show the *YOU ARE* info token, then a Townsfolk or Minion token. Swap the Apprentice & Townsfolk or Minion tokens.",\
 			"flavor": "For years have I traveled, studying the ways of The Craft. Which craft, you ask? Simply that of the simple folk. Nothing to worry about. Not yet.",\
 			"name": "Apprentice",\
       "reminders": [{text:apprentice,icon:apprentice}]\
@@ -63,7 +63,7 @@ data merge storage ct:character_data \
 			"ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",\
 			"flavor": "...",\
 			"name": "Assassin",\
-			"other": "The Assassin might choose a player. :reminder: :reminder:",\
+			"other": "The Assassin might choose a player.",\
       "reminders": [{text:assassin_dead,icon:assassin},{text:assassin_no_ability,icon:assassin}]\
 		},\
 		"atheist": {\
@@ -74,10 +74,10 @@ data merge storage ct:character_data \
 		},\
 		"balloonist": {\
 			"ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",\
-			"first": "Point to any player. :reminder:",\
+			"first": "Point to any player.",\
 			"flavor": "More heat! Higher! Higher! Più alto! Ahhh... it is so beautiful from up here, don't you agree? Can you see the children fishing by the river, under the willow? Can you see the glint of the sun on the circus tent-poles? What's this? An old man, alone, passed out in the vineyard? Less heat! Lower! Lower! Vai più in basso!",\
 			"name": "Balloonist",\
-			"other": "Point to a player with a different character type to the previously shown player. :reminder:",\
+			"other": "Point to a player with a different character type to the previously shown player.",\
       "reminders": [{text:balloonist,icon:balloonist}],\
 			"jinxes": [{id:marionette}]\
 		},\
@@ -85,7 +85,7 @@ data merge storage ct:character_data \
 			"ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination.",\
 			"flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",\
 			"name": "Banshee",\
-			"other": "If the Banshee was killed by the Demon tonight, announce that the Banshee has died. :reminder:",\
+			"other": "If the Banshee was killed by the Demon tonight, announce that the Banshee has died.",\
       "reminders": [{text:banshee,icon:banshee}],\
 			"jinxes": [{id:leviathan},{id:riot},{id:vortox}]\
 		},\
@@ -98,10 +98,10 @@ data merge storage ct:character_data \
 		},\
 		"barista": {\
 			"ability": "Each night, until dusk, 1) a player becomes sober, healthy & gets true info, or 2) their ability works twice. They learn which.",\
-			"first": "Choose a player. Wake them, show the *THIS CHARACTER SELECTED YOU* & Barista tokens, then give a finger signal. :reminder:",\
+			"first": "Choose a player. Wake them, show the *THIS CHARACTER SELECTED YOU* & Barista tokens, then give a finger signal.",\
 			"flavor": "A cup of coffee with no cream, Monsieur? I’m terribly sorry, but we’re fresh out of cream — how about with no milk?",\
 			"name": "Barista",\
-			"other": "Choose a player. Wake them, show the *THIS CHARACTER SELECTED YOU* & Barista tokens, then give a finger signal. :reminder:",\
+			"other": "Choose a player. Wake them, show the *THIS CHARACTER SELECTED YOU* & Barista tokens, then give a finger signal.",\
       "reminders": [{text:barista_sober,icon:barista},{text:barista_twice,icon:barista}]\
 		},\
 		"baron": {\
@@ -137,7 +137,7 @@ data merge storage ct:character_data \
 			"ability": "Once per game, at night*, choose a dead player: they regain their ability until dusk.",\
 			"flavor": "I collect many things. Hair. Teeth. Clothes. Fragments of poems. The dreams of lost lovers. My secret arts are not for you to know but my fee is a mere pittance. Bring me the blood of a noblewoman who died of heartbreak under a full moon, and you shall have your answers.",\
 			"name": "Bone Collector",\
-			"other": "The Bone Collector might choose a dead player. :reminder: If necessary, wake the chosen player to use their ability.",\
+			"other": "The Bone Collector might choose a dead player. If necessary, wake the chosen player to use their ability.",\
 			"reminders": [{text:bonecollector_has_ability,icon:bonecollector},{text:bonecollector_no_ability,icon:bonecollector}]\
 		},\
 		"boomdandy": {\
@@ -168,10 +168,10 @@ data merge storage ct:character_data \
 		},\
 		"bureaucrat": {\
 			"ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",\
-			"first": "The Bureaucrat chooses a player. :reminder:",\
+			"first": "The Bureaucrat chooses a player.",\
 			"flavor": "Sign here please. And here. And here. Aaaaaaaaand here. This should all be sorted and tallied by the end of the day, assuming everyone's signatures are legible. We haven't had a mix-up in the paperwork for ages. Yesterday noon, if memory serves...",\
 			"name": "Bureaucrat",\
-			"other": "The Bureaucrat chooses a player. :reminder:",\
+			"other": "The Bureaucrat chooses a player.",\
 			"reminders": [{text:bureaucrat,icon:bureaucrat}]\
 		},\
 		"butcher": {\
@@ -181,10 +181,10 @@ data merge storage ct:character_data \
 		},\
 		"butler": {\
 			"ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",\
-			"first": "The Butler chooses a player. :reminder:",\
+			"first": "The Butler chooses a player.",\
 			"flavor": "Yes, sir... No, sir... Certainly, sir.",\
 			"name": "Butler",\
-			"other": "The Butler chooses a player. :reminder:",\
+			"other": "The Butler chooses a player.",\
 			"reminders": [{text:butler,icon:butler}],\
 			"jinxes": [{id:cannibal},{id:organgrinder}]\
 		},\
@@ -203,10 +203,10 @@ data merge storage ct:character_data \
 		},\
 		"cerenovus": {\
 			"ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",\
-			"first": "The Cerenovus chooses a player & a character. :reminder: Put the Cerenovus to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token, the Cerenovus token, then the madness-character token.",\
+			"first": "The Cerenovus chooses a player & a character. Put the Cerenovus to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token, the Cerenovus token, then the madness-character token.",\
 			"flavor": "Reality is merely an opinion. Specifically, my opinion.",\
 			"name": "Cerenovus",\
-			"other": "The Cerenovus chooses a player & a character. :reminder: Put the Cerenovus to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token, the Cerenovus token, then the madness-character token.",\
+			"other": "The Cerenovus chooses a player & a character. Put the Cerenovus to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token, the Cerenovus token, then the madness-character token.",\
 			"reminders": [{text:cerenovus,icon:cerenovus}],\
 			"jinxes": [{id:goblin}]\
 		},\
@@ -239,10 +239,10 @@ data merge storage ct:character_data \
 		},\
 		"courtier": {\
 			"ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",\
-			"first": "The Courtier might choose a character. :reminder: :reminder:",\
+			"first": "The Courtier might choose a character.",\
 			"flavor": "I am more afraid of an army of one hundred sheep led by a lion than an army of one hundred lions led by a sheep.",\
 			"name": "Courtier",\
-			"other": "The Courtier might choose a character. :reminder: :reminder:",\
+			"other": "The Courtier might choose a character.",\
 			"reminders": [{text:courtier_1,icon:courtier},{text:courtier_2,icon:courtier},{text:courtier_3,icon:courtier},{text:courtier_no_ability,icon:courtier}],\
 			"jinxes": [{id:summoner},{id:vizier}]\
 		},\
@@ -285,10 +285,10 @@ data merge storage ct:character_data \
 		},\
 		"devilsadvocate": {\
 			"ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",\
-			"first": "The Devil's Advocate chooses a living player. :reminder:",\
+			"first": "The Devil's Advocate chooses a living player.",\
 			"flavor": "My client, should the objection be overruled, pleads innocent by virtue of the prosecution's non-observance of statute 27.B - incorrect or misleading conjugation of a verb. The fact that nine of the jury died last night is simply prima facie, which is, as Wills vs Thule set precedent for, further reason to acquit.",\
 			"name": "Devil's Advocate",\
-			"other": "The Devil's Advocate chooses a living player. :reminder:",\
+			"other": "The Devil's Advocate chooses a living player.",\
 			"reminders": [{text:devilsadvocate,icon:devilsadvocate}]\
 		},\
 		"djinn": {\
@@ -336,10 +336,10 @@ data merge storage ct:character_data \
 		},\
 		"engineer": {\
 			"ability": "Once per game, at night, choose which Minions or which Demon is in play.",\
-			"first": "The Engineer might choose Minions or Demons. Put the Engineer to sleep. Wake the target(s) one at a time. Show the *YOU ARE* info token & their new character token. :reminder:",\
+			"first": "The Engineer might choose Minions or Demons. Put the Engineer to sleep. Wake the target(s) one at a time. Show the *YOU ARE* info token & their new character token.",\
 			"flavor": "If it bends, great. If it breaks, well, it probably needed fixing anyway.",\
 			"name": "Engineer",\
-			"other": "The Engineer might choose Minions or Demons. Put the Engineer to sleep. Wake the target(s) one at a time. Show the *YOU ARE* info token & their new character token. :reminder:",\
+			"other": "The Engineer might choose Minions or Demons. Put the Engineer to sleep. Wake the target(s) one at a time. Show the *YOU ARE* info token & their new character token.",\
 			"jinxes": [{id:legion},{id:summoner}]\
 		},\
 		"eviltwin": {\
@@ -354,7 +354,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",\
 			"flavor": "We cast you out, every unclean spirit, every satanic power, every onslaught of the infernal adversary, every legion, every diabolical group and sect, in the name and by the power of Our Lord Jesus Christ. We command you, begone and fly far from the Church of God, from the souls made by God in His image and redeemed by the precious blood of the divine Lamb.",\
 			"name": "Exorcist",\
-			"other": "The Exorcist chooses a player. :reminder: Put the Exorcist to sleep. If the Exorcist chose the Demon: Wake the Demon. Show the *THIS CHARACTER SELECTED YOU* & Exorcist tokens. Point to the Exorcist.",\
+			"other": "The Exorcist chooses a player. Put the Exorcist to sleep. If the Exorcist chose the Demon: Wake the Demon. Show the *THIS CHARACTER SELECTED YOU* & Exorcist tokens. Point to the Exorcist.",\
 			"reminders": [{text:exorcist,icon:exorcist}],\
 			"jinxes": [{id:leviathan},{id:riot},{id:yaggababble}]\
 		},\
@@ -362,7 +362,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",\
 			"flavor": "Your walls and your weapons are but smoke in dreams.",\
 			"name": "Fang Gu",\
-			"other": "The Fang Gu chooses a player. :reminder: If they chose an Outsider (once only): Replace the Outsider token with the spare Fang Gu token. Put the Fang Gu to sleep. Wake the target. Show the *YOU ARE* and Fang Gu tokens & give a thumbs-down. :reminder:",\
+			"other": "The Fang Gu chooses a player. If they chose an Outsider (once only): Replace the Outsider token with the spare Fang Gu token. Put the Fang Gu to sleep. Wake the target. Show the *YOU ARE* and Fang Gu tokens & give a thumbs-down.",\
 			"reminders": [{text:fanggu_dead,icon:fanggu},{text:fanggu_once,icon:fanggu}],\
 			"jinxes": [{id:scarletwoman}]\
 		},\
@@ -375,10 +375,10 @@ data merge storage ct:character_data \
 		},\
 		"fearmonger": {\
 			"ability": "Each night, choose a player: if you nominate & execute them, their team loses. All players know if you choose a new player.",\
-			"first": "The Fearmonger chooses a player. :reminder: Announce that the Fearmonger has chosen a player.",\
+			"first": "The Fearmonger chooses a player. Announce that the Fearmonger has chosen a player.",\
 			"flavor": "Beware of gazing long into the Abyss, lest the Abyss also gaze into you.",\
 			"name": "Fearmonger",\
-			"other": "The Fearmonger chooses a player. :reminder: If the target is different to last night, announce that the Fearmonger has chosen a player.",\
+			"other": "The Fearmonger chooses a player. If the target is different to last night, announce that the Fearmonger has chosen a player.",\
 			"reminders": [{text:fearmonger,icon:fearmonger}],\
 			"jinxes": [{id:plaguedoctor},{id:vizier}]\
 		},\
@@ -429,7 +429,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",\
 			"flavor": "Heads, I win. Tails, you lose.",\
 			"name": "Gambler",\
-			"other": "The Gambler chooses a player & a character. :reminder:",\
+			"other": "The Gambler chooses a player & a character.",\
 			"reminders": [{text:gambler,icon:gambler}]\
 		},\
 		"gangster": {\
@@ -467,7 +467,7 @@ data merge storage ct:character_data \
 			"first": "Show the character tokens of all in-play Outsiders.",\
 			"flavor": "Normally, it's just business. But when you insult my daughter, you insult me. And when you insult me, you insult my family. You really should be more careful - it would be a shame if you had an unfortunate accident.",\
 			"name": "Godfather",\
-			"other": "If an Outsider died today, the Godfather chooses a player. :reminder:",\
+			"other": "If an Outsider died today, the Godfather chooses a player.",\
 			"reminders": [{text:godfather_active,icon:godfather},{text:godfather_dead,icon:godfather}],\
 			"jinxes": [{id:heretic}]\
 		},\
@@ -493,7 +493,7 @@ data merge storage ct:character_data \
 			"ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",\
 			"flavor": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah.",\
 			"name": "Gossip",\
-			"other": "If the Gossip is due to kill a player, they die. :reminder:",\
+			"other": "If the Gossip is due to kill a player, they die.",\
 			"reminders": [{text:gossip,icon:gossip}]\
 		},\
 		"grandmother": {\
@@ -501,7 +501,7 @@ data merge storage ct:character_data \
 			"first": "Point to the grandchild player & show their character token.",\
 			"flavor": "Take a jacket if you go outside, dearie. And your thermos. And your scarf. I have a weak heart, you know. Whatever would I do if you caught cold...or worse?",\
 			"name": "Grandmother",\
-			"other": "If the grandchild was killed by the Demon, the Grandmother dies too. :reminder:",\
+			"other": "If the grandchild was killed by the Demon, the Grandmother dies too.",\
 			"reminders": [{text:grandmother,icon:grandmother}],\
 			"jinxes": [{id:leviathan},{id:riot}]\
 		},\
@@ -514,15 +514,15 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",\
 			"flavor": "Enchanté, Sailor. You look like you need someone to really listen to your troubles. I'm a good listener. Very, very good.",\
 			"name": "Harlot",\
-			"other": "The Harlot chooses a living player. Put the Harlot to sleep. Wake the chosen player, show them the *THIS CHARACTER SELECTED YOU* token, then the Harlot token. If that player nods their head, wake the Harlot and show them the chosen player's character token. Both players might die. :reminder: :reminder:",\
+			"other": "The Harlot chooses a living player. Put the Harlot to sleep. Wake the chosen player, show them the *THIS CHARACTER SELECTED YOU* token, then the Harlot token. If that player nods their head, wake the Harlot and show them the chosen player's character token. Both players might die.",\
 			"reminders": [{text:harlot,icon:harlot}]\
 		},\
 		"harpy": {\
 			"ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or one or both might die.",\
-			"first": "The Harpy chooses 2 players. :reminder: :reminder: Put the Harpy to sleep. Wake the 1st target. Show the *THIS CHARACTER SELECTED YOU* token, the Harpy token, then point to the 2nd target.",\
+			"first": "The Harpy chooses 2 players. Put the Harpy to sleep. Wake the 1st target. Show the *THIS CHARACTER SELECTED YOU* token, the Harpy token, then point to the 2nd target.",\
 			"flavor": "So fair a day I never did see, nor so fowl a presence hanging over me.",\
 			"name": "Harpy",\
-			"other": "The Harpy chooses 2 players. :reminder: :reminder: Put the Harpy to sleep. Wake the 1st target. Show the *THIS CHARACTER SELECTED YOU* token, the Harpy token, then point to the 2nd target.",\
+			"other": "The Harpy chooses 2 players. Put the Harpy to sleep. Wake the 1st target. Show the *THIS CHARACTER SELECTED YOU* token, the Harpy token, then point to the 2nd target.",\
 			"reminders": [{text:harpy_mad,icon:harpy},{text:harpy_second,icon:harpy}]\
 		},\
 		"hatter": {\
@@ -565,10 +565,10 @@ data merge storage ct:character_data \
 		},\
 		"huntsman": {\
 			"ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",\
-			"first": "The Huntsman might choose a player. :reminder: If they chose the Damsel: Put the Huntsman to sleep. Wake the target. Show the *YOU ARE* info token & their new character token.",\
+			"first": "The Huntsman might choose a player. If they chose the Damsel: Put the Huntsman to sleep. Wake the target. Show the *YOU ARE* info token & their new character token.",\
 			"flavor": "My cabin is warm and sturdy. My axe by the door, my boots drying by the fire, and elk stew a-simmering… Hark! A scream echoes through the valley! The rain and the mud and the cold, cold wind mask the scent of the wolves, but I know the path and my pace is steady. I am coming.",\
 			"name": "Huntsman",\
-			"other": "The Huntsman might choose a player. :reminder: If they chose the Damsel: Put the Huntsman to sleep. Wake the target. Show the *YOU ARE* info token & their new character token.",\
+			"other": "The Huntsman might choose a player. If they chose the Damsel: Put the Huntsman to sleep. Wake the target. Show the *YOU ARE* info token & their new character token.",\
 			"reminders": [{text:huntsman,icon:huntsman}],\
 			"jinxes": [{id:marionette}]\
 		},\
@@ -576,14 +576,14 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",\
 			"flavor": "We must keep our wits sharp and our sword sharper. Evil walks among us, and will stop at nothing to destroy us good, simple folk, bringing our fine town to ruin. Trust no-one. But, if you must trust someone, trust me.",\
 			"name": "Imp",\
-			"other": "The Imp chooses a player. :reminder: If the Imp chose themselves: Replace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the *YOU ARE* token, then show the Imp token.",\
+			"other": "The Imp chooses a player. If the Imp chose themselves: Replace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the *YOU ARE* token, then show the Imp token.",\
 			"reminders": [{text:imp,icon:imp}]\
 		},\
 		"innkeeper": {\
 			"ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",\
 			"flavor": "Come inside, fair traveller, and rest your weary bones. Drink and be merry, for the legions of the Dark One shall not harass thee tonight.",\
 			"name": "Innkeeper",\
-			"other": "The Innkeeper chooses 2 players. :reminder: :reminder: :reminder:",\
+			"other": "The Innkeeper chooses 2 players.",\
 			"reminders": [{text:innkeeper_protected,icon:innkeeper},{text:innkeeper_drunk,icon:innkeeper}],\
 			"jinxes": [{id:leviathan},{id:riot}]\
 		},\
@@ -613,7 +613,7 @@ data merge storage ct:character_data \
 			"first": "The Kazali chooses which players are which Minions. Wake each target. Show the *YOU ARE* and Minion tokens & give a thumbs-down.",\
 			"flavor": "Gon(z)a7les6. Take cau8tun. The mech4an4ion is iNvert10d. E99ors insy6tum. Reco{7}fig.",\
 			"name": "Kazali",\
-			"other": "The Kazali chooses a player. :reminder:",\
+			"other": "The Kazali chooses a player.",\
 			"reminders": [{text:kazali,icon:kazali}]\
 		},\
 		"king": {\
@@ -644,15 +644,15 @@ data merge storage ct:character_data \
 			"ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",\
 			"flavor": "We are the chill wind on a winter’s day. We are the shadow in the moonless night. We are the poison in your tea and the whisper in your ear. We are everywhere.",\
 			"name": "Legion",\
-			"other": "A player might die. :reminder:",\
+			"other": "A player might die.",\
 			"reminders": [{text:legion_dead,icon:legion},{text:legion_about_to_die,icon:legion}]\
 		},\
 		"leviathan": {\
 			"ability": "If more than 1 good player is executed, evil wins. All players know you are in play. After day 5, evil wins.",\
-			"first": "Announce that the Leviathan is in play. :reminder:",\
+			"first": "Announce that the Leviathan is in play.",\
 			"flavor": "To the last, I grapple with thee. From Hell’s heart, I stab at thee. For hate’s sake, I spit my last breath at thee.",\
 			"name": "Leviathan",\
-			"other": "Change the Leviathan reminder token to the relevant day. :reminder: You may announce that the Leviathan is in play.",\
+			"other": "Change the Leviathan reminder token to the relevant day. You may announce that the Leviathan is in play.",\
 			"reminders": [{text:leviathan,icon:leviathan}]\
 		},\
 		"librarian": {\
@@ -664,18 +664,18 @@ data merge storage ct:character_data \
 		},\
 		"lilmonsta": {\
 			"ability": "Each night, Minions choose who babysits Lil' Monsta & \"is the Demon\". Each night*, a player might die. [+1 Minion]",\
-			"first": "Wake the Minions. They choose a player. :reminder: Put the Minions to sleep. Wake the target. Show the *YOU ARE* & Lil' Monsta tokens.",\
+			"first": "Wake the Minions. They choose a player. Put the Minions to sleep. Wake the target. Show the *YOU ARE* & Lil' Monsta tokens.",\
 			"flavor": "Step 1: Be cute. Step 2: World domination. Step 3: Bweakfast.",\
 			"name": "Lil' Monsta",\
-			"other": "Wake the Minions. They choose a player. :reminder: Put the Minions to sleep. Wake the target. Show the *YOU ARE* & Lil' Monsta tokens. A player might die. :reminder:",\
+			"other": "Wake the Minions. They choose a player. Put the Minions to sleep. Wake the target. Show the *YOU ARE* & Lil' Monsta tokens. A player might die.",\
 			"reminders": [{text:lilmonsta_demon,icon:lilmonsta},{text:lilmonsta_dead,icon:lilmonsta}]\
 		},\
 		"lleech": {\
 			"ability": "Each night*, choose a player: they die. You start by choosing a player: they are poisoned. You die if & only if they are dead.",\
-			"first": "The Lleech chooses a player. :reminder:",\
+			"first": "The Lleech chooses a player.",\
 			"flavor": "Tasty, tasty, tasty, tasty, tasty, tasty, tasty, tasty brai- I mean pie! Yes. Tasty pie. That’s what I meant to say.",\
 			"name": "Lleech",\
-			"other": "The Lleech chooses a player. :reminder:",\
+			"other": "The Lleech chooses a player.",\
 			"reminders": [{text:lleech_dead,icon:lleech},{text:lleech_poisoned,icon:lleech}]\
 		},\
 		"lordoftyphon": {\
@@ -683,7 +683,7 @@ data merge storage ct:character_data \
 			"first": "Wake the Lord of Typhon's neighbors. Show the *YOU ARE* and Minion tokens & give a thumbs-down.",\
 			"flavor": "In the shadowed and forgotten corners of the cosmos, where the stars whisper secrets to the void, lies a truth so profound that the merest glimpse of it unravels the sanity of mortal minds.",\
 			"name": "Lord of Typhon",\
-			"other": "The Lord of Typhon chooses a player. :reminder:",\
+			"other": "The Lord of Typhon chooses a player.",\
 			"reminders": [{text:lordoftyphon,icon:lordoftyphon}]\
 		},\
 		"lunatic": {\
@@ -698,7 +698,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose an alive player. If good, they die & the Demon doesn’t kill tonight. One good player registers as evil.",\
 			"flavor": "Beneath the thin veneer of civilisation lies a howling madness.",\
 			"name": "Lycanthrope",\
-			"other": "The Lycanthrope chooses a player. :reminder:",\
+			"other": "The Lycanthrope chooses a player.",\
 			"reminders": [{text:lycanthrope_dead,icon:lycanthrope},{text:lycanthrope_faux_paw,icon:lycanthrope}]\
 		},\
 		"magician": {\
@@ -742,7 +742,7 @@ data merge storage ct:character_data \
 			"first": "Show the secret word.",\
 			"flavor": "That which issues from the heart alone, will bend the hearts of others to your own.",\
 			"name": "Mezepheles",\
-			"other": "If a good player said the secret word, wake the player. Show the *YOU ARE* info token & give a thumbs-down. :reminder: :reminder:",\
+			"other": "If a good player said the secret word, wake the player. Show the *YOU ARE* info token & give a thumbs-down.",\
 			"reminders": [{text:mezepheles_evil,icon:mezepheles},{text:mezepheles_no_ability,icon:mezepheles}]\
 		},\
 		"minioninfo": {\
@@ -759,14 +759,14 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",\
 			"flavor": "'Tis an ill and deathly wind that blows tonight. Come, my brother, take shelter in the abbey while the storm rages. By my word, or by my life, you will be safe.",\
 			"name": "Monk",\
-			"other": "The Monk chooses a player. :reminder:",\
+			"other": "The Monk chooses a player.",\
 			"reminders": [{text:monk,icon:monk}]\
 		},\
 		"moonchild": {\
 			"ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",\
 			"flavor": "Scorpio looks sideways at the lovers, and you have a choice to make. With silver cross my palm, and your fate shall be revealed. With steel cross my throat, and by the stars you shall regret it.",\
 			"name": "Moonchild",\
-			"other": "If the Moonchild is due to kill a good player, they die. :reminder:",\
+			"other": "If the Moonchild is due to kill a good player, they die.",\
 			"reminders": [{text:moonchild,icon:moonchild}]\
 		},\
 		"mutant": {\
@@ -776,10 +776,10 @@ data merge storage ct:character_data \
 		},\
 		"nightwatchman": {\
 			"ability": "Once per game, at night, choose a player: they learn you are the Nightwatchman.",\
-			"first": "The Nightwatchman might choose a player. Put the Nightwatchman to sleep. Wake the target. Show the *THIS PLAYER IS* & Nightwatchman tokens, then point to the Nightwatchman. :reminder:",\
+			"first": "The Nightwatchman might choose a player. Put the Nightwatchman to sleep. Wake the target. Show the *THIS PLAYER IS* & Nightwatchman tokens, then point to the Nightwatchman.",\
 			"flavor": "The night is cold and lonely, but I have the moon, the stars, the crisp wind and the soft thud of leather boots on cobbled stone for company. Yonder, candlelight flickers behind a murky window...",\
 			"name": "Nightwatchman",\
-			"other": "The Nightwatchman might choose a player. Put the Nightwatchman to sleep. Wake the target. Show the *THIS PLAYER IS* & Nightwatchman tokens, then point to the Nightwatchman. :reminder:",\
+			"other": "The Nightwatchman might choose a player. Put the Nightwatchman to sleep. Wake the target. Show the *THIS PLAYER IS* & Nightwatchman tokens, then point to the Nightwatchman.",\
 			"reminders": [{text:nightwatchman,icon:nightwatchman}]\
 		},\
 		"noble": {\
@@ -793,12 +793,12 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned.",\
 			"flavor": "By the sins of Arnoch, I feel thy laden stench. By the curs-ed sun and her foul legion of tiny grinning gods, I corrupt thee. By the blessed night and the hidden depths of the horrid and unholy sea, I end thy squalid life upon this plane.",\
 			"name": "No Dashii",\
-			"other": "The No Dashii chooses a player. :reminder:",\
+			"other": "The No Dashii chooses a player.",\
 			"reminders": [{text:nodashii_dead,icon:nodashii},{text:nodashii_poisoned,icon:nodashii}]\
 		},\
 		"ogre": {\
 			"ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned.",\
-			"first": "The Ogre chooses a player. :reminder:",\
+			"first": "The Ogre chooses a player.",\
 			"flavor": "<grunt><grin></grunt>",\
 			"name": "Ogre",\
 			"reminders": [{text:ogre,icon:ogre}]\
@@ -807,7 +807,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",\
 			"flavor": "Like a bonfire on a moonless night… I see you, mortal.",\
 			"name": "Ojo",\
-			"other": "The Ojo chooses a character. :reminder:",\
+			"other": "The Ojo chooses a character.",\
 			"reminders": [{text:ojo,icon:ojo}]\
 		},\
 		"oracle": {\
@@ -818,10 +818,10 @@ data merge storage ct:character_data \
 		},\
 		"organgrinder": {\
 			"ability": "All players keep their eyes closed when voting and the vote tally is secret. Each night, choose if you are drunk until dusk.",\
-			"first": "The Organ Grinder either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",\
+			"first": "The Organ Grinder either nods their head yes to be drunk, or shakes their head no to be sober.",\
 			"flavor": "Round and round the handles go. The more you dance the less you know.",\
 			"name": "Organ Grinder",\
-			"other": "The Organ Grinder either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",\
+			"other": "The Organ Grinder either nods their head yes to be drunk, or shakes their head no to be sober.",\
 			"reminders": [{text:organgrinder_drunk,icon:organgrinder},{text:organgrinder_about_to_die,icon:organgrinder}]\
 		},\
 		"pacifist": {\
@@ -831,10 +831,10 @@ data merge storage ct:character_data \
 		},\
 		"philosopher": {\
 			"ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",\
-			"first": "The Philosopher might choose a character. If necessary, swap their character token. :reminder:",\
+			"first": "The Philosopher might choose a character. If necessary, swap their character token.",\
 			"flavor": "If anything is real, beer is real. Drink, for tomorrow we may die.",\
 			"name": "Philosopher",\
-			"other": "The Philosopher might choose a character. If necessary, swap their character token. :reminder:",\
+			"other": "The Philosopher might choose a character. If necessary, swap their character token.",\
 			"reminders": [{text:philosopher_is,icon:philosopher},{text:philosopher_drunk,icon:philosopher}]\
 		},\
 		"pithag": {\
@@ -854,22 +854,22 @@ data merge storage ct:character_data \
 			"ability": "When you die, the Storyteller gains a Minion ability.",\
 			"flavor": "Pleauze shtay shtill. Thinks nid tiime for hillink. Myrhh-myrhh.",\
 			"name": "Plague Doctor",\
-			"other": "If the Plague Doctor died, the Storyteller gained a Minion ability. If you haven’t done this yet, do so now. :reminder:",\
+			"other": "If the Plague Doctor died, the Storyteller gained a Minion ability. If you haven’t done this yet, do so now.",\
 			"reminders": [{text:plaguedoctor,icon:plaguedoctor}]\
 		},\
 		"po": {\
 			"ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",\
 			"flavor": "Would you like a flower? I'm so lonely.",\
 			"name": "Po",\
-			"other": "The Po may choose a player OR chooses 3 players if they chose no-one last night. :reminder: or :reminder: :reminder: :reminder:",\
+			"other": "The Po may choose a player OR chooses 3 players if they chose no-one last night. or",\
 			"reminders": [{text:po_dead,icon:po},{text:po_charged,icon:po}]\
 		},\
 		"poisoner": {\
 			"ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",\
-			"first": "The Poisoner chooses a player. :reminder:",\
+			"first": "The Poisoner chooses a player.",\
 			"flavor": "Add compound Alpha to compound Beta... NOT TOO MUCH!",\
 			"name": "Poisoner",\
-			"other": "The Poisoner chooses a player. :reminder:",\
+			"other": "The Poisoner chooses a player.",\
 			"reminders": [{text:poisoner,icon:poisoner}]\
 		},\
 		"politician": {\
@@ -892,24 +892,24 @@ data merge storage ct:character_data \
 		},\
 		"preacher": {\
 			"ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",\
-			"first": "The Preacher chooses a player. :reminder: If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Preacher tokens.",\
+			"first": "The Preacher chooses a player. If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Preacher tokens.",\
 			"flavor": "It is better to be rich and healthy than poor and sick.",\
 			"name": "Preacher",\
-			"other": "The Preacher chooses a player. :reminder: If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Preacher tokens.",\
+			"other": "The Preacher chooses a player. If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Preacher tokens.",\
 			"reminders": [{text:preacher,icon:preacher}]\
 		},\
 		"princess": {\
 			"ability": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight.",\
 			"flavor": "Our words are hounds, bound by silken threads, dear lords. Let kindness weave them true, lest the reigns unravel and rend our court.",\
 			"name": "Princess",\
-			"other": "If the Princess nominated the player who was executed today, wake the Demon as normal, but no one dies to the Demon's ability. :reminder:",\
+			"other": "If the Princess nominated the player who was executed today, wake the Demon as normal, but no one dies to the Demon's ability.",\
 			"reminders": [{text:princess,icon:princess}]\
 		},\
 		"professor": {\
 			"ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",\
 			"flavor": "The process is simple. Attach the hydraulic confabulator to the modified chi matrix amplifier, add 20 CCs of pseudodorafine, keep his Z levels above 20%, and your husband will be fine. Now, all we need is a lightning strike.",\
 			"name": "Professor",\
-			"other": "The Professor might choose a dead player. :reminder: :reminder:",\
+			"other": "The Professor might choose a dead player.",\
 			"reminders": [{text:professor_alive,icon:professor},{text:professor_no_ability,icon:professor}]\
 		},\
 		"psychopath": {\
@@ -919,10 +919,10 @@ data merge storage ct:character_data \
 		},\
 		"pukka": {\
 			"ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",\
-			"first": "The Pukka chooses a player. :reminder:",\
+			"first": "The Pukka chooses a player.",\
 			"flavor": "You truly have been kind welcoming me into your beautiful home. I am so sorry I accidentally scratched you. A little thing. No matter. But please, take this golden toothpick as a humble token of my regret.",\
 			"name": "Pukka",\
-			"other": "The Pukka chooses a player. :reminder: The previously poisoned player dies then becomes healthy. :reminder:",\
+			"other": "The Pukka chooses a player. The previously poisoned player dies then becomes healthy.",\
 			"reminders": [{text:pukka_poisoned,icon:pukka},{text:pukka_dead,icon:pukka}]\
 		},\
 		"puzzlemaster": {\
@@ -950,7 +950,7 @@ data merge storage ct:character_data \
 		},\
 		"riot": {\
 			"ability": "On day 3, Minions become Riot & nominees die but nominate an alive player immediately. This must happen.",\
-			"other": "Change the Riot reminder token to the relevant day. :reminder: If it is night 3, you may wake the Minions. Show the *YOU ARE* & Riot tokens.",\
+			"other": "Change the Riot reminder token to the relevant day. If it is night 3, you may wake the Minions. Show the *YOU ARE* & Riot tokens.",\
 			"flavor": "Larga vida a la revolución! Mi revolucion!",\
 			"name": "Riot"\
 		},\
@@ -962,10 +962,10 @@ data merge storage ct:character_data \
 		},\
 		"sailor": {\
 			"ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die.",\
-			"first": "The Sailor chooses a living player. :reminder:",\
+			"first": "The Sailor chooses a living player.",\
 			"flavor": "I'll drink any one of yer under the table! You! The chatterbox! Reckon you can take me? No? Howza 'bout you, Grandma? You ever tried Old McKillys Extra Spiced Rum before? Guaranteed to put hairs on yer chest! Step aboard, aye!",\
 			"name": "Sailor",\
-			"other": "The Sailor chooses a living player. :reminder:",\
+			"other": "The Sailor chooses a living player.",\
 			"reminders": [{text:sailor,icon:sailor}]\
 		},\
 		"saint": {\
@@ -991,10 +991,10 @@ data merge storage ct:character_data \
 		},\
 		"seamstress": {\
 			"ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",\
-			"first": "The Seamstress might choose 2 players. Nod or shake your head. :reminder:",\
+			"first": "The Seamstress might choose 2 players. Nod or shake your head.",\
 			"flavor": "Did you hear that stranger in the cashmere coat put the word on our young Belle? And she said yes? Well, that's nothing compared to what Harry and that juggler got up to at the fair! The things I could say if I was a tattletale... my, yes.",\
 			"name": "Seamstress",\
-			"other": "The Seamstress might choose 2 players. Nod or shake your head. :reminder:",\
+			"other": "The Seamstress might choose 2 players. Nod or shake your head.",\
 			"reminders": [{text:seamstress,icon:seamstress}]\
 		},\
 		"sentinel": {\
@@ -1006,7 +1006,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",\
 			"flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh.",\
 			"name": "Shabaloth",\
-			"other": "A previously chosen player might be resurrected. :reminder: The Shabaloth chooses 2 players. :reminder: :reminder:",\
+			"other": "A previously chosen player might be resurrected. The Shabaloth chooses 2 players.",\
 			"reminders": [{text:shabaloth_dead,icon:shabaloth},{text:shabaloth_alive,icon:shabaloth}]\
 		},\
 		"shugenja": {\
@@ -1023,10 +1023,10 @@ data merge storage ct:character_data \
 		},\
 		"snakecharmer": {\
 			"ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",\
-			"first": "The Snake Charmer chooses a player. If they chose the Demon: Show the *YOU ARE* & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the *YOU ARE* and Snake Charmer tokens & give a thumbs up. :reminder:",\
+			"first": "The Snake Charmer chooses a player. If they chose the Demon: Show the *YOU ARE* & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the *YOU ARE* and Snake Charmer tokens & give a thumbs up.",\
 			"flavor": "Effendi... I am but a humble man, but my pipe is golden and a single tune will tame the wildest djinn, Inshallah. They say that greed hangs more men than rope. But not I, Effendi... not I.",\
 			"name": "Snake Charmer",\
-			"other": "The Snake Charmer chooses a player. If they chose the Demon: Show the *YOU ARE* & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the *YOU ARE* and Snake Charmer tokens & give a thumbs up. :reminder:",\
+			"other": "The Snake Charmer chooses a player. If they chose the Demon: Show the *YOU ARE* & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the *YOU ARE* and Snake Charmer tokens & give a thumbs up.",\
 			"reminders": [{text:snakecharmer,icon:snakecharmer}]\
 		},\
 		"snitch": {\
@@ -1072,14 +1072,14 @@ data merge storage ct:character_data \
 			"first": "Show the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",\
 			"flavor": "Hail the guardians of the north; by my intellect, thou art cut. Hail the guardians of the east; by my will, thou art dominated. Hail the guardians of the south; by that which lies beyond, the mystery is revealed. Hail the guardians of the west; a shield in the darkness.",\
 			"name": "Summoner",\
-			"other": "Change the Summoner reminder token to the relevant night. :reminder: If it is night 3, the Summoner chooses a player & a Demon character. Put the Summoner to sleep. Wake the target. Show the *YOU ARE* and Demon tokens & give a thumbs-down.",\
+			"other": "Change the Summoner reminder token to the relevant night. If it is night 3, the Summoner chooses a player & a Demon character. Put the Summoner to sleep. Wake the target. Show the *YOU ARE* and Demon tokens & give a thumbs-down.",\
 			"reminders": [{text:summoner_1,icon:summoner},{text:summoner_2,icon:summoner},{text:summoner_3,icon:summoner}]\
 		},\
 		"sweetheart": {\
 			"ability": "When you die, 1 player is drunk from now on.",\
 			"flavor": "I will never forget her. Never.",\
 			"name": "Sweetheart",\
-			"other": "If the Sweetheart died, a player became drunk immediately. If you haven't done this yet, do so now. :reminder:",\
+			"other": "If the Sweetheart died, a player became drunk immediately. If you haven't done this yet, do so now.",\
 			"reminders": [{text:sweetheart,icon:sweetheart}]\
 		},\
 		"tealady": {\
@@ -1090,17 +1090,17 @@ data merge storage ct:character_data \
 		},\
 		"thief": {\
 			"ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",\
-			"first": "The Thief chooses a player. :reminder:",\
+			"first": "The Thief chooses a player.",\
 			"flavor": "I ain't done nuffink. I weren't even in dat alley last night! It weren't me what stole Mayor Bruno's briefcase wiv all dem fancy dockoments innit. Besides, it was too 'eavy to carry far.",\
 			"name": "Thief",\
-			"other": "The Thief chooses a player. :reminder:",\
+			"other": "The Thief chooses a player.",\
 			"reminders": [{text:thief,icon:thief}]\
 		},\
 		"tinker": {\
 			"ability": "You might die at any time.",\
 			"flavor": "I think I see the problem. Luckily, I have an idea! This catapult will shoot twice as far with just a minor adjustment...",\
 			"name": "Tinker",\
-			"other": "The Tinker might die. :reminder:",\
+			"other": "The Tinker might die.",\
 			"reminders": [{text:tinker,icon:tinker}]\
 		},\
 		"tor": {\
@@ -1140,12 +1140,12 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]",\
 			"flavor": "All doors are one door. All keys are one key. All cups are one cup, but whosoever drinketh of the water that I give shall never thirst, but the water shall be in him a well springing up into everlasting life.",\
 			"name": "Vigormortis",\
-			"other": "The Vigormortis chooses a player. :reminder: If that player is a Minion, poison a neighboring Townsfolk. :reminder: :reminder:",\
+			"other": "The Vigormortis chooses a player. If that player is a Minion, poison a neighboring Townsfolk.",\
 			"reminders": [{text:vigormortis_dead,icon:vigormortis},{text:vigormortis_has_ability,icon:vigormortis},{text:vigormortis_poisoned,icon:vigormortis}]\
 		},\
 		"villageidiot": {\
 			"ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]",\
-			"first": "If there are multiple Village Idiots, mark one as *DRUNK*. :reminder: Wake the Village Idiots one at a time to choose a player. Give a thumb signal.",\
+			"first": "If there are multiple Village Idiots, mark one as *DRUNK*. Wake the Village Idiots one at a time to choose a player. Give a thumb signal.",\
 			"flavor": "Roses are blue, and violets are red, Please reverse what I just said.",\
 			"name": "Village Idiot",\
 			"other": "Wake the Village Idiots one at a time to choose a player. Give a thumb signal.",\
@@ -1167,7 +1167,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",\
 			"flavor": "Black is White. Right is Wrong. Left is Right. Up is Long. Down is Sight. Short is Blind. Follow me. Answers find.",\
 			"name": "Vortox",\
-			"other": "The Vortox chooses a player. :reminder:"\
+			"other": "The Vortox chooses a player."\
 		},\
 		"voudon": {\
 			"ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required.",\
@@ -1183,17 +1183,17 @@ data merge storage ct:character_data \
 		},\
 		"widow": {\
 			"ability": "On your 1st night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play.",\
-			"first": "Show the Grimoire for as long as the Widow needs. The Widow chooses a player. :reminder: Put the Widow to sleep. Wake the player marked *KNOW* & show the Widow token. :reminder:",\
+			"first": "Show the Grimoire for as long as the Widow needs. The Widow chooses a player. Put the Widow to sleep. Wake the player marked *KNOW* & show the Widow token.",\
 			"flavor": "More wine? Château d’Ergot ’07 is a very special vintage. My yes, very special indeed.",\
 			"name": "Widow",\
 			"reminders": [{text:widow_knows,icon:widow},{text:widow_poisoned,icon:widow}]\
 		},\
 		"witch": {\
 			"ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",\
-			"first": "The Witch chooses a player. :reminder:",\
+			"first": "The Witch chooses a player.",\
 			"flavor": "Three drops of goat's blood. A lock of hair, torn in anger. The name is spoken, the shadow cast. Walk left foot first down that brambled path, and don't look back.",\
 			"name": "Witch",\
-			"other": "The Witch chooses a player. :reminder:",\
+			"other": "The Witch chooses a player.",\
 			"reminders": [{text:witch,icon:witch}]\
 		},\
 		"wizard": {\
@@ -1213,10 +1213,10 @@ data merge storage ct:character_data \
 		},\
 		"xaan": {\
 			"ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]",\
-			"first": "If X is 1, mark the Xaan with the *X* reminder token. :reminder: :reminder:",\
+			"first": "If X is 1, mark the Xaan with the *X* reminder token.",\
 			"flavor": "Down they fall. One by one. By two, by three, by five.",\
 			"name": "Xaan",\
-			"other": "Change the Xaan reminder token to the relevant night. If it is night X, mark the Xaan with the *X* reminder token. :reminder: :reminder:",\
+			"other": "Change the Xaan reminder token to the relevant night. If it is night X, mark the Xaan with the *X* reminder token.",\
 			"reminders": [{text:xaan_1,icon:xaan},{text:xaan_2,icon:xaan},{text:xaan_3,icon:xaan},{text:xaan_x,icon:xaan}]\
 		},\
 		"yaggababble": {\
@@ -1224,7 +1224,7 @@ data merge storage ct:character_data \
 			"first": "Show the Yaggababble their secret phrase.",\
 			"flavor": "Murders inside the Rue Morgue? Фальшивые новости! Hounds on the Baskerville moor? Фальшивые новости! Death while sailing the Nile? Фальшивые новости!",\
 			"name": "Yaggababble",\
-			"other": "For each time the Yaggababble said their phrase today, a player might die. :reminder:",\
+			"other": "For each time the Yaggababble said their phrase today, a player might die.",\
 			"reminders": [{text:yaggababble,icon:yaggababble}]\
 		},\
 		"zealot": {\
@@ -1241,7 +1241,7 @@ data merge storage ct:character_data \
 			"ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",\
 			"flavor": "I do not. Understand. Your ways. Fellow human. Show me. The dirt. Where the holy. Lay. Sleeping. I too. Must sleep. Soon.",\
 			"name": "Zombuul",\
-			"other": "If no one died today, the Zombuul chooses a player. :reminder:",\
+			"other": "If no one died today, the Zombuul chooses a player.",\
 			"reminders": [{text:zombuul_died,icon:zombuul},{text:zombuul_died,icon:zombuul}]\
 		}\
 	}\
