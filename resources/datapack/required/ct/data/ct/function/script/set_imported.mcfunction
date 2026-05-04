@@ -195,6 +195,7 @@ execute if data storage ct:script script_imported{script:[buddhist]} run functio
 execute if data storage ct:script script_imported{script:[angel]} run function ct:script/set_char_data {char:angel,type:npcs}
 execute if data storage ct:script script_imported{script:[deusexfiasco]} run function ct:script/set_char_data {char:deusexfiasco,type:npcs}
 execute if data storage ct:script script_imported{script:[ferryman]} run function ct:script/set_char_data {char:ferryman,type:npcs}
+execute if data storage ct:script script_imported{script:[djinn]} run function ct:script/set_char_data {char:djinn,type:npcs}
 execute if data storage ct:script script_imported{script:[spiritofivory]} run function ct:script/set_char_data {char:spiritofivory,type:npcs}
 execute if data storage ct:script script_imported{script:[sentinel]} run function ct:script/set_char_data {char:sentinel,type:npcs}
 execute if data storage ct:script script_imported{script:[toymaker]} run function ct:script/set_char_data {char:toymaker,type:npcs}

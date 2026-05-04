@@ -18,8 +18,6 @@ scoreboard players set phase game_data 0
 
 execute as @a run function ct:util/reset_player
 
-team modify 99_storyteller nametagVisibility always
-
 gamerule doDaylightCycle false
 time set 12000
 

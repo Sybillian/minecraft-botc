@@ -1,0 +1,1 @@
+data modify storage ct:travellers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bonecollector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]

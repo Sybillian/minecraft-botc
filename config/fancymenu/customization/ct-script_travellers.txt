@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = ct-travelers
+  identifier = ct-travellers
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1775011093402
   is_enabled = true
@@ -116,7 +116,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[0]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[0]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -525,7 +525,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[1]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[1]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -598,7 +598,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[2]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[2]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -671,7 +671,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[3]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[3]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -744,7 +744,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[4]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[4]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -817,7 +817,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[5]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[5]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -890,7 +890,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[6]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[6]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -963,7 +963,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[7]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[7]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -1036,7 +1036,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[8]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[8]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -1109,7 +1109,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[9]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[9]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -1182,10 +1182,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[9]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[9]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[9]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1248,7 +1248,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[10]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[10]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -1321,10 +1321,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[10]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[10]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[10]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1387,10 +1387,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[11]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[11]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[11]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1453,10 +1453,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[12]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[12]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[12]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1519,10 +1519,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[13]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[13]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[13]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1585,10 +1585,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[14]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[14]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[14]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1651,10 +1651,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[0]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[0]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[0]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1717,10 +1717,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[1]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[1]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[1]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1783,10 +1783,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[2]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[2]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[2]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1849,10 +1849,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[3]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[3]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[3]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1915,10 +1915,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[4]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[4]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[4]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1981,10 +1981,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[5]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[5]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[5]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -2047,10 +2047,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[6]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[6]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[6]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -2113,10 +2113,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[7]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[7]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[7]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -2179,10 +2179,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[8]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[8]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[8]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -2245,10 +2245,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[15]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[15]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[15]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -2311,10 +2311,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[16]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[16]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[16]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -2377,10 +2377,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[17]","return_type":"value"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[17]","return_type":"value"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[17]","return_type":"value"}}.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -2443,7 +2443,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[11]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[11]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -2516,7 +2516,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[13]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[13]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -2589,7 +2589,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[14]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[14]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -2662,7 +2662,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[15]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[15]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -2735,7 +2735,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[16]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[16]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -2808,7 +2808,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[17]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[17]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -2881,7 +2881,7 @@ element {
 
 element {
   interactable = false
-  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}.desc"}}
+  source = %#FFFF55%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[12]","return_type":"value"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travellers","nbt_path":"list[12]","return_type":"value"}}.desc"}}
   source_mode = direct
   shadow = false
   scale = 1.0
@@ -3018,7 +3018,7 @@ element {
 
 element {
   interactable = false
-  source = ^^^%n%%#ffff55%⚠ %#% %#ff5555%**IMPORTANT** %#% %#ffff55%⚠ %#%%n%Travelers are not yet implemented; this page is here in advance for when they are.%n%^^^
+  source = ^^^%n%%#ffff55%⚠ %#% %#ff5555%**IMPORTANT** %#% %#ffff55%⚠ %#%%n%travellers are not yet implemented; this page is here in advance for when they are.%n%^^^
   source_mode = direct
   shadow = true
   scale = 1.5

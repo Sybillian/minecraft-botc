@@ -33,7 +33,6 @@ execute unless score current_majority vote matches 0 run tellraw @a [{"text":"A 
 function ct:util/color_prefixes
 
 tag @a remove vote_start
-tag @a[tag=last_nom] remove last_nom
 
 clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]}]
 function ct:loop/vote/cd/3

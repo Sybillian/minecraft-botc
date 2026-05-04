@@ -18,6 +18,6 @@ Fixed bugs:
 - #84: Grimoire Keybind does not work for players. (thanks @LordWoolfy!)
 - #85: Player grim does not mark players as alive again after the game ends.
 - #91: Player Names are incorrectly formatted in the Grimoire due to Markdown. (Thanks @Jvkeh!)
-- "Travelers aren't implemented yet" warning on the Travelers screen disappears if you've closed the pause menu warning.
+- "travellers aren't implemented yet" warning on the travellers screen disappears if you've closed the pause menu warning.
 - Bossbar of who is voting is not displaying.
 - Fixed many commands targeting spectators when they should not.

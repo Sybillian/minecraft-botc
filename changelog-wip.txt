@@ -30,8 +30,10 @@ Changes and features:
 - Many commands that are not relevant to the game are hidden for non-ops.
 - /tell (and its aliases) are now disabled for non-Storytellers.
 - Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller.
+- Storytellers can now see players' names and pronouns at night.
 - "Requesting Storyteller Chat" is now automatically toggled off when a Storyteller is in the same room as you.
 - Your character is now revealed to you as soon as you enter your house, instead of the Storyteller having to do it.
+- The Night Order display within the Grimoire is now much more compact.
 
 Technical changes:
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.
@@ -49,6 +51,7 @@ Technical changes:
 - Voting strength now correlates to a score instead of a strict +1
 - "Dev Mode" is now a little more official. If active, /reloads and joining the world does not automatically run init functions.
 - The way scripts are imported has been redone, making it dramatically more efficient and laying groundwork for homebrew support in the future.
+- All decorational armor stands are now item displays.
 
 Fixed bugs:
 - #64: Not all windows in the yellow house get blocked by particles.

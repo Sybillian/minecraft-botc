@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777421037439
+  last_edited_time = 1777833099071
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:cb3fda5a-3594-4224-9b93-4b4faa7104ab-1777420890200] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
+  [loading_requirement_container_meta:64f084d4-0ff2-47a9-8f67-623ce90db42d-1777833097077] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[0]"}}","compare_with":"none"]$7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
   [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"current_day","objective":"game_data"}}","compare_with":"2"]$
 }
@@ -54,6 +54,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = ec3ecf2d-7756-4ba5-b509-0ad7375f2f28-1754435153814
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -62,15 +63,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 157
-  width = 28
-  height = 28
+  x = 5
+  y = 98
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -85,6 +86,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -97,6 +104,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 6dbef17a-a75c-4a4b-afd3-9ca2f2e47312-1754435153814
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -105,15 +113,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 186
-  width = 28
-  height = 28
+  x = 5
+  y = 117
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -128,6 +136,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -140,6 +154,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = cf05e3b5-84d1-47f5-a46c-bed4c2c4eae0-1754435153814
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -148,15 +163,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 215
-  width = 28
-  height = 28
+  x = 5
+  y = 136
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -171,6 +186,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -183,6 +204,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 5ca31f44-7357-43f3-9737-936eaef5aaf6-1754435153814
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -191,15 +213,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 244
-  width = 28
-  height = 28
+  x = 5
+  y = 155
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -214,6 +236,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -221,7 +249,7 @@ element {
   source = Other Nights Order
   source_mode = direct
   shadow = true
-  scale = 2.5
+  scale = 1.5
   base_color = #FFFFFFFF
   text_border = 2
   line_spacing = 2
@@ -263,10 +291,10 @@ element {
   auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -460
-  y = -254
+  x = -475
+  y = -266
   width = 266
-  height = 25
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -281,6 +309,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -293,6 +327,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 3da735dd-47c5-41ec-a3cf-5815537588ff-1754435153815
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -301,15 +336,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 41
-  width = 28
-  height = 28
+  x = 5
+  y = 22
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -324,6 +359,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -336,6 +377,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 096d6db1-c855-4bb2-9073-d34abc93124e-1754435153815
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -344,15 +386,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 70
-  width = 28
-  height = 28
+  x = 5
+  y = 41
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -367,6 +409,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -379,6 +427,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 85f92865-6942-48e7-91f3-43b53f1c0fc2-1754435153815
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -387,15 +436,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 99
-  width = 28
-  height = 28
+  x = 5
+  y = 60
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -410,6 +459,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -422,6 +477,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = f78ef825-ea9e-4502-946b-214cdf4e48ef-1754435153815
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -430,15 +486,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 128
-  width = 28
-  height = 28
+  x = 5
+  y = 79
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -453,6 +509,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -465,6 +527,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = c4da1dc6-6a74-45b9-a011-490af91178a7-1754435153815
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -473,15 +536,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 273
-  width = 28
-  height = 28
+  x = 5
+  y = 174
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -496,6 +559,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -508,6 +577,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 7e6cc0b8-dcc6-4180-a693-7d11411c5c8a-1754435153815
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -516,15 +586,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 302
-  width = 28
-  height = 28
+  x = 5
+  y = 193
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -539,6 +609,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -551,6 +627,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = e2050f62-ea78-4da5-ad79-51146b878808-1754435153816
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -559,15 +636,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 331
-  width = 28
-  height = 28
+  x = 5
+  y = 212
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -582,6 +659,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -594,6 +677,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = ee1da0ac-8ffb-4ce4-ba1c-20b75f19ce7f-1754435153816
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -602,15 +686,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 360
-  width = 28
-  height = 28
+  x = 5
+  y = 231
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -625,6 +709,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -637,6 +727,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 2cfc3621-6da0-47de-b4ba-e4459107fe44-1754435153816
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -645,15 +736,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 389
-  width = 28
-  height = 28
+  x = 5
+  y = 250
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -668,6 +759,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -705,6 +802,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 0132a6fa-6807-4d6a-b73d-c3979d2f3707-1754435153816
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -713,15 +811,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 135
-  width = 120
-  height = 28
+  x = 23
+  y = 80
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -736,6 +834,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -773,6 +877,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 1c015f37-24a9-4dba-a41c-637a53cf34c5-1754435153816
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -781,15 +886,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 164
-  width = 120
-  height = 28
+  x = 23
+  y = 99
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -804,6 +909,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -841,6 +952,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 557db28c-b68a-4014-91f9-56e975f71568-1754435153816
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -849,15 +961,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 251
-  width = 120
-  height = 28
+  x = 23
+  y = 156
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -872,6 +984,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -909,6 +1027,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 15a69bc3-65f6-4f58-a2aa-772a62032f04-1754435153817
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -917,15 +1036,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 280
-  width = 120
-  height = 28
+  x = 23
+  y = 175
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -940,6 +1059,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -977,6 +1102,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 3ce48a22-017b-4b65-bdc1-cd8b727c7395-1754435153817
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -985,15 +1111,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 309
-  width = 120
-  height = 28
+  x = 23
+  y = 194
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1008,6 +1134,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1045,6 +1177,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = a38cb2d3-5c50-43a3-ad80-62b8e549a86e-1754435153818
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1053,15 +1186,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 367
-  width = 120
-  height = 28
+  x = 23
+  y = 232
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1076,6 +1209,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1113,6 +1252,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 847a1550-1245-4d8f-b4d8-62808cc2b179-1754435153818
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1121,15 +1261,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 338
-  width = 120
-  height = 28
+  x = 23
+  y = 213
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1144,6 +1284,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1181,6 +1327,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 24138efa-4663-450a-a337-f07e905320f3-1754435153819
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1189,15 +1336,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 193
-  width = 120
-  height = 28
+  x = 23
+  y = 118
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1212,6 +1359,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1249,6 +1402,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 0e919a73-9959-42d8-ad8e-670c998a86f4-1754435153819
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1257,15 +1411,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 222
-  width = 120
-  height = 28
+  x = 23
+  y = 137
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1280,6 +1434,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1317,6 +1477,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 707be2c1-5742-4032-8471-5e1a5c009e0b-1754435153819
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1330,10 +1491,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 48
-  width = 120
-  height = 28
+  x = 23
+  y = 23
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1348,6 +1509,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1385,6 +1552,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 57e1b7f7-a92f-4467-8124-83070fdbcc63-1754435153820
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1393,15 +1561,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 77
-  width = 120
-  height = 28
+  x = 23
+  y = 42
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1416,6 +1584,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1453,6 +1627,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 3a59ffd5-fd20-45bd-882f-9b640fcae27f-1754435153820
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1461,15 +1636,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 106
-  width = 120
-  height = 28
+  x = 23
+  y = 61
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1484,6 +1659,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1521,6 +1702,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 3e55adbf-6bd7-42c7-994c-803b86700a70-1754435153821
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1529,15 +1711,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 397
-  width = 120
-  height = 28
+  x = 23
+  y = 252
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1552,6 +1734,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1564,6 +1752,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = f3a24551-c1ae-4577-a396-0e4e46650e6d-1754435153821
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1572,15 +1761,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 418
-  width = 28
-  height = 28
+  x = 5
+  y = 269
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1595,6 +1784,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1607,6 +1802,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = bbb8f1e8-4336-49e3-b9d4-82a88be01ac0-1754435153821
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1615,15 +1811,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 20
-  y = 447
-  width = 28
-  height = 28
+  x = 5
+  y = 288
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1638,6 +1834,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1675,6 +1877,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = bdc1a132-fa18-4591-a731-346069bcbb57-1754435153821
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1683,15 +1886,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 425
-  width = 120
-  height = 28
+  x = 23
+  y = 270
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1706,6 +1909,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1743,6 +1952,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = d0e31250-59c4-491c-a388-c9bece7d0d3f-1754435153823
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1751,15 +1961,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 49
-  y = 455
-  width = 120
-  height = 28
+  x = 23
+  y = 290
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1774,6 +1984,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1786,6 +2002,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = f3c85f2c-3d56-4682-8dd4-389448281795-1754435153823
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1795,14 +2012,14 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 41
-  width = 28
-  height = 28
+  x = 5
+  y = 307
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1817,6 +2034,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1829,6 +2052,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 34c2b0e5-bc1e-49f3-9ec2-e1c49c18b0f4-1754435153824
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1842,10 +2066,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 70
-  width = 28
-  height = 28
+  x = 5
+  y = 326
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1860,6 +2084,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1897,6 +2127,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 7b8c10e9-0bfe-47a2-94d9-3a6d8904ca39-1754435153824
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1906,14 +2137,14 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1058
+  auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 48
-  width = 120
-  height = 28
+  x = 23
+  y = 308
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1928,6 +2159,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -1965,6 +2202,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 56fe7207-a334-4d58-bb4e-bbfdc8c88935-1754435153825
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -1978,10 +2216,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 78
-  width = 120
-  height = 28
+  x = 23
+  y = 328
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1996,6 +2234,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2008,6 +2252,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = e5c54ea3-4ccf-444d-9671-7956b83fd624-1754435153825
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2021,10 +2266,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 215
-  width = 28
-  height = 28
+  x = 5
+  y = 421
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2039,6 +2284,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2051,6 +2302,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = f37c1d06-6e66-4c20-91f8-7b7448d880a6-1754435153826
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2064,10 +2316,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 244
-  width = 28
-  height = 28
+  x = 5
+  y = 440
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2082,6 +2334,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2094,6 +2352,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 02ed07f7-4bfd-4014-a1b4-c985faf9e1bf-1754435153826
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2102,15 +2361,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 273
-  width = 28
-  height = 28
+  x = 6
+  y = 459
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2125,6 +2384,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2137,6 +2402,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = d2d86336-564e-4cd4-84da-3ed763f66b58-1754435153826
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2145,15 +2411,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 302
-  width = 28
-  height = 28
+  x = 6
+  y = 478
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2168,6 +2434,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2180,6 +2452,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 9d275a7d-1bba-4f3a-8495-3da7b1a7fa48-1754435153827
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2193,10 +2466,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 99
-  width = 28
-  height = 28
+  x = 5
+  y = 345
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2211,6 +2484,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2223,6 +2502,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 257b8571-1acc-46af-97a3-1e79624860e4-1754435153827
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2236,10 +2516,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 128
-  width = 28
-  height = 28
+  x = 5
+  y = 364
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2254,6 +2534,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2266,6 +2552,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 019eb408-b030-4462-be4a-13b5f55e2528-1754435153828
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2279,10 +2566,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 157
-  width = 28
-  height = 28
+  x = 5
+  y = 383
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2297,6 +2584,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2309,6 +2602,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 9348ac76-63cc-42f2-af5d-244566a2e754-1754435153828
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2322,10 +2616,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 186
-  width = 28
-  height = 28
+  x = 5
+  y = 402
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2340,6 +2634,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2352,6 +2652,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 99392fc1-c289-40ae-941e-4375cd288a0c-1754435153829
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2360,15 +2661,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 331
-  width = 28
-  height = 28
+  x = 6
+  y = 497
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2383,6 +2684,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2395,6 +2702,7 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 51dfda64-94d4-4a20-8c2c-abc22c1c708a-1754435153829
+  custom_element_layer_name = Role Icon
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2403,15 +2711,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 360
-  width = 28
-  height = 28
+  x = 6
+  y = 516
+  width = 18
+  height = 18
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2426,135 +2734,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-}
-
-element {
-  source = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[27]"}}.png
-  repeat_texture = false
-  nine_slice_texture = false
-  nine_slice_texture_border_x = 5
-  nine_slice_texture_border_y = 5
-  image_tint = #FFFFFF
-  restart_animated_on_menu_load = false
-  element_type = image
-  instance_identifier = a4694c2a-5869-407c-80d4-c00132d03f12-1754435153830
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = every_time
-  fade_in_speed = 3.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 389
-  width = 28
-  height = 28
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
-  [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[27]"}}","compare_with":"none"]$
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
-}
-
-element {
-  source = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[28]"}}.png
-  repeat_texture = false
-  nine_slice_texture = false
-  nine_slice_texture_border_x = 5
-  nine_slice_texture_border_y = 5
-  image_tint = #FFFFFF
-  restart_animated_on_menu_load = false
-  element_type = image
-  instance_identifier = 1d5fbca3-f5fe-41c7-aed9-45a4f014d22f-1754435153830
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = every_time
-  fade_in_speed = 3.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 418
-  width = 28
-  height = 28
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
-  [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[28]"}}","compare_with":"none"]$
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
-}
-
-element {
-  source = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[29]"}}.png
-  repeat_texture = false
-  nine_slice_texture = false
-  nine_slice_texture_border_x = 5
-  nine_slice_texture_border_y = 5
-  image_tint = #FFFFFF
-  restart_animated_on_menu_load = false
-  element_type = image
-  instance_identifier = 61053b1e-f689-46b4-be07-6562de43ea1f-1754435153831
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = every_time
-  fade_in_speed = 3.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 170
-  y = 447
-  width = 28
-  height = 28
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
-  [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[29]"}}","compare_with":"none"]$
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2592,6 +2777,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 760c31b4-6640-46a2-bbc0-e482f5318935-1754435153832
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2605,10 +2791,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 193
-  width = 120
-  height = 28
+  x = 23
+  y = 403
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2623,6 +2809,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2660,6 +2852,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 1bba0d3b-d628-4e76-b93b-3ad66efdfb10-1754435153832
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2673,10 +2866,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 222
-  width = 120
-  height = 28
+  x = 23
+  y = 422
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2691,6 +2884,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2728,6 +2927,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = c371ffd5-0855-41f0-a2cc-83b293d85949-1754435153833
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2736,15 +2936,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 309
-  width = 120
-  height = 28
+  x = 24
+  y = 479
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2759,6 +2959,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2796,6 +3002,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = a43f4c78-c8af-416e-8a1b-1b3c3885d455-1754435153833
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2804,15 +3011,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 338
-  width = 120
-  height = 28
+  x = 24
+  y = 498
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2827,6 +3034,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -2864,6 +3077,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = abf42552-bff9-4dc2-8063-ea947f7f2df7-1754435153835
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -2872,15 +3086,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 367
-  width = 120
-  height = 28
+  x = 24
+  y = 517
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -2895,142 +3109,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-}
-
-element {
-  interactable = true
-  source = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[28]"}}.name"}}
-  source_mode = direct
-  shadow = true
-  scale = 1.0
-  base_color = #FFFFFFFF
-  text_border = 2
-  line_spacing = 1
-  enable_scrolling = false
-  auto_line_wrapping = true
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  quote_color = #818181FF
-  quote_indent = 8.0
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  bullet_list_indent = 8.0
-  bullet_list_spacing = 3.0
-  parse_markdown = true
-  table_show_header = true
-  table_alternate_row_colors = true
-  table_line_color = #787878FF
-  table_header_background_color = #323232FF
-  table_row_background_color = #282828FF
-  table_alternate_row_color = #3C3C3CFF
-  table_line_thickness = 1.0
-  table_cell_padding = 8.0
-  table_margin = 4.0
-  element_type = text_v2
-  instance_identifier = 30038a5b-6bc5-4557-9151-c540177c7488-1754435153836
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = every_time
-  fade_in_speed = 3.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 425
-  width = 120
-  height = 28
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
-  [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[28]"}}","compare_with":"none"]$
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
-}
-
-element {
-  interactable = true
-  source = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[27]"}}.name"}}
-  source_mode = direct
-  shadow = true
-  scale = 1.0
-  base_color = #FFFFFFFF
-  text_border = 2
-  line_spacing = 1
-  enable_scrolling = false
-  auto_line_wrapping = true
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  quote_color = #818181FF
-  quote_indent = 8.0
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  bullet_list_indent = 8.0
-  bullet_list_spacing = 3.0
-  parse_markdown = true
-  table_show_header = true
-  table_alternate_row_colors = true
-  table_line_color = #787878FF
-  table_header_background_color = #323232FF
-  table_row_background_color = #282828FF
-  table_alternate_row_color = #3C3C3CFF
-  table_line_thickness = 1.0
-  table_cell_padding = 8.0
-  table_margin = 4.0
-  element_type = text_v2
-  instance_identifier = 376159cc-d7fa-46ac-939c-3005bd95e864-1754435153837
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = every_time
-  fade_in_speed = 3.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 396
-  width = 120
-  height = 28
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
-  [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[27]"}}","compare_with":"none"]$
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -3068,6 +3152,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = e19a8861-5ca9-4135-9519-76ee094aae82-1754435153838
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -3081,10 +3166,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 251
-  width = 120
-  height = 28
+  x = 23
+  y = 441
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -3099,6 +3184,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -3136,6 +3227,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 5315cf63-7055-4b97-b47d-c6e433cd4ccb-1754435153839
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -3144,15 +3236,15 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 280
-  width = 120
-  height = 28
+  x = 24
+  y = 460
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -3167,6 +3259,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -3204,6 +3302,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = c2062637-7742-4826-a2f0-2316daeca3b3-1754435153839
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -3217,10 +3316,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 106
-  width = 120
-  height = 28
+  x = 23
+  y = 346
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -3235,6 +3334,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -3272,6 +3377,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = a3fccbca-382c-4043-8e05-8bf26b10ae42-1754435153840
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -3285,10 +3391,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 135
-  width = 120
-  height = 28
+  x = 23
+  y = 365
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -3303,6 +3409,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -3340,6 +3452,7 @@ element {
   table_margin = 4.0
   element_type = text_v2
   instance_identifier = 787f34cc-0a18-4b3e-b500-b7949507f2d7-1754435153841
+  custom_element_layer_name = Role Name
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = every_time
@@ -3353,10 +3466,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 164
-  width = 120
-  height = 28
+  x = 23
+  y = 384
+  width = 100
+  height = 16
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -3371,73 +3484,11 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-}
-
-element {
-  interactable = true
-  source = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[29]"}}.name"}}
-  source_mode = direct
-  shadow = true
-  scale = 1.0
-  base_color = #FFFFFFFF
-  text_border = 2
-  line_spacing = 1
-  enable_scrolling = false
-  auto_line_wrapping = true
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  quote_color = #818181FF
-  quote_indent = 8.0
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  bullet_list_indent = 8.0
-  bullet_list_spacing = 3.0
-  parse_markdown = true
-  table_show_header = true
-  table_alternate_row_colors = true
-  table_line_color = #787878FF
-  table_header_background_color = #323232FF
-  table_row_background_color = #282828FF
-  table_alternate_row_color = #3C3C3CFF
-  table_line_thickness = 1.0
-  table_cell_padding = 8.0
-  table_margin = 4.0
-  element_type = text_v2
-  instance_identifier = 14829f64-807c-497a-9ad5-e2f39e5cc8d9-1754435153842
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = every_time
-  fade_in_speed = 3.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 78e7fbf7-9402-4c3e-a8d9-bf28455a4bfb-1749928882597
-  x = 199
-  y = 455
-  width = 120
-  height = 28
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
-  [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.other[29]"}}","compare_with":"none"]$
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 

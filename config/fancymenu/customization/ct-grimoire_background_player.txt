@@ -41,7 +41,7 @@ scroll_list_customization {
 
 layout_action_executable_blocks {
   close_screen_executable_block_identifier = e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106
-  [executable_action_instance:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683][action_type:disable_layout] = ct-role_toggler_travelers_player
+  [executable_action_instance:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683][action_type:disable_layout] = ct-role_toggler_travellers_player
   [executable_action_instance:43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856][action_type:disable_layout] = ct-role_toggler_player
   [executable_block:e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106][type:generic] = [executables:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683;43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856;]
 }

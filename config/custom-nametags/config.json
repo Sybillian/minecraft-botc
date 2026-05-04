@@ -5,7 +5,29 @@
       "display": "%player:displayname_visual%",
       "update_interval": 1,
       "visible_radius": -1.0,
-      "hidden_radius": -1.0
+      "hidden_radius": -1.0,
+      "observer_predicate": {
+        "type": "any",
+        "values": [
+          {
+            "type": "entity",
+            "value": {
+              "team": "99_storyteller"
+            }
+          },
+          {
+            "type": "negate",
+            "value": {
+              "type": "equal",
+              "value_1": {
+                "type": "placeholder",
+                "placeholder": "server:objective_score_player game_data phase"
+              },
+              "value_2": "4"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "ct:pronoun",
@@ -23,6 +45,28 @@
           },
           "value_2": "Unknown"
         }
+      },
+      "observer_predicate": {
+        "type": "any",
+        "values": [
+          {
+            "type": "entity",
+            "value": {
+              "team": "99_storyteller"
+            }
+          },
+          {
+            "type": "negate",
+            "value": {
+              "type": "equal",
+              "value_1": {
+                "type": "placeholder",
+                "placeholder": "server:objective_score_player game_data phase"
+              },
+              "value_2": "4"
+            }
+          }
+        ]
       }
     }
   ]

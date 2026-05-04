@@ -1,0 +1,11 @@
+{
+  "id": "quickactions",
+  "literals": [
+    {
+      "id": "root",
+      "executes": [
+        "function ct:cmd/quick_actions/root"
+      ]
+    }
+  ]
+}

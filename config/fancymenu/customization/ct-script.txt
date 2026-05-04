@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5d92b6af-2529-4408-af99-578b85756519-1777789746783] = [groups:][instances:]
+  [loading_requirement_container_meta:cbccae69-e39a-4a53-afb3-c641f70f6120-1777854863354] = [groups:][instances:]
 }
 
 customization {
@@ -4198,13 +4198,13 @@ element {
 element {
   button_element_executable_block_identifier = a888f561-44b5-4c52-950f-16a8b50dd725-1749872348747
   [executable_action_instance:48d54d0d-c490-44fa-9c7f-3de18f7befb0-1771553891363][action_type:closegui] = 
-  [executable_action_instance:c5cb9629-9b93-4a51-a95c-3ae0fb61632e-1771553899092][action_type:opengui] = ct-travelers
+  [executable_action_instance:c5cb9629-9b93-4a51-a95c-3ae0fb61632e-1771553899092][action_type:opengui] = ct-travellers
   [executable_block:a888f561-44b5-4c52-950f-16a8b50dd725-1749872348747][type:generic] = [executables:48d54d0d-c490-44fa-9c7f-3de18f7befb0-1771553891363;c5cb9629-9b93-4a51-a95c-3ae0fb61632e-1771553899092;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = View Travelers
+  label = View Travellers
   navigatable = true
   widget_active_state_requirement_container_identifier = ccc2366b-1fb4-4590-9951-f59f4fdffffc-1749872348747
   [loading_requirement_container_meta:ccc2366b-1fb4-4590-9951-f59f4fdffffc-1749872348747] = [groups:][instances:]

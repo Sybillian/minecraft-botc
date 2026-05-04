@@ -1,5 +1,6 @@
 function ct:admin/init/voice_chats
 function ct:admin/init/yawp_flags
+execute if score dev_mode game_data matches 1 run return fail
 
 bossbar add day_time "Time for Conversations:"
 bossbar set day_time color blue
@@ -17,7 +18,7 @@ bossbar set botc:votes style progress
 bossbar set botc:votes max 10
 bossbar set botc:votes value 10
 
-data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bonecollector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
+function ct:data/travellers
 data modify storage ct:seats seats set value [{placeholder:true},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]
 data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}
 function ct:data/character_data
@@ -60,6 +61,25 @@ team modify 00_spectator prefix {"text":"👁 ","color":"gray"}
 team modify 99_storyteller prefix {"text":"✎ ","color":"gray"}
 team modify 00_spectator color gray
 team modify 99_storyteller color gray
+
+team modify 99_storyteller nametagVisibility never
+team modify 01_red nametagVisibility never
+team modify 02_orange nametagVisibility never
+team modify 03_yellow nametagVisibility never
+team modify 04_lime nametagVisibility never
+team modify 05_green nametagVisibility never
+team modify 06_mint nametagVisibility never
+team modify 07_cyan nametagVisibility never
+team modify 08_blue nametagVisibility never
+team modify 09_navy nametagVisibility never
+team modify 10_purple nametagVisibility never
+team modify 11_magenta nametagVisibility never
+team modify 12_lavender nametagVisibility never
+team modify 13_white nametagVisibility never
+team modify 14_gray nametagVisibility never
+team modify 15_black nametagVisibility never
+team modify 00_spectator nametagVisibility never
+
 function ct:util/color_prefixes
 
 ## Phases:

@@ -23,25 +23,8 @@ scoreboard players set total vote 0
 scoreboard players set first vote 0
 scoreboard players set current vote 0
 
-tag @a[tag=nominee] add last_nom
-execute if entity @a[scores={id=1},tag=last_nom] if data block 121 72 68 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 121 72 68 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=2},tag=last_nom] if data block 120 72 65 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 120 72 65 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=3},tag=last_nom] if data block 120 72 62 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 120 72 62 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=4},tag=last_nom] if data block 121 72 59 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 121 72 59 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=5},tag=last_nom] if data block 122 72 58 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 122 72 58 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=6},tag=last_nom] if data block 125 72 57 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 125 72 57 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=7},tag=last_nom] if data block 128 72 57 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 128 72 57 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=8},tag=last_nom] if data block 131 72 58 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 131 72 58 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=9},tag=last_nom] if data block 132 72 59 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 132 72 59 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=10},tag=last_nom] if data block 133 72 62 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 133 72 62 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=11},tag=last_nom] if data block 133 72 65 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 133 72 65 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=12},tag=last_nom] if data block 132 72 68 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 132 72 68 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=13},tag=last_nom] if data block 131 72 69 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 131 72 69 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=14},tag=last_nom] if data block 128 72 70 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 128 72 70 front_text.messages[1].hover_event.name
-execute if entity @a[scores={id=15},tag=last_nom] if data block 125 72 70 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 125 72 70 front_text.messages[1].hover_event.name
 execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 0
 
-execute as @a run function ct:loop/vote/save_nom with storage ct:data last_nom
 tag @a[tag=not_legion] remove not_legion
 tag @a[tag=nominee] remove nominee
 tag @a[tag=voting_yes] remove voting_yes

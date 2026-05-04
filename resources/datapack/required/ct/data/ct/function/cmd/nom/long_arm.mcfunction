@@ -39,3 +39,4 @@ bossbar set botc:votes visible true
 bossbar set botc:votes players @a
 
 execute as @e[type=minecraft:item_display,tag=arm] at @s run tp @s ~ ~ ~ ~ 0
+execute as @a run function ct:loop/vote/save_nom with storage ct:nominations
