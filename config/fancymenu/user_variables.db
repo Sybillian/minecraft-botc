@@ -1208,7 +1208,7 @@ variable {
 
 variable {
   name = day_start
-  value = 22:25
+  value = 10:26
   reset_on_launch = false
 }
 

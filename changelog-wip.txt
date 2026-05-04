@@ -10,16 +10,16 @@ Changes and features:
 - Added an explanatory tooltip to the "Teleport to homes" button.
 - Added an alert that appears in the bag screen if you have selected a role that affects setup.
 - Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
-  - Toggle Organ Grinder ability
-  - Toggle Voudon ability
-  - Toggle Banshee ability
+  ### - Toggle Organ Grinder ability
+  ### - Toggle Voudon ability
+  ### - Toggle Banshee ability
   - Announce Banshee
   ### - Start cult vote
   - Restore ghost votes
-  - Announce Al-Hadikhia
+  ### - Announce Al-Hadikhia
   - Announce Leviathan
   - Announce Fearmonger
-  - Play Roshambo
+  ### - Play Roshambo
   - Start Boomdandy timer
   - Restore vote tokens
 - Added timer settings:
@@ -36,6 +36,7 @@ Changes and features:
 - "Requesting Storyteller Chat" is now automatically toggled off when a Storyteller is in the same room as you.
 - Your character is now revealed to you as soon as you enter your house, instead of the Storyteller having to do it.
 - The Night Order display within the Grimoire is now much more compact.
+- Beds & carpets in the mint, navy, and lavender houses are now appropriately colored.
 
 Technical changes:
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.
