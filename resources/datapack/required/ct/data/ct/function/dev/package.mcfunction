@@ -13,6 +13,5 @@ gamerule sendCommandFeedback false
 gamerule reducedDebugInfo true
 gamerule spectatorsGenerateChunks false
 
-function ct:admin/init/yawp_flags
 tellraw @s {"text":"Packaging Reminders:",bold:true}
 tellraw @s "- Disable Axiom\n- Disable ArmorPoser\n- Disable Carpet"

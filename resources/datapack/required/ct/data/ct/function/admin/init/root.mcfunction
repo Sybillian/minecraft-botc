@@ -1,6 +1,5 @@
 execute if score dev_mode game_data matches 1 run return fail
 function ct:admin/init/voice_chats
-function ct:admin/init/yawp_flags
 
 bossbar add day_time "Time for Conversations:"
 bossbar set day_time color blue
@@ -11,7 +10,7 @@ bossbar set day_time max 300
 bossbar set day_time value 300
 
 bossbar add botc:votes "Votes:"
-bossbar set botc:votes color red
+bossbar set botc:votes color blue
 bossbar set botc:votes players @a
 bossbar set botc:votes visible false
 bossbar set botc:votes style progress

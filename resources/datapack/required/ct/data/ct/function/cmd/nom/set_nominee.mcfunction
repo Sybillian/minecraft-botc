@@ -22,3 +22,7 @@ $execute if score $(p) id matches 15 if data block 125 72 70 front_text.messages
 
 closeguiscreen @s
 execute as @e[type=minecraft:item_display,tag=nominee_arm,limit=1] run function ct:cmd/nom/long_arm with storage ct:nominations
+
+execute if score noms_pause_timer settings matches 0 run return fail
+bossbar set minecraft:day_time visible false
+schedule clear ct:loop/timer/remove_one_second

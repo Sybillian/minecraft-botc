@@ -33,10 +33,14 @@ Changes and features:
 - /tell (and its aliases) are now disabled for non-Storytellers.
 - Storytellers no longer need to be opped in order to Storytell. An operator will still need to be the one to add or remove a Storyteller.
 - Storytellers can now see players' names and pronouns at night.
+- Storytellers can now click "mark" or "remove mark" to update that status and cancel a vote immediately.
 - "Requesting Storyteller Chat" is now automatically toggled off when a Storyteller is in the same room as you.
 - Your character is now revealed to you as soon as you enter your house, instead of the Storyteller having to do it.
 - The Night Order display within the Grimoire is now much more compact.
 - Beds & carpets in the mint, navy, and lavender houses are now appropriately colored.
+- When creating a server, you no longer need to move any additional files.
+- When creating a server, you no longer need to run /reload and YAWP commands.
+- Players can now interact with any blocks that do not change the map state (i.e. chests, beds, lecterns).
 
 Technical changes:
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.
@@ -55,8 +59,10 @@ Technical changes:
 - "Dev Mode" is now a little more official. If active, /reloads and joining the world does not automatically run init functions.
 - The way scripts are imported has been redone, making it dramatically more efficient and laying groundwork for homebrew support in the future.
 - All decorational armor stands are now item displays.
+- Block protection is now handled using Flan instead of YAWP. This means that if you have your own map, you'll need to re-define claims where players are able to toggle doors. Check config/flan/flan_config to set an item with which to do so.
 
 Fixed bugs:
+- #57: The script and Grimoire cannot be opened while a nomination is active.
 - #64: Not all windows in the yellow house get blocked by particles.
 - #70: Block sounds are not muted on nights 1 and 3.
 - #80: Starting a game with more than 15 non-ST players in the lobby breaks the game.
@@ -69,7 +75,7 @@ Fixed bugs:
 - The button to change seat 15's character is clickable when there are not 15 players.
 - Custom banner patterns refer to a nonexistent translation string.
 - The Acrobat is missing a * in its character description.
+- The Virgin lacks a "no ability" reminder token.
 - There are several accessible holes in the terrain.
 - Some voice chats can be entered or left by standing in non-whole blocks (panes, iron bars, fences).
 - Spectator 👁️ in voice chats icon uses the wrong font.
-- The Virgin lacks a "no ability" reminder token.

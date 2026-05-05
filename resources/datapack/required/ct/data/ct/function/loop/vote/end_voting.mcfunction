@@ -30,4 +30,8 @@ tag @a[tag=nominee] remove nominee
 tag @a[tag=voting_yes] remove voting_yes
 tag @a[tag=voting_no] remove voting_no
 bossbar set botc:votes visible false
+
+execute if score noms_pause_timer settings matches 0 run return fail
+execute if score day_value game_data matches 1.. run bossbar set minecraft:day_time visible true
+execute if score day_value game_data matches 1.. run function ct:loop/timer/remove_one_second
 #data remove storage ct:votes list

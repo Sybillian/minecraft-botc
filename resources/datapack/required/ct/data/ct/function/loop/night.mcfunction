@@ -7,6 +7,7 @@ execute as @a[scores={reveal_cd=139},tag=!spectator,tag=!storyteller] if score @
 execute as @a[tag=!spectator,tag=!storyteller,scores={reveal_cd=1..}] if score @s vc = @s id run scoreboard players remove @s reveal_cd 1
 execute as @a[scores={reveal_cd=60}] run function ct:start_game/roles/announce
 execute as @a[scores={reveal_cd=1}] run function ct:start_game/roles/hover_hint
+function ct:loop/timer/end_timer
 
 ## Window/Door Particles
 # Red

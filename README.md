@@ -17,7 +17,4 @@ All players need to do is install the modpack via Modrinth. If Modrinth is not a
 - Move the contents of `./saves` into your server's root folder.
 - [Setup Simple Voice Chat](https://modrepo.de/minecraft/voicechat/wiki/server_setup).
 - Op yourself from the server console.
-- Run `/reload`.
-- Run `/function ct:init/yawp_reset`.
-- Run `/function ct:init/yawp_regions`.
 - Done!

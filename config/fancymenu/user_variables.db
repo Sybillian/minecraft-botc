@@ -590,7 +590,7 @@ variable {
 
 variable {
   name = last_nom
-  value = efe
+  value = Steve
   reset_on_launch = false
 }
 
@@ -938,7 +938,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1208,7 +1208,7 @@ variable {
 
 variable {
   name = day_start
-  value = 10:26
+  value = 19:14
   reset_on_launch = false
 }
 

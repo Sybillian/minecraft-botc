@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = chat_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1777863194054
+  last_edited_time = 1777940656453
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:329945bd-850e-44dd-b24f-e110a505b6db-1777862419389] = [groups:][instances:]
+  [loading_requirement_container_meta:ab5129b0-ee52-4e04-9a98-5469fdadc79b-1777940621309] = [groups:][instances:]
 }
 
 customization {
@@ -311,7 +311,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 826780cc-66a9-4490-bd75-48f845d1437b-1769646505023
-  [executable_action_instance:c1c51f84-45ff-4a18-a2e6-5022a11603f0-1769647693124][action_type:sendmessage] = /execute as @a[tag=nominee] run function ct:kill/execute/mark
+  [executable_action_instance:c1c51f84-45ff-4a18-a2e6-5022a11603f0-1769647693124][action_type:sendmessage] = /function ct:kill/execute/mark with storage ct:nominations
   [executable_block:826780cc-66a9-4490-bd75-48f845d1437b-1769646505023][type:generic] = [executables:c1c51f84-45ff-4a18-a2e6-5022a11603f0-1769647693124;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false

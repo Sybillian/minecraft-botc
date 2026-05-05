@@ -31,6 +31,15 @@
             }
         ]
     },
+    "clocktower.vote_alt": {
+        "subtitle": "§eVoted§r",
+        "sounds": [
+            {
+                "name": "ct:clocktower/use_vote_alt",
+                "volume": 0.5
+            }
+        ]
+    },
     "clocktower.ghost_vote": {
         "subtitle": "§bGhost Vote Used§r",
         "sounds": [

@@ -1,4 +1,8 @@
 {
+    "flan.noPermission": "",
+    "flan.noPermissionSimple": "",
+    "flan.noPermissionTooClose": "",
+    "flan.tooCloseClaim": "",
     //
     // REPLACED BLOCKS
     //
