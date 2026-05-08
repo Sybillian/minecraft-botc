@@ -1,19 +1,4 @@
 scoreboard players set @s use_carrot 0
-execute if entity @a[scores={id=1}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=1}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=2}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=2}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=3}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=3}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=4}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=4}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=5}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=5}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=6}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=6}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=7}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=7}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=8}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=8}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=9}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=9}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=10}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=10}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=11}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=11}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=12}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=12}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=13}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=13}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=14}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=14}] run data modify entity @s view_range set value 1
-execute if entity @a[scores={id=15}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=15}] run data modify entity @s view_range set value 1
 execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 1
 
 tag @a add voting_no
@@ -29,8 +14,9 @@ execute if score current_majority vote matches 0 run scoreboard players operatio
 execute if score current_majority vote matches 0 run scoreboard players operation modulo math %= half math
 execute if score current_majority vote matches 0 run scoreboard players operation majority math += modulo math
 function ct:util/color_names
-execute if score current_majority vote matches 0 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":". ",color:white},{"score":{"name":"majority","objective":"math"},bold:true,color:white},{"text":" votes will execute them.",bold:false,color:white}]
-execute unless score current_majority vote matches 0 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":". ",color:white},{"score":{"name":"current_majority","objective":"vote"},bold:true,color:white},{"text":" votes will execute them.",bold:false,color:white}]
+execute if score organ_grinder settings matches 0 if score current_majority vote matches 0 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":". ",color:white},{"score":{"name":"majority","objective":"math"},bold:true,color:white},{"text":" votes will execute them.",bold:false,color:white}]
+execute if score organ_grinder settings matches 0 unless score current_majority vote matches 0 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":". ",color:white},{"score":{"name":"current_majority","objective":"vote"},bold:true,color:white},{"text":" votes will execute them.",bold:false,color:white}]
+execute if score organ_grinder settings matches 1 run tellraw @a [{"text":"A vote is starting on ",color:white},{"selector":"@a[tag=nominee]"},{"text":", starting with ",color:white},{"selector":"@a[tag=vote_start]"},{"text":".",color:white}]
 function ct:util/color_prefixes
 
 tag @a remove vote_start

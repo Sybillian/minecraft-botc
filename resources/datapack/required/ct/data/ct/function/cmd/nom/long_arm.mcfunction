@@ -30,6 +30,7 @@ execute if entity @a[scores={id=12}] as @e[type=minecraft:item_display,tag=vote_
 execute if entity @a[scores={id=13}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=13}] run data modify entity @s view_range set value 1
 execute if entity @a[scores={id=14}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=14}] run data modify entity @s view_range set value 1
 execute if entity @a[scores={id=15}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=15}] run data modify entity @s view_range set value 1
+
 execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 1
 
 execute as @e[type=minecraft:item_display,tag=vote_marker] if score @s id = @a[tag=nominee,limit=1] id run tag @s add arm_target

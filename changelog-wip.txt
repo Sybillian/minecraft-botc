@@ -9,6 +9,7 @@ Changes and features:
 - Added icons to "Teleport to seats" and "Teleport to homes" buttons.
 - Added an explanatory tooltip to the "Teleport to homes" button.
 - Added an alert that appears in the bag screen if you have selected a role that affects setup.
+- Added a particle for when regular votes are cast.
 - Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
   ### - Toggle Organ Grinder ability
   ### - Toggle Voudon ability
