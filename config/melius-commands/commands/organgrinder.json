@@ -1,0 +1,17 @@
+{
+  "id": "organgrinder",
+  "literals": [
+    {
+      "id": "on",
+      "executes": [
+        "/function ct:cmd/organgrinder/on"
+      ]
+    },
+    {
+      "id": "off",
+      "executes": [
+        "/function ct:cmd/organgrinder/off"
+      ]
+    }
+  ]
+}

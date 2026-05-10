@@ -122,7 +122,7 @@ variable {
 
 variable {
   name = player_15
-  value = noor
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -134,7 +134,7 @@ variable {
 
 variable {
   name = player_13
-  value = Russel
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = player_14
-  value = anya
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Sunny
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_11
-  value = Zuri
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -284,19 +284,19 @@ variable {
 
 variable {
   name = player_5
-  value = Will
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_12
-  value = Celeste
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Makena
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -308,43 +308,43 @@ variable {
 
 variable {
   name = player_3
-  value = Ari
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_10
-  value = Shane
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Alex
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Selina
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_8
-  value = Olivia
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Steve
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = efe
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -476,7 +476,7 @@ variable {
 
 variable {
   name = game_active
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -590,7 +590,7 @@ variable {
 
 variable {
   name = last_nom
-  value = Alex
+  value = none
   reset_on_launch = false
 }
 
@@ -938,7 +938,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1208,7 +1208,7 @@ variable {
 
 variable {
   name = day_start
-  value = 00:09
+  value = 10:50
   reset_on_launch = false
 }
 

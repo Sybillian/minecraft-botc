@@ -467,5 +467,11 @@
     },
     "done": true
   },
+  "ct:vc/red_house": {
+    "criteria": {
+      "box_1": "2026-05-10 10:53:59 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }

@@ -1,0 +1,6 @@
+{
+	"id": "togglevc",
+	"executes": [
+		"function ct:cmd/togglevc/root"
+	]
+}
