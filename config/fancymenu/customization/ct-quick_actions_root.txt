@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-quick_actions
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1778217294788
+  last_edited_time = 1778477212281
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:81511bf8-e657-4a0e-9948-978649b73f66-1778217284281] = [groups:][instances:]
+  [loading_requirement_container_meta:6ef62dda-db71-4963-ae5e-3452f1c1fed2-1778477202882] = [groups:][instances:]
 }
 
 menu_background {
@@ -538,7 +538,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = {"placeholder":"local","values":{"key":"clocktower.button.tp_homes.label"}}%n%{"placeholder":"local","values":{"key":"clocktower.button.tp_homes.hint"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.button.organgrinder.label"}}%n%{"placeholder":"local","values":{"key":"clocktower.button.organgrinder.hint"}}{"placeholder":"uppercase_text","values":{"text":"{"placeholder":"getvariable","values":{"name":"organgrinder"}}"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 1a61bf23-2439-4c5c-bb24-075282eb9dee-1766521817958

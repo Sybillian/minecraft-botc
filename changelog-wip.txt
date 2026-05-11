@@ -11,7 +11,7 @@ Changes and features:
 - Added an alert that appears in the bag screen if you have selected a role that affects setup.
 - Added a particle for when regular votes are cast.
 - Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
-  ### - Toggle Organ Grinder ability
+  - Toggle Organ Grinder ability
   ### - Toggle Voudon ability
   ### - Toggle Banshee ability
   - Announce Banshee
@@ -61,6 +61,7 @@ Technical changes:
 - The way scripts are imported has been redone, making it dramatically more efficient and laying groundwork for homebrew support in the future.
 - All decorational armor stands are now item displays.
 - Block protection is now handled using Flan instead of YAWP. This means that if you have your own map, you'll need to re-define claims where players are able to toggle doors. Check config/flan/flan_config to set an item with which to do so.
+- The biome datapack is now baked into the core datapack instead of being inside the world.
 
 Fixed bugs:
 - #57: The script and Grimoire cannot be opened while a nomination is active.

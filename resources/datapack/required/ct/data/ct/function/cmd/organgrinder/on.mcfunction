@@ -3,3 +3,4 @@ execute if score phase game_data matches 0 run return run function ct:error/game
 
 tellraw @s [{"text":"! ","color":"yellow","bold":true},{"text":"Organ Grinder ","color":"gray","bold":false},{"text":"enabled","color":"green","bold":true},{"text":".","color":"gray","bold":false}]
 scoreboard players set organ_grinder settings 1
+execute as @a[tag=storyteller] run fmvariable set organgrinder false on

@@ -2,6 +2,7 @@ team leave @s
 scoreboard players set @s id 0
 item replace entity @s[tag=dead] armor.head with minecraft:air
 attribute @s minecraft:movement_speed modifier remove ct:travel_speed
+execute at @s run playsound ct:clocktower.enable_sounds
 scoreboard players reset @s id
 scoreboard players reset @s role
 scoreboard players reset @s game_id
@@ -42,6 +43,7 @@ tag @s remove spectator
 fmvariable set role false none
 fmvariable set phase false 0
 fmvariable set game_active false false
+fmvariable set organgrinder false off
 
 fmvariable set p1_role false none
 fmvariable set p2_role false none

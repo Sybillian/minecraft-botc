@@ -422,7 +422,7 @@ variable {
 
 variable {
   name = quickaction
-  value = none
+  value = special
   reset_on_launch = false
 }
 
@@ -603,6 +603,12 @@ variable {
 variable {
   name = p15_r1_text
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = organgrinder
+  value = off
   reset_on_launch = false
 }
 
@@ -902,7 +908,7 @@ variable {
 
 variable {
   name = phase
-  value = 4
+  value = 0
   reset_on_launch = false
 }
 
@@ -938,7 +944,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 

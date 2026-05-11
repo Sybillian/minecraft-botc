@@ -61,7 +61,7 @@
     "clocktower.button.close_menu.label": "Close menu",
     // Grimoire Toggle Menu Buttons
     "clocktower.button.organgrinder.label": "§c§lToggle Organ Grinder ability§r",
-    "clocktower.button.organgrinder.hint": "When active, players will be unable to see who is and is not voting.\nCurrently: %s",
+    "clocktower.button.organgrinder.hint": "When active, players will be unable to see who is and is not voting.\nCurrently: ",
     "clocktower.button.voudon.label": "§e§lToggle Voudon ability§r",
     "clocktower.button.voudon.hint": "When active, only the Voudon and dead players can vote, and do not need a vote token to do so.\nCurrently: %s",
     "clocktower.button.banshee_ability.label": "§9§lGrant/Revoke Banshee ability§r",
