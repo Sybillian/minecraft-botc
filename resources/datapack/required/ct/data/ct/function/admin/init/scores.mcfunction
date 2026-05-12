@@ -19,6 +19,7 @@ scoreboard objectives add rps dummy
 scoreboard objectives add settings dummy
 scoreboard objectives add vc dummy
 scoreboard objectives add vote dummy
+scoreboard objectives add vote_tokens dummy
 scoreboard objectives add vote_value dummy
 
 # Numbers used in math operations, specifically for the timer

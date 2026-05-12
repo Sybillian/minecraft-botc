@@ -6,6 +6,13 @@ execute as @e[type=minecraft:item_display,tag=house] run data modify entity @s v
 data modify storage ct:seats seats set value [{username:"Nobody",role:0,alive:0,reminders:[]}]
 data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}
 
+scoreboard players reset * vote_value
+scoreboard players reset * vote_tokens
+scoreboard players reset * neighbor_check
+scoreboard players reset * pointing
+scoreboard players reset * pointing_at
+scoreboard players reset * reveal_cd
+scoreboard players reset * use_carrot
 scoreboard players set start vote 0
 scoreboard players set current_majority vote 0
 scoreboard players set current vote 0

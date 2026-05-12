@@ -77,3 +77,6 @@ config/fancymenu/user_variables.db
 /saves/world/poi
 /saves/world/stats
 /.mixin.out
+/saves/test
+saves/world/data/raids.dat
+saves/world/data/command_storage_ct.dat
