@@ -21,6 +21,7 @@ function ct:data/travellers
 data modify storage ct:seats seats set value [{placeholder:true},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]
 data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}
 function ct:data/character_data
+function ct:data/vc
 
 team add 00_spectator
 team add 99_storyteller

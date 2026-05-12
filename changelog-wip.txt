@@ -27,7 +27,10 @@ Changes and features:
   - TP players to seats
   - Pause during nominations
 - The bag menu has been totally redone, notably eliminating the need for the Fix Leftover Roles button. The current layout is not very colorblind-friendly and will be improved further in the future.
-- Players can now whisper to their neighbors and to Storytellers during the game using /whisper. When a game is not active, anyone can whisper to anyone. These messages are always visible to Storytellers.
+- Players can now whisper to their neighbors and to Storytellers while seated using /whisper. When a game is not active, anyone can whisper to anyone. These messages are always visible to Storytellers.
+- Players can now optionally join a voice chat with all players at night. Toggle between this and the private local voice chat with a keybind (ENTER by default).
+- A ✎ icon now appears at the end of the voice chat participant list if a Storyteller is present.
+- The house voice chats will now send a "you have joined X voice chat" message during the day.
 - Many texts are now translation strings. This is not yet comprehensive.
 - Many commands now check that a game is active before they can be run.
 - Many commands that are not relevant to the game are hidden for non-ops.
@@ -52,7 +55,8 @@ Technical changes:
   - 400-499: Demons
   - 500-599: Travellers
   - 600-699: NPCs
-- Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing.
+- Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing (except for the crop fields as I was lazy).
+- Voice chat player list actionbars are now stored in world NBT data.
 - Storyteller permission checks to run commands are now within the functions instead of the command's .json file.
 - TAB mod has been removed in favor of CustomNameTags, which is much less buggy and lets pronouns be seen at a greater distance.
 - Script data is no longer stored on players, and is now exclusively stored and referenced in ct:script

@@ -16,4 +16,7 @@ scoreboard players set player_count game_data 0
 execute as @a[tag=!storyteller,tag=!spectator] run scoreboard players add player_count game_data 1
 execute unless score player_count game_data = stored_player_count game_data run function ct:util/update_game_data
 
+tag @a[scores={vc=0},tag=in_vc] remove in_vc
+execute as @a[tag=!in_vc,scores={vc=1..}] at @s run function ct:loop/voicechat/messages
+tag @a[scores={vc=1..}] add in_vc
 execute as @a at @s run function ct:voicechat/leave
