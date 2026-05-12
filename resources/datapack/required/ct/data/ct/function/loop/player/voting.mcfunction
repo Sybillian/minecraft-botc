@@ -1,2 +1,3 @@
-title @s[tag=!storyteller,tag=!spectator,tag=voting_yes] actionbar [{"text":"You are voting","color":"white"},{"text":" YES ","color":"green"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
+title @s[tag=!storyteller,tag=!spectator,tag=voting_yes,tag=!active_banshee] actionbar [{"text":"You are voting","color":"white"},{"text":" YES ","color":"green"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
+title @s[tag=!storyteller,tag=!spectator,tag=voting_yes,tag=active_banshee] actionbar [{"text":"You are voting","color":"white"},{"text":" YES (x2)","color":"aqua"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
 title @s[tag=!storyteller,tag=!spectator,tag=!voting_yes] actionbar [{"text":"You are voting","color":"white"},{"text":" NO ","color":"red"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]

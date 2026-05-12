@@ -122,7 +122,7 @@ variable {
 
 variable {
   name = player_15
-  value = Zuri
+  value = Selina
   reset_on_launch = false
 }
 
@@ -134,7 +134,7 @@ variable {
 
 variable {
   name = player_13
-  value = anya
+  value = Will
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = player_14
-  value = Celeste
+  value = Olivia
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Selina
+  value = Zuri
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_11
-  value = Sunny
+  value = anya
   reset_on_launch = false
 }
 
@@ -284,19 +284,19 @@ variable {
 
 variable {
   name = player_5
-  value = Steve
+  value = Celeste
   reset_on_launch = false
 }
 
 variable {
   name = player_12
-  value = efe
+  value = Steve
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Will
+  value = noor
   reset_on_launch = false
 }
 
@@ -308,37 +308,37 @@ variable {
 
 variable {
   name = player_3
-  value = Ari
-  reset_on_launch = false
-}
-
-variable {
-  name = player_10
-  value = Olivia
-  reset_on_launch = false
-}
-
-variable {
-  name = player_2
   value = Makena
   reset_on_launch = false
 }
 
 variable {
+  name = player_10
+  value = efe
+  reset_on_launch = false
+}
+
+variable {
+  name = player_2
+  value = Sunny
+  reset_on_launch = false
+}
+
+variable {
   name = player_9
-  value = noor
+  value = Alex
   reset_on_launch = false
 }
 
 variable {
   name = player_8
-  value = Shane
+  value = Ari
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Alex
+  value = Shane
   reset_on_launch = false
 }
 
@@ -422,7 +422,7 @@ variable {
 
 variable {
   name = quickaction
-  value = special
+  value = none
   reset_on_launch = false
 }
 
@@ -590,7 +590,7 @@ variable {
 
 variable {
   name = last_nom
-  value = none
+  value = noor
   reset_on_launch = false
 }
 
@@ -908,7 +908,7 @@ variable {
 
 variable {
   name = phase
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -968,7 +968,7 @@ variable {
 
 variable {
   name = p2_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1214,7 +1214,7 @@ variable {
 
 variable {
   name = day_start
-  value = 20:50
+  value = 21:35
   reset_on_launch = false
 }
 

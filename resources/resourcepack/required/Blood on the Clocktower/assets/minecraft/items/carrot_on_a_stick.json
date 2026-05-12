@@ -161,6 +161,17 @@
       {
         "when": {
           "strings": [
+            "voting_banshee"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vote_banshee"
+        }
+      },
+      {
+        "when": {
+          "strings": [
             "mic"
           ]
         },

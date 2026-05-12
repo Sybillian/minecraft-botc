@@ -1,5 +1,6 @@
 team leave @s
 scoreboard players set @s id 0
+scoreboard players set @s vote_value 1
 item replace entity @s[tag=dead] armor.head with minecraft:air
 attribute @s minecraft:movement_speed modifier remove ct:travel_speed
 execute at @s run playsound ct:clocktower.enable_sounds

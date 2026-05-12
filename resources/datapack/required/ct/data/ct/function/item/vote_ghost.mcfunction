@@ -1,21 +1,40 @@
 scoreboard players set @s use_carrot 0
 tag @s remove voting_yes
-tag @s add voting_no
-tellraw @s [{"text":"Changed your vote to","color":"white"},{"text":" NO ","color":"red"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
-item replace entity @s weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_no"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"NO",color:"red",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
+tag @s[tag=!active_banshee] add voting_no
+tag @s[tag=active_banshee] add voting_banshee
+tellraw @s[tag=!active_banshee] [{"text":"Changed your vote to","color":"white"},{"text":" NO ","color":"red"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
+tellraw @s[tag=active_banshee] [{"text":"Changed your vote to","color":"white"},{"text":" YES (x2) ","color":"aqua"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
+item replace entity @s[tag=!active_banshee] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_no"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"NO",color:"red",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
+item replace entity @s[tag=active_banshee] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_banshee"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"YES (x2)",color:"aqua",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 
-execute if score @s id matches 1 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=1},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 2 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=2},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 3 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=3},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 4 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=4},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 5 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=5},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 6 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=6},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 7 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=7},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 8 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=8},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 9 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=9},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 10 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=10},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 11 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=11},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 12 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=12},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 13 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=13},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 14 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=14},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
-execute if score @s id matches 15 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=15},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 1 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=1},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 2 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=2},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 3 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=3},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 4 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=4},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 5 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=5},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 6 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=6},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 7 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=7},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 8 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=8},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 9 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=9},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 10 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=10},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 11 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=11},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 12 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=12},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 13 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=13},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 14 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=14},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s[tag=!active_banshee] id matches 15 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=15},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+
+execute if score @s[tag=active_banshee] id matches 1 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=1},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 2 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=2},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 3 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=3},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 4 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=4},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 5 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=5},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 6 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=6},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 7 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=7},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 8 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=8},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 9 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=9},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 10 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=10},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 11 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=11},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 12 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=12},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 13 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=13},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 14 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=14},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"
+execute if score @s[tag=active_banshee] id matches 15 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=15},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_banshee"

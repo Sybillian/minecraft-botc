@@ -8,4 +8,5 @@ execute if data entity @s SelectedItem.components."minecraft:custom_model_data"{
 # Voting1
 execute if data entity @s equipment.offhand.components."minecraft:custom_model_data"{strings:["voting_yes"]} run return run function ct:item/vote_yes
 execute if data entity @s equipment.offhand.components."minecraft:custom_model_data"{strings:["voting_no"]} run return run function ct:item/vote_no
+execute if data entity @s equipment.offhand.components."minecraft:custom_model_data"{strings:["voting_banshee"]} run return run function ct:item/vote_banshee
 execute if data entity @s equipment.offhand.components."minecraft:custom_model_data"{strings:["voting_ghost"]} run return run function ct:item/vote_ghost

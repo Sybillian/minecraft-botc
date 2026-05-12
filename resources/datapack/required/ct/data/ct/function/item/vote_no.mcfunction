@@ -1,5 +1,6 @@
 scoreboard players set @s use_carrot 0
 tag @s remove voting_no
+tag @s remove voting_banshee
 tag @s add voting_yes
 tellraw @s[tag=!dead,tag=!expended_ghost] [{"text":"Changed your vote to","color":"white"},{"text":" YES ","color":"green"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
 tellraw @s[tag=dead,tag=!expended_ghost] [{"text":"Changed your vote to","color":"white"},{"text":" YES ","color":"aqua"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
