@@ -10,6 +10,16 @@ Changes and features:
 - Added an explanatory tooltip to the "Teleport to homes" button.
 - Added an alert that appears in the bag screen if you have selected a role that affects setup.
 - Added a particle for when regular votes are cast.
+- Added a Storyteller-only "Quick Actions" menu opened via hotkey (Q by default). This contains several options:
+  - Toggle Gamemode
+  - Teleport Players
+    - Home
+    - Town Square
+    - Evils to Church
+  - Nominate
+  - TP to House
+  - Special Actions
+    - Organ Grinder
 - Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
   - Toggle Organ Grinder ability
   ### - Toggle Voudon ability
@@ -70,6 +80,7 @@ Technical changes:
 Fixed bugs:
 - #57: The script and Grimoire cannot be opened while a nomination is active.
 - #64: Not all windows in the yellow house get blocked by particles.
+- #65: Teleport to player home is broken in the new map.
 - #70: Block sounds are not muted on nights 1 and 3.
 - #80: Starting a game with more than 15 non-ST players in the lobby breaks the game.
 - #83: Reminder tokens are broken for player 13, 14, and 15. (thanks @LordWoolfy!)

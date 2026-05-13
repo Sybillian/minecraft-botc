@@ -122,7 +122,7 @@ variable {
 
 variable {
   name = player_15
-  value = Makena
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -134,7 +134,7 @@ variable {
 
 variable {
   name = player_13
-  value = Steve
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = player_14
-  value = Shane
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Ari
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_11
-  value = efe
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -284,19 +284,19 @@ variable {
 
 variable {
   name = player_5
-  value = Zuri
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_12
-  value = Olivia
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = noor
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -308,43 +308,43 @@ variable {
 
 variable {
   name = player_3
-  value = Alex
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_10
-  value = Russel
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Sunny
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Will
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_8
-  value = anya
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Celeste
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = Selina
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -476,7 +476,7 @@ variable {
 
 variable {
   name = game_active
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -908,7 +908,7 @@ variable {
 
 variable {
   name = phase
-  value = 4
+  value = 0
   reset_on_launch = false
 }
 

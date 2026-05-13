@@ -5,6 +5,7 @@ effect clear @a minecraft:darkness
 
 execute as @a[tag=voting_yes] run scoreboard players operation total vote += @s vote_value
 execute as @a[tag=voting_banshee] run scoreboard players operation total vote += @s vote_value
+execute as @a[tag=voting_banshee] run scoreboard players operation total vote += @s vote_value
 execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
 
@@ -33,6 +34,7 @@ execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s vie
 tag @a[tag=not_legion] remove not_legion
 tag @a[tag=nominee] remove nominee
 tag @a[tag=voting_yes] remove voting_yes
+tag @a[tag=voting_banshee] remove voting_banshee
 tag @a[tag=voting_no] remove voting_no
 bossbar set botc:votes visible false
 

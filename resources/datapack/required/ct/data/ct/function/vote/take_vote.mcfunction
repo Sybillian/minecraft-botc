@@ -5,6 +5,7 @@ execute as @s[tag=!dead,tag=voting_yes] at @s run function ct:vote/effect/single
 scoreboard players operation total vote += @s vote_value
 
 tellraw @s[tag=voting_yes] [{"text":"You voted §aYES§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
+tellraw @s[tag=voting_banshee] [{"text":"You voted §bYES§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 tellraw @s[tag=!voting_yes] [{"text":"You voted §cNO§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 
 function ct:admin/variables/score

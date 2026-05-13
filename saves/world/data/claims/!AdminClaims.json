@@ -1041,15 +1041,15 @@
     "AllowedEntries": {},
     "GlobalPerms": [
       "flan:enderman",
+      "flan:can_stay",
       "flan:snow_golem",
       "flan:door",
-      "flan:pickup",
-      "flan:enderchest",
-      "flan:can_stay",
       "flan:enchantment",
       "flan:lock_items",
       "flan:portal",
-      "flan:flight"
+      "flan:flight",
+      "flan:pickup",
+      "flan:enderchest"
     ],
     "PermGroup": {
       "Visitor": {

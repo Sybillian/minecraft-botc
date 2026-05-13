@@ -4,12 +4,12 @@ layout-meta {
   identifier = ct-noms
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1777864942695
-  is_enabled = false
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4609dc4d-939e-4af3-a00b-71ddb995fa80-1778552570559] = [groups:][instances:]
+  [loading_requirement_container_meta:abeae0ba-ced5-4ac3-84e4-c3ebf223b9c8-1778642889536] = [groups:][instances:]
 }
 
 customization {
