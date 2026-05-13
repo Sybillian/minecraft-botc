@@ -422,7 +422,7 @@ variable {
 
 variable {
   name = quickaction
-  value = banshee
+  value = announce
   reset_on_launch = false
 }
 
@@ -1334,7 +1334,7 @@ variable {
 
 variable {
   name = announced_player
-  value = _poof_
+  value = Ari
   reset_on_launch = false
 }
 

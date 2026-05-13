@@ -18,21 +18,16 @@ Changes and features:
     - Evils to Church
   - Nominate
   - TP to House
-  - Special Actions
+  - Special abilities
     - Organ Grinder
-- Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
-  - Toggle Organ Grinder ability
-  ### - Toggle Voudon ability
-  ### - Toggle Banshee ability
-  - Announce Banshee
-  ### - Start cult vote
-  - Restore ghost votes
-  ### - Announce Al-Hadikhia
-  - Announce Leviathan
-  - Announce Fearmonger
-  ### - Play Roshambo
-  - Start Boomdandy timer
-  - Restore vote tokens
+    - Al-Hadikhia
+    - Banshee
+    - Ferryman
+  - Announce
+    - Leviathan
+    - Boomdandy
+    - Fearmonger
+    - Banshee
 - Added timer settings:
   - TP players to seats
   - Pause during nominations
