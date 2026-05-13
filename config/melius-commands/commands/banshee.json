@@ -2,5 +2,14 @@
 	"id": "banshee",
 	"executes": [
 		"function ct:cmd/banshee/announce"
+	],
+	"arguments": [
+		{
+			"id": "player",
+			"type": "minecraft:entity players",
+			"executes": [
+				"function ct:cmd/banshee/root {player:${player}}"
+			]
+		}
 	]
 }

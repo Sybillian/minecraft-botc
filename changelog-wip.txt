@@ -56,6 +56,7 @@ Changes and features:
 - When creating a server, you no longer need to move any additional files.
 - When creating a server, you no longer need to run /reload and YAWP commands.
 - Players can now interact with any blocks that do not change the map state (i.e. chests, beds, lecterns).
+- Players now get a slight speed boost when coming to town in the morning and returning home at night.
 
 Technical changes:
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.

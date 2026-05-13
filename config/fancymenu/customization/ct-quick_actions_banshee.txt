@@ -1,15 +1,28 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = ct-noms
+  identifier = ct-quick_actions
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777864942695
+  last_edited_time = 1778649555043
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:c391a2ee-4af2-4a6f-9024-4625d60f9e7d-1778649655225] = [groups:][instances:]
+  [loading_requirement_container_meta:94e7704f-065a-4b41-b713-3b4659e921c5-1778649544957] = [groups:][instances:aba7bf02-35f5-4978-b0f2-5644866df5ca-1778649483078;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:aba7bf02-35f5-4978-b0f2-5644866df5ca-1778649483078] = quickaction:banshee
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/menu/backgrounds/transparent.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+  instance_identifier = a6968317-52bc-4e07-86d8-b6702c593078-1777844666450
+  background_type = image
 }
 
 customization {
@@ -38,10 +51,10 @@ element {
   instance_identifier = 52eca099-bee1-47c9-9600-5f192a1fceb8-1775845662106
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -76,9 +89,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_1"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_1"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_1"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_1"}}/100.png
   restartbackgroundanimations = true
@@ -106,10 +120,10 @@ element {
   instance_identifier = 984b289e-eb02-42b7-aae9-f70d172b02f0-1775844618508
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -145,7 +159,7 @@ element {
 
 element {
   interactable = false
-  source = ^^^%n%Who is being nominated?%n%^^^
+  source = ^^^%n%Toggle for whom?%n%^^^
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -180,10 +194,10 @@ element {
   instance_identifier = 65c97236-f74a-4ef6-b163-dac784bd727f-1775845241821
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -222,10 +236,10 @@ element {
   instance_identifier = f6eb0874-1f0e-464a-ad2d-2b7b9c33989f-1775864220456
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -260,9 +274,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_2"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_2"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_2"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_2"}}/100.png
   restartbackgroundanimations = true
@@ -290,10 +305,10 @@ element {
   instance_identifier = 6913a26b-f978-4b37-b76f-effbf8e4fe1c-1775864220456
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -334,10 +349,10 @@ element {
   instance_identifier = 211a7a37-a2be-485a-9766-79f61382e885-1775864282335
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -372,9 +387,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_3"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_3"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_3"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_3"}}/100.png
   restartbackgroundanimations = true
@@ -402,10 +418,10 @@ element {
   instance_identifier = 9e26855c-f704-44bd-b958-6047a536ece3-1775864282336
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -446,10 +462,10 @@ element {
   instance_identifier = 0a72778f-649b-41da-bc7f-3c14f59049a0-1775864282336
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -484,9 +500,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_4"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_4"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_4"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_4"}}/100.png
   restartbackgroundanimations = true
@@ -514,10 +531,10 @@ element {
   instance_identifier = 63c9accc-1606-4b76-b834-c35c34081f62-1775864282336
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -558,10 +575,10 @@ element {
   instance_identifier = c818770d-d42a-44be-919d-41f6402cd71f-1775864296481
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -596,9 +613,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_5"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_5"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_5"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_5"}}/100.png
   restartbackgroundanimations = true
@@ -626,10 +644,10 @@ element {
   instance_identifier = ffa76306-1a89-4c17-abcd-85c00b06e323-1775864296482
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -670,10 +688,10 @@ element {
   instance_identifier = 6ccd0e4d-01dd-41d2-b839-474c23c4eef2-1775864296483
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -708,9 +726,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_6"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_6"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_6"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_6"}}/100.png
   restartbackgroundanimations = true
@@ -738,10 +757,10 @@ element {
   instance_identifier = 3439aa81-663e-4d5d-bd3d-09f431d809fa-1775864296483
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -782,10 +801,10 @@ element {
   instance_identifier = 945880ab-3c8f-4ca2-b012-58840bedf5fb-1775864296483
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -820,9 +839,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_7"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_7"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_7"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_7"}}/100.png
   restartbackgroundanimations = true
@@ -850,10 +870,10 @@ element {
   instance_identifier = 4dbfa34d-9292-484b-9100-def0d00f7dc9-1775864296483
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -894,10 +914,10 @@ element {
   instance_identifier = b3a21caf-4703-4b3f-b512-45aa10fca16d-1775864296484
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -932,9 +952,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_8"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_8"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_8"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_8"}}/100.png
   restartbackgroundanimations = true
@@ -962,10 +983,10 @@ element {
   instance_identifier = a59abb9b-7f56-4c0c-b33d-0d8cc115cf50-1775864296484
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1006,10 +1027,10 @@ element {
   instance_identifier = 657ab037-bbba-44eb-a320-897403c7a4d6-1776306797361
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1044,9 +1065,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_12"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_12"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_12"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_12"}}/100.png
   restartbackgroundanimations = true
@@ -1074,10 +1096,10 @@ element {
   instance_identifier = 22b422d5-b327-4903-9663-d4386424872f-1776306797362
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1118,10 +1140,10 @@ element {
   instance_identifier = 3130f3bd-9b3f-4477-bcbd-245791d16caa-1776306797362
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1156,9 +1178,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_11"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_11"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_11"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_11"}}/100.png
   restartbackgroundanimations = true
@@ -1186,10 +1209,10 @@ element {
   instance_identifier = 37ec3b45-e31d-47e0-9c52-c9b35ee93df4-1776306797363
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1230,10 +1253,10 @@ element {
   instance_identifier = 7237614f-20c1-44c9-a79d-b49bc7b71b4e-1776306797363
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1268,9 +1291,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_10"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_10"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_10"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_10"}}/100.png
   restartbackgroundanimations = true
@@ -1298,10 +1322,10 @@ element {
   instance_identifier = ead695b2-dc93-429a-84a7-c6e30b2bcaf4-1776306797364
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1342,10 +1366,10 @@ element {
   instance_identifier = 77889338-338e-4227-8ec9-d403c4c36d54-1776306797364
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1380,9 +1404,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_9"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_9"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_9"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_9"}}/100.png
   restartbackgroundanimations = true
@@ -1410,10 +1435,10 @@ element {
   instance_identifier = aed01733-9938-4f5e-84e1-476dba81e3c5-1776306797364
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1454,10 +1479,10 @@ element {
   instance_identifier = c89d940d-55a3-4737-bfe8-783a9e60094d-1776306820533
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1492,9 +1517,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_15"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_15"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_15"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_15"}}/100.png
   restartbackgroundanimations = true
@@ -1522,10 +1548,10 @@ element {
   instance_identifier = 71711df4-0e63-4e96-ba8d-7e7e945753d4-1776306820534
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1566,10 +1592,10 @@ element {
   instance_identifier = 9869c34d-9a12-4d6c-a427-7be22c2b998b-1776306820535
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1604,9 +1630,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_14"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_14"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_14"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_14"}}/100.png
   restartbackgroundanimations = true
@@ -1634,10 +1661,10 @@ element {
   instance_identifier = b66b967c-d0c9-4115-ae43-3e4b403529d8-1776306820535
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1678,10 +1705,10 @@ element {
   instance_identifier = aa3d3ae3-5281-42a0-a91d-7cc6a6fef713-1776306820536
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
@@ -1716,9 +1743,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508
-  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /set_nominee {"placeholder":"getvariable","values":{"name":"player_13"}}
-  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominee
-  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;]
+  [executable_action_instance:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412][action_type:sendmessage] = /banshee {"placeholder":"getvariable","values":{"name":"player_13"}}
+  [executable_action_instance:22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038][action_type:disable_layout] = ct-noms_nominator
+  [executable_action_instance:a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514][action_type:enable_layout] = ct-noms_nominee
+  [executable_block:460ad4ac-7366-4e34-bdb7-743fa597ce22-1775844618508][type:generic] = [executables:7b46f23c-5870-4a1c-8ff1-58d9e302d961-1775860736412;22b2102e-9bed-418b-a429-4cbfa2bdba26-1775862344038;a0d1bfda-b4cd-42b1-ab62-70718df757c4-1775862362514;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_13"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_13"}}/100.png
   restartbackgroundanimations = true
@@ -1746,10 +1774,10 @@ element {
   instance_identifier = 8e978233-e445-4c29-bf27-322a7c4a5be7-1776306820536
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
+  fade_in_v2 = every_time
   fade_in_speed = 30.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 30.0
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920

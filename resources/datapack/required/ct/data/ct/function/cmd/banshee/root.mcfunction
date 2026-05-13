@@ -1,0 +1,2 @@
+$execute as $(player) if entity @s[tag=active_banshee] run return run function ct:cmd/banshee/disable {player:$(player)}
+$execute as $(player) if entity @s[tag=!active_banshee] run return run function ct:cmd/banshee/enable {player:$(player)}
