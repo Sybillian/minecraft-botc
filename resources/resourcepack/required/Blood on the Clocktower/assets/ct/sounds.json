@@ -13,6 +13,20 @@
             }
         ]
     },
+    "clocktower.import_script": {
+        "sounds": [
+            {
+                "name": "ct:clocktower/signal/import_script"
+            }
+        ]
+    },
+    "clocktower.import_script_2": {
+        "sounds": [
+            {
+                "name": "ct:clocktower/signal/import_script_2"
+            }
+        ]
+    },
     "clocktower.leviathan": {
         "subtitle": "§eLeviathan Announced§r",
         "sounds": [
@@ -133,6 +147,16 @@
         "sounds": [
             {
                 "name": "ct:clocktower/clock_tick",
+                "volume": 1,
+                "pitch": 0.8
+            }
+        ]
+    },
+    "clocktower.tick_short": {
+        "subtitle": "Clock Ticks",
+        "sounds": [
+            {
+                "name": "ct:clocktower/clock_tick_short",
                 "volume": 1,
                 "pitch": 0.8
             }

@@ -590,7 +590,7 @@ variable {
 
 variable {
   name = last_nom
-  value = none
+  value = Sunny
   reset_on_launch = false
 }
 
@@ -710,7 +710,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"","name":"lit"},"steward","washerwoman","clockmaker","grandmother","librarian","shugenja","pixie","bountyhunter","empath","highpriestess","sailor","balloonist","general","preacher","chambermaid","villageidiot","snakecharmer","mathematician","flowergirl","towncrier","oracle","butler","goon","mezepheles","godfather","poisoner","devilsadvocate","spy","harpy","witch","yaggababble","pukka","lilmonsta","lleech","thief","bureaucrat","gnome","tor","djinn"]
+  value = [{"id":"_meta","author":"Sybillian","name":"Chorus of the Damned"},"noble","pixie","general","mathematician","fortuneteller","towncrier","undertaker","lycanthrope","princess","farmer","mayor","virgin","magician","recluse","sweetheart","klutz","puzzlemaster","mezepheles","poisoner","eviltwin","boffin","vigormortis","legion","fanggu","djinn"]
   reset_on_launch = false
 }
 
@@ -812,7 +812,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 4
+  value = 1
   reset_on_launch = false
 }
 
@@ -1214,7 +1214,7 @@ variable {
 
 variable {
   name = day_start
-  value = 18:56
+  value = 22:56
   reset_on_launch = false
 }
 
@@ -1274,7 +1274,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 

@@ -1,0 +1,1 @@
+execute as @a[tag=storyteller] at @s run playsound ct:clocktower.import_script_2

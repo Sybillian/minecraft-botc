@@ -7,7 +7,19 @@ listener_instance {
   [executable_action_instance:d21e5c88-7b6d-4194-951c-691b39421ff4-1775533955746][action_type:edit_minecraft_option] = soundCategory_block:1
   [executable_block:c0591d5b-4995-45da-b847-5a75c3cab9dd-1775533582888][type:if] = [executables:d21e5c88-7b6d-4194-951c-691b39421ff4-1775533955746;][appended:0559ce14-5f3f-45a3-a689-13cebed21b3f-1775534042807]
   [executable_action_instance:131393f0-c3bd-4dd7-b4ec-f16f4f87635d-1775534050931][action_type:edit_minecraft_option] = soundCategory_block:0
-  [executable_block:0559ce14-5f3f-45a3-a689-13cebed21b3f-1775534042807][type:else-if] = [executables:131393f0-c3bd-4dd7-b4ec-f16f4f87635d-1775534050931;]
+  [executable_block:0559ce14-5f3f-45a3-a689-13cebed21b3f-1775534042807][type:else-if] = [executables:131393f0-c3bd-4dd7-b4ec-f16f4f87635d-1775534050931;][appended:2ea44c66-7d67-4864-a8e2-09f2f08de318-1778645066492]
+  [executable_action_instance:e8360a2f-6bce-445e-bf7d-320accfa127c-1778645132589][action_type:set_variable] = script_json:{"placeholder":"file_text","values":{"path_or_url":"/scripts/loaded_script.json","mode":"all","separator":"\n","last_lines":"1"}}
+  [executable_action_instance:77a00195-2b3b-41bc-8c3c-7f903f523bd9-1778645785750][action_type:sendmessage] = /schedule function ct:script/import_from_file_2 10t
+  [executable_block:2ea44c66-7d67-4864-a8e2-09f2f08de318-1778645066492][type:else-if] = [executables:e8360a2f-6bce-445e-bf7d-320accfa127c-1778645132589;77a00195-2b3b-41bc-8c3c-7f903f523bd9-1778645785750;][appended:d100394d-0e4f-4ce8-a57c-75ed63bbc325-1778646902940]
+  [executable_action_instance:e45548aa-c327-4064-892d-6c11c52e8bcc-1778647685518][action_type:set_variable] = script_json:{"placeholder":"file_text","values":{"path_or_url":"/scripts/loaded_script.json","mode":"all","separator":"\n","last_lines":"1"}}
+  [executable_action_instance:91006ed0-d17e-4ded-8837-57b226d7981e-1778646916093][action_type:sendmessage] = /function ct:script/set_imported {script:{"placeholder":"getvariable","values":{"name":"script_json"}}}
+  [executable_block:d100394d-0e4f-4ce8-a57c-75ed63bbc325-1778646902940][type:else-if] = [executables:e45548aa-c327-4064-892d-6c11c52e8bcc-1778647685518;91006ed0-d17e-4ded-8837-57b226d7981e-1778646916093;]
+  [else_if_executable_block_body:d100394d-0e4f-4ce8-a57c-75ed63bbc325-1778646902940] = 7fe4b12b-23ba-4110-a604-561f4ba0a364-1778646888033
+  [loading_requirement_container_meta:7fe4b12b-23ba-4110-a604-561f4ba0a364-1778646888033] = [groups:][instances:3c85b4b1-12bb-475f-98c1-94d3942dec97-1778646889551;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:3c85b4b1-12bb-475f-98c1-94d3942dec97-1778646889551] = ["mode":"equals","text":"$$sound_resource_location","compare_with":"ct:sounds/clocktower/signal/import_script_2.ogg"]$
+  [else_if_executable_block_body:2ea44c66-7d67-4864-a8e2-09f2f08de318-1778645066492] = b40829c4-7407-4034-8107-d15f619ac4a2-1778645063694
+  [loading_requirement_container_meta:b40829c4-7407-4034-8107-d15f619ac4a2-1778645063694] = [groups:][instances:ef0d1861-014b-4e75-bd7a-2680a82542e5-1778645102548;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:ef0d1861-014b-4e75-bd7a-2680a82542e5-1778645102548] = ["mode":"equals","text":"$$sound_resource_location","compare_with":"ct:sounds/clocktower/signal/import_script.ogg"]$
   [else_if_executable_block_body:0559ce14-5f3f-45a3-a689-13cebed21b3f-1775534042807] = ad9eb952-d250-4c31-abe3-e54d6a0bb0dc-1775534024338
   [loading_requirement_container_meta:ad9eb952-d250-4c31-abe3-e54d6a0bb0dc-1775534024338] = [groups:][instances:c7308431-bd18-4b83-a035-5a5ca7102e68-1775534026015;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:c7308431-bd18-4b83-a035-5a5ca7102e68-1775534026015] = ["mode":"equals","text":"$$sound_resource_location","compare_with":"ct:sounds/clocktower/signal/disable_sounds.ogg"]$
@@ -16,5 +28,13 @@ listener_instance {
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:0d002165-a6d0-442f-823e-7d0fe16f450d-1775533571851] = ["mode":"equals","text":"$$sound_resource_location","compare_with":"ct:sounds/clocktower/signal/enable_sounds.ogg"]$
   [if_executable_block_collapsed:c0591d5b-4995-45da-b847-5a75c3cab9dd-1775533582888] = false
   [executable_block:e723f91f-98cc-4387-9c17-727f254c2ff8-1775533477238][type:generic] = [executables:c0591d5b-4995-45da-b847-5a75c3cab9dd-1775533582888;]
+}
+
+listener_instance {
+  listener_instance_identifier = 21f56ff8-2e03-4514-9dc1-2f7677a3921a-1778645593208
+  listener_provider_identifier = file_selected_via_action
+  listener_instance_action_script_identifier = 6c0d6235-c46c-420d-932e-c3f3b8426c75-1778645593208
+  [executable_action_instance:a74e467c-12cb-429b-9bdf-acd37a29d6ea-1778645597708][action_type:sendmessage] = /schedule function ct:script/import_from_file 1t
+  [executable_block:6c0d6235-c46c-420d-932e-c3f3b8426c75-1778645593208][type:generic] = [executables:a74e467c-12cb-429b-9bdf-acd37a29d6ea-1778645597708;]
 }
 

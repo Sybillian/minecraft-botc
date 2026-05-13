@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-bag
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777863559929
-  is_enabled = false
+  last_edited_time = 1778646577849
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:9e466d05-1a33-4fc4-992f-2164aa186b1d-1778630179643] = [groups:][instances:]
+  [loading_requirement_container_meta:39b5b9e9-ef3c-457a-9b5e-221c87f4db71-1778646565595] = [groups:][instances:]
 }
 
 customization {
@@ -279,8 +279,7 @@ element {
 element {
   button_element_executable_block_identifier = 2a8274f0-16ef-4bfd-926a-8b2b94e6ee0c-1776270038427
   [executable_action_instance:0cc0ac20-1c8b-4365-894a-23038cce72d6-1776270063197][action_type:select_file_to_game_dir] = /scripts/loaded_script.json|||JSON Files (*.json)|||json|||true
-  [executable_action_instance:9fa80385-b48a-4e45-85e2-fce096e69c57-1776271886188][action_type:set_variable] = script_json:{"placeholder":"file_text","values":{"path_or_url":"/scripts/loaded_script.json","mode":"all","separator":"\n","last_lines":"1"}}
-  [executable_block:2a8274f0-16ef-4bfd-926a-8b2b94e6ee0c-1776270038427][type:generic] = [executables:0cc0ac20-1c8b-4365-894a-23038cce72d6-1776270063197;9fa80385-b48a-4e45-85e2-fce096e69c57-1776271886188;]
+  [executable_block:2a8274f0-16ef-4bfd-926a-8b2b94e6ee0c-1776270038427][type:generic] = [executables:0cc0ac20-1c8b-4365-894a-23038cce72d6-1776270063197;]
   backgroundnormal = [source:location]ct:textures/gui/select_file.png
   backgroundhovered = [source:location]ct:textures/gui/select_file_highlighted.png
   restartbackgroundanimations = true
