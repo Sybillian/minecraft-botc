@@ -422,7 +422,7 @@ variable {
 
 variable {
   name = quickaction
-  value = announce
+  value = none
   reset_on_launch = false
 }
 
