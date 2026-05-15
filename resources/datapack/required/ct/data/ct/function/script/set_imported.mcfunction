@@ -1,3 +1,5 @@
+function ct:util/reset_in_roles
+
 $data modify storage ct:script script_imported set value {script:$(script)}
 
 data remove storage ct:script script
