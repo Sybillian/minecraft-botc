@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-quick_actions
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1778651088132
+  last_edited_time = 1778870699630
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:a31afaf1-e06b-4599-ba19-143a3fdc0eb6-1778651064448] = [groups:][instances:]
+  [loading_requirement_container_meta:434b94c7-9e10-49fc-b21e-133f86a19fc7-1778870687784] = [groups:][instances:]
 }
 
 menu_background {
@@ -530,8 +530,15 @@ element {
 
 element {
   button_element_executable_block_identifier = a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958
-  [executable_action_instance:0614b265-6788-4933-b7e6-0ddf04d19f79-1766538954165][action_type:sendmessage] = /toggleorgangrinder
-  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:0614b265-6788-4933-b7e6-0ddf04d19f79-1766538954165;]
+  [executable_action_instance:0614b265-6788-4933-b7e6-0ddf04d19f79-1766538954165][action_type:sendmessage] = /organgrinder on
+  [executable_block:781bc9a1-3e24-4a28-b922-10a140dc0a6a-1778870382659][type:if] = [executables:0614b265-6788-4933-b7e6-0ddf04d19f79-1766538954165;][appended:dcd84823-06cd-4ac8-a9d4-63b0f69c67e2-1778870595938]
+  [executable_action_instance:1c60afeb-619f-49f0-ae08-28f3cf4818b2-1778870397500][action_type:sendmessage] = /organgrinder off
+  [executable_block:dcd84823-06cd-4ac8-a9d4-63b0f69c67e2-1778870595938][type:else] = [executables:1c60afeb-619f-49f0-ae08-28f3cf4818b2-1778870397500;]
+  [if_executable_block_body:781bc9a1-3e24-4a28-b922-10a140dc0a6a-1778870382659] = e1e00075-b822-4ee1-bd81-a66d31fd8119-1778870368717
+  [loading_requirement_container_meta:e1e00075-b822-4ee1-bd81-a66d31fd8119-1778870368717] = [groups:][instances:33176481-961b-450c-9e78-673be476fcf9-1778870370321;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:33176481-961b-450c-9e78-673be476fcf9-1778870370321] = organgrinder:off
+  [if_executable_block_collapsed:781bc9a1-3e24-4a28-b922-10a140dc0a6a-1778870382659] = false
+  [executable_block:a7c8f3eb-ccc2-46e3-9e2e-1e47c2c2872d-1766521817958][type:generic] = [executables:781bc9a1-3e24-4a28-b922-10a140dc0a6a-1778870382659;]
   backgroundnormal = [source:location]ct:textures/gui/organgrinder.png
   backgroundhovered = [source:location]ct:textures/gui/organgrinder_highlight.png
   restartbackgroundanimations = true

@@ -138,6 +138,7 @@
     // PREFIXES
     //
     "clocktower.prefix.notification": "§l!§r ",
+    "clocktower.prefix.error": "§c!§r ",
     "clocktower.prefix.the": "The ",
     //
     // ERROR MESSAGES

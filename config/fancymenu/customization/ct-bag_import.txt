@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-bag
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1778646577849
+  last_edited_time = 1778870948448
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:be7950f9-01e0-4543-9273-ec82b41eb1e2-1778821613484] = [groups:][instances:]
+  [loading_requirement_container_meta:9af3e820-d2cf-4b49-8d2c-45a1c794f3bc-1778870699638] = [groups:][instances:]
 }
 
 customization {
@@ -346,7 +346,9 @@ element {
 element {
   button_element_executable_block_identifier = 8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477
   [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:script/set_imported {script:[{"id":"_meta","name":"Trouble Brewing"},"washerwoman","librarian","investigator","chef","empath","fortuneteller","undertaker","monk","ravenkeeper","virgin","slayer","soldier","mayor","butler","drunk","recluse","saint","poisoner","spy","scarletwoman","baron","imp"]}
-  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;]
+  [executable_action_instance:01a208ef-a5f7-4be7-bcda-b3cff2c540d3-1778869386247][action_type:enable_layout] = ct-bag_layout
+  [executable_action_instance:3cffc23f-3b6c-418d-8c0b-858fa540741a-1778869391120][action_type:disable_layout] = ct-bag_import
+  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;01a208ef-a5f7-4be7-bcda-b3cff2c540d3-1778869386247;3cffc23f-3b6c-418d-8c0b-858fa540741a-1778869391120;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -409,7 +411,9 @@ element {
 element {
   button_element_executable_block_identifier = 8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477
   [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:script/set_imported {script:[{"id":"_meta","name":"Sects and Violets"},"clockmaker","dreamer","snakecharmer","mathematician","flowergirl","towncrier","oracle","savant","seamstress","philosopher","artist","juggler","sage","mutant","sweetheart","barber","klutz","eviltwin","witch","cerenovus","pithag","fanggu","vigormortis","nodashii","vortox"]}
-  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;]
+  [executable_action_instance:526f9a35-b0a4-4501-8dc8-d49cc1847a7a-1778869402450][action_type:enable_layout] = ct-bag_layout
+  [executable_action_instance:d8ce9b5a-ba1e-49d3-8346-f17117271e50-1778869406247][action_type:disable_layout] = ct-bag_import
+  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;526f9a35-b0a4-4501-8dc8-d49cc1847a7a-1778869402450;d8ce9b5a-ba1e-49d3-8346-f17117271e50-1778869406247;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -472,7 +476,9 @@ element {
 element {
   button_element_executable_block_identifier = 8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477
   [executable_action_instance:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734][action_type:sendmessage] = /function ct:script/set_imported {script:[{"id":"_meta","name":"Bad Moon Rising"},"grandmother","sailor","chambermaid","exorcist","innkeeper","gambler","gossip","courtier","professor","minstrel","tealady","pacifist","fool","tinker","moonchild","goon","lunatic","godfather","devilsadvocate","assassin","mastermind","zombuul","pukka","shabaloth","po"]}
-  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;]
+  [executable_action_instance:4f17b451-2ded-43a8-bcf7-d2b7b8b000af-1778869420379][action_type:enable_layout] = ct-bag_layout
+  [executable_action_instance:134673ec-132a-4e68-8d79-882d8de8fd0a-1778869425054][action_type:disable_layout] = ct-bag_import
+  [executable_block:8ac62ab8-b463-442a-8fb8-8364e94b0970-1751849525477][type:generic] = [executables:8b17c03f-b25b-479c-a879-c6127aea2b31-1751849645734;4f17b451-2ded-43a8-bcf7-d2b7b8b000af-1778869420379;134673ec-132a-4e68-8d79-882d8de8fd0a-1778869425054;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
