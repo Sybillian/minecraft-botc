@@ -1,4 +1,4 @@
-BotC v1.6.0 - May XX, 2026
+BotC v1.6.0 - May 15, 2026
 
 Changes and features:
 - Added the ability to set your preferred name with /nick. Non-vanilla UI will still display usernames.
@@ -47,6 +47,8 @@ Changes and features:
 - A shorter clock tick sound plays during voting if the clock speed is one second or lower.
 - Your character is now revealed to you as soon as you enter your house, instead of the Storyteller having to do it.
 - The Night Order display within the Grimoire is now much more compact.
+- Hovering over a character token in the Night Order within the Grimoire will now display instructions for what to do with that character.
+- The Change Character and Change Bluff screens now display character names and descriptions when a token is hovered over.
 - Beds & carpets in the mint, navy, and lavender houses are now appropriately colored.
 - When creating a server, you no longer need to move any additional files.
 - When creating a server, you no longer need to run /reload and YAWP commands.

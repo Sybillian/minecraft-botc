@@ -24,6 +24,7 @@ team leave @s[team=00_spectator]
 tag @s remove dead
 tag @s remove has_role
 tag @s remove nominee
+tag @s remove voting_banshee
 tag @s remove voting_no
 tag @s remove voting_yes
 tag @s remove expended_ghost

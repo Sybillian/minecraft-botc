@@ -23,6 +23,8 @@ scoreboard players set alive_players game_data 0
 scoreboard players set current_day game_data 0
 scoreboard players set phase game_data 0
 
+scoreboard players set organ_grinder settings 0
+
 execute as @a run function ct:util/reset_player
 
 gamerule doDaylightCycle false

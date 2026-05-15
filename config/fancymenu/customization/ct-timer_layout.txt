@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-timer
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777924670175
+  last_edited_time = 1778688752436
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3fd28031-7a07-4c92-b60c-6cd3c4b5b195-1777924665127] = [groups:][instances:]
+  [loading_requirement_container_meta:bae5e1f8-1c2a-46c4-b36f-fc94bf417915-1778688707050] = [groups:][instances:]
 }
 
 customization {
@@ -333,12 +333,20 @@ element {
 
 element {
   button_element_executable_block_identifier = c08f0b49-63ad-4734-9769-fab893c9722d-1775779202029
-  [executable_block:c08f0b49-63ad-4734-9769-fab893c9722d-1775779202029][type:generic] = [executables:]
+  [executable_action_instance:9a6463cb-489d-4298-a2c4-f3716cf8b103-1778688544695][action_type:sendmessage] = /scoreboard players set noms_pause_timer settings 1
+  [executable_block:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269][type:if] = [executables:9a6463cb-489d-4298-a2c4-f3716cf8b103-1778688544695;][appended:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838]
+  [executable_action_instance:65df6e1f-76ab-4463-b481-d3356fa9ba8b-1778688578693][action_type:sendmessage] = /scoreboard players set noms_pause_timer settings 0
+  [executable_block:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838][type:else] = [executables:65df6e1f-76ab-4463-b481-d3356fa9ba8b-1778688578693;]
+  [if_executable_block_body:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269] = ff29e6e6-f11f-49a4-9719-f38ef1fca1ac-1778688523892
+  [loading_requirement_container_meta:ff29e6e6-f11f-49a4-9719-f38ef1fca1ac-1778688523892] = [groups:][instances:095555b9-5799-4e21-b1e4-603703689839-1778688524979;]
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:095555b9-5799-4e21-b1e4-603703689839-1778688524979] = ["mode":"equals","number":"{"placeholder":"scoreboard_score","values":{"player":"noms_pause_timer","objective":"settings"}}","compare_with":"0"]$
+  [if_executable_block_collapsed:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269] = false
+  [executable_block:c08f0b49-63ad-4734-9769-fab893c9722d-1775779202029][type:generic] = [executables:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Pause during nominations: NO
+  label = Pause during nominations: {"placeholder":"switch_case","values":{"value":"{"placeholder":"scoreboard_score","values":{"player":"noms_pause_timer","objective":"settings"}}","cases":"0:NO,1:YES","default":"NO"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 6691398e-694d-4665-9682-e10638b99e1e-1775779202029
   [loading_requirement_container_meta:6691398e-694d-4665-9682-e10638b99e1e-1775779202029] = [groups:][instances:]

@@ -46,10 +46,11 @@ scoreboard objectives add join_game minecraft.custom:minecraft.leave_game
 scoreboard objectives add use_carrot minecraft.used:minecraft.carrot_on_a_stick
 
 # Settings that may be
-scoreboard players set clock_speed settings 20
 scoreboard players set birthday_mode settings 0
+scoreboard players set clock_speed settings 20
 scoreboard players set organ_grinder settings 0
 scoreboard players set phase_causes_tp settings 0
+scoreboard players set speed_boost settings 0
 scoreboard players set timer_ends_day settings 0
 
 # All roles must be explicitly marked as not in play for the

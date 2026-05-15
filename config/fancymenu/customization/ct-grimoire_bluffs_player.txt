@@ -91,6 +91,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -158,6 +159,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -225,6 +227,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -292,6 +295,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -359,6 +363,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -426,6 +431,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -493,6 +499,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -560,6 +567,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -627,6 +635,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -694,6 +703,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -761,6 +771,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -828,6 +839,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -895,6 +907,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -962,6 +975,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1029,6 +1043,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[4].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[4].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[4].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[4].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1096,6 +1111,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[5].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[5].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[5].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[5].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1163,6 +1179,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[6].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[6].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[6].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[6].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1230,6 +1247,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[7].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[7].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[7].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[7].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1297,6 +1315,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[8].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[8].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[8].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[8].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1364,6 +1383,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[9].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[9].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[9].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[9].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1431,6 +1451,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[10].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[10].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[10].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[10].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1498,6 +1519,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[11].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[11].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[11].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[11].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1565,6 +1587,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[12].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[12].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[12].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[12].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1699,6 +1722,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1766,6 +1790,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1833,6 +1858,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -1900,6 +1926,7 @@ element {
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[13].id"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[13].id"}}.png
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[13].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[13].id"}}.desc"}}
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

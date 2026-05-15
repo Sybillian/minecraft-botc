@@ -68,7 +68,7 @@ variable {
 
 variable {
   name = dev
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -122,7 +122,7 @@ variable {
 
 variable {
   name = player_15
-  value = Zuri
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -134,7 +134,7 @@ variable {
 
 variable {
   name = player_13
-  value = Russel
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -146,13 +146,13 @@ variable {
 
 variable {
   name = player_14
-  value = Steve
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = version
-  value = 1.6.0
+  value = 1.6.0-BETA
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Will
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_11
-  value = Alex
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -284,19 +284,19 @@ variable {
 
 variable {
   name = player_5
-  value = efe
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_12
-  value = Olivia
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = noor
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -308,43 +308,43 @@ variable {
 
 variable {
   name = player_3
-  value = Makena
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_10
-  value = anya
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Ari
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Shane
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_8
-  value = Sunny
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Celeste
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = Selina
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -476,7 +476,7 @@ variable {
 
 variable {
   name = game_active
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -710,7 +710,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Sybillian","name":"Chorus of the Damned"},"noble","pixie","general","mathematician","fortuneteller","towncrier","undertaker","lycanthrope","princess","farmer","mayor","virgin","magician","recluse","sweetheart","klutz","puzzlemaster","mezepheles","poisoner","eviltwin","boffin","vigormortis","legion","fanggu","djinn"]
+  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","balloonist","chambermaid","dreamer","towncrier","gambler","nightwatchman","juggler","alchemist","cannibal","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","assassin","boomdandy","yaggababble","vortox","legion","fanggu","djinn"]
   reset_on_launch = false
 }
 
@@ -908,7 +908,7 @@ variable {
 
 variable {
   name = phase
-  value = 4
+  value = 0
   reset_on_launch = false
 }
 
@@ -944,7 +944,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1496,7 +1496,7 @@ variable {
 
 variable {
   name = closed_warning
-  value = true
+  value = false
   reset_on_launch = false
 }
 
