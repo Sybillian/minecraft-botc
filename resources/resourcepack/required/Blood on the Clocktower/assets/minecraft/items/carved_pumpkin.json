@@ -84,12 +84,12 @@
       {
         "when": {
           "strings": [
-            "party_hat_grey"
+            "party_hat_gray"
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/partyhatpack/party_hat_grey"
+          "model": "minecraft:item/partyhatpack/party_hat_gray"
         }
       },
       {

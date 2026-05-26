@@ -1,4 +1,6 @@
-clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_yes"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_banshee"]}]
 
 execute as @s[tag=dead,tag=voting_yes] run function ct:vote/effect/ghost_vote
 execute as @s[tag=!dead,tag=voting_yes] at @s run function ct:vote/effect/single_vote

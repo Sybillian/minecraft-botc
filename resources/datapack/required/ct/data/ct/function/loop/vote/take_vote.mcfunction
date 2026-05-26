@@ -1,4 +1,6 @@
-clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_yes"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_banshee"]}]
 
 execute if score organ_grinder settings matches 0 as @s[tag=dead,tag=voting_yes,scores={id=1}] at @e[type=minecraft:item_display,tag=vote_marker,scores={id=1}] run particle minecraft:soul_fire_flame ~ ~ ~ 0.25 0.25 0.25 0.05 100
 execute if score organ_grinder settings matches 0 as @s[tag=dead,tag=voting_yes,scores={id=2}] at @e[type=minecraft:item_display,tag=vote_marker,scores={id=2}] run particle minecraft:soul_fire_flame ~ ~ ~ 0.25 0.25 0.25 0.05 100

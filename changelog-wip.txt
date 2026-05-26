@@ -9,6 +9,7 @@ Changes and features:
 - Added icons to "Teleport to seats" and "Teleport to homes" buttons.
 - Added an explanatory tooltip to the "Teleport to homes" button.
 - Added an alert that appears in the bag screen if you have selected a role that affects setup.
+- Added an alert on the main menu when you are using a beta version.
 - Added a particle for when regular votes are cast.
 - Added a Storyteller-only "Quick Actions" menu opened via hotkey (Q by default). This contains several options:
   - Toggle Gamemode

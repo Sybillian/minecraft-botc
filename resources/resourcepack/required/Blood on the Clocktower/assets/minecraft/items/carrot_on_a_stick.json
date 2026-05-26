@@ -249,12 +249,12 @@
       {
         "when": {
           "strings": [
-            "house_grey"
+            "house_gray"
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/house/grey"
+          "model": "minecraft:item/house/gray"
         }
       },
       {

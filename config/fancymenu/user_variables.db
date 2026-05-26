@@ -152,7 +152,7 @@ variable {
 
 variable {
   name = version
-  value = 1.6.0-BETA
+  value = 1.6.0-BETA 3
   reset_on_launch = false
 }
 
@@ -1539,6 +1539,12 @@ variable {
 variable {
   name = p3_r1_icon
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = beta
+  value = true
   reset_on_launch = false
 }
 

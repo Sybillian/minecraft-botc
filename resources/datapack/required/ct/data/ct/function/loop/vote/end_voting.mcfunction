@@ -1,7 +1,6 @@
 schedule clear ct:loop/vote/cycle
 
 effect clear @a minecraft:blindness
-effect clear @a minecraft:darkness
 
 execute as @a[tag=voting_yes] run scoreboard players operation total vote += @s vote_value
 execute as @a[tag=voting_banshee] run scoreboard players operation total vote += @s vote_value

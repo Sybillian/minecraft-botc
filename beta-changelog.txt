@@ -1,0 +1,10 @@
+BotC v1.6.0 BETA 3 - May XX, 2026
+Features and changes:
+- Added an alert on the main menu when you are using a beta version.
+- Added a small, translucent version number in the pause menu.
+- Removed the "modpack is in an early state, look out for bugs" warning on the pause menu.
+
+Fixed bugs:
+#118: Sitting in a building removes you from the voice chat, and the grey house voice chat is broken.
+- Vote item is not removed from the player inventory upon voting.
+- Many instances of "gray" are spelled as "grey."

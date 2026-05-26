@@ -1,4 +1,4 @@
-execute as @a if score @s id = @s vc run tellraw @s[tag=!in_house,tag=!storyteller] [{"text":"⌚ ","color":"red"},{"text":"There is a demon about. Do not leave your house at night.","color":"gray"}]
+# execute as @a if score @s id = @s vc run tellraw @s[tag=!in_house,tag=!storyteller] [{"text":"⌚ ","color":"red"},{"text":"There is a demon about. Do not leave your house at night.","color":"gray"}]
 execute as @a if score @s id = @s vc run tag @s add in_house
 clear @s[tag=in_house] minecraft:compass
 tag @a remove in_house
@@ -77,7 +77,7 @@ particle minecraft:dust{scale:4,color:0} 179.81 73.01 97.50 0 0.5 0.3 1 3 normal
 particle minecraft:dust{scale:4,color:0} 182.44 73.50 101.50 0 0.5 0.3 1 1 normal @a[scores={vc=13},team=13_white]
 particle minecraft:dust{scale:4,color:0} 184.53 73.65 103.50 0 0.5 0.3 1 2 normal @a[scores={vc=13},team=13_white]
 
-# Grey
+# Gray
 particle minecraft:dust{scale:4,color:0} 170.51 73.00 106.81 0.3 0.5 0 1 3 normal @a[scores={vc=14},team=14_gray]
 particle minecraft:dust{scale:4,color:0} 166.52 73.65 107.50 0.3 0.5 0 1 2 normal @a[scores={vc=14},team=14_gray]
 particle minecraft:dust{scale:4,color:0} 164.44 73.51 109.48 0 0.5 0.3 1 3 normal @a[scores={vc=14},team=14_gray]
