@@ -68,7 +68,7 @@ variable {
 
 variable {
   name = dev
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -422,7 +422,7 @@ variable {
 
 variable {
   name = quickaction
-  value = none
+  value = announce
   reset_on_launch = false
 }
 
@@ -710,7 +710,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","balloonist","chambermaid","dreamer","towncrier","gambler","nightwatchman","juggler","alchemist","cannibal","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","assassin","boomdandy","yaggababble","vortox","legion","fanggu","djinn"]
+  value = [{"id":"_meta","author":"GalaxyKid","name":"The Spice of Life"},"knight","shugenja","empath","mathematician","dreamer","undertaker","monk","savant","engineer","fisherman","juggler","alchemist","amnesiac","drunk","golem","moonchild","hatter","puzzlemaster","pithag","psychopath","wizard","boffin","baron","yaggababble","kazali","vigormortis","fanggu","zenomancer","knaves"]
   reset_on_launch = false
 }
 
@@ -944,7 +944,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 

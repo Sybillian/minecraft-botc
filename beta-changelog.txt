@@ -3,8 +3,10 @@ Features and changes:
 - Added an alert on the main menu when you are using a beta version.
 - Added a small, translucent version number in the pause menu.
 - Removed the "modpack is in an early state, look out for bugs" warning on the pause menu.
+- Organ Grinder now only gives blindness, not darkness in an attempt to reduce visual bugs on certain graphics cards.
 
 Fixed bugs:
-#118: Sitting in a building removes you from the voice chat, and the grey house voice chat is broken.
+- #118: Sitting in a building removes you from the voice chat, and the grey house voice chat is broken.
+- #121: Reminder tokens are not all being imported correctly.
 - Vote item is not removed from the player inventory upon voting.
 - Many instances of "gray" are spelled as "grey."

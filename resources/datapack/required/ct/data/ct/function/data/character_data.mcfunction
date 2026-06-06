@@ -124,7 +124,7 @@ data merge storage ct:character_data \
 			"ability": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day.",\
 			"flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",\
 			"name": "Bishop",\
-			"reminders": [{text:bishop_sober,icon:bishop},{text:bishop_twice,icon:bishop}]\
+			"reminders": [{text:bishop_good,icon:bishop},{text:bishop_evil,icon:bishop}]\
 		},\
 		"boffin": {\
 			"ability": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which.",\
@@ -149,7 +149,8 @@ data merge storage ct:character_data \
 		"bootlegger": {\
 			"ability": "This script has homebrew characters or rules.",\
 			"flavor": "When I was born, I was named ‘Homebrewy McHomebrewface’, like my father before me. A respectable name, for a dignified age.",\
-			"name": "Bootlegger"\
+			"name": "Bootlegger",\
+			"reminders": [{text:bootlegger,icon:bootlegger}]\
 		},\
 		"bountyhunter": {\
 			"ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",\
@@ -340,6 +341,7 @@ data merge storage ct:character_data \
 			"flavor": "If it bends, great. If it breaks, well, it probably needed fixing anyway.",\
 			"name": "Engineer",\
 			"other": "The Engineer might choose Minions or Demons. Put the Engineer to sleep. Wake the target(s) one at a time. Show the *YOU ARE* info token & their new character token.",\
+			"reminders": [{text:engineer,icon:engineer}],\
 			"jinxes": [{id:legion},{id:summoner}]\
 		},\
 		"eviltwin": {\
@@ -474,7 +476,8 @@ data merge storage ct:character_data \
 		"godofug": {\
 			"ability": "One Ug hat. When wear Ug hat, must speak one sound at a time but vote twice. If fail, pass Ug hat.",\
 			"flavor": "Blessed are my children, for they see the beauty in simple things.",\
-			"name": "God of Ug"\
+			"name": "God of Ug",\
+			"reminders": [{text:godofug,icon:godofug}]\
 		},\
 		"golem": {\
 			"ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",\
@@ -1134,7 +1137,8 @@ data merge storage ct:character_data \
 		"ventriloquist": {\
 			"ability": "If a player is mad as a fresh character during their nomination, they might not die if executed today.",\
 			"flavor": "Well, folks, gather ‘round! This here’s my pal Charlie, and he’s got a mouth on him that’d make a mule blush. But don’t worry folks, I do all the talkin’... or do I?",\
-			"name": "Ventriloquist"\
+			"name": "Ventriloquist",\
+			"reminders": [{text:ventriloquist,icon:ventriloquist}]\
 		},\
 		"vigormortis": {\
 			"ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]",\
@@ -1167,7 +1171,8 @@ data merge storage ct:character_data \
 			"ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",\
 			"flavor": "Black is White. Right is Wrong. Left is Right. Up is Long. Down is Sight. Short is Blind. Follow me. Answers find.",\
 			"name": "Vortox",\
-			"other": "The Vortox chooses a player."\
+			"other": "The Vortox chooses a player.",\
+			"reminders": [{text:vortox,icon:vortox}]\
 		},\
 		"voudon": {\
 			"ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required.",\
@@ -1235,7 +1240,8 @@ data merge storage ct:character_data \
 		"zenomancer": {\
 			"ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",\
 			"flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down.",\
-			"name": "Zenomancer"\
+			"name": "Zenomancer",\
+			"reminders": [{text:zenomancer,icon:zenomancer}]\
 		},\
 		"zombuul": {\
 			"ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",\
