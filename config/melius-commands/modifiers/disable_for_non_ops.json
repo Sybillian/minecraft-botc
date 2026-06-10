@@ -17,7 +17,8 @@
     "persistentgroup",
     "trigger",
     "voicechat",
-    "yawp"
+    "yawp",
+    "syi"
   ],
   "requirement_modifier": {
     "type": "requirement:replace",

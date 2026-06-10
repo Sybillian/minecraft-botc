@@ -41,7 +41,7 @@ custom_gui {
   title = 
   allow_esc = true
   transparent_world_background = true
-  transparent_world_background_overlay = true
+  transparent_world_background_overlay = false
   pause_game = false
   popup_mode = false
   popup_mode_background_overlay = false
@@ -107,7 +107,7 @@ custom_gui {
   title = 
   allow_esc = true
   transparent_world_background = true
-  transparent_world_background_overlay = true
+  transparent_world_background_overlay = false
   pause_game = false
   popup_mode = false
   popup_mode_background_overlay = true

@@ -61,6 +61,12 @@ variable {
 }
 
 variable {
+  name = current_day
+  value = 2
+  reset_on_launch = false
+}
+
+variable {
   name = p3_r5_icon
   value = none
   reset_on_launch = false
@@ -111,6 +117,12 @@ variable {
 variable {
   name = p8_r3_icon
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = alive_players
+  value = 5
   reset_on_launch = false
 }
 
@@ -422,7 +434,7 @@ variable {
 
 variable {
   name = quickaction
-  value = none
+  value = alhadikhia
   reset_on_launch = false
 }
 
@@ -434,7 +446,7 @@ variable {
 
 variable {
   name = town_count
-  value = 9
+  value = 3
   reset_on_launch = false
 }
 
@@ -590,7 +602,7 @@ variable {
 
 variable {
   name = last_nom
-  value = Sunny
+  value = none
   reset_on_launch = false
 }
 
@@ -614,7 +626,7 @@ variable {
 
 variable {
   name = player_count
-  value = 15
+  value = 5
   reset_on_launch = false
 }
 
@@ -704,7 +716,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 9
+  value = 8
   reset_on_launch = false
 }
 
@@ -734,7 +746,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 15
+  value = 0
   reset_on_launch = false
 }
 
@@ -824,7 +836,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 2
+  value = 0
   reset_on_launch = false
 }
 
@@ -1136,7 +1148,7 @@ variable {
 
 variable {
   name = minion_count
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -1214,7 +1226,7 @@ variable {
 
 variable {
   name = day_start
-  value = 00:06
+  value = 01:13
   reset_on_launch = false
 }
 
@@ -1521,6 +1533,12 @@ variable {
 variable {
   name = p15_r3_text
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = ghost_votes
+  value = 
   reset_on_launch = false
 }
 

@@ -12,4 +12,22 @@ tellraw @a [{"text":"⌚ ","color":"yellow"},{"text":"The sun has risen! Please 
 
 execute if score phase_causes_tp settings matches 1 run function ct:cmd/tpseats
 
+team modify 99_storyteller nametagVisibility always
+team modify 01_red nametagVisibility always
+team modify 02_orange nametagVisibility always
+team modify 03_yellow nametagVisibility always
+team modify 04_lime nametagVisibility always
+team modify 05_green nametagVisibility always
+team modify 06_mint nametagVisibility always
+team modify 07_cyan nametagVisibility always
+team modify 08_blue nametagVisibility always
+team modify 09_navy nametagVisibility always
+team modify 10_purple nametagVisibility always
+team modify 11_magenta nametagVisibility always
+team modify 12_lavender nametagVisibility always
+team modify 13_white nametagVisibility always
+team modify 14_gray nametagVisibility always
+team modify 15_black nametagVisibility always
+team modify 00_spectator nametagVisibility always
+
 function ct:admin/variables/score

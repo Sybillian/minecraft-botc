@@ -533,5 +533,23 @@
     },
     "done": true
   },
-  "DataVersion": 4556
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2026-06-09 22:56:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2026-06-09 22:56:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2026-06-09 22:56:55 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }

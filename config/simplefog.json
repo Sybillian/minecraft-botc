@@ -1,7 +1,7 @@
 {
-  "terrainToggle": true,
-  "terrainStart": 20.0,
-  "terrainEnd": 130.0,
+  "overworldToggle": true,
+  "overworldStart": 70.0,
+  "overworldEnd": 130.0,
   "rainConfig": {
     "rainToggle": true,
     "rainStart": 0.0,
@@ -9,11 +9,14 @@
     "rainEnd": 110.0,
     "rainFogApplySpeed": 1.0
   },
+  "netherToggle": true,
+  "netherStart": 5.0,
+  "netherEnd": 80.0,
+  "endToggle": true,
+  "endStart": 70.0,
+  "endEnd": 130.0,
   "waterToggle": true,
   "waterStart": -20.0,
   "waterEnd": 90.0,
-  "waterEndSwamp": 60.0,
-  "netherToggle": true,
-  "netherStart": 5.0,
-  "netherEnd": 80.0
+  "waterEndSwamp": 60.0
 }

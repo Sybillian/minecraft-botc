@@ -4,7 +4,7 @@
   "startingBlocks": 500,
   "maxClaimBlocks": 5000,
   "ticksForNextBlock": 600,
-  "minClaimsize": -1,
+  "minClaimsize": 100,
   "defaultClaimDepth": 10,
   "subClaimsInheritParentDepth": true,
   "maxClaims": -1,
@@ -15,14 +15,10 @@
   "claimingCooldown": 0,
   "blacklistedWorlds": [],
   "worldWhitelist": false,
-  "claimingItem": "minecraft:stick",
-  "claimingNBT": {
-    "FlanItem": 1
-  },
-  "inspectionItem": "minecraft:blaze_rod",
-  "inspectionNBT": {
-    "FlanItem": 1
-  },
+  "claimingItem": "minecraft:golden_hoe",
+  "claimingNBT": {},
+  "inspectionItem": "minecraft:netherite_hoe",
+  "inspectionNBT": {},
   "main3dClaims": true,
   "minHeight3d": 10,
   "nearbyClaimsToolDisplay": 24,
@@ -31,9 +27,9 @@
   "claimDisplayActionBar": false,
   "permissionLevel": 2,
   "autoClaimStructures": false,
-  "ftbChunksCheck": false,
-  "gomlReservedCheck": false,
-  "mineColoniesCheck": false,
+  "ftbChunksCheck": true,
+  "gomlReservedCheck": true,
+  "mineColoniesCheck": true,
   "buySellHandler": {
     "buyType": "MONEY",
     "buyValue": -1.0,
@@ -43,6 +39,7 @@
     "sellItems": []
   },
   "maxBuyBlocks": -1,
+  "currencyType": "",
   "lenientBlockEntityCheck": false,
   "breakBlockBlacklist": [
     "universal_graves:grave",
