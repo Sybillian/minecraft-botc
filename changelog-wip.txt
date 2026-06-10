@@ -65,7 +65,7 @@ Technical changes:
   - 400-499: Demons
   - 500-599: Travellers
   - 600-699: NPCs
-- Voice chat management now uses advancements instead of block detection so as to allow for vertical and float-based sizing (except for the crop fields as I was lazy).
+- Voice chat management now uses predicates instead of block detection so as to allow for vertical and float-based sizing (except for the crop fields as I was lazy).
 - Voice chat player list actionbars are now stored in world NBT data.
 - Storyteller permission checks to run commands are now within the functions instead of the command's .json file.
 - TAB mod has been removed in favor of CustomNameTags, which is much less buggy and lets pronouns be seen at a greater distance.

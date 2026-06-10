@@ -1,0 +1,22 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "position": {
+        "x": {
+          "min": 97,
+          "max": 100
+        },
+        "y": {
+          "min": 82,
+          "max": 86
+        },
+        "z": {
+          "min": 20,
+          "max": 27
+        }
+      }
+    }
+  }
+}

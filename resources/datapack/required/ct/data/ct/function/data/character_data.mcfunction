@@ -1,4 +1,3 @@
-# data get storage ct:character_data characters.highpriestess.name
 data merge storage ct:character_data \
 {\
 	"characters": {\

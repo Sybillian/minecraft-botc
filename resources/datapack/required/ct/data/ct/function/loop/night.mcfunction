@@ -1,4 +1,3 @@
-# execute as @a if score @s id = @s vc run tellraw @s[tag=!in_house,tag=!storyteller] [{"text":"⌚ ","color":"red"},{"text":"There is a demon about. Do not leave your house at night.","color":"gray"}]
 execute as @a if score @s id = @s vc run tag @s add in_house
 clear @s[tag=in_house] minecraft:compass
 tag @a remove in_house

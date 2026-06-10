@@ -1,7 +1,0 @@
-{
-	"criteria": {
-		"in_area": {
-			"trigger": "minecraft:impossible"
-		}
-	}
-}

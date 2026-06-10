@@ -422,7 +422,7 @@ variable {
 
 variable {
   name = quickaction
-  value = announce
+  value = none
   reset_on_launch = false
 }
 
@@ -710,7 +710,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"GalaxyKid","name":"The Spice of Life"},"knight","shugenja","empath","mathematician","dreamer","undertaker","monk","savant","engineer","fisherman","juggler","alchemist","amnesiac","drunk","golem","moonchild","hatter","puzzlemaster","pithag","psychopath","wizard","boffin","baron","yaggababble","kazali","vigormortis","fanggu","zenomancer","knaves"]
+  value = [{"id":"_meta","author":"GalaxyKid","name":"The Spice of Life"},"knight","shugenja","empath","mathematician","dreamer","undertaker","monk","savant","engineer","fisherman","juggler","alchemist","amnesiac","drunk","golem","moonchild","hatter","puzzlemaster","pithag","psychopath","wizard","boffin","baron","yaggababble","kazali","vigormortis","fanggu","zenomancer","knaves","blabbermouth"]
   reset_on_launch = false
 }
 
