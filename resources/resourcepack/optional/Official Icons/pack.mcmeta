@@ -1,0 +1,8 @@
+{
+    "pack": {
+      "pack_format": 65,
+      "description": "Official game icons for all characters by TPI.",
+      "max_format": 1000,
+      "min_format": 65
+    }
+  }
