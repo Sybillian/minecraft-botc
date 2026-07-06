@@ -42,4 +42,6 @@ bossbar set botc:votes visible false
 execute if score noms_pause_timer settings matches 0 run return fail
 execute if score day_value game_data matches 1.. run bossbar set minecraft:day_time visible true
 execute if score day_value game_data matches 1.. run function ct:loop/timer/remove_one_second
+
+function ct:util/sync_variables
 #data remove storage ct:votes list

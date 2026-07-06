@@ -35,7 +35,7 @@ team modify 14_gray nametagVisibility never
 team modify 15_black nametagVisibility never
 team modify 00_spectator nametagVisibility never
 
-tag @a[tag=voted_today,tag=dead,tag=!died_today] add expended_ghost
+tag @a[tag=voted_today,tag=dead,tag=!died_today,tag=!active_banshee] add expended_ghost
 tag @a remove died_today
 
 function ct:admin/variables/score

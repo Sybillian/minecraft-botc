@@ -1,0 +1,1 @@
+playsound ct:clocktower.vote voice @a ~ ~ ~ 3
