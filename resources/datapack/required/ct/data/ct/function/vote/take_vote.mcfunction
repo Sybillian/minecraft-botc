@@ -11,3 +11,4 @@ tellraw @s[tag=voting_banshee] [{"text":"You voted §bYES§r to execute "},{"sel
 tellraw @s[tag=!voting_yes] [{"text":"You voted §cNO§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 
 function ct:admin/variables/score
+function ct:util/sync_variables

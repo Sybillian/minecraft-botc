@@ -7,10 +7,12 @@ Features and changes:
 - Organ Grinder now only gives blindness, not darkness in an attempt to reduce visual bugs on certain graphics cards.
 - Voice chats are now handled with predicates instead of advancements to make referring to them with commands easier.
 - User-facing data like ghost votes and player count is now stored in FM variables and NBT storage as well as in scores so that modern FancyMenu can read them.
+- Hid Psychopath button until that functionality is properly added.
 - Removed the "modpack is in an early state, look out for bugs" warning on the pause menu.
 - Removed SimpleNicknames, PlayerPronouns, and Styled Player Names.
 
 Fixed bugs:
+- #109: The minecraft log is filled with error messages, potentially leading to large log files and wasted disk space.
 - #118: Sitting in a building removes you from the voice chat, and the gray house voice chat is broken.
 - #121: Reminder tokens are not all being imported correctly.
 - Vote item is not removed from the player inventory upon voting.

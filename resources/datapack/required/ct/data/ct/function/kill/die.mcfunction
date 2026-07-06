@@ -22,3 +22,4 @@ execute as @s[team=15_black] run team modify 15_black suffix {"text":" ☠","col
 
 execute as @a run function ct:util/update_shrouds
 function ct:admin/variables/score
+function ct:util/sync_variables

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1783304569083
+  last_edited_time = 1783307240850
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:39381379-4266-4efe-95a9-a1082f3250ae-1783304535416] = [groups:][instances:]
+  [loading_requirement_container_meta:860fab9a-74bc-48b3-aa5f-375196b0ed16-1783306982070] = [groups:][instances:]
 }
 
 customization {
@@ -372,8 +372,8 @@ element {
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1416
-  auto_sizing_base_screen_height = 541
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = b273a3d3-ff53-475a-b3aa-0323367eef0f-1751141896432
@@ -13185,86 +13185,6 @@ element {
 }
 
 element {
-  button_element_executable_block_identifier = b82bd724-a928-4a84-8147-08a7b4ea3fc2-1766522367102
-  [executable_action_instance:d48635da-043e-49bb-8f85-c0f377752dc9-1766522402096][action_type:opengui] = ct-st_actions
-  [executable_action_instance:a696fca5-8c04-4bba-9950-12acf93ec78a-1775586927769][action_type:enable_layout] = ct-st_game_actions_layout
-  [executable_action_instance:40b0bf61-2f19-456c-ace8-ae28067c3491-1775586942552][action_type:disable_layout] = ct-st_special_actions_layout
-  [executable_block:b82bd724-a928-4a84-8147-08a7b4ea3fc2-1766522367102][type:generic] = [executables:d48635da-043e-49bb-8f85-c0f377752dc9-1766522402096;a696fca5-8c04-4bba-9950-12acf93ec78a-1775586927769;40b0bf61-2f19-456c-ace8-ae28067c3491-1775586942552;]
-  underline_label_on_hover = false
-  transparent_background = false
-  restartbackgroundanimations = true
-  nine_slice_custom_background = false
-  label = {"placeholder":"local","values":{"key":"clocktower.button.game_actions.label"}}
-  navigatable = true
-  widget_active_state_requirement_container_identifier = 93360239-d86e-418f-b448-a1a6d763dc39-1766522367102
-  [loading_requirement_container_meta:93360239-d86e-418f-b448-a1a6d763dc39-1766522367102] = [groups:][instances:]
-  is_template = false
-  template_apply_width = false
-  template_apply_height = false
-  template_apply_posx = false
-  template_apply_posy = false
-  template_apply_opacity = false
-  template_apply_visibility = false
-  template_apply_label = false
-  template_share_with = buttons
-  nine_slice_slider_handle = false
-  element_type = custom_button
-  instance_identifier = a97a0563-41e7-4de7-ab6a-d8e247b1b811-1766522367102
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 98
-  y = 31
-  width = 114
-  height = 20
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 57c31226-39ca-4e64-a46a-ca70e73b84da-1766522367102
-  [loading_requirement_container_meta:57c31226-39ca-4e64-a46a-ca70e73b84da-1766522367102] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = true
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 1.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  label_scale = 1.0
-  label_shadow = true
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
-}
-
-element {
   element_type = image
   instance_identifier = 6b0c02cf-b389-4835-8702-23ceef70ea42-1770786285830
   appearance_delay = no_delay
@@ -16297,19 +16217,20 @@ element {
 }
 
 element {
-  button_element_executable_block_identifier = b82bd724-a928-4a84-8147-08a7b4ea3fc2-1766522367102
-  [executable_action_instance:d48635da-043e-49bb-8f85-c0f377752dc9-1766522402096][action_type:opengui] = ct-st_actions
-  [executable_action_instance:3651d585-664b-4de9-8fce-1c2d32e33f74-1775586954681][action_type:enable_layout] = ct-st_special_actions_layout
-  [executable_action_instance:76525648-e367-4511-af44-1a0b05d43f2a-1775586963815][action_type:disable_layout] = ct-st_game_actions_layout
-  [executable_block:b82bd724-a928-4a84-8147-08a7b4ea3fc2-1766522367102][type:generic] = [executables:d48635da-043e-49bb-8f85-c0f377752dc9-1766522402096;3651d585-664b-4de9-8fce-1c2d32e33f74-1775586954681;76525648-e367-4511-af44-1a0b05d43f2a-1775586963815;]
+  button_element_executable_block_identifier = c9bf46d5-fd59-41c2-92d5-825b97374d09-1751840677855
+  [executable_action_instance:199206b8-d8bf-4172-a51f-a03c6b98c0c4-1751852009900][action_type:closegui] = 
+  [executable_action_instance:4f0bb6df-e85a-49ff-8da3-32067bbaa8ce-1751840892352][action_type:opengui] = ct-confirm_reset
+  [executable_block:c9bf46d5-fd59-41c2-92d5-825b97374d09-1751840677855][type:generic] = [executables:199206b8-d8bf-4172-a51f-a03c6b98c0c4-1751852009900;4f0bb6df-e85a-49ff-8da3-32067bbaa8ce-1751840892352;]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  label = {"placeholder":"local","values":{"key":"clocktower.button.special_actions.label"}}
+  hoverlabel = {"placeholder":"local","values":{"key":"clocktower.button.reset_game.label_alt"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.button.reset_game.hint"}}
+  label = {"placeholder":"local","values":{"key":"clocktower.button.reset_game.label"}}
   navigatable = true
-  widget_active_state_requirement_container_identifier = 93360239-d86e-418f-b448-a1a6d763dc39-1766522367102
-  [loading_requirement_container_meta:93360239-d86e-418f-b448-a1a6d763dc39-1766522367102] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = f1e87c1f-dee5-4f50-bed7-50d7d23b9fd0-1751840677855
+  [loading_requirement_container_meta:f1e87c1f-dee5-4f50-bed7-50d7d23b9fd0-1751840677855] = [groups:][instances:]
   is_template = false
   template_apply_width = false
   template_apply_height = false
@@ -16321,7 +16242,7 @@ element {
   template_share_with = buttons
   nine_slice_slider_handle = false
   element_type = custom_button
-  instance_identifier = e242887b-e07d-4fff-bb81-6222d621f59c-1775586770297
+  instance_identifier = 6928e5f4-62da-4c25-b506-09082693caf4-1783306917700
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -16332,12 +16253,12 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 98
-  y = 54
+  y = 30
   width = 114
   height = 20
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 57c31226-39ca-4e64-a46a-ca70e73b84da-1766522367102
-  [loading_requirement_container_meta:57c31226-39ca-4e64-a46a-ca70e73b84da-1766522367102] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 1387ba75-0f42-4f73-830d-49b2f59ddfca-1751840677855
+  [loading_requirement_container_meta:1387ba75-0f42-4f73-830d-49b2f59ddfca-1751840677855] = [groups:][instances:]
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0

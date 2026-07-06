@@ -87,3 +87,4 @@ execute as @e[type=minecraft:text_display,tag=home_label] run data modify entity
 
 execute as @a[tag=storyteller] run function ct:admin/give_script
 schedule function ct:admin/reset_st_variables 1s
+function ct:util/sync_variables

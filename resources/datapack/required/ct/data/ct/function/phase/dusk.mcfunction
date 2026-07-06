@@ -15,3 +15,4 @@ tellraw @a [{"text":"⌚ ","color":"red"},{"text":"Time for private conversation
 tellraw @a {"text":"Please return to the town square for nominations.","color":"gray"}
 
 function ct:admin/variables/score
+function ct:util/sync_variables

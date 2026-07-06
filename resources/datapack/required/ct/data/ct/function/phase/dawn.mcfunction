@@ -31,3 +31,4 @@ team modify 15_black nametagVisibility always
 team modify 00_spectator nametagVisibility always
 
 function ct:admin/variables/score
+function ct:util/sync_variables

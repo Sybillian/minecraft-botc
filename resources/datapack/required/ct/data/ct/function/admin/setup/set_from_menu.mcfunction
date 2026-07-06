@@ -155,3 +155,5 @@ execute if score scapegoat role_list matches 1 run data modify storage ct:roles 
 execute if score gnome role_list matches 1 run data modify storage ct:roles roles insert 0 value {id:515,name:gnome}
 execute if score bishop role_list matches 1 run data modify storage ct:roles roles insert 0 value {id:516,name:bishop}
 execute if score voudon role_list matches 1 run data modify storage ct:roles roles insert 0 value {id:517,name:voudon}
+
+execute as @a run function ct:admin/setup/clear_variables

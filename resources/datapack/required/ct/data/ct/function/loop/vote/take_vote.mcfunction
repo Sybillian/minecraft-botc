@@ -42,3 +42,4 @@ execute if score @s id = current vote run tellraw @s[tag=voting_yes] [{"text":"Y
 execute if score @s id = current vote run tellraw @s[tag=!voting_yes] [{"text":"You voted §cNO§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 
 function ct:admin/variables/score
+function ct:util/sync_variables

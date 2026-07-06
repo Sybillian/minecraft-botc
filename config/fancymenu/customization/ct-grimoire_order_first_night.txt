@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1780009138820
+  last_edited_time = 1783307246693
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:44d499ae-d30a-4f6a-92a7-2d80f7d0c035-1780009108651] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
+  [loading_requirement_container_meta:1a12725b-f734-4c21-b755-5b6494fb7466-1783306982899] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
   [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834] = ["mode":"smaller-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"current_day"}}","compare_with":"1"]$
 }
@@ -23,6 +23,323 @@ customization {
   action = autoscale
   basewidth = 1920
   baseheight = 1080
+}
+
+menu_background {
+  instance_identifier = 2be8aa74-1785-4fe0-a268-8bf2b78a7692-1783306982900
+  background_type = color_fancymenu
+  show_background = false
+  color = #FFC800FF
+}
+
+menu_background {
+  instance_identifier = ab2cd09d-18f8-462a-a1ab-d7a91ff543e0-1783306982900
+  background_type = panorama
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = 94c7eeba-1388-40bf-adfd-be022d910f63-1783306982900
+  background_type = image
+  show_background = false
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+}
+
+menu_background {
+  instance_identifier = 59812463-1942-4301-b19f-be6e5e2adde8-1783306982900
+  background_type = slideshow
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = ec6c859e-e091-424e-a6ab-af94bed648c6-1783306982900
+  background_type = video
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  play_in_editor = true
+}
+
+menu_background {
+  instance_identifier = 3f178c59-25d6-4ff8-bd35-0568cfcfe7a8-1783306982900
+  background_type = video_mcef
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+}
+
+menu_background {
+  instance_identifier = 132a7081-d4eb-447d-9dbe-cab7b5a33d14-1783306982900
+  background_type = browser
+  show_background = false
+  url = https://docs.fancymenu.net
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+menu_background {
+  instance_identifier = 15d566f8-d976-4cd9-839b-8e23bcbfa7ab-1783306982900
+  background_type = glsl
+  show_background = false
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+menu_background {
+  instance_identifier = c3b226f9-e870-4ce9-bfcb-e13329ef2b50-1783306982900
+  background_type = drippy_color_background
+  show_background = false
+  color = #FD5757FF
+}
+
+decoration_overlay {
+  overlay_type = browser
+  instance_identifier = 2bae0e6e-f802-40a5-9fd4-7e44783f4120-1783306982900
+  show_decoration_overlay = false
+  url = https://docs.fancymenu.net
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+decoration_overlay {
+  overlay_type = glsl
+  instance_identifier = 7d5fcdde-8f57-416f-b153-2cffbc75b0eb-1783306982900
+  show_decoration_overlay = false
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+decoration_overlay {
+  overlay_type = buddy
+  instance_identifier = 0cd5bbbc-5861-4688-935d-d7d9cb26834e-1783306982900
+  show_decoration_overlay = false
+  buddy_hunger_decay_per_tick = 0.005
+  buddy_happiness_decay_per_tick = 0.003
+  buddy_fun_decay_per_tick = 0.002
+  buddy_energy_decay_per_tick = 0.002
+  buddy_energy_sleep_regen_per_tick = 0.03
+  buddy_play_energy_drain_per_tick = 0.03
+  buddy_play_fun_gain_per_tick = 0.05
+  buddy_play_happiness_gain_per_tick = 0.01
+  buddy_play_hunger_drain_per_tick = 0.01
+  buddy_chase_energy_drain_per_tick = 0.024
+  buddy_chase_hunger_drain_per_tick = 0.005
+  buddy_hop_energy_drain_per_tick = 0.005
+  buddy_hop_hunger_drain_per_tick = 0.002
+  buddy_excited_energy_drain_per_tick = 0.01
+  buddy_excited_happiness_gain_per_tick = 0.01
+  buddy_excited_hunger_drain_per_tick = 0.003
+  buddy_running_energy_drain_per_tick = 0.01
+  buddy_running_hunger_drain_per_tick = 0.005
+  buddy_food_hunger_gain = 20.0
+  buddy_food_happiness_gain = 5.0
+  buddy_pet_happiness_gain = 15.0
+  buddy_wakeup_happiness_penalty = 2.5
+  buddy_max_poops_cap = 10
+  buddy_can_die = true
+}
+
+decoration_overlay {
+  overlay_type = string_lights
+  instance_identifier = 6a13f98c-c44c-4280-a143-521aff5594cc-1783306982900
+  show_decoration_overlay = false
+  string_lights_scale = 1.0
+  string_lights_wind_strength = 1.0
+  string_lights_flicker_speed = 1.0
+  string_lights_left_center_to_top_center = true
+  string_lights_right_center_to_top_center = true
+  string_lights_bottom_left_to_top_center = false
+  string_lights_bottom_right_to_top_center = false
+  string_lights_top_left_to_top_right = true
+  string_lights_bottom_left_to_bottom_right = false
+  string_lights_loose_left_top = false
+  string_lights_loose_right_top = false
+  string_lights_left_center_to_top_center_christmas_mode = false
+  string_lights_right_center_to_top_center_christmas_mode = false
+  string_lights_bottom_left_to_top_center_christmas_mode = false
+  string_lights_bottom_right_to_top_center_christmas_mode = false
+  string_lights_top_left_to_top_right_christmas_mode = false
+  string_lights_bottom_left_to_bottom_right_christmas_mode = false
+  string_lights_loose_left_top_christmas_mode = false
+  string_lights_loose_right_top_christmas_mode = false
+  string_lights_left_center_to_top_center_color_hex = #FFD27A
+  string_lights_right_center_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_left_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_right_to_top_center_color_hex = #FFD27A
+  string_lights_top_left_to_top_right_color_hex = #FFD27A
+  string_lights_bottom_left_to_bottom_right_color_hex = #FFD27A
+  string_lights_loose_left_top_color_hex = #FFD27A
+  string_lights_loose_right_top_color_hex = #FFD27A
+}
+
+decoration_overlay {
+  overlay_type = fireworks
+  instance_identifier = b4db4a5d-8c7b-4f5c-90ce-b882bbe7f815-1783306982901
+  show_decoration_overlay = false
+  fireworks_scale = 1.0
+  fireworks_explosion_size = 1.0
+  fireworks_amount = 1.0
+  fireworks_show_rockets = true
+}
+
+decoration_overlay {
+  overlay_type = snowfall
+  instance_identifier = bb55fa6c-03b6-4060-8731-23b30800b6f8-1783306982901
+  show_decoration_overlay = false
+  snow_intensity = 1.0
+  snow_scale = 1.0
+  snow_speed = 1.0
+  snow_accumulation = true
+  snow_color_hex = #FFFFFF
+}
+
+decoration_overlay {
+  overlay_type = rainfall
+  instance_identifier = 48605752-3d40-489e-bd9c-46b3035fbfd0-1783306982901
+  show_decoration_overlay = false
+  rain_intensity = 1.0
+  rain_scale = 1.0
+  rain_thunder_brightness = 1.0
+  rain_puddles = true
+  rain_drips = true
+  rain_thunder = false
+  rain_color_hex = #CFE7FF
+}
+
+decoration_overlay {
+  overlay_type = fireflies
+  instance_identifier = 2e4a835b-79f8-45bc-a345-bd3916aae23a-1783306982901
+  show_decoration_overlay = false
+  firefly_group_density = 1.0
+  firefly_group_amount = 1.0
+  firefly_group_size = 1.0
+  firefly_scale = 1.0
+  firefly_follow_mouse = true
+  firefly_landing = true
+  firefly_color_hex = #FFE08A
+}
+
+decoration_overlay {
+  overlay_type = leaves
+  instance_identifier = c356aea1-8088-4dcb-97fc-f08f4f1e4826-1783306982901
+  show_decoration_overlay = false
+  leaves_density = 1.0
+  leaves_wind_intensity = 1.0
+  leaves_wind_blows = true
+  leaves_fall_speed = 1.0
+  leaves_scale = 1.0
+  leaves_color_start_hex = #7BA84F
+  leaves_color_end_hex = #D58A3B
+}
+
+decoration_overlay {
+  overlay_type = confetti
+  instance_identifier = bd4ba17d-256b-4f5e-9917-d81532c347d1-1783306982901
+  show_decoration_overlay = false
+  confetti_scale = 1.0
+  confetti_fall_speed = 1.0
+  confetti_burst_density = 1.0
+  confetti_burst_amount = 1.0
+  confetti_particle_cap = 500
+  confetti_color_mix_mode = true
+  confetti_mouse_click_mode = false
+  confetti_color_hex = #FFFFFF
 }
 
 customization {
@@ -115,6 +432,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -190,6 +509,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -265,6 +586,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -340,6 +663,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -415,6 +740,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -490,6 +817,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -565,6 +894,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -640,6 +971,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -715,6 +1048,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -790,6 +1125,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -865,6 +1202,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -940,6 +1279,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1015,6 +1356,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1090,6 +1433,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1165,6 +1510,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1240,6 +1587,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1315,6 +1664,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1390,6 +1741,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1465,6 +1818,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1540,6 +1895,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1615,6 +1972,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1690,6 +2049,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1765,6 +2126,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1840,6 +2203,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1915,6 +2280,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -1990,6 +2357,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2065,6 +2434,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2140,6 +2511,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2207,6 +2580,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2274,6 +2649,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2341,6 +2718,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2408,6 +2787,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2475,6 +2856,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.25
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2542,6 +2925,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2609,6 +2994,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2676,6 +3063,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2743,6 +3132,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2810,6 +3201,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2877,6 +3270,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -2944,6 +3339,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3011,6 +3408,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3078,6 +3477,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3145,6 +3546,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3212,6 +3615,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3279,6 +3684,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3346,6 +3753,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3413,6 +3822,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3480,6 +3891,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3547,6 +3960,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3614,6 +4029,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3681,6 +4098,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3748,6 +4167,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3815,6 +4236,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3882,6 +4305,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -3949,5 +4374,7 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 

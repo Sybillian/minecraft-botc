@@ -3,5 +3,5 @@ execute as @a[tag=storyteller] run fmvariable set storyteller false true
 
 execute as @a run function ct:util/update_shrouds
 
-function ct:util/store_player_count
-schedule function ct:util/store_player_count 1s
+function ct:util/scores_to_variables
+schedule function ct:util/scores_to_variables 1s

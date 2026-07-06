@@ -6,3 +6,4 @@ time set 1000
 gamerule advance_time true
 
 function ct:admin/variables/score
+function ct:util/sync_variables
