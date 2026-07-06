@@ -1,4 +1,3 @@
-execute unless score @s vc matches 13 run advancement revoke @s from ct:vc/root
 execute if score phase game_data matches 4 unless score @s[tag=!universal_vc] vc matches 13 run voicechat join "White House" ct
 execute if score phase game_data matches 4 unless score @s[tag=universal_vc] vc matches 13 run voicechat join "Night Chat" ct
 execute unless score phase game_data matches 4 unless score @s vc matches 13 run voicechat join "White House" ct

@@ -11,7 +11,7 @@ layout-meta {
   layout_index = 0
   [loading_requirement_container_meta:44d499ae-d30a-4f6a-92a7-2d80f7d0c035-1780009108651] = [groups:][instances:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079;d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:f44dcbf1-8463-4efa-b2d3-2668c1d92e04-1758251459079] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"night_order.first[0]"}}","compare_with":"none"]$7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834] = ["mode":"smaller-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"current_day","objective":"game_data"}}","compare_with":"1"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:d7e4e4b4-9883-4f35-b92e-62405e771546-1754435261834] = ["mode":"smaller-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"current_day"}}","compare_with":"1"]$
 }
 
 customization {

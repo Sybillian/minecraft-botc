@@ -369,7 +369,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 75a7a747-d43b-4500-8bc9-9e487ffa3aad-1776385021917
   [loading_requirement_container_meta:75a7a747-d43b-4500-8bc9-9e487ffa3aad-1776385021917] = [groups:][instances:2b5370a3-11e8-46d2-9b06-3ac47f5b4d5e-1776385021917;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:2b5370a3-11e8-46d2-9b06-3ac47f5b4d5e-1776385021917] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"1"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:2b5370a3-11e8-46d2-9b06-3ac47f5b4d5e-1776385021917] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"1"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -455,7 +455,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = ed783862-fd7b-4e34-b1a3-1fdabc8f6b16-1776385021917
   [loading_requirement_container_meta:ed783862-fd7b-4e34-b1a3-1fdabc8f6b16-1776385021917] = [groups:][instances:c5e7d543-d5fd-4a03-9bc0-8fc484f8e58c-1776385021917;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:c5e7d543-d5fd-4a03-9bc0-8fc484f8e58c-1776385021917] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"1"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:c5e7d543-d5fd-4a03-9bc0-8fc484f8e58c-1776385021917] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"1"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -598,7 +598,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 940f60ed-2e6d-4f99-96b1-dff32e9471a0-1776385145825
   [loading_requirement_container_meta:940f60ed-2e6d-4f99-96b1-dff32e9471a0-1776385145825] = [groups:][instances:f8912a9f-ebcd-4052-bc3c-01b3d4ae4c4a-1776385145825;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:f8912a9f-ebcd-4052-bc3c-01b3d4ae4c4a-1776385145825] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"2"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:f8912a9f-ebcd-4052-bc3c-01b3d4ae4c4a-1776385145825] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"2"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -684,7 +684,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = de5e9607-05b7-4f2c-ba87-2d85a99db11a-1776385145825
   [loading_requirement_container_meta:de5e9607-05b7-4f2c-ba87-2d85a99db11a-1776385145825] = [groups:][instances:c1e9c468-a875-4bd8-b38c-c9e92f804139-1776385145825;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:c1e9c468-a875-4bd8-b38c-c9e92f804139-1776385145825] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"2"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:c1e9c468-a875-4bd8-b38c-c9e92f804139-1776385145825] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"2"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -742,7 +742,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 9d76342a-5d33-465f-aeda-d05f3e5db472-1776385157164
   [loading_requirement_container_meta:9d76342a-5d33-465f-aeda-d05f3e5db472-1776385157164] = [groups:][instances:7c3a71ba-4f61-4a3e-be46-3048edec2129-1776385157164;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:7c3a71ba-4f61-4a3e-be46-3048edec2129-1776385157164] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"3"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:7c3a71ba-4f61-4a3e-be46-3048edec2129-1776385157164] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"3"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -828,7 +828,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 017f5306-ab33-45f8-97c8-cbb1c6e91443-1776385157164
   [loading_requirement_container_meta:017f5306-ab33-45f8-97c8-cbb1c6e91443-1776385157164] = [groups:][instances:5abff593-4791-4a72-adff-a75da7dbea51-1776385157164;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:5abff593-4791-4a72-adff-a75da7dbea51-1776385157164] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"3"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:5abff593-4791-4a72-adff-a75da7dbea51-1776385157164] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"3"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -886,7 +886,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 8fa6b666-c2b6-44d0-ac9e-f793280613e8-1776385170262
   [loading_requirement_container_meta:8fa6b666-c2b6-44d0-ac9e-f793280613e8-1776385170262] = [groups:][instances:3a2559de-f6c1-4238-a0e0-30ebf8e43431-1776385170262;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:3a2559de-f6c1-4238-a0e0-30ebf8e43431-1776385170262] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"4"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:3a2559de-f6c1-4238-a0e0-30ebf8e43431-1776385170262] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"4"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -972,7 +972,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 09cb795d-3e2e-4c96-bef1-ba0a26aeb36d-1776385170262
   [loading_requirement_container_meta:09cb795d-3e2e-4c96-bef1-ba0a26aeb36d-1776385170262] = [groups:][instances:2b28a02e-ab43-4030-9f12-4b0276def739-1776385170262;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:2b28a02e-ab43-4030-9f12-4b0276def739-1776385170262] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"4"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:2b28a02e-ab43-4030-9f12-4b0276def739-1776385170262] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"4"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1030,7 +1030,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 2e168aa2-9f22-4b9c-aa62-64598cdffd90-1776385184128
   [loading_requirement_container_meta:2e168aa2-9f22-4b9c-aa62-64598cdffd90-1776385184128] = [groups:][instances:55857ac3-0754-415f-9dfb-88f31611a081-1776385184128;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:55857ac3-0754-415f-9dfb-88f31611a081-1776385184128] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"5"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:55857ac3-0754-415f-9dfb-88f31611a081-1776385184128] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"5"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1116,7 +1116,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 2a7b6c94-4a52-4987-a18a-d2495b3ac4a7-1776385184128
   [loading_requirement_container_meta:2a7b6c94-4a52-4987-a18a-d2495b3ac4a7-1776385184128] = [groups:][instances:94e8146c-c81b-4599-84f3-331edbe75265-1776385184128;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:94e8146c-c81b-4599-84f3-331edbe75265-1776385184128] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"5"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:94e8146c-c81b-4599-84f3-331edbe75265-1776385184128] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"5"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1174,7 +1174,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 1a5cea6c-fb5a-405a-b392-f0df0bbf660e-1776385197489
   [loading_requirement_container_meta:1a5cea6c-fb5a-405a-b392-f0df0bbf660e-1776385197489] = [groups:][instances:7160ebac-c7b9-4afd-a5c1-b82e2ac29c49-1776385197489;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:7160ebac-c7b9-4afd-a5c1-b82e2ac29c49-1776385197489] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"6"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:7160ebac-c7b9-4afd-a5c1-b82e2ac29c49-1776385197489] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"6"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1260,7 +1260,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3c77e168-97ec-4c8c-a309-b349ab454fe8-1776385197489
   [loading_requirement_container_meta:3c77e168-97ec-4c8c-a309-b349ab454fe8-1776385197489] = [groups:][instances:43ec90e5-4a71-428d-9a61-094f3d32cd33-1776385197489;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:43ec90e5-4a71-428d-9a61-094f3d32cd33-1776385197489] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"6"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:43ec90e5-4a71-428d-9a61-094f3d32cd33-1776385197489] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"6"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1318,7 +1318,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = d7612435-d53a-4d19-9105-1c3ef8802a42-1776385219981
   [loading_requirement_container_meta:d7612435-d53a-4d19-9105-1c3ef8802a42-1776385219981] = [groups:][instances:a470740f-363c-426b-a0e4-d3546e57307f-1776385219981;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:a470740f-363c-426b-a0e4-d3546e57307f-1776385219981] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"7"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:a470740f-363c-426b-a0e4-d3546e57307f-1776385219981] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"7"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1404,7 +1404,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = cbea58c0-2e12-48fd-9026-02e081cfe345-1776385219981
   [loading_requirement_container_meta:cbea58c0-2e12-48fd-9026-02e081cfe345-1776385219981] = [groups:][instances:e19abbf9-0dfc-478b-985d-ea87baf17836-1776385219981;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:e19abbf9-0dfc-478b-985d-ea87baf17836-1776385219981] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"7"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:e19abbf9-0dfc-478b-985d-ea87baf17836-1776385219981] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"7"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1462,7 +1462,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 67b564a7-f4be-4b6d-9a33-1d0006ac57be-1776385235521
   [loading_requirement_container_meta:67b564a7-f4be-4b6d-9a33-1d0006ac57be-1776385235521] = [groups:][instances:11e46043-f793-4438-8f66-abfe63273f09-1776385235521;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:11e46043-f793-4438-8f66-abfe63273f09-1776385235521] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"8"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:11e46043-f793-4438-8f66-abfe63273f09-1776385235521] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"8"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1548,7 +1548,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 56206ef2-15ba-4652-acfa-778a0fd7e7e0-1776385235521
   [loading_requirement_container_meta:56206ef2-15ba-4652-acfa-778a0fd7e7e0-1776385235521] = [groups:][instances:223a6769-2b44-4a24-b23d-50ac902558b8-1776385235521;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:223a6769-2b44-4a24-b23d-50ac902558b8-1776385235521] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"8"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:223a6769-2b44-4a24-b23d-50ac902558b8-1776385235521] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"8"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1606,7 +1606,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = d230d77a-f683-4a3b-bbef-e043498a99a2-1776385375673
   [loading_requirement_container_meta:d230d77a-f683-4a3b-bbef-e043498a99a2-1776385375673] = [groups:][instances:6838dcc4-e8cd-449a-a1dd-de2e40f80bab-1776385375673;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:6838dcc4-e8cd-449a-a1dd-de2e40f80bab-1776385375673] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"12"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:6838dcc4-e8cd-449a-a1dd-de2e40f80bab-1776385375673] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"12"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1692,7 +1692,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = a8b24629-e2b5-424a-a707-34ace6a75fa2-1776385375673
   [loading_requirement_container_meta:a8b24629-e2b5-424a-a707-34ace6a75fa2-1776385375673] = [groups:][instances:e8b2a3e3-71d1-4e69-9525-e7b126305d32-1776385375673;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:e8b2a3e3-71d1-4e69-9525-e7b126305d32-1776385375673] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"12"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:e8b2a3e3-71d1-4e69-9525-e7b126305d32-1776385375673] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"12"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1750,7 +1750,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 9220b953-2fe0-425d-8b90-7d1207ab05a1-1776385360764
   [loading_requirement_container_meta:9220b953-2fe0-425d-8b90-7d1207ab05a1-1776385360764] = [groups:][instances:7266df65-e243-437e-ba83-6a25c297702b-1776385360764;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:7266df65-e243-437e-ba83-6a25c297702b-1776385360764] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"11"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:7266df65-e243-437e-ba83-6a25c297702b-1776385360764] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"11"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1836,7 +1836,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 4a5d3b7d-c965-4e1c-a50b-e8263714fd63-1776385360764
   [loading_requirement_container_meta:4a5d3b7d-c965-4e1c-a50b-e8263714fd63-1776385360764] = [groups:][instances:1bee3584-3169-4340-b11e-ac55e37e22c8-1776385360764;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:1bee3584-3169-4340-b11e-ac55e37e22c8-1776385360764] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"11"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:1bee3584-3169-4340-b11e-ac55e37e22c8-1776385360764] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"11"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1894,7 +1894,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 2df1f670-d7cd-469b-bd30-8dc84a3b95ed-1776385340507
   [loading_requirement_container_meta:2df1f670-d7cd-469b-bd30-8dc84a3b95ed-1776385340507] = [groups:][instances:470003b5-3623-46d9-ab74-e29aeeda9bd8-1776385340507;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:470003b5-3623-46d9-ab74-e29aeeda9bd8-1776385340507] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"10"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:470003b5-3623-46d9-ab74-e29aeeda9bd8-1776385340507] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"10"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1980,7 +1980,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3934cb48-3ff2-4fcd-a3bd-95faa2e9a2e6-1776385340507
   [loading_requirement_container_meta:3934cb48-3ff2-4fcd-a3bd-95faa2e9a2e6-1776385340507] = [groups:][instances:9f7cb5a5-aa45-4f66-b74e-8e37fce08588-1776385340507;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:9f7cb5a5-aa45-4f66-b74e-8e37fce08588-1776385340507] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"10"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:9f7cb5a5-aa45-4f66-b74e-8e37fce08588-1776385340507] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"10"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2038,7 +2038,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 90bfa398-3804-4923-a71a-6a5db040f516-1776385326439
   [loading_requirement_container_meta:90bfa398-3804-4923-a71a-6a5db040f516-1776385326439] = [groups:][instances:14bbb543-6520-4a65-a950-8536db2717cb-1776385326439;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:14bbb543-6520-4a65-a950-8536db2717cb-1776385326439] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"9"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:14bbb543-6520-4a65-a950-8536db2717cb-1776385326439] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"9"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2124,7 +2124,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 82899fb5-2bcd-4381-aa87-55c201c7b128-1776385326439
   [loading_requirement_container_meta:82899fb5-2bcd-4381-aa87-55c201c7b128-1776385326439] = [groups:][instances:4e0683c5-155a-487d-b662-7b8460359868-1776385326439;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:4e0683c5-155a-487d-b662-7b8460359868-1776385326439] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"9"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:4e0683c5-155a-487d-b662-7b8460359868-1776385326439] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"9"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2182,7 +2182,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = b3c3b45d-91c2-4f6e-8dde-46e2f6fb15bb-1776385423559
   [loading_requirement_container_meta:b3c3b45d-91c2-4f6e-8dde-46e2f6fb15bb-1776385423559] = [groups:][instances:db7ec7be-0b83-4d66-b478-bc8fa4ade3ca-1776385423559;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:db7ec7be-0b83-4d66-b478-bc8fa4ade3ca-1776385423559] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"15"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:db7ec7be-0b83-4d66-b478-bc8fa4ade3ca-1776385423559] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"15"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2268,7 +2268,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 513d4336-f513-43cf-964e-6f8cc45b1717-1776385423559
   [loading_requirement_container_meta:513d4336-f513-43cf-964e-6f8cc45b1717-1776385423559] = [groups:][instances:ab4f2268-fbf4-4397-bcf2-eb0b524cea9e-1776385423559;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:ab4f2268-fbf4-4397-bcf2-eb0b524cea9e-1776385423559] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"15"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:ab4f2268-fbf4-4397-bcf2-eb0b524cea9e-1776385423559] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"15"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2326,7 +2326,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 1eba393f-4ae5-408e-8854-a19a4bc937e9-1776385409990
   [loading_requirement_container_meta:1eba393f-4ae5-408e-8854-a19a4bc937e9-1776385409990] = [groups:][instances:b51225fb-2554-4951-8189-eb8512700197-1776385409990;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:b51225fb-2554-4951-8189-eb8512700197-1776385409990] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"14"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:b51225fb-2554-4951-8189-eb8512700197-1776385409990] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"14"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2412,7 +2412,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = fc708178-98c4-447d-8964-0ada0f01a50d-1776385409990
   [loading_requirement_container_meta:fc708178-98c4-447d-8964-0ada0f01a50d-1776385409990] = [groups:][instances:cd09b534-587b-44cd-a55a-c610b3047d68-1776385409990;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:cd09b534-587b-44cd-a55a-c610b3047d68-1776385409990] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"14"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:cd09b534-587b-44cd-a55a-c610b3047d68-1776385409990] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"14"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2470,7 +2470,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 997e13ee-81f5-469e-b5df-b08ca9fe5301-1776385446467
   [loading_requirement_container_meta:997e13ee-81f5-469e-b5df-b08ca9fe5301-1776385446467] = [groups:][instances:5edc3f3e-9a06-4527-a73a-8e74df94b986-1776385446467;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:5edc3f3e-9a06-4527-a73a-8e74df94b986-1776385446467] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"13"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:5edc3f3e-9a06-4527-a73a-8e74df94b986-1776385446467] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"13"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2556,7 +2556,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 83ddcd88-face-4983-948b-299ed7a49448-1776385446467
   [loading_requirement_container_meta:83ddcd88-face-4983-948b-299ed7a49448-1776385446467] = [groups:][instances:196a44ad-6491-4f03-b821-d419d07f3103-1776385446467;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:196a44ad-6491-4f03-b821-d419d07f3103-1776385446467] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"13"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:196a44ad-6491-4f03-b821-d419d07f3103-1776385446467] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"13"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0

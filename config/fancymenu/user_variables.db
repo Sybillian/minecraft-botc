@@ -62,13 +62,19 @@ variable {
 
 variable {
   name = current_day
-  value = 
+  value = 0
   reset_on_launch = false
 }
 
 variable {
   name = p3_r5_icon
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_godfather
+  value = 0
   reset_on_launch = false
 }
 
@@ -122,7 +128,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 
+  value = 0
   reset_on_launch = false
 }
 
@@ -169,6 +175,12 @@ variable {
 }
 
 variable {
+  name = bag_saint
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
   name = p6_r6_text
   value = none
   reset_on_launch = false
@@ -207,6 +219,12 @@ variable {
 variable {
   name = p11_r6_text
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_soldier
+  value = 0
   reset_on_launch = false
 }
 
@@ -301,6 +319,12 @@ variable {
 }
 
 variable {
+  name = bag_drunk
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
   name = player_12
   value = Nobody!
   reset_on_launch = false
@@ -379,6 +403,12 @@ variable {
 }
 
 variable {
+  name = bag_mayor
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
   name = script_icon
   value = trouble_brewing
   reset_on_launch = false
@@ -434,7 +464,7 @@ variable {
 
 variable {
   name = quickaction
-  value = alhadikhia
+  value = none
   reset_on_launch = false
 }
 
@@ -453,6 +483,12 @@ variable {
 variable {
   name = p9_r4_text
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_scarletwoman
+  value = 0
   reset_on_launch = false
 }
 
@@ -517,8 +553,20 @@ variable {
 }
 
 variable {
+  name = bag_spy
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
   name = p2_r2_icon
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_librarian
+  value = 0
   reset_on_launch = false
 }
 
@@ -537,6 +585,12 @@ variable {
 variable {
   name = role_scale
   value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_imp
+  value = 0
   reset_on_launch = false
 }
 
@@ -602,7 +656,7 @@ variable {
 
 variable {
   name = last_nom
-  value = none
+  value = Steve2
   reset_on_launch = false
 }
 
@@ -626,7 +680,7 @@ variable {
 
 variable {
   name = player_count
-  value = 
+  value = 5
   reset_on_launch = false
 }
 
@@ -663,6 +717,12 @@ variable {
 variable {
   name = day_minutes
   value = 2
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_ravenkeeper
+  value = 0
   reset_on_launch = false
 }
 
@@ -781,6 +841,12 @@ variable {
 }
 
 variable {
+  name = bag_baron
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
   name = p1_alive
   value = true
   reset_on_launch = false
@@ -849,6 +915,24 @@ variable {
 variable {
   name = p6_role
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_chef
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_virgin
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_recluse
+  value = 0
   reset_on_launch = false
 }
 
@@ -1112,7 +1196,7 @@ variable {
 
 variable {
   name = editing_bluff
-  value = 1
+  value = 2
   reset_on_launch = false
 }
 
@@ -1226,7 +1310,7 @@ variable {
 
 variable {
   name = day_start
-  value = 01:13
+  value = 21:17
   reset_on_launch = false
 }
 
@@ -1341,6 +1425,12 @@ variable {
 variable {
   name = p14_r4_icon
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_poisoner
+  value = 0
   reset_on_launch = false
 }
 
@@ -1509,6 +1599,12 @@ variable {
 variable {
   name = closed_warning
   value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_investigator
+  value = 0
   reset_on_launch = false
 }
 

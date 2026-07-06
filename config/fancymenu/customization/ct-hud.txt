@@ -234,7 +234,7 @@ element {
 
 element {
   interactable = true
-  source = |||%n%{"placeholder":"switch_case","values":{"value":"{"placeholder":"getvariable","values":{"name":"phase"}}","cases":"1:Day,2:Day,3:Day,4:Night","default":"Error"}} {"placeholder":"scoreboard_score","values":{"player":"current_day","objective":"game_data"}}%n%Since {"placeholder":"getvariable","values":{"name":"day_start"}}%n%|||
+  source = |||%n%{"placeholder":"switch_case","values":{"value":"{"placeholder":"getvariable","values":{"name":"phase"}}","cases":"1:Day,2:Day,3:Day,4:Night","default":"Error"}} {"placeholder":"getvariable","name":{"player":"current_day"}}%n%Since {"placeholder":"getvariable","values":{"name":"day_start"}}%n%|||
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -288,7 +288,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = df2d77e6-123b-466a-bbf0-e883508cc501-1756945049548
   [loading_requirement_container_meta:df2d77e6-123b-466a-bbf0-e883508cc501-1756945049548] = [groups:][instances:03ca6774-021e-4b30-85fd-c039bcbd213e-1756947339542;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:03ca6774-021e-4b30-85fd-c039bcbd213e-1756947339542] = ["mode":"bigger-than","number":"{"placeholder":"scoreboard_score","values":{"player":"current_day","objective":"game_data"}}","compare_with":"0"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:03ca6774-021e-4b30-85fd-c039bcbd213e-1756947339542] = ["mode":"bigger-than","number":"{"placeholder":"getvariable","values":{"name":"current_day"}}","compare_with":"0"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
