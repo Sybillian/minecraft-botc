@@ -1,4 +1,4 @@
-execute if entity @s[tag=dead,tag=voted_today] run return fail
+execute if score organ_grinder settings matches 1 if entity @s[tag=dead,tag=voted_today] run return fail
 
 scoreboard players set @s use_carrot 0
 tag @s remove voting_no
@@ -9,34 +9,7 @@ tellraw @s[tag=dead,tag=!expended_ghost] [{"text":"Changed your vote to","color"
 item replace entity @s[tag=!dead,tag=!expended_ghost] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_yes"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"YES",color:"green",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 item replace entity @s[tag=dead,tag=!expended_ghost] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_ghost"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"YES",color:"aqua",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 
-execute if score @s[tag=!dead] id matches 1 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=1},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 2 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=2},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 3 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=3},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 4 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=4},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 5 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=5},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 6 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=6},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 7 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=7},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 8 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=8},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 9 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=9},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 10 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=10},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 11 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=11},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 12 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=12},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 13 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=13},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 14 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=14},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-execute if score @s[tag=!dead] id matches 15 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=15},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
-
-execute if score @s[tag=dead] id matches 1 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=1},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 2 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=2},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 3 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=3},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 4 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=4},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 5 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=5},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 6 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=6},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 7 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=7},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 8 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=8},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 9 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=9},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 10 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=10},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 11 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=11},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 12 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=12},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 13 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=13},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 14 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=14},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
-execute if score @s[tag=dead] id matches 15 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=15},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
+tag @s add toggling_vote
+execute as @e[type=minecraft:item_display,tag=vote_marker] at @s if score @s id = @a[limit=1,tag=toggling_vote,tag=!dead] id run data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value "voting_yes"
+execute as @e[type=minecraft:item_display,tag=vote_marker] at @s if score @s id = @a[limit=1,tag=toggling_vote,tag=dead] id run data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value "voting_ghost"
+tag @s remove toggling_vote

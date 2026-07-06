@@ -4,12 +4,12 @@ layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1777832879237
-  is_enabled = true
+  is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:eac32f53-9ad5-461f-bd7f-dd570162830a-1783357578959] = [groups:][instances:]
+  [loading_requirement_container_meta:16cfa920-c06f-423f-b766-6dca982ad59c-1783371425507] = [groups:][instances:]
 }
 
 customization {
