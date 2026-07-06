@@ -1,3 +1,5 @@
+execute if entity @s[tag=dead,tag=voted_today] run return fail
+
 scoreboard players set @s use_carrot 0
 tag @s remove voting_no
 tag @s remove voting_banshee

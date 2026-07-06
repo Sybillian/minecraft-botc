@@ -36,7 +36,7 @@ listener_instance {
   listener_instance_action_script_identifier = b92f5369-4430-4aac-8df9-f67a85f88a7d-1781066506691
   [executable_action_instance:abad6728-1a04-4f3e-8e5d-7ab95174fa26-1781066837186][action_type:set_variable] = player_count:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:players","nbt_path":"count"}}
   [executable_action_instance:54017612-6c07-4106-8c2a-b44b954b194f-1781071270018][action_type:set_variable] = alive_players:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:players","nbt_path":"alive"}}
-  [executable_action_instance:52c2faa6-444b-481f-b165-1c2a4303aca6-1781071277288][action_type:set_variable] = ghost_votes:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:players","nbt_path":"ghost_votes"}}
+  [executable_action_instance:52c2faa6-444b-481f-b165-1c2a4303aca6-1781071277288][action_type:set_variable] = ghost_votes:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:players","nbt_path":"vote_tokens"}}
   [executable_action_instance:b4427d03-f75f-40e5-95c7-77b348368ee8-1781071958317][action_type:set_variable] = current_day:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:players","nbt_path":"current_day"}}
   [executable_block:efa0bcc3-fbc4-4924-963a-98b162344ed0-1781066525005][type:if] = [executables:abad6728-1a04-4f3e-8e5d-7ab95174fa26-1781066837186;54017612-6c07-4106-8c2a-b44b954b194f-1781071270018;52c2faa6-444b-481f-b165-1c2a4303aca6-1781071277288;b4427d03-f75f-40e5-95c7-77b348368ee8-1781071958317;]
   [if_executable_block_body:efa0bcc3-fbc4-4924-963a-98b162344ed0-1781066525005] = 3e2044ee-58ed-4fe7-acd0-1d51c5e9eed2-1781066508640

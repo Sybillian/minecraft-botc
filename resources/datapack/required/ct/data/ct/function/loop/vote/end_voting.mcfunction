@@ -1,3 +1,5 @@
+scoreboard players set vote_active game_data 0
+
 schedule clear ct:loop/vote/cycle
 
 effect clear @a minecraft:blindness

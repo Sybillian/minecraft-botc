@@ -15,6 +15,7 @@ Fixed bugs:
 - #109: The minecraft log is filled with error messages, potentially leading to large log files and wasted disk space.
 - #118: Sitting in a building removes you from the voice chat, and the gray house voice chat is broken.
 - #121: Reminder tokens are not all being imported correctly.
+- #122: Ghost vote usage is not hidden by Organ Grinder.
 - Vote item is not removed from the player inventory upon voting.
 - Many instances of "gray" are spelled as "grey."
 - "There is a Demon about" gets spammed.

@@ -27,9 +27,11 @@ tag @s remove nominee
 tag @s remove voting_banshee
 tag @s remove voting_no
 tag @s remove voting_yes
+tag @s remove voted_today
 tag @s remove expended_ghost
 tag @s remove will_die
 tag @s remove dead
+tag @s remove died_today
 tag @s remove marked_for_execution
 tag @s remove playing_rps
 tag @s remove requesting_chat

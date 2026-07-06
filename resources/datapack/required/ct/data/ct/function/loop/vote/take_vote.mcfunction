@@ -37,7 +37,9 @@ execute if score organ_grinder settings matches 0 as @s[tag=dead,tag=voting_bans
 execute if score organ_grinder settings matches 0 as @s[tag=dead,tag=voting_yes] at @s run playsound ct:clocktower.ghost_vote voice @a ~ ~ ~ 3
 execute if score organ_grinder settings matches 0 as @s[tag=dead,tag=voting_banshee] at @s run playsound ct:clocktower.ghost_vote voice @a ~ ~ ~ 3
 execute if score organ_grinder settings matches 0 as @s[tag=!dead,tag=voting_yes] at @s run playsound ct:clocktower.vote voice @a ~ ~ ~ 3
-tag @s[tag=dead,tag=voting_yes,tag=!active_banshee] add expended_ghost
+execute if score organ_grinder settings matches 0 run tag @s[tag=dead,tag=voting_yes,tag=!active_banshee] add expended_ghost
+tag @s[tag=voting_yes] add voted_today
+tag @s[tag=voting_banshee] add voted_today
 execute if score @s id = current vote run tellraw @s[tag=voting_yes] [{"text":"You voted §aYES§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 execute if score @s id = current vote run tellraw @s[tag=!voting_yes] [{"text":"You voted §cNO§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 
