@@ -3,19 +3,28 @@ Features and changes:
 - Updated to Minecraft 1.21.11.
 - Added an alert on the main menu when you are using a beta version.
 - Added a small, translucent version number in the pause menu.
-- Added Show Your Identity.
+- Added No Chat Restrictions to eliminate ridiculous multiplayer restrictions for players in some regions.
+- Added Show Your Identity for improved pronoun handling.
 - Organ Grinder now only gives blindness, not darkness in an attempt to reduce visual bugs on certain graphics cards.
 - Voice chats are now handled with predicates instead of advancements to make referring to them with commands easier.
-- User-facing data like ghost votes and player count is now stored in FM variables and NBT storage as well as in scores so that modern FancyMenu can read them.
 - Hid Psychopath button until that functionality is properly added.
 - Removed the "modpack is in an early state, look out for bugs" warning on the pause menu.
 - Removed SimpleNicknames, PlayerPronouns, and Styled Player Names.
 
+Technical changes:
+- User-facing data like ghost votes and player count is now stored in FM variables and NBT storage as well as in scores so that modern FancyMenu can read them.
+- Optimized many steps in the nominations phase of the game.
+
 Fixed bugs:
-- #109: The minecraft log is filled with error messages, potentially leading to large log files and wasted disk space.
+- #103: Character Icons in the new bag screen have some visibility issues.
+- #106: Banshee voting indicator inconsistencies.
+- #109: The Minecraft log is filled with error messages, potentially leading to large log files and wasted disk space.
+- #112: The 'Play Roshambo' button has no on action commands set.
 - #118: Sitting in a building removes you from the voice chat, and the gray house voice chat is broken.
 - #121: Reminder tokens are not all being imported correctly.
-- #122: Ghost vote usage is not hidden by Organ Grinder.
+- #122: Ghost vote usage is not hidden by the Organ Grinder.
 - Vote item is not removed from the player inventory upon voting.
 - Many instances of "gray" are spelled as "grey."
 - "There is a Demon about" gets spammed.
+- Lavender and Pink arrows were in the wrong order on a sign.
+- The bag screen has weird and inconsistent button scaling.

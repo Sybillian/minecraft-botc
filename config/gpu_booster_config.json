@@ -3,7 +3,6 @@
   "const_cache": true,
   "remove_err_check": false,
   "fast_math": true,
-  "command_caching": true,
   "simd_weather": true,
   "smart_cull": "base"
 }

@@ -3,18 +3,24 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-bag
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1783303662067
+  last_edited_time = 1784002321837
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:c016270f-c4b2-4db2-9499-ca9cddaed7dd-1783357576959] = [groups:][instances:]
+  [loading_requirement_container_meta:713638ab-cb05-468f-80bb-9c27d638c88c-1784002303972] = [groups:][instances:]
 }
 
 customization {
   action = setscale
   scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
 }
 
 menu_background {
@@ -390,6 +396,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
@@ -471,6 +478,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -75
@@ -552,6 +560,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -50
@@ -633,6 +642,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -25
@@ -714,6 +724,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 0
@@ -795,6 +806,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 25
@@ -876,6 +888,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 50
@@ -957,6 +970,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 75
@@ -1038,6 +1052,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
@@ -1119,6 +1134,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -75
@@ -1200,6 +1216,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -50
@@ -1281,6 +1298,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -25
@@ -1362,6 +1380,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 0
@@ -1443,6 +1462,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 25
@@ -1524,6 +1544,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 50
@@ -1605,6 +1626,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 75
@@ -1686,6 +1708,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
@@ -1767,6 +1790,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -75
@@ -1848,6 +1872,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -50
@@ -1929,6 +1954,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -25
@@ -2010,6 +2036,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 0
@@ -2091,6 +2118,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 25
@@ -2172,6 +2200,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 50
@@ -2253,6 +2282,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 75
@@ -2334,6 +2364,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
@@ -2415,6 +2446,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -75
@@ -2496,6 +2528,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -50
@@ -2577,6 +2610,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -25
@@ -2658,6 +2692,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 0
@@ -2739,6 +2774,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 25
@@ -2820,6 +2856,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 50
@@ -2901,6 +2938,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 75
@@ -2982,6 +3020,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
@@ -3063,6 +3102,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -75
@@ -3144,6 +3184,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -50
@@ -3225,6 +3266,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -25
@@ -3306,6 +3348,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 1
@@ -3387,6 +3430,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 26
@@ -3468,6 +3512,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 51
@@ -3549,6 +3594,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 76
@@ -3631,6 +3677,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -231
@@ -3716,6 +3763,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -3802,6 +3850,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -3888,6 +3937,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -3974,6 +4024,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -4060,6 +4111,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -4146,6 +4198,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -4232,6 +4285,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -4318,6 +4372,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -4404,6 +4459,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -4490,6 +4546,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -4576,6 +4633,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -220
@@ -4655,6 +4713,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -231
@@ -4738,6 +4797,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 108
@@ -4817,6 +4877,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 06dc04fd-908d-4764-b25f-558627ff72eb-1777270224794
@@ -4899,6 +4960,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -35
@@ -4984,6 +5046,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -35
@@ -5069,6 +5132,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -34
@@ -5154,6 +5218,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -35
@@ -5239,6 +5304,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 108

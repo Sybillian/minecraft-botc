@@ -1,1 +1,1 @@
-$execute as @a run fmvariable set last_nom false $(current_nominee)
+$fmvariable set last_nom false $(current_nominee)
