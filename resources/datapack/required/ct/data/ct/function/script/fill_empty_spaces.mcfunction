@@ -2,6 +2,8 @@
 # on the server side that doesn't exist, it throws constant errors and gets
 # exponentially laggier until the game eventually crashes.
 
+scoreboard players set script_format game_data 0
+
 execute unless data storage ct:script script.townsfolk[0] run data modify storage ct:script script.townsfolk append value {id:none}
 execute unless data storage ct:script script.townsfolk[1] run data modify storage ct:script script.townsfolk append value {id:none}
 execute unless data storage ct:script script.townsfolk[2] run data modify storage ct:script script.townsfolk append value {id:none}
@@ -15,6 +17,7 @@ execute unless data storage ct:script script.townsfolk[9] run data modify storag
 execute unless data storage ct:script script.townsfolk[10] run data modify storage ct:script script.townsfolk append value {id:none}
 execute unless data storage ct:script script.townsfolk[11] run data modify storage ct:script script.townsfolk append value {id:none}
 execute unless data storage ct:script script.townsfolk[12] run data modify storage ct:script script.townsfolk append value {id:none}
+execute if data storage ct:script script.townsfolk[13] run scoreboard players set script_format game_data 1
 execute unless data storage ct:script script.townsfolk[13] run data modify storage ct:script script.townsfolk append value {id:none}
 execute unless data storage ct:script script.townsfolk[14] run data modify storage ct:script script.townsfolk append value {id:none}
 execute unless data storage ct:script script.townsfolk[15] run data modify storage ct:script script.townsfolk append value {id:none}
@@ -27,6 +30,7 @@ execute unless data storage ct:script script.outsiders[0] run data modify storag
 execute unless data storage ct:script script.outsiders[1] run data modify storage ct:script script.outsiders append value {id:none}
 execute unless data storage ct:script script.outsiders[2] run data modify storage ct:script script.outsiders append value {id:none}
 execute unless data storage ct:script script.outsiders[3] run data modify storage ct:script script.outsiders append value {id:none}
+execute if data storage ct:script script.outsiders[4] run scoreboard players set script_format game_data 1
 execute unless data storage ct:script script.outsiders[4] run data modify storage ct:script script.outsiders append value {id:none}
 execute unless data storage ct:script script.outsiders[5] run data modify storage ct:script script.outsiders append value {id:none}
 execute unless data storage ct:script script.outsiders[6] run data modify storage ct:script script.outsiders append value {id:none}
@@ -48,6 +52,7 @@ execute unless data storage ct:script script.minions[0] run data modify storage 
 execute unless data storage ct:script script.minions[1] run data modify storage ct:script script.minions append value {id:none}
 execute unless data storage ct:script script.minions[2] run data modify storage ct:script script.minions append value {id:none}
 execute unless data storage ct:script script.minions[3] run data modify storage ct:script script.minions append value {id:none}
+execute if data storage ct:script script.minions[4] run scoreboard players set script_format game_data 1
 execute unless data storage ct:script script.minions[4] run data modify storage ct:script script.minions append value {id:none}
 execute unless data storage ct:script script.minions[5] run data modify storage ct:script script.minions append value {id:none}
 execute unless data storage ct:script script.minions[6] run data modify storage ct:script script.minions append value {id:none}
@@ -69,6 +74,7 @@ execute unless data storage ct:script script.demons[0] run data modify storage c
 execute unless data storage ct:script script.demons[1] run data modify storage ct:script script.demons append value {id:none}
 execute unless data storage ct:script script.demons[2] run data modify storage ct:script script.demons append value {id:none}
 execute unless data storage ct:script script.demons[3] run data modify storage ct:script script.demons append value {id:none}
+execute if data storage ct:script script.demons[4] run scoreboard players set script_format game_data 1
 execute unless data storage ct:script script.demons[4] run data modify storage ct:script script.demons append value {id:none}
 execute unless data storage ct:script script.demons[5] run data modify storage ct:script script.demons append value {id:none}
 execute unless data storage ct:script script.demons[6] run data modify storage ct:script script.demons append value {id:none}

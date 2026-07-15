@@ -5,6 +5,7 @@ Features and changes:
 - Added a small, translucent version number in the pause menu.
 - Added No Chat Restrictions to eliminate ridiculous multiplayer restrictions for players in some regions.
 - Added Show Your Identity for improved pronoun handling.
+- Added a button to open the Quick Actions menu.
 - Organ Grinder now only gives blindness, not darkness in an attempt to reduce visual bugs on certain graphics cards.
 - Voice chats are now handled with predicates instead of advancements to make referring to them with commands easier.
 - Hid Psychopath button until that functionality is properly added.
@@ -18,11 +19,15 @@ Technical changes:
 Fixed bugs:
 - #103: Character Icons in the new bag screen have some visibility issues.
 - #106: Banshee voting indicator inconsistencies.
+- #108: The default keybind for the Quick Actions menu conflicts with the Drop Item keybind.
 - #109: The Minecraft log is filled with error messages, potentially leading to large log files and wasted disk space.
 - #112: The 'Play Roshambo' button has no on action commands set.
 - #118: Sitting in a building removes you from the voice chat, and the gray house voice chat is broken.
+- #120: Entering a voice chat removes the Storyteller from night chat.
 - #121: Reminder tokens are not all being imported correctly.
 - #122: Ghost vote usage is not hidden by the Organ Grinder.
+- #127: The script can't show 5 minions or outsiders.
+- Players disconnecting from the server screws up the player count in the Grimoire.
 - Vote item is not removed from the player inventory upon voting.
 - Many instances of "gray" are spelled as "grey."
 - "There is a Demon about" gets spammed.

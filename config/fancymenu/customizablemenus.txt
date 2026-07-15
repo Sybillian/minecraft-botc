@@ -9,7 +9,7 @@ de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
 net.minecraft.class_442 {
 }
 
-eu.kennytv.forcecloseloadingscreen.TitleBridgeScreen {
+net.minecraft.class_442 {
 }
 
 net.minecraft.class_490 {
@@ -55,8 +55,5 @@ net.minecraft.class_422 {
 }
 
 net.minecraft.class_433 {
-}
-
-de.maxhenkel.voicechat.gui.VoiceChatScreen {
 }
 

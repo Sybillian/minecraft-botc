@@ -5,3 +5,4 @@ execute if score phase game_data matches 1 run schedule function ct:phase/day 1t
 
 # Variables that need reset regularly
 execute as @a run fmvariable set last_nom false none
+tag @a remove universal_vc
