@@ -175,6 +175,12 @@ variable {
 }
 
 variable {
+  name = p0_r0_text
+  value = investigator_minion
+  reset_on_launch = false
+}
+
+variable {
   name = p5_r5_text
   value = none
   reset_on_launch = false
@@ -835,6 +841,12 @@ variable {
 }
 
 variable {
+  name = p1_r_icon
+  value = none
+  reset_on_launch = false
+}
+
+variable {
   name = p12_r2_text
   value = none
   reset_on_launch = false
@@ -1172,7 +1184,7 @@ variable {
 
 variable {
   name = day_start
-  value = 21:01
+  value = 11:59
   reset_on_launch = false
 }
 
@@ -1268,7 +1280,7 @@ variable {
 
 variable {
   name = script_format
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -1585,6 +1597,12 @@ variable {
 }
 
 variable {
+  name = p1_r0_text
+  value = investigator_wrong
+  reset_on_launch = false
+}
+
+variable {
   name = jinx_1_a
   value = none
   reset_on_launch = false
@@ -1617,6 +1635,12 @@ variable {
 variable {
   name = bag_xaan
   value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = p0_r_icon
+  value = noble
   reset_on_launch = false
 }
 
@@ -1773,6 +1797,12 @@ variable {
 variable {
   name = p13_r5_icon
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p1_r0_icon
+  value = investigator
   reset_on_launch = false
 }
 
@@ -2282,7 +2312,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 0
+  value = 15
   reset_on_launch = false
 }
 
@@ -2301,6 +2331,12 @@ variable {
 variable {
   name = summoner
   value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = grimoire
+  value = ""
   reset_on_launch = false
 }
 
@@ -2408,7 +2444,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -2840,7 +2876,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 14
+  value = 15
   reset_on_launch = false
 }
 

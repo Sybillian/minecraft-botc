@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1784002261456
+  last_edited_time = 1784133073299
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:d33efd92-5264-4cae-b04a-fef33995a33a-1783993304180] = [groups:][instances:]
+  [loading_requirement_container_meta:cc1d7cde-609b-4e5b-924d-22f547d6149f-1784133022957] = [groups:][instances:]
 }
 
 customization {
@@ -374,6 +374,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = b273a3d3-ff53-475a-b3aa-0323367eef0f-1751141896432
@@ -437,6 +438,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 250
@@ -500,6 +502,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -14
@@ -563,6 +566,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 98
@@ -621,6 +625,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 320
@@ -684,6 +689,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 161
@@ -747,6 +753,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 73
@@ -810,6 +817,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 320
@@ -873,6 +881,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 320
@@ -936,6 +945,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 320
@@ -999,6 +1009,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -14
@@ -1086,6 +1097,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 85
@@ -1147,6 +1159,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 250
@@ -1210,6 +1223,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 161
@@ -1273,6 +1287,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 73
@@ -1360,6 +1375,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 129
@@ -1441,6 +1457,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 147
@@ -1522,6 +1539,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 165
@@ -1610,6 +1628,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 73
@@ -1699,6 +1718,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -14
@@ -1788,6 +1808,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -14
@@ -1877,6 +1898,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 73
@@ -1966,6 +1988,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 161
@@ -2055,6 +2078,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 250
@@ -2144,6 +2168,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 320
@@ -2233,6 +2258,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 320
@@ -2322,6 +2348,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 320
@@ -2411,6 +2438,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 320
@@ -2500,6 +2528,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 250
@@ -2589,6 +2618,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 161
@@ -2648,6 +2678,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5f6fd779-435c-4214-9593-cb1eda220b08-1753054710528
@@ -2745,6 +2776,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -8
@@ -2804,6 +2836,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5e9256e0-39ef-496c-9201-65dd6a50e7c7-1753056642303
@@ -2901,6 +2934,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -8
@@ -2960,6 +2994,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = e64cde3c-c3fa-4ef5-9599-119378dc8338-1753056669433
@@ -3058,6 +3093,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 79
@@ -3117,6 +3153,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = c2f5af6c-8405-4585-8721-5cd136c0200f-1753056691957
@@ -3215,6 +3252,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 256
@@ -3274,6 +3312,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5a546987-589b-49da-9ff7-32e4f0f71bd4-1753056695464
@@ -3372,6 +3411,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 326
@@ -3431,6 +3471,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = ad252432-cb9b-45db-9aae-9085bc2748a2-1753056698010
@@ -3529,6 +3570,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 326
@@ -3588,6 +3630,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = f9bc0e06-a3e9-41e4-bd93-f100cacf0a36-1753056701994
@@ -3686,6 +3729,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 167
@@ -3745,6 +3789,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = f6340ef9-c8a9-457f-8161-92048116da57-1753056701995
@@ -3843,6 +3888,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 167
@@ -3901,6 +3947,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 851878ee-1a1e-4d6f-a20f-967c869ea8c8-1753056701997
@@ -3998,6 +4045,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 326
@@ -4056,6 +4104,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = f9c6cd92-e416-4e81-96af-1617e7e8d10c-1753056701998
@@ -4154,6 +4203,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 79
@@ -4213,6 +4263,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 95ea4ad5-9e8e-44eb-97e3-d446f14341cf-1753056864060
@@ -4311,6 +4362,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 256
@@ -4370,6 +4422,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 8c474b59-2168-4cab-95f3-df8c858062c2-1753056879526
@@ -4468,6 +4521,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 326
@@ -4550,6 +4604,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -60
@@ -4636,6 +4691,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -54
@@ -4722,6 +4778,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 33
@@ -4808,6 +4865,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 121
@@ -4894,6 +4952,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 33
@@ -4980,6 +5039,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 121
@@ -5066,6 +5126,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 210
@@ -5152,6 +5213,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 280
@@ -5238,6 +5300,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 210
@@ -5324,6 +5387,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 280
@@ -5410,6 +5474,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 280
@@ -5496,6 +5561,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 280
@@ -5582,6 +5648,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 100
@@ -5663,6 +5730,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 137
@@ -5744,6 +5812,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 174
@@ -5855,6 +5924,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 36
@@ -5939,6 +6009,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 37
@@ -6023,6 +6094,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 37
@@ -6107,6 +6179,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 37
@@ -6191,6 +6264,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 53
@@ -6275,6 +6349,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 53
@@ -6359,6 +6434,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 53
@@ -6471,6 +6547,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 124
@@ -6555,6 +6632,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 124
@@ -6639,6 +6717,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 124
@@ -6723,6 +6802,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 124
@@ -6807,6 +6887,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 140
@@ -6891,6 +6972,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 140
@@ -6975,6 +7057,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 140
@@ -7087,6 +7170,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 213
@@ -7171,6 +7255,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 213
@@ -7255,6 +7340,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 213
@@ -7339,6 +7425,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 213
@@ -7423,6 +7510,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 229
@@ -7507,6 +7595,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 229
@@ -7591,6 +7680,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 229
@@ -7703,6 +7793,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 302
@@ -7787,6 +7878,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 302
@@ -7871,6 +7963,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 302
@@ -7955,6 +8048,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 302
@@ -8039,6 +8133,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 318
@@ -8123,6 +8218,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 318
@@ -8207,6 +8303,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 318
@@ -8319,6 +8416,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -8403,6 +8501,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -8487,6 +8586,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -8571,6 +8671,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -8655,6 +8756,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -8739,6 +8841,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -8823,6 +8926,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -8935,6 +9039,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -9019,6 +9124,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -9103,6 +9209,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -9187,6 +9294,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -9271,6 +9379,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -9355,6 +9464,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -9439,6 +9549,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -9551,6 +9662,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -9635,6 +9747,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -9719,6 +9832,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -9803,6 +9917,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -9887,6 +10002,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -9971,6 +10087,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -10055,6 +10172,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -10167,6 +10285,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -10251,6 +10370,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -10335,6 +10455,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -10419,6 +10540,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 372
@@ -10503,6 +10625,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -10587,6 +10710,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -10671,6 +10795,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 388
@@ -10783,6 +10908,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 302
@@ -10867,6 +10993,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 302
@@ -10951,6 +11078,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 302
@@ -11035,6 +11163,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 302
@@ -11119,6 +11248,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 318
@@ -11203,6 +11333,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 318
@@ -11287,6 +11418,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 318
@@ -11399,6 +11531,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 213
@@ -11483,6 +11616,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 213
@@ -11567,6 +11701,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 213
@@ -11651,6 +11786,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 213
@@ -11735,6 +11871,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 229
@@ -11819,6 +11956,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 229
@@ -11903,6 +12041,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 229
@@ -12016,6 +12155,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = mid-centered
   x = 125
@@ -12100,6 +12240,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = mid-centered
   x = 125
@@ -12184,6 +12325,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 125
@@ -12268,6 +12410,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 125
@@ -12352,6 +12495,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 141
@@ -12436,6 +12580,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 141
@@ -12520,6 +12665,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 141
@@ -12530,202 +12676,6 @@ element {
   element_loading_requirement_container_identifier = e9edef25-c43a-4b06-852d-65f7305279cb-1752204281836
   [loading_requirement_container_meta:e9edef25-c43a-4b06-852d-65f7305279cb-1752204281836] = [groups:][instances:b619319d-53cd-459f-bb07-d3b5206a458a-1753244794614;]
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:b619319d-53cd-459f-bb07-d3b5206a458a-1753244794614] = p2_r6_text:none
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = true
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 1.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 0.75
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  label_scale = 1.0
-  label_shadow = true
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
-}
-
-element {
-  button_element_executable_block_identifier = df458532-5956-4bef-ad26-090f4bee5d88-1753239149102
-  [executable_action_instance:07d724ba-fd6b-4c23-a422-57b4adf02f4f-1753239321357][action_type:set_variable] = editing_player:1
-  [executable_action_instance:4f335f01-f0a7-4552-9918-33ad053d920a-1753239345438][action_type:toggle_layout] = ct-grimoire_reminders
-  [executable_action_instance:20dda25e-454c-404d-b353-d7091890678f-1753239529975][action_type:set_variable] = editing_reminder:1
-  [executable_action_instance:325b74dc-41b8-487f-a06e-0ab5e1167097-1753239499214][action_type:set_variable] = editing_reminder:2
-  [executable_action_instance:a0404c4a-616c-425e-afba-0aaa1fefd47f-1753239604493][action_type:set_variable] = editing_reminder:3
-  [executable_action_instance:e00a6596-b223-4b76-be28-218a4258010b-1753247429087][action_type:set_variable] = editing_reminder:4
-  [executable_action_instance:5016ee7a-108c-47e0-87ff-193988d0b632-1753247443985][action_type:set_variable] = editing_reminder:5
-  [executable_action_instance:b7dc1db7-b024-4aa1-bdb5-2f38be218144-1753247673734][action_type:set_variable] = editing_reminder:6
-  [executable_block:d3f7e557-51e8-4a4b-aeed-8a852ffad169-1753247671179][type:if] = [executables:b7dc1db7-b024-4aa1-bdb5-2f38be218144-1753247673734;]
-  [if_executable_block_body:d3f7e557-51e8-4a4b-aeed-8a852ffad169-1753247671179] = 16cecdfd-48fc-4687-a7ac-2533d181083f-1753247660049
-  [loading_requirement_container_meta:16cecdfd-48fc-4687-a7ac-2533d181083f-1753247660049] = [groups:][instances:cbd7ce47-cf24-4518-bee0-e7cfdc3e3a0f-1753247661179;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:cbd7ce47-cf24-4518-bee0-e7cfdc3e3a0f-1753247661179] = p1_r5_text:none
-  [if_executable_block_collapsed:d3f7e557-51e8-4a4b-aeed-8a852ffad169-1753247671179] = false
-  [executable_block:31bd8778-dccc-491b-85d8-0c06e97345dc-1753247422241][type:if] = [executables:5016ee7a-108c-47e0-87ff-193988d0b632-1753247443985;d3f7e557-51e8-4a4b-aeed-8a852ffad169-1753247671179;]
-  [if_executable_block_body:31bd8778-dccc-491b-85d8-0c06e97345dc-1753247422241] = 45b88b95-303e-4f15-8a50-003e389dcbf8-1753247405776
-  [loading_requirement_container_meta:45b88b95-303e-4f15-8a50-003e389dcbf8-1753247405776] = [groups:][instances:f9edbb49-f516-4521-ad7d-fb01da7a0bbd-1753247407330;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:f9edbb49-f516-4521-ad7d-fb01da7a0bbd-1753247407330] = p1_r4_text:none
-  [if_executable_block_collapsed:31bd8778-dccc-491b-85d8-0c06e97345dc-1753247422241] = false
-  [executable_block:016b6d9c-ccc1-4ca9-a63e-542387fce2d9-1753247403412][type:if] = [executables:e00a6596-b223-4b76-be28-218a4258010b-1753247429087;31bd8778-dccc-491b-85d8-0c06e97345dc-1753247422241;]
-  [if_executable_block_body:016b6d9c-ccc1-4ca9-a63e-542387fce2d9-1753247403412] = 069aae33-8c63-47df-97e5-7631e20d5d6b-1753247390326
-  [loading_requirement_container_meta:069aae33-8c63-47df-97e5-7631e20d5d6b-1753247390326] = [groups:][instances:d2429f48-d198-4210-9607-abb6ab48e224-1753247391127;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:d2429f48-d198-4210-9607-abb6ab48e224-1753247391127] = p1_r3_text:none
-  [if_executable_block_collapsed:016b6d9c-ccc1-4ca9-a63e-542387fce2d9-1753247403412] = false
-  [executable_block:cf17fd01-3bc4-4114-9848-4682cadf3dda-1753239958737][type:if] = [executables:a0404c4a-616c-425e-afba-0aaa1fefd47f-1753239604493;016b6d9c-ccc1-4ca9-a63e-542387fce2d9-1753247403412;]
-  [if_executable_block_body:cf17fd01-3bc4-4114-9848-4682cadf3dda-1753239958737] = b3997039-52f0-47ad-902d-19850985dc04-1753239931472
-  [loading_requirement_container_meta:b3997039-52f0-47ad-902d-19850985dc04-1753239931472] = [groups:][instances:78d85ad3-b016-4a80-9174-02edd2ffc5ba-1753239932511;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:78d85ad3-b016-4a80-9174-02edd2ffc5ba-1753239932511] = p1_r2_text:none
-  [if_executable_block_collapsed:cf17fd01-3bc4-4114-9848-4682cadf3dda-1753239958737] = false
-  [executable_block:23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713][type:if] = [executables:325b74dc-41b8-487f-a06e-0ab5e1167097-1753239499214;cf17fd01-3bc4-4114-9848-4682cadf3dda-1753239958737;]
-  [if_executable_block_body:23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713] = bb374962-4019-4a1a-8f35-afbe9de87f73-1753239471772
-  [loading_requirement_container_meta:bb374962-4019-4a1a-8f35-afbe9de87f73-1753239471772] = [groups:][instances:9cf5957e-c9b2-4904-b017-361b7bc49f55-1753239475113;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:9cf5957e-c9b2-4904-b017-361b7bc49f55-1753239475113] = p1_r1_text:none
-  [if_executable_block_collapsed:23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713] = false
-  [executable_block:df458532-5956-4bef-ad26-090f4bee5d88-1753239149102][type:generic] = [executables:07d724ba-fd6b-4c23-a422-57b4adf02f4f-1753239321357;4f335f01-f0a7-4552-9918-33ad053d920a-1753239345438;20dda25e-454c-404d-b353-d7091890678f-1753239529975;23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713;]
-  underline_label_on_hover = false
-  transparent_background = false
-  restartbackgroundanimations = true
-  nine_slice_custom_background = false
-  description = Add reminder token
-  label = +
-  navigatable = true
-  widget_active_state_requirement_container_identifier = 7a715db6-b033-4c44-a7d1-ac7f4398c420-1753239149102
-  [loading_requirement_container_meta:7a715db6-b033-4c44-a7d1-ac7f4398c420-1753239149102] = [groups:][instances:]
-  is_template = false
-  template_apply_width = false
-  template_apply_height = false
-  template_apply_posx = false
-  template_apply_posy = false
-  template_apply_opacity = false
-  template_apply_visibility = false
-  template_apply_label = false
-  template_share_with = buttons
-  nine_slice_slider_handle = false
-  element_type = custom_button
-  instance_identifier = bb17d7fd-6edd-4d25-a86b-fcd26b3c9bcb-1753239149102
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 38
-  y = -163
-  width = 12
-  height = 12
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d4161afe-b4e6-4562-8c68-0a77ec1a4971-1765774600270
-  [loading_requirement_container_meta:d4161afe-b4e6-4562-8c68-0a77ec1a4971-1765774600270] = [groups:][instances:11c89e9a-38b5-4175-9bb4-d3f1fcff9080-1765774600270;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:11c89e9a-38b5-4175-9bb4-d3f1fcff9080-1765774600270] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"1"]$
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = true
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 1.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  label_scale = 1.0
-  label_shadow = true
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
-}
-
-element {
-  button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:41553220-45c3-499f-8d4d-3a13e2c998ea-1753239639609][action_type:set_variable] = p1_r1_text:none
-  [executable_action_instance:1c7de197-0ece-44d4-9c85-27e9be5ca749-1753239676984][action_type:set_variable] = p1_r1_icon:none
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:41553220-45c3-499f-8d4d-3a13e2c998ea-1753239639609;1c7de197-0ece-44d4-9c85-27e9be5ca749-1753239676984;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"getvariable","values":{"name":"p1_r1_icon"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"getvariable","values":{"name":"p1_r1_icon"}}.png
-  underline_label_on_hover = false
-  transparent_background = false
-  restartbackgroundanimations = true
-  nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.reminder.{"placeholder":"getvariable","values":{"name":"p1_r1_text"}}.text"}}
-  label = 
-  navigatable = false
-  widget_active_state_requirement_container_identifier = c96b891e-c0f8-470a-91ce-6284a41e1483-1752204281836
-  [loading_requirement_container_meta:c96b891e-c0f8-470a-91ce-6284a41e1483-1752204281836] = [groups:][instances:]
-  is_template = false
-  template_apply_width = false
-  template_apply_height = false
-  template_apply_posx = false
-  template_apply_posy = false
-  template_apply_opacity = false
-  template_apply_visibility = false
-  template_apply_label = false
-  template_share_with = buttons
-  nine_slice_slider_handle = false
-  element_type = custom_button
-  instance_identifier = c0e3089f-9c47-4930-8231-e1e2841bc563-1753239257800
-  custom_element_layer_name = reminder_1
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 38
-  y = -215
-  width = 15
-  height = 15
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = e9edef25-c43a-4b06-852d-65f7305279cb-1752204281836
-  [loading_requirement_container_meta:e9edef25-c43a-4b06-852d-65f7305279cb-1752204281836] = [groups:][instances:5f333289-3b5a-4ac2-acac-921b352877ce-1753244736741;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:5f333289-3b5a-4ac2-acac-921b352877ce-1753244736741] = p1_r1_text:none
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -12800,6 +12750,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = mid-centered
   x = 38
@@ -12884,6 +12835,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 38
@@ -12968,6 +12920,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = mid-centered
   x = 54
@@ -13052,6 +13005,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 54
@@ -13136,6 +13090,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 54
@@ -13194,6 +13149,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -78
@@ -13257,6 +13213,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -78
@@ -13320,6 +13277,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -78
@@ -13414,6 +13372,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -78
@@ -13503,6 +13462,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -78
@@ -13592,6 +13552,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -78
@@ -13651,6 +13612,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 37133c28-834b-43b9-9383-afff9c5f1c29-1770786285849
@@ -13749,6 +13711,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -72
@@ -13808,6 +13771,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = eab75f66-94e2-4ad0-ab28-110ad9cdd802-1770786285853
@@ -13906,6 +13870,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -72
@@ -13964,6 +13929,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 2b6dafd7-af9c-4687-8e58-747e1720cacd-1770786285859
@@ -14062,6 +14028,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -73
@@ -14144,6 +14111,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -118
@@ -14230,6 +14198,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -118
@@ -14316,6 +14285,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -118
@@ -14432,6 +14402,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -14516,6 +14487,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -14600,6 +14572,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -14684,6 +14657,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -14768,6 +14742,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -14852,6 +14827,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -14936,6 +14912,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -15048,6 +15025,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -15132,6 +15110,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -15216,6 +15195,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -15300,6 +15280,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -15384,6 +15365,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -15468,6 +15450,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -15552,6 +15535,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -15664,6 +15648,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -15748,6 +15733,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -15832,6 +15818,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -15916,6 +15903,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -26
@@ -16000,6 +15988,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -16084,6 +16073,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -16168,6 +16158,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -10
@@ -16250,6 +16241,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 98
@@ -16281,6 +16273,205 @@ element {
   fade_in_speed = 1.0
   fade_out_speed = 1.0
   base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+element {
+  button_element_executable_block_identifier = df458532-5956-4bef-ad26-090f4bee5d88-1753239149102
+  [executable_action_instance:07d724ba-fd6b-4c23-a422-57b4adf02f4f-1753239321357][action_type:set_variable] = editing_player:1
+  [executable_action_instance:4f335f01-f0a7-4552-9918-33ad053d920a-1753239345438][action_type:toggle_layout] = ct-grimoire_reminders
+  [executable_action_instance:20dda25e-454c-404d-b353-d7091890678f-1753239529975][action_type:set_variable] = editing_reminder:1
+  [executable_action_instance:325b74dc-41b8-487f-a06e-0ab5e1167097-1753239499214][action_type:set_variable] = editing_reminder:2
+  [executable_action_instance:a0404c4a-616c-425e-afba-0aaa1fefd47f-1753239604493][action_type:set_variable] = editing_reminder:3
+  [executable_action_instance:e00a6596-b223-4b76-be28-218a4258010b-1753247429087][action_type:set_variable] = editing_reminder:4
+  [executable_action_instance:5016ee7a-108c-47e0-87ff-193988d0b632-1753247443985][action_type:set_variable] = editing_reminder:5
+  [executable_action_instance:b7dc1db7-b024-4aa1-bdb5-2f38be218144-1753247673734][action_type:set_variable] = editing_reminder:6
+  [executable_block:d3f7e557-51e8-4a4b-aeed-8a852ffad169-1753247671179][type:if] = [executables:b7dc1db7-b024-4aa1-bdb5-2f38be218144-1753247673734;]
+  [if_executable_block_body:d3f7e557-51e8-4a4b-aeed-8a852ffad169-1753247671179] = 16cecdfd-48fc-4687-a7ac-2533d181083f-1753247660049
+  [loading_requirement_container_meta:16cecdfd-48fc-4687-a7ac-2533d181083f-1753247660049] = [groups:][instances:cbd7ce47-cf24-4518-bee0-e7cfdc3e3a0f-1753247661179;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:cbd7ce47-cf24-4518-bee0-e7cfdc3e3a0f-1753247661179] = p1_r5_text:none
+  [if_executable_block_collapsed:d3f7e557-51e8-4a4b-aeed-8a852ffad169-1753247671179] = false
+  [executable_block:31bd8778-dccc-491b-85d8-0c06e97345dc-1753247422241][type:if] = [executables:5016ee7a-108c-47e0-87ff-193988d0b632-1753247443985;d3f7e557-51e8-4a4b-aeed-8a852ffad169-1753247671179;]
+  [if_executable_block_body:31bd8778-dccc-491b-85d8-0c06e97345dc-1753247422241] = 45b88b95-303e-4f15-8a50-003e389dcbf8-1753247405776
+  [loading_requirement_container_meta:45b88b95-303e-4f15-8a50-003e389dcbf8-1753247405776] = [groups:][instances:f9edbb49-f516-4521-ad7d-fb01da7a0bbd-1753247407330;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:f9edbb49-f516-4521-ad7d-fb01da7a0bbd-1753247407330] = p1_r4_text:none
+  [if_executable_block_collapsed:31bd8778-dccc-491b-85d8-0c06e97345dc-1753247422241] = false
+  [executable_block:016b6d9c-ccc1-4ca9-a63e-542387fce2d9-1753247403412][type:if] = [executables:e00a6596-b223-4b76-be28-218a4258010b-1753247429087;31bd8778-dccc-491b-85d8-0c06e97345dc-1753247422241;]
+  [if_executable_block_body:016b6d9c-ccc1-4ca9-a63e-542387fce2d9-1753247403412] = 069aae33-8c63-47df-97e5-7631e20d5d6b-1753247390326
+  [loading_requirement_container_meta:069aae33-8c63-47df-97e5-7631e20d5d6b-1753247390326] = [groups:][instances:d2429f48-d198-4210-9607-abb6ab48e224-1753247391127;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:d2429f48-d198-4210-9607-abb6ab48e224-1753247391127] = p1_r3_text:none
+  [if_executable_block_collapsed:016b6d9c-ccc1-4ca9-a63e-542387fce2d9-1753247403412] = false
+  [executable_block:cf17fd01-3bc4-4114-9848-4682cadf3dda-1753239958737][type:if] = [executables:a0404c4a-616c-425e-afba-0aaa1fefd47f-1753239604493;016b6d9c-ccc1-4ca9-a63e-542387fce2d9-1753247403412;]
+  [if_executable_block_body:cf17fd01-3bc4-4114-9848-4682cadf3dda-1753239958737] = b3997039-52f0-47ad-902d-19850985dc04-1753239931472
+  [loading_requirement_container_meta:b3997039-52f0-47ad-902d-19850985dc04-1753239931472] = [groups:][instances:78d85ad3-b016-4a80-9174-02edd2ffc5ba-1753239932511;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:78d85ad3-b016-4a80-9174-02edd2ffc5ba-1753239932511] = p1_r2_text:none
+  [if_executable_block_collapsed:cf17fd01-3bc4-4114-9848-4682cadf3dda-1753239958737] = false
+  [executable_block:23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713][type:if] = [executables:325b74dc-41b8-487f-a06e-0ab5e1167097-1753239499214;cf17fd01-3bc4-4114-9848-4682cadf3dda-1753239958737;]
+  [if_executable_block_body:23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713] = bb374962-4019-4a1a-8f35-afbe9de87f73-1753239471772
+  [loading_requirement_container_meta:bb374962-4019-4a1a-8f35-afbe9de87f73-1753239471772] = [groups:][instances:9cf5957e-c9b2-4904-b017-361b7bc49f55-1753239475113;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:9cf5957e-c9b2-4904-b017-361b7bc49f55-1753239475113] = p1_r1_text:none
+  [if_executable_block_collapsed:23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713] = false
+  [executable_block:df458532-5956-4bef-ad26-090f4bee5d88-1753239149102][type:generic] = [executables:07d724ba-fd6b-4c23-a422-57b4adf02f4f-1753239321357;4f335f01-f0a7-4552-9918-33ad053d920a-1753239345438;20dda25e-454c-404d-b353-d7091890678f-1753239529975;23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713;]
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  description = Add reminder token
+  label = +
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 7a715db6-b033-4c44-a7d1-ac7f4398c420-1753239149102
+  [loading_requirement_container_meta:7a715db6-b033-4c44-a7d1-ac7f4398c420-1753239149102] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  element_type = custom_button
+  instance_identifier = 3409b86b-4b24-420d-a3c0-20d31b23eb97-1784132906428
+  custom_element_layer_name = SYBFINDME
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 38
+  y = -163
+  width = 12
+  height = 12
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 67f61b25-0f84-4936-b0bc-f9585ed7ba8d-1765775642941
+  [loading_requirement_container_meta:67f61b25-0f84-4936-b0bc-f9585ed7ba8d-1765775642941] = [groups:][instances:3191545c-70f1-4a80-86ca-ff6280976522-1765775642941;]
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:3191545c-70f1-4a80-86ca-ff6280976522-1765775642941] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"getvariable","values":{"name":"player_count"}}","compare_with":"2"]$
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+element {
+  button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
+  [executable_action_instance:41553220-45c3-499f-8d4d-3a13e2c998ea-1753239639609][action_type:set_variable] = p1_r1_text:none
+  [executable_action_instance:1c7de197-0ece-44d4-9c85-27e9be5ca749-1753239676984][action_type:set_variable] = p1_r1_icon:none
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:41553220-45c3-499f-8d4d-3a13e2c998ea-1753239639609;1c7de197-0ece-44d4-9c85-27e9be5ca749-1753239676984;]
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"getvariable","values":{"name":"p1_r1_icon"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"getvariable","values":{"name":"p1_r1_icon"}}.png
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  description = {"placeholder":"local","values":{"key":"clocktower.reminder.{"placeholder":"getvariable","values":{"name":"p1_r1_text"}}.text"}}
+  label = 
+  navigatable = false
+  widget_active_state_requirement_container_identifier = c96b891e-c0f8-470a-91ce-6284a41e1483-1752204281836
+  [loading_requirement_container_meta:c96b891e-c0f8-470a-91ce-6284a41e1483-1752204281836] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  element_type = custom_button
+  instance_identifier = 57dec7b5-b955-437c-acee-5397d4ca68c5-1784132927680
+  custom_element_layer_name = reminder_1
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 38
+  y = -215
+  width = 15
+  height = 15
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e9edef25-c43a-4b06-852d-65f7305279cb-1752204281836
+  [loading_requirement_container_meta:e9edef25-c43a-4b06-852d-65f7305279cb-1752204281836] = [groups:][instances:5f333289-3b5a-4ac2-acac-921b352877ce-1753244736741;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:5f333289-3b5a-4ac2-acac-921b352877ce-1753244736741] = p1_r1_text:none
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 0.75
   parallax_intensity_x = 0.5
   parallax_intensity_y = 0.5
   rotation_degrees = 0.0

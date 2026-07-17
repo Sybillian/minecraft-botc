@@ -9,6 +9,7 @@ Features and changes:
 - Organ Grinder now only gives blindness, not darkness in an attempt to reduce visual bugs on certain graphics cards.
 - Voice chats are now handled with predicates instead of advancements to make referring to them with commands easier.
 - Hid Psychopath button until that functionality is properly added.
+- Added some greenery to the Church exterior.
 - Removed the "modpack is in an early state, look out for bugs" warning on the pause menu.
 - Removed SimpleNicknames, PlayerPronouns, and Styled Player Names.
 
@@ -33,3 +34,4 @@ Fixed bugs:
 - "There is a Demon about" gets spammed.
 - Lavender and Pink arrows were in the wrong order on a sign.
 - The bag screen has weird and inconsistent button scaling.
+- Players can craft any combination of the Setup Bag, Grimoire, and Script together to get a Carrot on a Stick.

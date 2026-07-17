@@ -2,16 +2,10 @@
 	"id": "pronouns",
 	"arguments": [
 		{
-			"id": "set",
-			"type": "brigadier:string word",
-			"arguments": [
-				{
-					"id": "pronouns",
-					"type": "minecraft:message",
-					"executes": [
-						"syi pronouns set ${pronouns}"
-					]
-				}
+			"id": "pronouns",
+			"type": "minecraft:message",
+			"executes": [
+				"syi pronouns set ${pronouns}"
 			]
 		}
 	]

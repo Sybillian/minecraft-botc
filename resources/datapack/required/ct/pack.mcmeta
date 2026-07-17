@@ -2,5 +2,13 @@
   "pack": {
     "description": "Blood on the Clocktower\nBy Sybillian",
     "pack_format": 72
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe/repair_item.json"
+      }
+    ]
   }
 }
