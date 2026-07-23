@@ -2312,7 +2312,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 15
+  value = 0
   reset_on_launch = false
 }
 
