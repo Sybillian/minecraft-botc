@@ -1,0 +1,12 @@
+{
+	"id": "pyre",
+	"arguments": [
+		{
+			"id": "player",
+			"type": "minecraft:entity players",
+			"executes": [
+				"function ct:cmd/pyre {player:${player}}"
+			]
+		}
+	]
+}

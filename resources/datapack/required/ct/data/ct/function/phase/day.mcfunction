@@ -4,6 +4,3 @@ execute as @e[type=minecraft:item_display,tag=vc] run data modify entity @s view
 execute as @e[type=minecraft:item_display,tag=exclamation_yellow] run data modify entity @s view_range set value 0
 time set 1000
 gamerule advance_time true
-
-function ct:admin/variables/score
-function ct:util/sync_variables

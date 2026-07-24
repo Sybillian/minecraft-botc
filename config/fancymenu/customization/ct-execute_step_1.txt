@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-execute
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1784253873580
+  last_edited_time = 1784916366451
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3fdf13ae-e5d4-4781-ac6f-2a616783ae90-1784253836159] = [groups:][instances:]
+  [loading_requirement_container_meta:bc022546-f718-4c88-aeb5-9d168ac5d4a7-1784916742526] = [groups:][instances:]
 }
 
 menu_background {
@@ -1336,9 +1336,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_1"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_1"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_1"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_1"}}/100.png
@@ -1423,9 +1423,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_2"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_2"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_2"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_2"}}/100.png
@@ -1510,9 +1510,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_3"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_3"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_3"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_3"}}/100.png
@@ -1597,9 +1597,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_4"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_4"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_4"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_4"}}/100.png
@@ -1684,9 +1684,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_5"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_5"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_5"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_5"}}/100.png
@@ -1771,9 +1771,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_6"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_6"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_6"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_6"}}/100.png
@@ -1858,9 +1858,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_7"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_7"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_7"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_7"}}/100.png
@@ -1945,9 +1945,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_8"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_8"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_8"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_8"}}/100.png
@@ -2032,9 +2032,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_9"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_9"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_9"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_9"}}/100.png
@@ -2119,9 +2119,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_10"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_10"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_10"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_10"}}/100.png
@@ -2206,9 +2206,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_11"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_11"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_11"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_11"}}/100.png
@@ -2293,9 +2293,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_12"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_12"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_12"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_12"}}/100.png
@@ -2380,9 +2380,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_13"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_13"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_13"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_13"}}/100.png
@@ -2467,9 +2467,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_14"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_14"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_14"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_14"}}/100.png
@@ -2554,9 +2554,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077
-  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /set_nominator {"placeholder":"getvariable","values":{"name":"player_15"}}
-  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-noms_nominator
-  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-noms_nominee
+  [executable_action_instance:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202][action_type:sendmessage] = /pyre {"placeholder":"getvariable","values":{"name":"player_15"}}
+  [executable_action_instance:bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120][action_type:disable_layout] = ct-execute_step_1
+  [executable_action_instance:6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630][action_type:enable_layout] = ct-execute_step_2
   [executable_block:0516ab97-eb67-45f6-8e4a-4249f978e245-1783304714077][type:generic] = [executables:3f0b56a1-deb5-44ce-bac9-7da0b4b05f91-1783304742202;bfd70f60-fbf6-483a-8ef4-46b1385fb443-1783304806120;6f72c57a-498a-462f-9b01-3c01c7a24d7e-1783304827630;]
   backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_15"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_15"}}/100.png
