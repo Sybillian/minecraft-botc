@@ -1,17 +1,16 @@
 BotC v1.6.0 - May 15, 2026
 
 Changes and features:
+- Updated to Minecraft 1.21.11.
 - Added the ability to set your preferred name with /nick. Non-vanilla UI will still display usernames.
 - Added a radial menu (opened with C by default) to quickly select nominator and nominee without having to open the Grimoire.
 - Added the ability to import a script from a file.
 - Added the ability to view Fabled and Lorics in the script menu.
 - Added functionality to not reveal player's roles if the Tor is in play.
-- Added icons to "Teleport to seats" and "Teleport to homes" buttons.
-- Added an explanatory tooltip to the "Teleport to homes" button.
 - Added an alert that appears in the bag screen if you have selected a role that affects setup.
-- Added an alert on the main menu when you are using a beta version.
 - Added a particle for when regular votes are cast.
-- Added a Storyteller-only "Quick Actions" menu opened via hotkey (Q by default). This contains several options:
+- Added some greenery to the Church exterior.
+- Added a Storyteller-only "Quick Actions" menu opened via hotkey (R by default). This contains several options:
   - Toggle Gamemode
   - Teleport Players
     - Home
@@ -32,6 +31,13 @@ Changes and features:
 - Added timer settings:
   - TP players to seats
   - Pause during nominations
+- Added icons to "Teleport to seats" and "Teleport to homes" buttons.
+- Added an explanatory tooltip to the "Teleport to homes" button.
+- Added an alert on the main menu when you are using a beta version.
+- Added a small, translucent version number in the pause menu.
+- Added No Chat Restrictions to eliminate ridiculous multiplayer restrictions for players in some regions.
+- Added the BetterTab mod.
+
 - The bag menu has been totally redone, notably eliminating the need for the Fix Leftover Roles button. The current layout is not very colorblind-friendly and will be improved further in the future.
 - Players can now whisper to their neighbors and to Storytellers while seated using /whisper. When a game is not active, anyone can whisper to anyone. These messages are always visible to Storytellers.
 - Players can now optionally join a voice chat with all players at night. Toggle between this and the private local voice chat with a keybind (ENTER by default).
@@ -56,6 +62,8 @@ Changes and features:
 - Players can now interact with any blocks that do not change the map state (i.e. chests, beds, lecterns).
 - Players now get a slight speed boost when coming to town in the morning and returning home at night.
 
+- Removed the "modpack is in an early state, look out for bugs" warning on the pause menu.
+
 Technical changes:
 - Character string IDs are now the same as TPI's (i.e. pit_hag is now pithag). Resource packs containing character icons will need to be updated.
 - Character numerical IDs are now in alphabetical order and categorized by character type. The alphabetical order will most likely not be maintained when new characters are added, they'll just be tacked on the end.
@@ -68,7 +76,7 @@ Technical changes:
 - Voice chat management now uses predicates instead of block detection so as to allow for vertical and float-based sizing (except for the crop fields as I was lazy).
 - Voice chat player list actionbars are now stored in world NBT data.
 - Storyteller permission checks to run commands are now within the functions instead of the command's .json file.
-- TAB mod has been removed in favor of CustomNameTags, which is much less buggy and lets pronouns be seen at a greater distance.
+- TAB mod has been removed in favor of Show Your Identity, which is much less buggy and lets pronouns be seen at a greater distance.
 - Script data is no longer stored on players, and is now exclusively stored and referenced in ct:script
 - Voting strength now correlates to a score instead of a strict +1
 - "Dev Mode" is now a little more official. If active, /reloads and joining the world does not automatically run init functions.
@@ -76,6 +84,8 @@ Technical changes:
 - All decorational armor stands are now item displays.
 - Block protection is now handled using Flan instead of YAWP. This means that if you have your own map, you'll need to re-define claims where players are able to toggle doors. Check config/flan/flan_config to set an item with which to do so.
 - The biome datapack is now baked into the core datapack instead of being inside the world.
+- User-facing data like ghost votes and player count is now stored in FM variables and NBT storage as well as in scores so that modern FancyMenu can read them.
+- Optimized many steps in the nominations phase of the game.
 
 Fixed bugs:
 - #28: Fabled, Loric, and Traveller characters do not add reminder tokens to the Grimoire.
@@ -98,3 +108,7 @@ Fixed bugs:
 - There are several accessible holes in the terrain.
 - Some voice chats can be entered or left by standing in non-whole blocks (panes, iron bars, fences).
 - Spectator 👁️ in voice chats icon uses the wrong font.
+- Players disconnecting from the server screws up the player count in the Grimoire.
+- Many instances of "gray" are spelled as "grey."
+- Lavender and Pink arrows are in the wrong order on a sign.
+- Players can craft any combination of the Setup Bag, Grimoire, and Script together to get a Carrot on a Stick.

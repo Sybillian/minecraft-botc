@@ -9,7 +9,8 @@ Features and changes:
 - Added a small, translucent version number in the pause menu.
 - Added No Chat Restrictions to eliminate ridiculous multiplayer restrictions for players in some regions.
 - Added Show Your Identity for improved pronoun handling.
-- Added a button to open the Quick Actions menu.
+- Added the BetterTab mod.
+- Added an on-screen button to open the Quick Actions menu.
 - Organ Grinder now only gives blindness, not darkness in an attempt to reduce visual bugs on certain graphics cards.
 - Voice chats are now handled with predicates instead of advancements to make referring to them with commands easier.
 - Hid Psychopath button until that functionality is properly added.
@@ -31,6 +32,7 @@ Fixed bugs:
 - #120: Entering a voice chat removes the Storyteller from night chat.
 - #121: Reminder tokens are not all being imported correctly.
 - #122: Ghost vote usage is not hidden by the Organ Grinder.
+- #123: Players cannot be marked and executed properly with an active Organ Grinder.
 - #127: The script can't show 5 minions or outsiders.
 - Players disconnecting from the server screws up the player count in the Grimoire.
 - Vote item is not removed from the player inventory upon voting.
