@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-script
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1785002793618
+  last_edited_time = 1788500858474
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:670d111e-03ce-455a-8ede-7f9ed912179c-1785002647695] = [groups:][instances:c483fd84-011d-4a83-9850-4604b964ae15-1784085452393;]
+  [loading_requirement_container_meta:78da4c9f-c55d-4d22-8399-aa4f7392045f-1788499863249] = [groups:][instances:c483fd84-011d-4a83-9850-4604b964ae15-1784085452393;]
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:c483fd84-011d-4a83-9850-4604b964ae15-1784085452393] = script_format:0
 }
 
@@ -71,8 +71,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 2dd54a0a-4077-4ac8-aae3-bed8650d6e2b-1781064497646
-  background_type = video_mcef
+  instance_identifier = 6616271a-68d5-44c2-bed8-ee989d42041d-1788145638326
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -138,13 +138,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = ab44a87d-999c-4fff-afb9-6fe7b867247d-1781064497646
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {
@@ -3363,7 +3356,7 @@ element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
   [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"demons"}}","json_path":"$.[0]"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.png
   underline_label_on_hover = false
   transparent_background = false

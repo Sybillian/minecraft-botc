@@ -1,9 +1,8 @@
 execute if entity @s[tag=!storyteller] run return run function ct:error/not_storyteller
 execute if score phase game_data matches 0 run return run function ct:error/game_not_active
 
-tellraw @s [{"text":"! ","color":"yellow","bold":true},{"text":"All players were teleported to their homes.","color":"gray","bold":false}]
-
-execute as @a[tag=!spectator,tag=!storyteller] unless score @s vc = @s id run tellraw @s [{"text":"! ","color":"yellow","bold":true},{"text":"A mysterious force teleported you home.","color":"gray","bold":false}]
+tellraw @s [{"translate":"clocktower.prefix.generic","color":"yellow","bold":true},{"translate":"clocktower.notice.tpallhome.storyteller","color":"gray","bold":false}]
+execute as @a[tag=!spectator,tag=!storyteller] unless score @s vc = @s id run tellraw @s [{"translate":"clocktower.prefix.generic","color":"yellow","bold":true},{"translate":"clocktower.notice.tpallhome.player","color":"gray","bold":false}]
 
 execute as @a[team=01_red] unless entity @s[scores={vc=1}] run tp @s 84.28 77.00 111.42 -4908.54 4.85
 execute as @a[team=02_orange] unless entity @s[scores={vc=2}] run tp @s 69.28 76.00 129.70 -549.19 1.70

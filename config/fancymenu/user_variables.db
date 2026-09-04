@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = p5_alive
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -50,7 +50,7 @@ variable {
 
 variable {
   name = current_day
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -74,7 +74,7 @@ variable {
 
 variable {
   name = dev
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 3
+  value = 0
   reset_on_launch = false
 }
 
@@ -194,7 +194,7 @@ variable {
 
 variable {
   name = version
-  value = 1.6.0
+  value = 1.6.1
   reset_on_launch = false
 }
 
@@ -291,12 +291,6 @@ variable {
 variable {
   name = p7_r2_icon
   value = none
-  reset_on_launch = false
-}
-
-variable {
-  name = bag_artist
-  value = 0
   reset_on_launch = false
 }
 
@@ -626,7 +620,7 @@ variable {
 
 variable {
   name = last_nom
-  value = axrelius
+  value = none
   reset_on_launch = false
 }
 
@@ -1124,7 +1118,7 @@ variable {
 
 variable {
   name = team_color
-  value = #1464e7
+  value = #1e14e7
   reset_on_launch = false
 }
 
@@ -1196,7 +1190,7 @@ variable {
 
 variable {
   name = day_start
-  value = 13:34
+  value = 15:29
   reset_on_launch = false
 }
 
@@ -1532,7 +1526,7 @@ variable {
 
 variable {
   name = beta
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -1880,7 +1874,7 @@ variable {
 
 variable {
   name = player_1
-  value = emmarkus
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1898,13 +1892,13 @@ variable {
 
 variable {
   name = player_5
-  value = Sir_Winn
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = axrelius
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1916,13 +1910,13 @@ variable {
 
 variable {
   name = player_3
-  value = Shanl0k
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Xx_HIkar1_xX
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -2041,12 +2035,6 @@ variable {
 }
 
 variable {
-  name = bag_atheist
-  value = 0
-  reset_on_launch = false
-}
-
-variable {
   name = fortuneteller
   value = 0
   reset_on_launch = false
@@ -2090,7 +2078,7 @@ variable {
 
 variable {
   name = game_active
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2300,13 +2288,13 @@ variable {
 
 variable {
   name = random_hint
-  value = 11
+  value = 1
   reset_on_launch = false
 }
 
 variable {
   name = script_json
-  value = 
+  value = [{"id":"_meta","name":"Lemmings Anonymous","bootlegger":["The Storm Catcher favors the King."]},"highpriestess","preacher","villageidiot","snakecharmer","king","fortuneteller","monk","acrobat","philosopher","fisherman","minstrel","mayor","poppygrower","saint","hatter","politician","zealot","poisoner","fearmonger","marionette","scarletwoman","boffin","nodashii","lleech","sentinel","bootlegger","stormcatcher"]
   reset_on_launch = false
 }
 
@@ -2336,7 +2324,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 13
+  value = 0
   reset_on_launch = false
 }
 
@@ -2480,7 +2468,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
@@ -2606,7 +2594,7 @@ variable {
 
 variable {
   name = phase
-  value = 3
+  value = 0
   reset_on_launch = false
 }
 
@@ -2642,7 +2630,7 @@ variable {
 
 variable {
   name = p2_alive
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -2912,7 +2900,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 1
+  value = 10
   reset_on_launch = false
 }
 
@@ -2972,7 +2960,7 @@ variable {
 
 variable {
   name = announced_player
-  value = Sir_Winn
+  value = efe
   reset_on_launch = false
 }
 

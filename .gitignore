@@ -96,3 +96,5 @@ config/lingua_bib.json
 config/gpu_booster_config.json
 /saves/world/advancements
 .vscode/
+rinku-libraries/
+config/rinku/rinku.properties

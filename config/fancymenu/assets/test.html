@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FancyMenu Integration</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pixelify+Sans">
+</head>
+
+<body>
+    <h1 style="color: aliceblue;font-family: Pixelify Sans, Helvetica, sans-serif;">Game Controls</h1>
+    <form id="scriptForm">
+        <input type="text" id="script" name="script" placeholder="hi">
+        <input type="submit" value="Import">
+    </form>
+
+
+    <b>
+        <div id="townsfolkHeader" style="margin-top:16px;font-family:Arial, Helvetica, sans-serif;color: aliceblue;">
+        </div>
+    </b>
+    <div id="townsfolk" style="margin-top:16px;font-family:Arial, Helvetica, sans-serif;color: aliceblue;"></div>
+    <b>
+        <div id="outsidersHeader" style="margin-top:16px;font-family:Arial, Helvetica, sans-serif;color: aliceblue;">
+        </div>
+    </b>
+    <div id="outsiders"
+        style="margin-top:16px;font-family:Arial, Helvetica, sans-serif;color: aliceblue;text-transform: capitalize;">
+    </div>
+    <b>
+        <div id="minionsHeader" style="margin-top:16px;font-family:Arial, Helvetica, sans-serif;color: aliceblue;">
+        </div>
+    </b>
+    <div id="minions" style="margin-top:16px;font-family:Arial, Helvetica, sans-serif;color: aliceblue;"></div>
+    <b>
+        <div id="demonsHeader" style="margin-top:16px;font-family:Arial, Helvetica, sans-serif;color: aliceblue;">
+        </div>
+    </b>
+    <div id="demons" style="margin-top:16px;font-family:Arial, Helvetica, sans-serif;color: aliceblue;"></div>
+
+    <script>
+        let townsfolk = ["steward", "knight", "chef", "noble", "investigator", "washerwoman", "clockmaker", "grandmother", "librarian", "shugenja", "pixie", "bountyhunter", "empath", "highpriestess", "sailor", "balloonist", "general", "preacher", "chambermaid", "villageidiot", "snakecharmer", "mathematician", "king", "dreamer", "fortuneteller", "cultleader", "flowergirl", "towncrier", "oracle", "undertaker", "innkeeper", "monk", "gambler", "acrobat", "exorcist", "lycanthrope", "gossip", "savant", "alsaahir", "engineer", "nightwatchman", "courtier", "seamstress", "philosopher", "huntsman", "professor", "artist", "slayer", "fisherman", "princess", "juggler", "soldier", "alchemist", "cannibal", "amnesiac", "farmer", "minstrel", "ravenkeeper", "sage", "choirboy", "banshee", "tealady", "mayor", "fool", "virgin", "magician", "poppygrower", "pacifist", "atheist"]
+        let outsiders = ["hermit", "butler", "goon", "ogre", "lunatic", "drunk", "tinker", "recluse", "golem", "sweetheart", "plaguedoctor", "klutz", "moonchild", "saint", "barber", "hatter", "mutant", "politician", "zealot", "damsel", "snitch", "heretic", "puzzlemaster"]
+        let minions = ["mezepheles", "godfather", "poisoner", "devilsadvocate", "spy", "harpy", "witch", "cerenovus", "fearmonger", "pithag", "psychopath", "assassin", "wizard", "widow", "xaan", "marionette", "wraith", "summoner", "eviltwin", "goblin", "boomdandy", "mastermind", "scarletwoman", "vizier", "organgrinder", "baron", "boffin"]
+        let demons = ["yaggababble", "pukka", "lilmonsta", "nodashii", "imp", "shabaloth", "ojo", "kazali", "po", "zombuul", "vigormortis", "vortox", "legion", "fanggu", "lordoftyphon", "lleech", "alhadikhia", "riot", "leviathan"]
+
+
+        document.getElementById('townsfolkHeader').textContent = 'Townsfolk: '
+        document.getElementById('outsidersHeader').textContent = 'Outsiders: '
+        document.getElementById('minionsHeader').textContent = 'Minions: '
+        document.getElementById('demonsHeader').textContent = 'Demons: '
+
+        function getData(form) {
+            var formData = new FormData(form);
+
+            for (var pair of formData.entries()) {
+                console.log(pair[0] + ": " + pair[1]);
+            }
+
+            cycleRole(formData.entries()[0])
+        }
+
+        document.getElementById("scriptForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            getData(e.target);
+        });
+
+
+        function cycleRole(testss) {
+            Promise.all([
+                fancymenu.placeholders.getWithVars('getvariable', 'name:testdata')
+            ]).then(([script]) => {
+                let includedTownsfolk = testss.filter(isTownsfolk)
+                let includedOutsiders = testss.filter(isOutsider)
+                let includedMinions = testss.filter(isMinion)
+                let includedDemons = testss.filter(isDemon)
+
+                document.getElementById('townsfolk').textContent =
+                    includedTownsfolk
+                document.getElementById('outsiders').textContent =
+                    includedOutsiders
+                document.getElementById('minions').textContent =
+                    includedMinions
+                document.getElementById('demons').textContent =
+                    testss;
+
+                fancymenu.actions.execute('set_variable', 'townsfolk:' + includedTownsfolk);
+                fancymenu.actions.execute('set_variable', 'outsiders:' + includedOutsiders);
+                fancymenu.actions.execute('set_variable', 'minions:' + includedMinions);
+                fancymenu.actions.execute('set_variable', 'demons:' + includedDemons);
+            }).catch(error => {
+                console.error('Placeholder request failed:', error);
+            });
+        }
+
+        function isTownsfolk(inputCharacter) {
+            if (townsfolk.includes(inputCharacter)) return true;
+            else return false;
+        }
+
+        function isOutsider(inputCharacter) {
+            if (outsiders.includes(inputCharacter)) return true;
+            else return false;
+        }
+
+        function isMinion(inputCharacter) {
+            if (minions.includes(inputCharacter)) return true;
+            else return false;
+        }
+
+        function isDemon(inputCharacter) {
+            if (demons.includes(inputCharacter)) return true;
+            else return false;
+        }
+    </script>
+</body>
+
+</html>

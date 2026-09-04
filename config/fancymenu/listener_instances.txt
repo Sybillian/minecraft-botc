@@ -61,3 +61,21 @@ listener_instance {
   [executable_block:6c0d6235-c46c-420d-932e-c3f3b8426c75-1778645593208][type:generic] = [executables:a74e467c-12cb-429b-9bdf-acd37a29d6ea-1778645597708;]
 }
 
+listener_instance {
+  listener_instance_identifier = e247bb67-cc42-4012-96c1-38a13a430e40-1788146887527
+  listener_provider_identifier = fm_variable_updated
+  listener_instance_action_script_identifier = b29bdef6-96a5-4c2f-a8c7-073112ba145a-1788146887527
+  [executable_action_instance:99458e08-0413-4eda-bfc4-cb129dbf2015-1788146912902][action_type:enable_layout] = variable_updater
+  [executable_action_instance:264bc206-0081-4bd9-a2ed-9b67075d2ad0-1788147069876][action_type:disable_layout] = variable_updater
+  [executable_block:8cd08a2e-3444-486b-93fd-32686772966c-1788147066378][type:execute-later] = [executables:264bc206-0081-4bd9-a2ed-9b67075d2ad0-1788147069876;]
+  [execute_later_executable_block_value:8cd08a2e-3444-486b-93fd-32686772966c-1788147066378] = 1000
+  [execute_later_executable_block_collapsed:8cd08a2e-3444-486b-93fd-32686772966c-1788147066378] = false
+  [executable_block:1df57087-a44f-4d44-af6c-c9cc2b141e92-1788146906713][type:if] = [executables:99458e08-0413-4eda-bfc4-cb129dbf2015-1788146912902;8cd08a2e-3444-486b-93fd-32686772966c-1788147066378;]
+  [if_executable_block_body:1df57087-a44f-4d44-af6c-c9cc2b141e92-1788146906713] = 5ab2e037-5222-4252-ada4-a70db6a82708-1788146890063
+  [loading_requirement_container_meta:5ab2e037-5222-4252-ada4-a70db6a82708-1788146890063] = [groups:][instances:d7b61f4b-a6a5-437a-aeb1-9529fab800fb-1788146891581;544d4059-82b0-48a6-af9d-44614454f80c-1788147269143;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:d7b61f4b-a6a5-437a-aeb1-9529fab800fb-1788146891581] = ["mode":"equals","text":"$$var_name","compare_with":"script_json"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:544d4059-82b0-48a6-af9d-44614454f80c-1788147269143] = ["mode":"equals","text":"$$old_value","compare_with":"$$new_value"]$
+  [if_executable_block_collapsed:1df57087-a44f-4d44-af6c-c9cc2b141e92-1788146906713] = false
+  [executable_block:b29bdef6-96a5-4c2f-a8c7-073112ba145a-1788146887527][type:generic] = [executables:1df57087-a44f-4d44-af6c-c9cc2b141e92-1788146906713;]
+}
+

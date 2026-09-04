@@ -57,8 +57,8 @@ team modify 12_lavender collisionRule never
 team modify 13_white collisionRule never
 team modify 14_gray collisionRule never
 team modify 15_black collisionRule never
-team modify 00_spectator prefix {"text":"👁 ","color":"gray"}
-team modify 99_storyteller prefix {"text":"✎ ","color":"gray"}
+team modify 00_spectator prefix {"translate":"clocktower.prefix.team.spectator","color":"gray"}
+team modify 99_storyteller prefix {"translate":"clocktower.prefix.team.storyteller","color":"gray"}
 team modify 00_spectator color gray
 team modify 99_storyteller color gray
 
