@@ -160,5 +160,5 @@ execute if score gnome role_list matches 1 run data modify storage ct:roles role
 execute if score bishop role_list matches 1 run data modify storage ct:roles roles insert 0 value {id:516,name:bishop}
 execute if score voudon role_list matches 1 run data modify storage ct:roles roles insert 0 value {id:517,name:voudon}
 
-tellraw @s [{"translate":"clocktower.prefix.generic","color":"yellow","bold":true},{"translate":"clocktower.notice.bag_created","color":"gray","bold":false}]
+tellraw @s [{"translate":"clocktower.prefix.generic","color":"yellow","bold":true},{"translate":"clocktower.notice.bag_created","color":"gray","bold":false, "with":[{"keybind":"key.chat"}]}]
 execute as @a run function ct:admin/setup/clear_variables

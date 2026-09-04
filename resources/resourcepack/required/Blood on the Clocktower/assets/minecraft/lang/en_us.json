@@ -166,8 +166,15 @@
     "clocktower.notice.tpchurch.player": "A mysterious force teleported you to the church.",
     "clocktower.notice.new_target": " has selected a new target.",
     "clocktower.notice.in_play": " is in play.",
-    "clocktower.notice.bag_created": "You've made a bag with the characters you selected. Press T and click \"Start Night 1\" in the top right to hand them out.",
+    "clocktower.notice.bag_created": "You've made a bag with the characters you selected. Press %s and click \"Start Night 1\" in the top right to hand them out.",
     "clocktower.notice.dev_mode": "Dev Mode is currently active. Make sure to run the package function and reload again before shipping.",
+    "clocktower.notice.hover_hint":"Press %s to release your mouse, then hover over your character icon in the top left to see your ability.",
+    "clocktower.notice.night_chat.storyteller.enabled": "§aEveryone§r can hear you. Press %s to toggle.",
+    "clocktower.notice.night_chat.storyteller.disabled": "§cOnly local players§r can hear you. Press %s to toggle.",
+    "clocktower.notice.night_chat.player.enabled": "§aEveryone§r can hear you. Press %s to toggle.",
+    "clocktower.notice.night_chat.player.disabled": "§cOnly the Storyteller§r can hear you. Press %s to toggle.",
+    "clocktower.notice.night_chat.spectator.enabled": "Listening to §anight chat§r. Press %s to toggle.",
+    "clocktower.notice.night_chat.spectator.disabled": "Listening to §alocal players§r. Press %s to toggle.",
     //
     // RANDOM STRINGS
     //
