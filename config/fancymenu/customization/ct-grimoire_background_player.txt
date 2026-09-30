@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-player_grim
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1789371509236
+  last_edited_time = 1790756630667
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:b6a1e3d9-5915-4420-8d18-37786d5634ab-1789367234790] = [groups:][instances:]
+  [loading_requirement_container_meta:aafb002a-a2a7-4e0a-aa82-0c04b0b75c76-1790756545726] = [groups:][instances:]
 }
 
 customization {
@@ -487,7 +487,7 @@ element {
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1970
+  auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
   auto_sizing_base_gui_scale = 2
   sticky_anchor = false
@@ -533,8 +533,8 @@ element {
   source = [source:location]ct:textures/gui/frame/{"placeholder":"getvariable","values":{"name":"p1_alignment"}}.png
   repeat_texture = false
   nine_slice_texture = true
-  nine_slice_texture_border_x = 5
-  nine_slice_texture_border_y = 5
+  nine_slice_texture_border_x = 9
+  nine_slice_texture_border_y = 9
   restart_animated_on_menu_load = false
   image_tint = #FFFFFF
   rounding_radius_top_left = 0.0
@@ -914,15 +914,15 @@ element {
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1922
+  auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
   auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -14
-  y = -215
-  width = 50
-  height = 50
+  x = -13
+  y = -214
+  width = 48
+  height = 48
   stay_on_screen = true
   element_loading_requirement_container_identifier = 86b05465-29e1-4b89-b43a-7c1ea4e24a1e-1765776032662
   [loading_requirement_container_meta:86b05465-29e1-4b89-b43a-7c1ea4e24a1e-1765776032662] = [groups:][instances:b6b37889-91b4-44be-8cff-5535badba9c0-1765776032662;]
@@ -1907,14 +1907,14 @@ element {
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1922
+  auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
   auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = mid-centered
   x = -36
   y = -162
-  width = 120
+  width = 100
   height = 23
   stay_on_screen = true
   element_loading_requirement_container_identifier = 8eff7cc1-2b59-4026-bf3d-91b6a6003fab-1789352693487
@@ -1949,7 +1949,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:location]ct:textures/gui/frame/red.png
+  source = [source:location]ct:textures/gui/frame/none.png
   repeat_texture = false
   nine_slice_texture = true
   nine_slice_texture_border_x = 61
@@ -1994,14 +1994,14 @@ element {
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1922
+  auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
   auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 8bf3e8dd-d3f8-4827-8471-c4fa56b7cb2a-1789363175787
   x = 18
-  y = 0
+  y = 1
   width = 102
   height = 14
   stay_on_screen = true
@@ -2082,14 +2082,14 @@ element {
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1922
+  auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
   auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 8bf3e8dd-d3f8-4827-8471-c4fa56b7cb2a-1789363175787
   x = 30
-  y = 11
+  y = 10
   width = 79
   height = 14
   stay_on_screen = true

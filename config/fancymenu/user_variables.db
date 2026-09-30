@@ -956,7 +956,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1592,7 +1592,7 @@ variable {
 
 variable {
   name = p1_role
-  value = politician
+  value = butler
   reset_on_launch = false
 }
 
