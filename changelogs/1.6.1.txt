@@ -13,3 +13,4 @@ Fixed bugs:
 - #179: Using the /script command doesnt open the correct script layout
 - #181: Spectators can /whisper only the player in the 1st slot
 - #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
+- #193: Cannot make a spectator without them being a storyteller first
