@@ -1,0 +1,16 @@
+// Format for player data. This is stored exclusively on the player.
+{
+    "botc:player": {
+        "pronouns": "",
+        "type": "spectator",
+        "grimoire": {
+            "seats": {
+                "0": {
+                    "role": "",
+                    "alignment": "good",
+                    "reminders": []
+                }
+            }
+        }
+    }
+}

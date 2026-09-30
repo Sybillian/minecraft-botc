@@ -4,10 +4,6 @@ schedule clear ct:loop/vote/cycle
 
 effect clear @a minecraft:blindness
 
-execute as @a[tag=voting_yes] run scoreboard players operation total vote += @s vote_value
-execute as @a[tag=voting_ghost] run scoreboard players operation total vote += @s vote_value
-execute as @a[tag=voting_banshee] run scoreboard players operation total vote += @s vote_value
-execute as @a[tag=voting_banshee] run scoreboard players operation total vote += @s vote_value
 execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
 

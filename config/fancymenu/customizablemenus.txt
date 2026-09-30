@@ -12,19 +12,7 @@ net.minecraft.class_442 {
 net.minecraft.class_442 {
 }
 
-net.minecraft.class_490 {
-}
-
-net.minecraft.class_429 {
-}
-
-net.minecraft.class_408 {
-}
-
-net.minecraft.class_412 {
-}
-
-net.minecraft.class_419 {
+net.minecraft.class_481 {
 }
 
 net.minecraft.class_500 {
@@ -36,24 +24,15 @@ net.minecraft.class_3928 {
 net.minecraft.class_526 {
 }
 
-net.minecraft.class_424 {
-}
-
-net.minecraft.class_435 {
-}
-
-net.minecraft.class_524 {
-}
-
-net.minecraft.class_422 {
-}
-
 net.minecraft.class_433 {
 }
 
-net.minecraft.class_8219 {
+de.maxhenkel.voicechat.gui.group.GroupScreen {
 }
 
-de.maxhenkel.voicechat.gui.group.GroupScreen {
+net.minecraft.class_408 {
+}
+
+net.minecraft.class_429 {
 }
 

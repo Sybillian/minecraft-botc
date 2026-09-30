@@ -1,0 +1,17 @@
+// Format for seat storage. This is stored on the server for mechanical reasons
+// and on the player for updating their grims.
+{
+    "botc:seats": {
+        "0": {
+            "username": "",
+            "pronouns": "",
+            "alive": true,
+            "role": {
+                "name": "none",
+                "team": "good",
+                "type": "townsfolk"
+            },
+            "reminders": []
+        }
+    }
+}

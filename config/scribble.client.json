@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "pages_to_show": 1,
+  "center_book_gui": true,
+  "show_formatting_buttons": true,
+  "show_action_buttons": "WHEN_EDITING",
+  "copy_formatting_codes": true,
+  "edit_history_size": 32,
+  "open_vanilla_book_screen_on_shift": false
+}

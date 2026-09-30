@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:carrot_on_a_stick": 1
+    },
+    "minecraft:used": {
+      "minecraft:carrot_on_a_stick": 28
+    },
+    "minecraft:dropped": {
+      "minecraft:carrot_on_a_stick": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 347,
+      "minecraft:time_since_rest": 2544,
+      "minecraft:fall_one_cm": 13200,
+      "minecraft:walk_one_cm": 1626,
+      "minecraft:total_world_time": 54691,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 2544,
+      "minecraft:jump": 6,
+      "minecraft:time_since_death": 2544,
+      "minecraft:drop": 1
+    }
+  },
+  "DataVersion": 4671
+}

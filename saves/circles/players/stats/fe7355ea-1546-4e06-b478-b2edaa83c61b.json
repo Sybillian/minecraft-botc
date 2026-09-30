@@ -1,0 +1,30 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:spruce_sign": 1,
+      "minecraft:armor_stand": 10,
+      "minecraft:white_banner": 1,
+      "minecraft:cyan_carpet": 1
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 6,
+      "minecraft:carrot_on_a_stick": 16,
+      "minecraft:armor_stand": 17
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 6501,
+      "minecraft:time_since_rest": 18926,
+      "minecraft:fall_one_cm": 13854,
+      "minecraft:walk_one_cm": 17930,
+      "minecraft:total_world_time": 25373,
+      "minecraft:leave_game": 6,
+      "minecraft:fly_one_cm": 26345,
+      "minecraft:crouch_one_cm": 1164,
+      "minecraft:sneak_time": 444,
+      "minecraft:play_time": 18926,
+      "minecraft:jump": 44,
+      "minecraft:time_since_death": 18926
+    }
+  },
+  "DataVersion": 4903
+}
