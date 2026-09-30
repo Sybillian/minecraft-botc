@@ -301,7 +301,7 @@ execute if data storage ct:script script_imported{script:[preacher]} run functio
 execute if data storage ct:script script_imported{script:[xaan]} run function ct:script/set_other_nights_order {char:xaan}
 execute if data storage ct:script script_imported{script:[poisoner]} run function ct:script/set_other_nights_order {char:poisoner}
 execute if data storage ct:script script_imported{script:[courtier]} run function ct:script/set_other_nights_order {char:courtier}
-execute if data storage ct:script script_imported{script:[inkeeper]} run function ct:script/set_other_nights_order {char:inkeeper}
+execute if data storage ct:script script_imported{script:[innkeeper]} run function ct:script/set_other_nights_order {char:innkeeper}
 execute if data storage ct:script script_imported{script:[wizard]} run function ct:script/set_other_nights_order {char:wizard}
 execute if data storage ct:script script_imported{script:[gambler]} run function ct:script/set_other_nights_order {char:gambler}
 execute if data storage ct:script script_imported{script:[acrobat]} run function ct:script/set_other_nights_order {char:acrobat}
