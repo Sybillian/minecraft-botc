@@ -1,0 +1,32 @@
+{
+	"id": "seat",
+	"arguments": [
+		{
+			"id": "seat",
+			"type": "brigadier:float 0 20",
+			"literals": [
+				{
+					"id": "sit",
+					"executes": [
+						"function ct:util/seat/sit {seat:${seat},player:${player:name}}"
+					],
+					"arguments": [
+						{
+							"id": "target",
+							"type": "minecraft:entity players",
+							"executes": [
+								"function ct:util/seat/sit {seat:${seat},player:${target}}"
+							]
+						}
+					]
+				},
+				{
+					"id": "empty",
+					"executes": [
+						"function ct:util/seat/empty {seat:${seat}}"
+					]
+				}
+			]
+		}
+	]
+}

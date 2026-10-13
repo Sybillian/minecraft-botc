@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-travellers
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1781190174781
+  last_edited_time = 1791875165872
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:d872e6f5-9e3b-42a3-922e-92e431928b6d-1781190114732] = [groups:][instances:]
+  [loading_requirement_container_meta:478f8d4d-f508-4858-8d3d-6a0ac1c6917b-1791872326124] = [groups:][instances:]
 }
 
 customization {
@@ -70,8 +70,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 46c17481-8af7-419a-a7f2-56ca8fe0d6a3-1781189846035
-  background_type = video_mcef
+  instance_identifier = 6a6e0d11-4b21-472b-bc84-ca50ed121be4-1791872326126
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -137,13 +137,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 0072cdd5-a8d4-4e62-a267-ffe664013a60-1781189846035
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {

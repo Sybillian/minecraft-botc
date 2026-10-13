@@ -152,6 +152,7 @@
     "clocktower.error.not_storyteller": "You must be a Storyteller to do this.",
     "clocktower.error.game_not_active": "This command can only be run during a game.",
     "clocktower.error.game_active": "This command cannot be run during a game.",
+    "clocktower.error.too_many_seats": "There cannot be more than 20 seats in a game.",
     "clocktower.error.whisper_not_neighbor": "During a game, you can only whisper to your neighbors or the Storyteller.",
     "clocktower.error.whisper_self": "You can't whisper to yourself!",
     "clocktower.error.whisper_spectator": "Spectators can't whisper to players in the game.",

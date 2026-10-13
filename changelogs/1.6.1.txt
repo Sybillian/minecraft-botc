@@ -3,6 +3,8 @@ BotC v1.6.1 - XX XX, 2026
 Changes and features:
 - Added Rinku mod to enable FM's browser feature.
 - Added Default Options mod to handle keybinds better.
+- Added a HUD element to display the current number of votes as well as the required majority.
+- Redid the Storyteller HUD element for managing an active nomination.
 - Character tokens in the bag menu now get slightly larger when they are selected.
 
 Technical changes:

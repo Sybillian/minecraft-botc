@@ -116,7 +116,7 @@ S:ui_theme = 'dark';
 B:pip_window_docking = 'true';
 B:enable_ui_blur = 'false';
 F:ui_blur_intensity = '3.0';
-B:use_minecraft_font = 'false';
+B:use_minecraft_font = 'true';
 B:play_ui_click_sounds = 'true';
 B:smooth_font_multiline_rendering = 'false';
 

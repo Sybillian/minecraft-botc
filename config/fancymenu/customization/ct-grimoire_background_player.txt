@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-player_grim
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1790756705441
+  last_edited_time = 1791889686114
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:eb371703-f354-4d57-ae10-37413eb7dd4b-1790756631693] = [groups:][instances:]
+  [loading_requirement_container_meta:da912a01-1ef7-4143-96df-8305b930a828-1791889666958] = [groups:][instances:]
 }
 
 customization {
@@ -878,15 +878,8 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:6ab922da-a013-4b50-aea5-f9b25d8eb8f6-1753142609568][action_type:set_variable] = editing_player:1
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler_player
-  [executable_block:25844b61-bf96-42b5-a7ba-2c0ff1d731e8-1753142600137][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:3e7fad33-894e-4b5a-bf94-ade3dd175c6d-1753142643654]
-  [executable_action_instance:7b898ae4-1888-4c21-83a0-05cfdc136810-1753142647452][action_type:toggle_layout] = ct-role_toggler_player
-  [executable_block:3e7fad33-894e-4b5a-bf94-ade3dd175c6d-1753142643654][type:else] = [executables:7b898ae4-1888-4c21-83a0-05cfdc136810-1753142647452;]
-  [if_executable_block_body:25844b61-bf96-42b5-a7ba-2c0ff1d731e8-1753142600137] = 6c87b733-fa41-4392-bcf7-71ebd62dc388-1753142590400
-  [loading_requirement_container_meta:6c87b733-fa41-4392-bcf7-71ebd62dc388-1753142590400] = [groups:][instances:fc0dd44d-52c5-4938-b472-fcd276101160-1753142591360;]
-  [loading_requirement:mouse_click][requirement_mode:if][req_id:fc0dd44d-52c5-4938-b472-fcd276101160-1753142591360] = right
-  [if_executable_block_collapsed:25844b61-bf96-42b5-a7ba-2c0ff1d731e8-1753142600137] = false
-  [executable_block:89241254-8940-409f-b47b-b2b0b6069604-1752204930249][type:generic] = [executables:6ab922da-a013-4b50-aea5-f9b25d8eb8f6-1753142609568;25844b61-bf96-42b5-a7ba-2c0ff1d731e8-1753142600137;]
+  [executable_action_instance:7fad5fe0-9bba-4ecd-a712-8f5a5c070b8f-1790760735573][action_type:opengui] = ct-character_selector
+  [executable_block:89241254-8940-409f-b47b-b2b0b6069604-1752204930249][type:generic] = [executables:6ab922da-a013-4b50-aea5-f9b25d8eb8f6-1753142609568;7fad5fe0-9bba-4ecd-a712-8f5a5c070b8f-1790760735573;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"getvariable","values":{"name":"p1_role"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"getvariable","values":{"name":"p1_role"}}.png
   underline_label_on_hover = false
@@ -1214,7 +1207,7 @@ element {
 element {
   button_element_executable_block_identifier = df458532-5956-4bef-ad26-090f4bee5d88-1753239149102
   [executable_action_instance:07d724ba-fd6b-4c23-a422-57b4adf02f4f-1753239321357][action_type:set_variable] = editing_player:1
-  [executable_action_instance:4f335f01-f0a7-4552-9918-33ad053d920a-1753239345438][action_type:toggle_layout] = ct-grimoire_reminders_player
+  [executable_action_instance:78ca9241-f80a-4e36-b382-33b99a84879b-1790760518311][action_type:opengui] = ct-reminder_tokens
   [executable_action_instance:20dda25e-454c-404d-b353-d7091890678f-1753239529975][action_type:set_variable] = editing_reminder:1
   [executable_action_instance:325b74dc-41b8-487f-a06e-0ab5e1167097-1753239499214][action_type:set_variable] = editing_reminder:2
   [executable_action_instance:a0404c4a-616c-425e-afba-0aaa1fefd47f-1753239604493][action_type:set_variable] = editing_reminder:3
@@ -1246,7 +1239,7 @@ element {
   [loading_requirement_container_meta:bb374962-4019-4a1a-8f35-afbe9de87f73-1753239471772] = [groups:][instances:9cf5957e-c9b2-4904-b017-361b7bc49f55-1753239475113;]
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:9cf5957e-c9b2-4904-b017-361b7bc49f55-1753239475113] = p1_r1_text:none
   [if_executable_block_collapsed:23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713] = false
-  [executable_block:df458532-5956-4bef-ad26-090f4bee5d88-1753239149102][type:generic] = [executables:07d724ba-fd6b-4c23-a422-57b4adf02f4f-1753239321357;4f335f01-f0a7-4552-9918-33ad053d920a-1753239345438;20dda25e-454c-404d-b353-d7091890678f-1753239529975;23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713;]
+  [executable_block:df458532-5956-4bef-ad26-090f4bee5d88-1753239149102][type:generic] = [executables:07d724ba-fd6b-4c23-a422-57b4adf02f4f-1753239321357;78ca9241-f80a-4e36-b382-33b99a84879b-1790760518311;20dda25e-454c-404d-b353-d7091890678f-1753239529975;23aaffbc-8e75-4951-8556-2fd6038c1733-1753239494713;]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1964,7 +1957,7 @@ element {
 
 element {
   interactable = false
-  source = ^^^%n%;;{"placeholder":"getvariable","values":{"name":"player_1"}};;%n%they/them%n%^^^
+  source = ^^^%n%;;{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"seat_data"}}","json_path":"$.[0].username"}};;%n%they/them%n%^^^
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -2149,7 +2142,7 @@ element {
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:b8788953-9b38-4765-9016-e8ed60491732-1789366123784] = p1_alignment:evil
   [if_executable_block_collapsed:68ed5677-1b7d-48c1-9a5d-f3b1946f7c9c-1789366132920] = false
   [executable_block:f08585af-fc8a-460c-a8bf-5f322b6e90cd-1751836324804][type:generic] = [executables:68ed5677-1b7d-48c1-9a5d-f3b1946f7c9c-1789366132920;]
-  backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_1"}}/100.png
+  backgroundnormal = [source:web]https://minotar.net/helm/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"seat_data"}}","json_path":"$.[0].username"}}/100.png
   backgroundhovered = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_1"}}/100.png
   background_texture_inactive = [source:web]https://minotar.net/helm/{"placeholder":"getvariable","values":{"name":"player_1"}}/100.png
   underline_label_on_hover = false
@@ -2188,7 +2181,8 @@ element {
   height = 14
   stay_on_screen = true
   element_loading_requirement_container_identifier = 95bb3534-b6db-4edb-90ab-de3dc5a03b1c-1751836324804
-  [loading_requirement_container_meta:95bb3534-b6db-4edb-90ab-de3dc5a03b1c-1751836324804] = [groups:][instances:]
+  [loading_requirement_container_meta:95bb3534-b6db-4edb-90ab-de3dc5a03b1c-1751836324804] = [groups:][instances:4334aab2-e190-42f7-ba5a-59a2ee403868-1791889566585;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:4334aab2-e190-42f7-ba5a-59a2ee403868-1791889566585] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"seat_data"}}","json_path":"$.[0].username"}}","compare_with":""]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0

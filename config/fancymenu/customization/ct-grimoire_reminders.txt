@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1784132888930
+  last_edited_time = 1790760039132
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 100
-  [loading_requirement_container_meta:6f1b2ef5-d6e3-4c92-bbaa-225f7f76cd40-1784998448528] = [groups:][instances:]
+  [loading_requirement_container_meta:a4b52fcb-1553-45fa-8caa-f467de5e0ad5-1790756631871] = [groups:][instances:]
 }
 
 customization {
@@ -70,8 +70,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 005c6fa1-ada4-4155-9698-4fa3c8cfaa34-1783357579198
-  background_type = video_mcef
+  instance_identifier = 53ffb35d-73fc-406a-9b2b-89a5a1f29c85-1790756631872
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -137,13 +137,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 934bf60e-4d23-40e4-b2fa-b51052c0f18a-1783357579201
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {

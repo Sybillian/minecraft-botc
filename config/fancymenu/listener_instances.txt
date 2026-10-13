@@ -50,7 +50,17 @@ listener_instance {
   [loading_requirement_container_meta:5c778d6b-b455-4e14-8205-8768242292d4-1786581485705] = [groups:][instances:271c2d5b-2e09-4f61-9062-3b7948b6fb5f-1786581487856;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:271c2d5b-2e09-4f61-9062-3b7948b6fb5f-1786581487856] = ["mode":"equals","text":"$$data","compare_with":"update_time"]$
   [if_executable_block_collapsed:7196de19-aac3-417f-b811-927406b9327b-1786581499698] = false
-  [executable_block:b92f5369-4430-4aac-8df9-f67a85f88a7d-1781066506691][type:generic] = [executables:efa0bcc3-fbc4-4924-963a-98b162344ed0-1781066525005;7196de19-aac3-417f-b811-927406b9327b-1786581499698;]
+  [executable_action_instance:386ba31e-b611-4180-b0fc-935c56521ba3-1791875473445][action_type:set_variable] = seat_data:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:seats","nbt_path":"seats","return_type":"json"}}
+  [executable_action_instance:431b007b-a37b-4663-b939-8f01f0f1c0e3-1791882392189][action_type:set_variable] = seat_data:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:seats","nbt_path":"seats","return_type":"json"}}
+  [executable_block:2f94074d-3e9a-4e33-8c60-af7fd8771011-1791882347908][type:execute-later] = [executables:431b007b-a37b-4663-b939-8f01f0f1c0e3-1791882392189;]
+  [execute_later_executable_block_value:2f94074d-3e9a-4e33-8c60-af7fd8771011-1791882347908] = 1000
+  [execute_later_executable_block_collapsed:2f94074d-3e9a-4e33-8c60-af7fd8771011-1791882347908] = false
+  [executable_block:04163e65-158b-42c5-9572-080ad344a092-1791875469270][type:if] = [executables:386ba31e-b611-4180-b0fc-935c56521ba3-1791875473445;2f94074d-3e9a-4e33-8c60-af7fd8771011-1791882347908;]
+  [if_executable_block_body:04163e65-158b-42c5-9572-080ad344a092-1791875469270] = 17cbe2ea-bc52-49b6-bb52-00e2dcfbd137-1791875453189
+  [loading_requirement_container_meta:17cbe2ea-bc52-49b6-bb52-00e2dcfbd137-1791875453189] = [groups:][instances:52885575-b44a-4467-b06d-a0287d7537cc-1791875454486;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:52885575-b44a-4467-b06d-a0287d7537cc-1791875454486] = ["mode":"equals","text":"$$data","compare_with":"update_seats"]$
+  [if_executable_block_collapsed:04163e65-158b-42c5-9572-080ad344a092-1791875469270] = false
+  [executable_block:b92f5369-4430-4aac-8df9-f67a85f88a7d-1781066506691][type:generic] = [executables:efa0bcc3-fbc4-4924-963a-98b162344ed0-1781066525005;7196de19-aac3-417f-b811-927406b9327b-1786581499698;04163e65-158b-42c5-9572-080ad344a092-1791875469270;]
 }
 
 listener_instance {

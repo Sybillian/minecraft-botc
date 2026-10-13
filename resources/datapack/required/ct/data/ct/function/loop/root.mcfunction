@@ -15,3 +15,5 @@ execute as @a[tag=requesting_chat] run title @s actionbar [{"text":"! ","color":
 scoreboard players set player_count game_data 0
 execute as @a[tag=!storyteller,tag=!spectator] run scoreboard players add player_count game_data 1
 execute unless score player_count game_data = stored_player_count game_data run function ct:util/update_game_data
+
+execute as @e[tag=interaction,nbt={interaction:{}}] at @s run function ct:loop/seat/interaction
