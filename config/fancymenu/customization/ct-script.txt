@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-script
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1791875378857
+  last_edited_time = 1791971131384
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:17c2764a-37dc-4b51-ab87-a03ee24e9142-1791872325921] = [groups:][instances:c483fd84-011d-4a83-9850-4604b964ae15-1784085452393;]
+  [loading_requirement_container_meta:28781dc3-054f-4ab8-a30b-512b34dc8654-1791971119042] = [groups:][instances:c483fd84-011d-4a83-9850-4604b964ae15-1784085452393;]
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:c483fd84-011d-4a83-9850-4604b964ae15-1784085452393] = script_format:0
 }
 
@@ -403,7 +403,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:location]ct:textures/script/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"meta.icon"}}.png
+  source = [source:location]ct:textures/script/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.icon"}}.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -504,7 +504,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[0].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[0].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -546,7 +546,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026
   [loading_requirement_container_meta:10fa10aa-6b5a-4d5f-8203-b36cde3572de-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -591,7 +591,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[1].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[1].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -633,7 +633,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = da152c04-af96-4ca4-8416-0df3738e6498-1758852133026
   [loading_requirement_container_meta:da152c04-af96-4ca4-8416-0df3738e6498-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -678,7 +678,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[2].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[2].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -720,7 +720,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = f0f38a92-1e60-476c-b7f3-5daad67ffaeb-1758852133026
   [loading_requirement_container_meta:f0f38a92-1e60-476c-b7f3-5daad67ffaeb-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -765,7 +765,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[4].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[4].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -807,7 +807,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 622e22b0-1ce6-483d-88ef-fd3073adadc4-1758852133026
   [loading_requirement_container_meta:622e22b0-1ce6-483d-88ef-fd3073adadc4-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[4].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -852,7 +852,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[3].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[3].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -894,7 +894,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 9e9b11b1-6e99-4568-9bbb-1fc93a69f1e0-1758852133026
   [loading_requirement_container_meta:9e9b11b1-6e99-4568-9bbb-1fc93a69f1e0-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -939,7 +939,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[7].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[7].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -981,7 +981,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 08f4cf3d-aa70-436a-890b-ac08cfc86b11-1758852133026
   [loading_requirement_container_meta:08f4cf3d-aa70-436a-890b-ac08cfc86b11-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[7].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1026,7 +1026,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[5].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[5].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1068,7 +1068,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 28faa771-4884-43ea-82f8-70078f9c4661-1758852133026
   [loading_requirement_container_meta:28faa771-4884-43ea-82f8-70078f9c4661-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[5].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1113,7 +1113,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[9].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[9].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1155,7 +1155,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 2893a5e2-a572-400c-995f-0c5843e64965-1758852133026
   [loading_requirement_container_meta:2893a5e2-a572-400c-995f-0c5843e64965-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[9].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1200,7 +1200,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[10].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[10].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1242,7 +1242,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = a74b6ead-9bab-4aa5-9931-30f9eef024fa-1758852133026
   [loading_requirement_container_meta:a74b6ead-9bab-4aa5-9931-30f9eef024fa-1758852133026] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[10].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1287,7 +1287,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[6].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[6].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1329,7 +1329,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 849cded4-a50b-4a17-aba9-a990976fc70f-1758852133027
   [loading_requirement_container_meta:849cded4-a50b-4a17-aba9-a990976fc70f-1758852133027] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[6].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1374,7 +1374,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[8].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[8].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1416,7 +1416,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 86eb021c-e06e-4a88-b24a-d3cebf2bb4df-1758852133027
   [loading_requirement_container_meta:86eb021c-e06e-4a88-b24a-d3cebf2bb4df-1758852133027] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[8].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1461,7 +1461,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[11].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[11].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1503,7 +1503,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 492cec4e-8c02-4c79-a0e1-a5952e00cdf4-1758852133027
   [loading_requirement_container_meta:492cec4e-8c02-4c79-a0e1-a5952e00cdf4-1758852133027] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[11].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1720,7 +1720,7 @@ element {
 
 element {
   interactable = false
-  source = %#1e14e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.desc"}}
+  source = %#1e14e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[0].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[0].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1762,7 +1762,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e03cf89e-682e-4245-a28d-eb089f21ec06-1758852133027
   [loading_requirement_container_meta:e03cf89e-682e-4245-a28d-eb089f21ec06-1758852133027] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1807,7 +1807,7 @@ element {
 
 element {
   interactable = false
-  source = %#1e14e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.desc"}}
+  source = %#1e14e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[1].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[1].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1849,7 +1849,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 0a48d18f-df20-44b7-bb5c-2af46497de2c-1758852133027
   [loading_requirement_container_meta:0a48d18f-df20-44b7-bb5c-2af46497de2c-1758852133027] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -1894,7 +1894,7 @@ element {
 
 element {
   interactable = false
-  source = %#1e14e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.desc"}}
+  source = %#1e14e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[2].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[2].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -1936,7 +1936,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 266d7132-d1e2-47d7-b25c-d205ed97e05f-1758852133027
   [loading_requirement_container_meta:266d7132-d1e2-47d7-b25c-d205ed97e05f-1758852133027] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2067,7 +2067,7 @@ element {
 
 element {
   interactable = false
-  source = %#ff4949%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[0].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[0].id"}}.desc"}}
+  source = %#ff4949%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[0].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[0].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -2109,7 +2109,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 10437b1b-d3a1-4e47-9e97-0313a188889e-1758852133029
   [loading_requirement_container_meta:10437b1b-d3a1-4e47-9e97-0313a188889e-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2154,7 +2154,7 @@ element {
 
 element {
   interactable = false
-  source = %#ff4949%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[1].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[1].id"}}.desc"}}
+  source = %#ff4949%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[1].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[1].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -2196,7 +2196,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = d36048c6-312f-45e0-a99f-ea5125f4737d-1758852133029
   [loading_requirement_container_meta:d36048c6-312f-45e0-a99f-ea5125f4737d-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2241,7 +2241,7 @@ element {
 
 element {
   interactable = false
-  source = %#ff4949%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[2].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[2].id"}}.desc"}}
+  source = %#ff4949%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[2].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[2].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -2283,7 +2283,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 9f651d2b-ffc2-42f8-8ee8-ccd627b161ac-1758852133029
   [loading_requirement_container_meta:9f651d2b-ffc2-42f8-8ee8-ccd627b161ac-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2414,7 +2414,7 @@ element {
 
 element {
   interactable = false
-  source = %#cf0606%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[0].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[0].id"}}.desc"}}
+  source = %#cf0606%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[0].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[0].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -2456,7 +2456,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = ef2b5e71-fd41-419d-b942-0729e4839410-1758852133029
   [loading_requirement_container_meta:ef2b5e71-fd41-419d-b942-0729e4839410-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2501,7 +2501,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"meta.name"}}"%n%Script created by: {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"meta.author"}}%n%^^^
+  source = ^^^%n%"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.name"}}"%n%Script created by: {"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.author"}}%n%^^^
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -2832,7 +2832,7 @@ element {
 
 element {
   interactable = false
-  source = %#1e14e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.desc"}}
+  source = %#1e14e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[3].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[3].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -2874,7 +2874,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = f60fc073-3ccf-4084-ad88-8ca8ca64b1de-1758852133029
   [loading_requirement_container_meta:f60fc073-3ccf-4084-ad88-8ca8ca64b1de-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -2919,7 +2919,7 @@ element {
 
 element {
   interactable = false
-  source = %#ff4949%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[3].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[3].id"}}.desc"}}
+  source = %#ff4949%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[3].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[3].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -2961,7 +2961,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 4897fbb5-6546-456c-9007-51ceaf45666a-1758852133029
   [loading_requirement_container_meta:4897fbb5-6546-456c-9007-51ceaf45666a-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3006,7 +3006,7 @@ element {
 
 element {
   interactable = false
-  source = %#cf0606%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[1].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[1].id"}}.desc"}}
+  source = %#cf0606%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[1].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[1].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -3048,7 +3048,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 6fb23349-ff81-49b4-8674-93907060dd9f-1758852133029
   [loading_requirement_container_meta:6fb23349-ff81-49b4-8674-93907060dd9f-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3093,7 +3093,7 @@ element {
 
 element {
   interactable = false
-  source = %#cf0606%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[2].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[2].id"}}.desc"}}
+  source = %#cf0606%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[2].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[2].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -3135,7 +3135,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = fd795b21-9ba7-4d08-a055-7c0fed00a23b-1758852133029
   [loading_requirement_container_meta:fd795b21-9ba7-4d08-a055-7c0fed00a23b-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3180,7 +3180,7 @@ element {
 
 element {
   interactable = false
-  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.desc"}}
+  source = %#1464e7%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[12].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[12].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -3222,7 +3222,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = eaac1c96-e1b8-44b4-8c85-502dfbec9621-1758852133029
   [loading_requirement_container_meta:eaac1c96-e1b8-44b4-8c85-502dfbec9621-1758852133029] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[12].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3267,7 +3267,7 @@ element {
 
 element {
   interactable = true
-  source = %#cf0606%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[3].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[3].id"}}.desc"}}
+  source = %#cf0606%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[3].id"}}.name"}}%#%%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[3].id"}}.desc"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -3309,7 +3309,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 052189f7-a818-4d46-b88e-692867a002b0-1749866657080
   [loading_requirement_container_meta:052189f7-a818-4d46-b88e-692867a002b0-1749866657080] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3354,10 +3354,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[0].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"demons"}}","json_path":"$.[0]"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[0].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[0].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -3385,7 +3385,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
-  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = mid-centered
   x = -475
@@ -3395,7 +3395,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030
   [loading_requirement_container_meta:3583d03d-9918-4b2a-98c2-83d613aec52a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3436,10 +3436,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[1].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[1].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[1].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -3477,7 +3477,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e3e40541-d2ee-4a0a-b8d2-aae770177f84-1758852133030
   [loading_requirement_container_meta:e3e40541-d2ee-4a0a-b8d2-aae770177f84-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3518,10 +3518,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[2].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[2].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[2].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -3559,7 +3559,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 898674af-aa0f-4b7c-a458-1a0765c4011a-1758852133030
   [loading_requirement_container_meta:898674af-aa0f-4b7c-a458-1a0765c4011a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3600,10 +3600,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[3].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[3].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[3].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -3641,7 +3641,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 7b39e243-d760-457c-9620-3570cfe48d2c-1758852133030
   [loading_requirement_container_meta:7b39e243-d760-457c-9620-3570cfe48d2c-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3682,10 +3682,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[5].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[5].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[5].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -3723,7 +3723,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 20312cea-31cd-4cdb-b114-60f28130fbc2-1758852133030
   [loading_requirement_container_meta:20312cea-31cd-4cdb-b114-60f28130fbc2-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[5].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[5].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3764,10 +3764,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[6].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[6].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[6].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -3805,7 +3805,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = cff82ecf-0af5-4657-9f2a-aeb7d4f4e446-1758852133030
   [loading_requirement_container_meta:cff82ecf-0af5-4657-9f2a-aeb7d4f4e446-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[6].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[6].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3846,10 +3846,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[7].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[7].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[7].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -3887,7 +3887,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 162356eb-38e2-47d0-9c9f-4ff7a63eb3a4-1758852133030
   [loading_requirement_container_meta:162356eb-38e2-47d0-9c9f-4ff7a63eb3a4-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[7].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[7].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -3928,10 +3928,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[8].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[8].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[8].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -3969,7 +3969,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 368d73a7-1675-4eff-b19d-7b157547d2ca-1758852133030
   [loading_requirement_container_meta:368d73a7-1675-4eff-b19d-7b157547d2ca-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[8].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[8].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4010,10 +4010,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[9].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[9].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[9].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4051,7 +4051,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e6c31648-be09-4766-9bfe-091b5179cda9-1758852133030
   [loading_requirement_container_meta:e6c31648-be09-4766-9bfe-091b5179cda9-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[9].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[9].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4092,10 +4092,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[10].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[10].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[10].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4133,7 +4133,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3005cb30-0d22-41fd-be3e-3f4cb47dc779-1758852133030
   [loading_requirement_container_meta:3005cb30-0d22-41fd-be3e-3f4cb47dc779-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[10].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[10].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4174,10 +4174,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[11].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[11].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[11].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4215,7 +4215,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 45266b09-8526-422a-8f2e-8ab16fb801e8-1758852133030
   [loading_requirement_container_meta:45266b09-8526-422a-8f2e-8ab16fb801e8-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[11].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[11].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4256,10 +4256,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[4].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[4].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[4].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4297,7 +4297,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = b2f9eb84-b246-470b-9dd7-7bd4a7f4982c-1758852133030
   [loading_requirement_container_meta:b2f9eb84-b246-470b-9dd7-7bd4a7f4982c-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[4].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[4].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4338,10 +4338,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[12].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[12].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[12].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4379,7 +4379,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = ab8dc1ca-7c4e-446f-bbf7-c792c199c86b-1758852133030
   [loading_requirement_container_meta:ab8dc1ca-7c4e-446f-bbf7-c792c199c86b-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.townsfolk[12].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.townsfolk[12].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4420,10 +4420,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[0].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[0].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[0].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4461,7 +4461,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4502,10 +4502,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[1].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[1].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[1].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4543,7 +4543,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 966a1a4b-30b5-4b13-99a7-da8000cae11f-1758852133030
   [loading_requirement_container_meta:966a1a4b-30b5-4b13-99a7-da8000cae11f-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4584,10 +4584,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[2].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[2].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[2].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4625,7 +4625,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 64b6608b-c32b-4bbb-9583-1fb29a05823a-1758852133030
   [loading_requirement_container_meta:64b6608b-c32b-4bbb-9583-1fb29a05823a-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4666,10 +4666,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[3].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[3].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[3].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4707,7 +4707,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 115fa426-6f1d-428f-aae6-3ba85aa17ac8-1758852133030
   [loading_requirement_container_meta:115fa426-6f1d-428f-aae6-3ba85aa17ac8-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.outsiders[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.outsiders[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4748,10 +4748,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[0].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[0].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[0].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[0].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[0].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[0].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4789,7 +4789,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 030b6d0b-3533-48eb-9134-6d21ad59076d-1758852133030
   [loading_requirement_container_meta:030b6d0b-3533-48eb-9134-6d21ad59076d-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4830,10 +4830,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[1].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[1].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[1].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[1].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[1].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[1].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4871,7 +4871,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e89731b5-0c78-4b67-8b8a-acced9f3b198-1758852133030
   [loading_requirement_container_meta:e89731b5-0c78-4b67-8b8a-acced9f3b198-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4912,10 +4912,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[2].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[2].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[2].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[2].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[2].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[2].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -4953,7 +4953,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 839c4954-d574-44db-a20b-f56cdda674d1-1758852133030
   [loading_requirement_container_meta:839c4954-d574-44db-a20b-f56cdda674d1-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -4994,10 +4994,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[3].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[3].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[3].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[3].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[3].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[3].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -5035,7 +5035,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 38d78adb-17c3-41f7-bdbc-d51a4ad2e872-1758852133030
   [loading_requirement_container_meta:38d78adb-17c3-41f7-bdbc-d51a4ad2e872-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.minions[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.minions[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5076,10 +5076,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[0].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[0].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[0].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[0].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[0].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[0].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -5117,7 +5117,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 31e6c5fc-7e66-465f-a488-62f59ce5178b-1758852133030
   [loading_requirement_container_meta:31e6c5fc-7e66-465f-a488-62f59ce5178b-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5158,10 +5158,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[1].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[1].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[1].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[1].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[1].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[1].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -5199,7 +5199,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 9bddc78c-84b5-40f0-b21d-f46e8a9c3f8d-1758852133031
   [loading_requirement_container_meta:9bddc78c-84b5-40f0-b21d-f46e8a9c3f8d-1758852133031] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5240,10 +5240,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[2].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[2].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[2].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[2].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[2].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[2].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -5281,7 +5281,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 1b50d7ab-bae9-4de1-867d-b11a7d764b5d-1758852133031
   [loading_requirement_container_meta:1b50d7ab-bae9-4de1-867d-b11a7d764b5d-1758852133031] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5322,10 +5322,10 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[3].id"}}.name"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[3].id"}}.name"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[3].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[3].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[3].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[3].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -5363,7 +5363,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3e8702f4-9baa-42fc-99fa-33d3a72902b0-1758852133031
   [loading_requirement_container_meta:3e8702f4-9baa-42fc-99fa-33d3a72902b0-1758852133031] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.demons[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.demons[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5565,15 +5565,15 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[0].id"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[0].id"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[0].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[0].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[0].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[0].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[0].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[0].id"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[0].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[0].id"}}.desc"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a50115ed-d12b-4ddd-9482-906110f2bc28-1752561043005
@@ -5608,7 +5608,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5649,15 +5649,15 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[4].id"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[4].id"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[4].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[4].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[4].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[4].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[4].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[4].id"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[4].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[4].id"}}.desc"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a50115ed-d12b-4ddd-9482-906110f2bc28-1752561043005
@@ -5693,7 +5693,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[4].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[4].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5734,15 +5734,15 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[1].id"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[1].id"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[1].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[1].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[1].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[1].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[1].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[1].id"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[1].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[1].id"}}.desc"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a50115ed-d12b-4ddd-9482-906110f2bc28-1752561043005
@@ -5777,7 +5777,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[1].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[1].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5818,15 +5818,15 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[5].id"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[5].id"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[5].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[5].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[5].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[5].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[5].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[5].id"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[5].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[5].id"}}.desc"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a50115ed-d12b-4ddd-9482-906110f2bc28-1752561043005
@@ -5861,7 +5861,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[5].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[5].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5902,15 +5902,15 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[2].id"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[2].id"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[2].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[2].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[2].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[2].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[2].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[2].id"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[2].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[2].id"}}.desc"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a50115ed-d12b-4ddd-9482-906110f2bc28-1752561043005
@@ -5945,7 +5945,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[2].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[2].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -5986,15 +5986,15 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[6].id"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[6].id"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[6].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[6].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[6].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[6].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[6].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[6].id"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[6].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[6].id"}}.desc"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a50115ed-d12b-4ddd-9482-906110f2bc28-1752561043005
@@ -6029,7 +6029,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[6].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[6].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -6070,15 +6070,15 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[3].id"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[3].id"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[3].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[3].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[3].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[3].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[3].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[3].id"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[3].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[3].id"}}.desc"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a50115ed-d12b-4ddd-9482-906110f2bc28-1752561043005
@@ -6114,7 +6114,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[3].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[3].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -6155,15 +6155,15 @@ element {
 
 element {
   button_element_executable_block_identifier = 6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005
-  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[7].id"}}
+  [executable_action_instance:c2baaada-2580-4de4-b956-30b059728607-1752561081902][action_type:openlink] = https://wiki.bloodontheclocktower.com/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[7].id"}}
   [executable_block:6e34c102-201f-4bd5-a53c-c3fa4a45ed01-1752561043005][type:generic] = [executables:c2baaada-2580-4de4-b956-30b059728607-1752561081902;]
-  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[7].id"}}.png
-  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[7].id"}}.png
+  backgroundnormal = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[7].id"}}.png
+  backgroundhovered = [source:location]ct:textures/role/{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[7].id"}}.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[7].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[7].id"}}.desc"}}
+  description = {"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[7].id"}}.name"}}%n%{"placeholder":"local","values":{"key":"clocktower.role.{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[7].id"}}.desc"}}
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a50115ed-d12b-4ddd-9482-906110f2bc28-1752561043005
@@ -6198,7 +6198,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030
   [loading_requirement_container_meta:e0c743f5-14eb-452c-89a8-52576068a0ba-1758852133030] = [groups:][instances:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[7].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:94d5aa5c-a2ba-407e-80ba-c36167dd441c-1756680317771] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[7].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -6281,7 +6281,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = f1bac6c3-339b-46b1-8fca-70444f9d629b-1749866532590
   [loading_requirement_container_meta:f1bac6c3-339b-46b1-8fca-70444f9d629b-1749866532590] = [groups:][instances:ab6a6434-45b3-408d-92ed-4901a3f8427f-1777578733146;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:ab6a6434-45b3-408d-92ed-4901a3f8427f-1777578733146] = ["mode":"equals","text":"{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:script","nbt_path":"script.npcs[0].id"}}","compare_with":"none"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:ab6a6434-45b3-408d-92ed-4901a3f8427f-1777578733146] = ["mode":"equals","text":"{"placeholder":"json","values":{"source":"{"placeholder":"getvariable","values":{"name":"script"}}","json_path":"$.npcs[0].id"}}","compare_with":"none"]$
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0

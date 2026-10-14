@@ -203,3 +203,5 @@ execute unless data storage ct:script reminders[36] run data modify storage ct:s
 execute unless data storage ct:script reminders[37] run data modify storage ct:script reminders append value {text:none,icon:none}
 execute unless data storage ct:script reminders[38] run data modify storage ct:script reminders append value {text:none,icon:none}
 execute unless data storage ct:script reminders[39] run data modify storage ct:script reminders append value {text:none,icon:none}
+
+fmdata send @a update_script update_script

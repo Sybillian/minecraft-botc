@@ -991,6 +991,12 @@ variable {
 }
 
 variable {
+  name = script
+  value = {townsfolk:[{id:"highpriestess"},{id:"preacher"},{id:"villageidiot"},{id:"snakecharmer"},{id:"king"},{id:"fortuneteller"},{id:"monk"},{id:"acrobat"},{id:"philosopher"},{id:"fisherman"},{id:"minstrel"},{id:"mayor"},{id:"poppygrower"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],outsiders:[{id:"saint"},{id:"hatter"},{id:"politician"},{id:"zealot"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],minions:[{id:"poisoner"},{id:"fearmonger"},{id:"marionette"},{id:"scarletwoman"},{id:"boffin"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],demons:[{id:"nodashii"},{id:"lleech"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],npcs:[{id:"bootlegger"},{id:"stormcatcher"},{id:"sentinel"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],name:"Lemmings Anonymous",icon:"custom_script",author:"The Pandemonium Institute"}
+  reset_on_launch = false
+}
+
+variable {
   name = p14_r1_icon
   value = none
   reset_on_launch = false
@@ -1310,7 +1316,7 @@ variable {
 
 variable {
   name = script_format
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -2222,7 +2228,7 @@ variable {
 
 variable {
   name = player_count
-  value = 17
+  value = 1
   reset_on_launch = false
 }
 
@@ -2318,7 +2324,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta","name":"Lemmings Anonymous","bootlegger":["The Storm Catcher favors the King."]},"highpriestess","preacher","villageidiot","snakecharmer","king","fortuneteller","monk","acrobat","philosopher","fisherman","minstrel","mayor","poppygrower","saint","hatter","politician","zealot","poisoner","fearmonger","marionette","scarletwoman","boffin","nodashii","lleech","sentinel","bootlegger","stormcatcher"]
+  value = [{"id":"_meta",""name":"Lemmings Anonymous","bootlegger":["The Storm Catcher favors the King."]},"highpriestess","preacher","villageidiot","snakecharmer","king","fortuneteller","monk","acrobat","philosopher","fisherman","minstrel","mayor","poppygrower","saint","hatter","politician","zealot","poisoner","fearmonger","marionette","scarletwoman","boffin","nodashii","lleech","sentinel","bootlegger","stormcatcher"]
   reset_on_launch = false
 }
 
