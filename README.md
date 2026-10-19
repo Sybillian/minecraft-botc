@@ -10,7 +10,7 @@ A list of unimplemented features and issues can be found on this repository's Is
 
 ## Installation
 > [!NOTE]
-> This modpack isn't made to be played in single-player! If you want to load it up to look around though, check out the "[Map Edits](https://github.com/Sybillian/minecraft-botc/wiki/Custom-Content:-Map-Edits)" page to learn how to access it.
+> This modpack is made for multiplayer! If you want to look around the world in singleplayer, check out the [Map Edits](https://github.com/Sybillian/minecraft-botc/wiki/Custom-Content:-Map-Edits) page to learn how to access it.
 
 ### Client Side
 All players need to do is install the modpack via Modrinth. If Modrinth is not an option for some reason, an alternative launcher that can use Modrinth's .mrpack format should be fine. CurseForge is not supported. [**Click here to view detailed installation and configuration instructions**](https://github.com/Sybillian/minecraft-botc/wiki/Installation:-Client).
