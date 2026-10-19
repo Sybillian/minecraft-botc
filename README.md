@@ -9,6 +9,9 @@ Pixel art character icons included in this project were made by many members of 
 A list of unimplemented features and issues can be found on this repository's Issues tab.
 
 ## Installation
+> [!NOTE]
+> This modpack isn't made to be played in single-player! If you want to load it up to look around though, check out the "[Map Edits](https://github.com/Sybillian/minecraft-botc/wiki/Custom-Content:-Map-Edits)" page to learn how to access it.
+
 ### Client Side
 All players need to do is install the modpack via Modrinth. If Modrinth is not an option for some reason, an alternative launcher that can use Modrinth's .mrpack format should be fine. CurseForge is not supported. [**Click here to view detailed installation and configuration instructions**](https://github.com/Sybillian/minecraft-botc/wiki/Installation:-Client).
 
