@@ -41,10 +41,21 @@
     "clocktower.header.demons": "Demons",
     "clocktower.header.jinxes": "Jinxes",
     "clocktower.header.fabled": "Fabled",
-    "clocktower.header.travellers": "travellers",
+    "clocktower.header.travellers": "Travellers",
     // Main Menu
     "clocktower.ui.holiday.christmas": "Merry Christmas!",
     "clocktower.ui.holiday.pride": "Happy Pride Month!",
+    "clocktower.ui.important": "IMPORTANT",
+    "clocktower.ui.beta_warning": "You are using a **BETA** version of the modpack. Here there be bugs!",
+    "clocktower.ui.discord": "Click to join the official Discord server for updates, support, and games!",
+    "clocktower.ui.view_changelog": "Click here to view the latest Changelog!",
+    "clocktower.ui.update_available": "Update available!",
+    "clocktower.ui.botc": "BotC",
+    // Options Menu
+    "clocktower.button.botc_options.label": "BotC Options",
+    "clocktower.button.botc_options.hint": "Edit BotC game settings.",
+    "clocktower.button.botc_options.hint_alt": "This menu is only accessible while in a world.",
+    "clocktower.button.credits.label": "Modpack Credits",
     // Grimoire Action Menu Buttons
     "clocktower.button.game_actions.label": "Game Actions",
     "clocktower.button.special_actions.label": "Special Actions",
@@ -84,6 +95,7 @@
     "clocktower.ui.demon_bluffs": "Demon Bluffs",
     "clocktower.ui.first_night_order": "First Night",
     "clocktower.ui.other_nights_order": "Other Nights",
+    "clocktower.itemGroup.custom": "Clocktower Items",
     // Items
     "clocktower.item.skull.name": "Notebook [Right Click]",
     "clocktower.item.skull.lore": "whatever lore",

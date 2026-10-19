@@ -14,9 +14,6 @@ tag @a remove voting_no
 tag @a remove voting_ghost
 tag @a remove voting_banshee
 tag @a[team=!00_spectator] add voting_no
-function ct:util/color_names
-tellraw @a [{"selector":"@a[tag=nominator]"},{"text":" has nominated ",color:white},{"selector":"@a[tag=nominee]"},{"text":".","color":white}]
-function ct:util/color_prefixes
 
 execute as @e[type=minecraft:item_display,tag=vote_marker] if score @s id <= player_count game_data run data modify entity @s view_range set value 1
 execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 1

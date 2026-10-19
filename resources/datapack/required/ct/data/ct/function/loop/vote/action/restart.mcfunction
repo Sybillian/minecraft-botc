@@ -1,0 +1,1 @@
+function ct:loop/vote/end_voting

@@ -6,5 +6,4 @@ execute if score clock_speed settings matches 11.. as @a at @s run playsound ct:
 execute if score clock_speed settings matches ..10 as @a at @s run playsound ct:clocktower.tick_short voice @s
 execute if score current vote <= player_count game_data run scoreboard players add current vote 1
 execute if score current vote > player_count game_data run scoreboard players set current vote 1
-# execute unless score current vote = start vote run schedule function ct:loop/vote/cycle 1.2s
-execute if score current vote = start vote run schedule function ct:loop/vote/end_voting 1s
+execute if score current vote = start vote run schedule clear ct:loop/vote/cycle

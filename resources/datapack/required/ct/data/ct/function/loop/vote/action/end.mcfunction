@@ -1,0 +1,42 @@
+scoreboard players set vote_active game_data 0
+
+schedule clear ct:loop/vote/loop
+schedule clear ct:loop/vote/cycle
+
+effect clear @a minecraft:blindness
+
+execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s view_range set value 0
+execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+
+function ct:util/color_names
+tellraw @a[tag=storyteller] [{"text":"✔ ","bold":true,"color":"green"},{"text":"These players voted: ","bold":false,"color":"white"},{"selector":"@a[tag=!voting_no,tag=!spectator,tag=!storyteller]","bold":false}]
+execute as @a[tag=!storyteller,tag=!spectator] unless entity @s[scores={role=404}] run tag @s add not_legion
+execute if entity @a[scores={role=404},tag=voting_yes] unless entity @a[tag=not_legion,tag=voting_yes] run tellraw @a[tag=storyteller] [{"text":"! ","bold":true,"color":"dark_red"},{"text":"Only Legion voted.","bold":false,"color":"red"}]
+function ct:util/color_prefixes
+
+clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]}]
+clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_yes"]}]
+clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]}]
+clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_ghost"]}]
+
+execute if score already_incremented vote matches 0 if score total vote >= majority math run function ct:loop/vote/set_majority
+execute if score already_incremented vote matches 1 if score total vote > current_majority vote run function ct:loop/vote/increase_majority
+
+scoreboard players set total vote 0
+scoreboard players set first vote 0
+scoreboard players set current vote 0
+
+execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s view_range set value 0
+execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 0
+
+tag @a[tag=not_legion] remove not_legion
+tag @a[tag=nominee] remove nominee
+tag @a[tag=voting_yes] remove voting_yes
+tag @a[tag=voting_banshee] remove voting_banshee
+tag @a[tag=voting_no] remove voting_no
+bossbar set ct:votes visible false
+
+execute if score noms_pause_timer settings matches 1 run return run function ct:util/timer/resume
+execute as @a run fmvariable set current_nominee false none
+
+function ct:util/sync_variables

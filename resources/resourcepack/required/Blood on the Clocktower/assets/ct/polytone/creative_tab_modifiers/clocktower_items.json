@@ -1,0 +1,277 @@
+{
+  "name": {
+    "translate": "clocktower.itemGroup.custom"
+  },
+  "icon": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {
+      "minecraft:custom_model_data": {
+        "strings": [
+          "grimoire"
+        ]
+      }
+    }
+  },
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:carrot_on_a_stick",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "grimoire"
+              ]
+            },
+            "minecraft:custom_name": [
+              {
+                "text": "Grimoire",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": " [Right-Click]",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:carrot_on_a_stick",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "script"
+              ]
+            },
+            "minecraft:custom_name": [
+              {
+                "text": "Script",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": " [Right-Click]",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:carrot_on_a_stick",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "ct_bag"
+              ]
+            },
+            "minecraft:custom_name": [
+              {
+                "text": "Setup Bag",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": " [Right-Click]",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:carrot_on_a_stick",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "start_vote"
+              ]
+            },
+            "minecraft:custom_name": [
+              {
+                "text": "Start Vote",
+                "color": "white",
+                "italic": false
+              },
+              {
+                "text": " [Right-Click]",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:red"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:orange"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:yellow"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:lime"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:green"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:mint"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:cyan"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:blue"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:navy"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:purple"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:magenta"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:lavender"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:white"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:gray"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "components": {
+            "minecraft:banner_patterns": [
+              {
+                "color": "white",
+                "pattern": "ct:black"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "after_tabs": [
+    "minecraft:combat"
+  ]
+}

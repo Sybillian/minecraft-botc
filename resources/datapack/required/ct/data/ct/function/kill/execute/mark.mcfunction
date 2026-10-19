@@ -1,8 +1,10 @@
+function ct:loop/vote/end_voting
+
 tag @a remove marked_for_execution
 $tag $(current_nominee) add marked_for_execution
 function ct:util/color_names
 tellraw @a [{"selector":"@a[tag=marked_for_execution]"},{"text":" has been marked for execution.","color":"white"}]
-execute as @a run fmvariable set last_nom false none
+execute as @a run fmvariable set current_nominee false none
 function ct:util/color_prefixes
 
 scoreboard players set vote_active game_data 0

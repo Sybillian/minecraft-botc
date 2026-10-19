@@ -1,1 +1,2 @@
-$fmvariable set last_nom false $(current_nominee)
+$fmvariable set current_nominator false $(current_nominator)
+$fmvariable set current_nominee false $(current_nominee)

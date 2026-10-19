@@ -4,6 +4,8 @@ Changes and features:
 - Added Rinku mod to enable FM's browser feature.
 - Added Default Options mod to handle keybinds better.
 - Added a HUD element to display the current number of votes as well as the required majority.
+- Added a Discord button to the Multiplayer menu.
+- Added a "Clocktower Items" creative tab to quickly grab copies of items that can normally only be spawned in.
 - Redid the Storyteller HUD element for managing an active nomination.
 - Character tokens in the bag menu now get slightly larger when they are selected.
 
@@ -16,3 +18,5 @@ Fixed bugs:
 - #181: Spectators can /whisper only the player in the 1st slot
 - #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
 - #193: Cannot make a spectator without them being a storyteller first
+- Time sometimes advances during the "day" phase.
+- Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.

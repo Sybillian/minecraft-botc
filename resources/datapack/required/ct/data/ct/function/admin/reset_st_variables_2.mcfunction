@@ -1,4 +1,5 @@
-fmvariable set last_nom false none
+fmvariable set current_nominator false none
+fmvariable set current_nominee false none
 
 fmvariable set p1_r1_text false none
 fmvariable set p1_r2_text false none
