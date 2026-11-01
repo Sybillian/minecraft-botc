@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-player_grim
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1791969587688
+  last_edited_time = 1793440583875
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:41fda639-581d-47ec-aa11-09a84b1d26a9-1791969580303] = [groups:][instances:]
+  [loading_requirement_container_meta:02ba4a38-14d4-40b9-b7c0-54b76fe055bf-1793440581290] = [groups:][instances:]
 }
 
 customization {
@@ -1835,16 +1835,16 @@ element {
   fade_in_v2 = every_time
   fade_out = every_time
   auto_sizing = false
-  auto_sizing_base_screen_width = 1922
+  auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
   auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = ee2c5a09-77b0-4d41-8f84-1f861e84da26-1752209718160
-  x = 5
-  y = -3
-  width = 35
-  height = 35
+  x = 4
+  y = -5
+  width = 36
+  height = 36
   stay_on_screen = true
   element_loading_requirement_container_identifier = cbf2236b-d6fd-459b-903b-b2c8ca3eed37-1750573081332
   [loading_requirement_container_meta:cbf2236b-d6fd-459b-903b-b2c8ca3eed37-1750573081332] = [groups:][instances:cda0eb2d-0674-4fb8-808b-8e0d95f9914e-1774805228791;]
@@ -1879,7 +1879,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/menu/shroud.png
+  source = [source:location]ct:textures/gui/shroud_with_ghost_vote.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5

@@ -56,7 +56,7 @@ variable {
 
 variable {
   name = current_day
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
@@ -152,7 +152,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 14
+  value = 13
   reset_on_launch = false
 }
 
@@ -176,7 +176,7 @@ variable {
 
 variable {
   name = player_13
-  value = Kai
+  value = Selina
   reset_on_launch = false
 }
 
@@ -194,7 +194,7 @@ variable {
 
 variable {
   name = player_14
-  value = Celeste
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -218,7 +218,7 @@ variable {
 
 variable {
   name = p12_role
-  value = philosopher
+  value = none
   reset_on_launch = false
 }
 
@@ -338,7 +338,7 @@ variable {
 
 variable {
   name = player_11
-  value = anya
+  value = Alex
   reset_on_launch = false
 }
 
@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = player_12
-  value = Will
+  value = Emma
   reset_on_launch = false
 }
 
@@ -368,7 +368,7 @@ variable {
 
 variable {
   name = player_10
-  value = Olivia
+  value = Kai
   reset_on_launch = false
 }
 
@@ -836,7 +836,7 @@ variable {
 
 variable {
   name = p6_role
-  value = highpriestess
+  value = none
   reset_on_launch = false
 }
 
@@ -998,7 +998,7 @@ variable {
 
 variable {
   name = script
-  value = {townsfolk:[{id:"highpriestess"},{id:"preacher"},{id:"villageidiot"},{id:"snakecharmer"},{id:"king"},{id:"fortuneteller"},{id:"monk"},{id:"acrobat"},{id:"philosopher"},{id:"fisherman"},{id:"minstrel"},{id:"mayor"},{id:"poppygrower"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],outsiders:[{id:"saint"},{id:"hatter"},{id:"politician"},{id:"zealot"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],minions:[{id:"poisoner"},{id:"fearmonger"},{id:"marionette"},{id:"scarletwoman"},{id:"boffin"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],demons:[{id:"nodashii"},{id:"lleech"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],npcs:[{id:"bootlegger"},{id:"stormcatcher"},{id:"sentinel"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],name:"Lemmings Anonymous",icon:"custom_script",author:"The Pandemonium Institute"}
+  value = {townsfolk:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],outsiders:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],minions:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],demons:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],npcs:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],name:"In The Eyes of God",icon:"custom_script",author:"Sybillian"}
   reset_on_launch = false
 }
 
@@ -1226,7 +1226,7 @@ variable {
 
 variable {
   name = day_start
-  value = 17:59
+  value = 17:03
   reset_on_launch = false
 }
 
@@ -1616,7 +1616,7 @@ variable {
 
 variable {
   name = p1_role
-  value = chef
+  value = none
   reset_on_launch = false
 }
 
@@ -1910,7 +1910,7 @@ variable {
 
 variable {
   name = player_1
-  value = Steve
+  value = Celeste
   reset_on_launch = false
 }
 
@@ -1928,13 +1928,13 @@ variable {
 
 variable {
   name = player_5
-  value = Ari
+  value = Olivia
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Zack
+  value = Sunny
   reset_on_launch = false
 }
 
@@ -1946,19 +1946,19 @@ variable {
 
 variable {
   name = player_3
-  value = Emma
+  value = Anya
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Makena
+  value = Efe
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Shane
+  value = Ari
   reset_on_launch = false
 }
 
@@ -1970,19 +1970,19 @@ variable {
 
 variable {
   name = player_8
-  value = Alex
+  value = Shane
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Selina
+  value = Steve
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = efe
+  value = Makena
   reset_on_launch = false
 }
 
@@ -2234,7 +2234,7 @@ variable {
 
 variable {
   name = player_count
-  value = 0
+  value = 13
   reset_on_launch = false
 }
 
@@ -2276,7 +2276,7 @@ variable {
 
 variable {
   name = current_nominator
-  value = Steve
+  value = Efe
   reset_on_launch = false
 }
 
@@ -2336,7 +2336,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta",""name":"Lemmings Anonymous","bootlegger":["The Storm Catcher favors the King."]},"highpriestess","preacher","villageidiot","snakecharmer","king","fortuneteller","monk","acrobat","philosopher","fisherman","minstrel","mayor","poppygrower","saint","hatter","politician","zealot","poisoner","fearmonger","marionette","scarletwoman","boffin","nodashii","lleech","sentinel","bootlegger","stormcatcher"]
+  value = [{"id": "_meta", "name": "In The Eyes of God", "author": "Sybillian"}, {"id": "knight"}, {"id": "shugenja"}, {"id": "pixie"}, {"id": "bountyhunter"}, {"id": "empath"}, {"id": "balloonist"}, {"id": "dreamer"}, {"id": "flowergirl"}, {"id": "oracle"}, {"id": "lycanthrope"}, {"id": "seamstress"}, {"id": "farmer"}, {"id": "atheist"}, {"id": "drunk"}, {"id": "sweetheart"}, {"id": "barber"}, {"id": "hatter"}, {"id": "cerenovus"}, {"id": "fearmonger"}, {"id": "pithag"}, {"id": "widow"}, {"id": "eviltwin"}, {"id": "ojo"}, {"id": "vigormortis"}]
   reset_on_launch = false
 }
 
@@ -2540,7 +2540,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -2648,7 +2648,7 @@ variable {
 
 variable {
   name = phase
-  value = 3
+  value = 2
   reset_on_launch = false
 }
 
@@ -3014,7 +3014,7 @@ variable {
 
 variable {
   name = announced_player
-  value = efe
+  value = Ari
   reset_on_launch = false
 }
 

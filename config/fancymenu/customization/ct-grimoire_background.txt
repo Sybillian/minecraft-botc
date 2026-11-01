@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1787394620928
+  last_edited_time = 1793440275435
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:a47c7563-45c0-42cd-92af-8b9ebb8ba824-1787394577162] = [groups:][instances:]
+  [loading_requirement_container_meta:8d2c876e-3330-408a-bf1c-69440fc3f81a-1793440224516] = [groups:][instances:]
 }
 
 customization {
@@ -2671,7 +2671,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
-  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_gui_scale = 2
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5f6fd779-435c-4214-9593-cb1eda220b08-1753054710528
@@ -2716,7 +2716,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/menu/shroud.png
+  source = [source:location]ct:textures/gui/shroud_with_ghost_vote.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5

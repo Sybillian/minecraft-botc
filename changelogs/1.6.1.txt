@@ -8,6 +8,9 @@ Changes and features:
 - Added a "Clocktower Items" creative tab to quickly grab copies of items that can normally only be spawned in.
 - Redid the Storyteller HUD element for managing an active nomination.
 - Character tokens in the bag menu now get slightly larger when they are selected.
+- Reduced the volume of most custom sounds to be consistent with each other and with Minecraft sounds.
+- Changed the countdown sound.
+- Changed the vote sound to use the old countdown sound.
 
 Technical changes:
 
@@ -20,3 +23,4 @@ Fixed bugs:
 - #193: Cannot make a spectator without them being a storyteller first
 - Time sometimes advances during the "day" phase.
 - Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.
+- Subtitles for "player dies" and "player nominated" are swapped.
