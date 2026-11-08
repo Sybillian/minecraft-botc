@@ -6,36 +6,36 @@ de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
 }
 
-net.minecraft.class_442 {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
-net.minecraft.class_442 {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
-net.minecraft.class_481 {
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
 }
 
-net.minecraft.class_500 {
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
-net.minecraft.class_3928 {
+net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
-net.minecraft.class_526 {
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 }
 
-net.minecraft.class_433 {
+net.minecraft.client.gui.screens.PauseScreen {
 }
 
 de.maxhenkel.voicechat.gui.group.GroupScreen {
 }
 
-net.minecraft.class_408 {
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
 }
 
-net.minecraft.class_429 {
+net.minecraft.client.gui.screens.options.OptionsScreen {
 }
 
-net.minecraft.class_490 {
+net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
 }
 

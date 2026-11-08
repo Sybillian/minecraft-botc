@@ -1,6 +1,7 @@
 {
 	"enableMod": true,
 	"scrollingType": "Column",
+	"scale": 1.0,
 	"maxWidth": 0.9,
 	"maxColumnWidth": 0.5,
 	"maxColumnHeight": 0.5,
@@ -30,13 +31,14 @@
 	"pingColorMedium": -12944,
 	"pingColorHigh": -36752,
 	"refreshCooldown": 250,
-	"useExamples": false,
-	"exampleText": "ExamplePlayer%d",
-	"exampleAmount": 200,
+	"showFriends": true,
 	"numericFormat": "%dms",
 	"mediumPingMin": 150,
 	"highPingMin": 300,
 	"scrollIndicatorSpeed": 530,
 	"healthFormat": "%dhp",
-	"totalPlayerFormat": "§7§l(%d online)§r"
+	"totalPlayerFormat": "§7§l(%d online)§r",
+	"useExamples": false,
+	"exampleText": "ExamplePlayer%d",
+	"exampleAmount": 200
 }

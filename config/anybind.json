@@ -1,0 +1,38 @@
+{
+  "formatVersion": 1,
+  "settings": {
+    "allowCommandExecution": false
+  },
+  "binds": [
+    {
+      "id": "198f02dd-83ee-4ba4-b294-460e720fa0ff",
+      "name": "Open Grimoire",
+      "key": "key.keyboard.g",
+      "keys": [
+        "key.keyboard.g"
+      ],
+      "modifiers": [],
+      "action": {
+        "type": "GAME_CHAT",
+        "message": "/grimoire"
+      },
+      "enabled": true,
+      "confirmed": false
+    },
+    {
+      "id": "eb45ea7a-56e8-46b9-9be3-41e2492f0f1f",
+      "name": "Open Script",
+      "key": "key.keyboard.h",
+      "keys": [
+        "key.keyboard.h"
+      ],
+      "modifiers": [],
+      "action": {
+        "type": "GAME_CHAT",
+        "message": "/script"
+      },
+      "enabled": true,
+      "confirmed": false
+    }
+  ]
+}

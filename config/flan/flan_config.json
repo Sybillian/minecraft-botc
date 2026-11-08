@@ -57,6 +57,7 @@
   "offlineProtectActivation": -1,
   "dynmapIntegration": false,
   "bluemapIntegration": false,
+  "journeymapIntegration": false,
   "enableLogs": false,
   "defaultGroups": {
     "Visitor": {

@@ -1,26 +1,32 @@
 BotC v1.6.1 - XX XX, 2026
 
 Changes and features:
+- Updated to Minecraft 26.3
 - Added Rinku mod to enable FM's browser feature.
 - Added Default Options mod to handle keybinds better.
 - Added a HUD element to display the current number of votes as well as the required majority.
 - Added a Discord button to the Multiplayer menu.
 - Added a "Clocktower Items" creative tab to quickly grab copies of items that can normally only be spawned in.
 - Redid the Storyteller HUD element for managing an active nomination.
+- Redid the Modpack Credits screen to scroll and look a bit nicer.
 - Character tokens in the bag menu now get slightly larger when they are selected.
 - Reduced the volume of most custom sounds to be consistent with each other and with Minecraft sounds.
 - Changed the countdown sound.
 - Changed the vote sound to use the old countdown sound.
 
 Technical changes:
+- The pack now uses AnyBind instead of ChatBinds since the latter wasn't being updated. This means that keybinds can't be sent as a text component since this mod doesn't allow it. Happy to hear alternatives!
 
 Fixed bugs:
+- #160: Community Created Content icon in pause menu does not scale properly with gui scale
 - #176: Upgrading to v1.6.0 changes simple voice chat default port value
 - #177: Text refering to keybind-specific messages does not change when modifying the given keybind (thanks @Jvkeh)
 - #179: Using the /script command doesnt open the correct script layout
 - #181: Spectators can /whisper only the player in the 1st slot
 - #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
+- #191: Spectators still see multiple istances of "There is a demon about" message.
 - #193: Cannot make a spectator without them being a storyteller first
+- #197: Wraith doesn't translate
 - Time sometimes advances during the "day" phase.
 - Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.
 - Subtitles for "player dies" and "player nominated" are swapped.

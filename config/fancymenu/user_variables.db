@@ -536,7 +536,7 @@ variable {
 
 variable {
   name = seat_data
-  value = [{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""}]
+  value = [{alive:0,pronouns:"",reminders:[],role:0,username:""}]
   reset_on_launch = false
 }
 
@@ -998,7 +998,7 @@ variable {
 
 variable {
   name = script
-  value = {townsfolk:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],outsiders:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],minions:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],demons:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],npcs:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],name:"In The Eyes of God",icon:"custom_script",author:"Sybillian"}
+  value = {townsfolk:[{id:"chef"},{id:"investigator"},{id:"washerwoman"},{id:"librarian"},{id:"empath"},{id:"fortuneteller"},{id:"undertaker"},{id:"monk"},{id:"slayer"},{id:"soldier"},{id:"ravenkeeper"},{id:"mayor"},{id:"virgin"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],outsiders:[{id:"butler"},{id:"drunk"},{id:"recluse"},{id:"saint"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],minions:[{id:"poisoner"},{id:"spy"},{id:"scarletwoman"},{id:"baron"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],demons:[{id:"imp"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],npcs:[{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"},{id:"none"}],name:"Trouble Brewing",icon:"trouble_brewing",author:"The Pandemonium Institute"}
   reset_on_launch = false
 }
 
@@ -1322,7 +1322,7 @@ variable {
 
 variable {
   name = script_format
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -2234,7 +2234,7 @@ variable {
 
 variable {
   name = player_count
-  value = 13
+  value = 0
   reset_on_launch = false
 }
 
@@ -2366,7 +2366,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 14
+  value = 0
   reset_on_launch = false
 }
 
