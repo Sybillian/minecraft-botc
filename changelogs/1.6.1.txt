@@ -30,3 +30,4 @@ Fixed bugs:
 - Time sometimes advances during the "day" phase.
 - Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.
 - Subtitles for "player dies" and "player nominated" are swapped.
+- FancyMenu no longer spams the server console with packet data errors.

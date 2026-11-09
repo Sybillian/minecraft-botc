@@ -1109,114 +1109,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cherry_slab": {
-    "criteria": {
-      "has_planks": "2026-11-06 08:22:59 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_stairs": {
-    "criteria": {
-      "has_planks": "2026-11-06 08:22:59 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_wool_slab": {
-    "criteria": {
-      "has_red_wool": "2026-11-06 08:23:34 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_wool_stairs": {
-    "criteria": {
-      "has_red_wool": "2026-11-06 08:23:34 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_slab": {
-    "criteria": {
-      "has_white_wool": "2026-11-06 08:23:33 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_stairs": {
-    "criteria": {
-      "has_white_wool": "2026-11-06 08:23:33 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cherry_fence": {
-    "criteria": {
-      "has_planks": "2026-11-06 08:22:59 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cherry_sign": {
-    "criteria": {
-      "has_planks": "2026-11-06 08:22:59 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2026-11-06 08:23:33 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_cushion": {
-    "criteria": {
-      "has_pink_wool_slab": "2026-11-06 08:22:29 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_banner": {
-    "criteria": {
-      "has_red_wool": "2026-11-06 08:23:34 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_bed": {
-    "criteria": {
-      "has_red_wool": "2026-11-06 08:23:34 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_carpet": {
-    "criteria": {
-      "has_red_wool": "2026-11-06 08:23:34 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_cushion": {
-    "criteria": {
-      "has_red_wool_slab": "2026-11-06 08:23:24 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2026-11-06 08:23:33 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2026-11-06 08:23:33 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2026-11-06 08:23:33 +1100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_cushion": {
-    "criteria": {
-      "has_white_wool_slab": "2026-11-06 08:22:22 +1100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2026-11-06 08:18:41 +1100"
@@ -1232,6 +1124,42 @@
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2026-11-06 08:18:41 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_cushion": {
+    "criteria": {
+      "has_white_wool_slab": "2026-11-06 08:22:22 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_cushion": {
+    "criteria": {
+      "has_pink_wool_slab": "2026-11-06 08:22:29 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2026-11-06 08:22:59 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2026-11-06 08:22:59 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2026-11-06 08:22:59 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2026-11-06 08:22:59 +1100"
     },
     "done": true
   },
@@ -1262,6 +1190,78 @@
   "minecraft:recipes/redstone/cherry_trapdoor": {
     "criteria": {
       "has_planks": "2026-11-06 08:22:59 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_cushion": {
+    "criteria": {
+      "has_red_wool_slab": "2026-11-06 08:23:24 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_slab": {
+    "criteria": {
+      "has_white_wool": "2026-11-06 08:23:33 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_stairs": {
+    "criteria": {
+      "has_white_wool": "2026-11-06 08:23:33 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-11-06 08:23:33 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-11-06 08:23:33 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-11-06 08:23:33 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-11-06 08:23:33 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_wool_slab": {
+    "criteria": {
+      "has_red_wool": "2026-11-06 08:23:34 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_wool_stairs": {
+    "criteria": {
+      "has_red_wool": "2026-11-06 08:23:34 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2026-11-06 08:23:34 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2026-11-06 08:23:34 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2026-11-06 08:23:34 +1100"
     },
     "done": true
   },

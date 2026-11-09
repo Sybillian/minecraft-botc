@@ -1,21 +1,14 @@
 {
   "stats": {
-    "minecraft:picked_up": {
-      "minecraft:spruce_leaves": 1,
-      "minecraft:porkchop": 2,
-      "minecraft:spruce_sign": 2,
-      "minecraft:spruce_sapling": 24,
-      "minecraft:stick": 9,
-      "minecraft:dark_oak_sign": 2,
-      "minecraft:carrot_on_a_stick": 7,
-      "minecraft:beehive": 1,
-      "minecraft:brown_mushroom": 1,
-      "minecraft:repeating_command_block": 1,
-      "minecraft:gray_banner": 1,
-      "minecraft:wheat_seeds": 1,
-      "minecraft:white_banner": 31,
+    "minecraft:crafted": {
+      "minecraft:leather_boots": 1,
+      "minecraft:leather_chestplate": 1,
+      "minecraft:leather_leggings": 1
+    },
+    "minecraft:dropped": {
       "minecraft:compass": 1,
-      "minecraft:green_banner": 1
+      "minecraft:carrot_on_a_stick": 7,
+      "minecraft:repeating_command_block": 1
     },
     "minecraft:used": {
       "minecraft:polished_tuff": 39,
@@ -374,20 +367,32 @@
       "minecraft:azure_bluet": 5,
       "minecraft:heavy_weighted_pressure_plate": 2
     },
-    "minecraft:dropped": {
-      "minecraft:compass": 1,
+    "minecraft:picked_up": {
+      "minecraft:spruce_leaves": 1,
+      "minecraft:porkchop": 2,
+      "minecraft:spruce_sign": 2,
+      "minecraft:spruce_sapling": 24,
+      "minecraft:stick": 9,
+      "minecraft:dark_oak_sign": 2,
       "minecraft:carrot_on_a_stick": 7,
-      "minecraft:repeating_command_block": 1
+      "minecraft:beehive": 1,
+      "minecraft:brown_mushroom": 1,
+      "minecraft:repeating_command_block": 1,
+      "minecraft:gray_banner": 1,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:white_banner": 31,
+      "minecraft:compass": 1,
+      "minecraft:green_banner": 1
     },
     "minecraft:custom": {
       "minecraft:eat_cake_slice": 14,
-      "minecraft:time_since_rest": 1260676,
-      "minecraft:leave_game": 472,
+      "minecraft:time_since_rest": 1260927,
+      "minecraft:leave_game": 473,
       "minecraft:damage_taken": 240,
-      "minecraft:time_since_death": 1260676,
+      "minecraft:time_since_death": 1260927,
       "minecraft:sleep_in_bed": 1,
       "minecraft:swim_one_cm": 1796,
-      "minecraft:total_world_time": 17173484,
+      "minecraft:total_world_time": 17173813,
       "minecraft:pot_flower": 34,
       "minecraft:crouch_one_cm": 94421,
       "minecraft:climb_one_cm": 12627,
@@ -396,27 +401,22 @@
       "minecraft:interact_with_loom": 7,
       "minecraft:damage_resisted": 10,
       "minecraft:interact_with_crafting_table": 1,
-      "minecraft:walk_one_cm": 3144372,
+      "minecraft:walk_one_cm": 3144630,
       "minecraft:walk_under_water_one_cm": 68156,
       "minecraft:interact_with_lectern": 2,
       "minecraft:damage_dealt": 60,
-      "minecraft:play_time": 13415852,
-      "minecraft:jump": 65601,
+      "minecraft:play_time": 13416103,
+      "minecraft:jump": 65614,
       "minecraft:drop": 9,
       "minecraft:bell_ring": 6,
       "minecraft:open_barrel": 11,
-      "minecraft:sprint_one_cm": 5152906,
+      "minecraft:sprint_one_cm": 5153280,
       "minecraft:open_chest": 22,
       "minecraft:fall_one_cm": 94893,
-      "minecraft:fly_one_cm": 31850278,
+      "minecraft:fly_one_cm": 31852556,
       "minecraft:interact_with_anvil": 1,
       "minecraft:walk_on_water_one_cm": 17635,
       "minecraft:sneak_time": 80690
-    },
-    "minecraft:crafted": {
-      "minecraft:leather_boots": 1,
-      "minecraft:leather_chestplate": 1,
-      "minecraft:leather_leggings": 1
     }
   },
   "DataVersion": 5023
