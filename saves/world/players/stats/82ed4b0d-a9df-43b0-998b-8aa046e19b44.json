@@ -8,11 +8,11 @@
     },
     "minecraft:custom": {
       "minecraft:damage_resisted": 500,
-      "minecraft:time_since_rest": 1056457,
-      "minecraft:total_world_time": 1279507,
-      "minecraft:leave_game": 31,
-      "minecraft:play_time": 1056457,
-      "minecraft:time_since_death": 1056457,
+      "minecraft:time_since_rest": 1079841,
+      "minecraft:total_world_time": 1309147,
+      "minecraft:leave_game": 32,
+      "minecraft:play_time": 1079841,
+      "minecraft:time_since_death": 1079841,
       "minecraft:drop": 1
     },
     "minecraft:dropped": {

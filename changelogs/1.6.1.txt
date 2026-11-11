@@ -6,6 +6,7 @@ Changes and features:
 - Added Rinku mod to enable FM's browser feature.
 - Added Default Options mod to handle keybinds better.
 - Added a HUD element to display the current number of votes as well as the required majority.
+- Added a nice little bug to the Report Modpack Bugs button.
 - Added a Discord button to the Multiplayer menu.
 - Added a "Clocktower Items" creative tab to quickly grab copies of items that can normally only be spawned in.
 - Redid the Storyteller HUD element for managing an active nomination.
@@ -14,9 +15,12 @@ Changes and features:
 - Reduced the volume of most custom sounds to be consistent with each other and with Minecraft sounds.
 - Changed the countdown sound.
 - Changed the vote sound to use the old countdown sound.
+- When a player receives a role, it now automatically appears on their spot in the Grimoire.
+- Vote items can no longer be removed from your offhand.
 
 Technical changes:
 - The pack now uses AnyBind instead of ChatBinds since the latter wasn't being updated. This means that keybinds can't be sent as a text component since this mod doesn't allow it. Happy to hear alternatives!
+- Added a section in set_grim_roles.mcfunction to show a player's own role in their Grimoire upon reveal.
 
 Fixed bugs:
 - #18: Character Icon Size slider does not correctly adjust for resolution
@@ -28,6 +32,8 @@ Fixed bugs:
 - #177: Text refering to keybind-specific messages does not change when modifying the given keybind (thanks @Jvkeh)
 - #179: Using the /script command doesnt open the correct script layout
 - #181: Spectators can /whisper only the player in the 1st slot
+- #184: Storytellers are removed from the night chat when flying through public voice rooms
+- #185: Changing Reminder Tokens or Character in Grim changes its size
 - #186: Make fancy menu assets resource packable
 - #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
 - #191: Spectators still see multiple istances of "There is a demon about" message.
