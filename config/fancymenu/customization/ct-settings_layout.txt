@@ -3,18 +3,25 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-settings
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1787799590761
+  last_edited_time = 1794385944853
   is_enabled = true
+  widget_identifier_revision = 2
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:492a4a90-4658-43ab-ba62-249124f44f2f-1787799309650] = [groups:][instances:]
+  [loading_requirement_container_meta:7d41bc4c-1b34-4bbc-91dc-e8776a79f41d-1794385869369] = [groups:][instances:]
 }
 
 customization {
   action = setscale
   scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
 }
 
 menu_background {
@@ -228,29 +235,61 @@ decoration_overlay {
   string_lights_wind_strength = 1.0
   string_lights_flicker_speed = 1.0
   string_lights_left_center_to_top_center = true
-  string_lights_right_center_to_top_center = true
-  string_lights_bottom_left_to_top_center = false
-  string_lights_bottom_right_to_top_center = false
-  string_lights_top_left_to_top_right = true
-  string_lights_bottom_left_to_bottom_right = false
-  string_lights_loose_left_top = false
-  string_lights_loose_right_top = false
   string_lights_left_center_to_top_center_christmas_mode = false
-  string_lights_right_center_to_top_center_christmas_mode = false
-  string_lights_bottom_left_to_top_center_christmas_mode = false
-  string_lights_bottom_right_to_top_center_christmas_mode = false
-  string_lights_top_left_to_top_right_christmas_mode = false
-  string_lights_bottom_left_to_bottom_right_christmas_mode = false
-  string_lights_loose_left_top_christmas_mode = false
-  string_lights_loose_right_top_christmas_mode = false
   string_lights_left_center_to_top_center_color_hex = #FFD27A
+  string_lights_left_center_to_top_center_light_count = 0
+  string_lights_left_center_to_top_center_string_color_hex = #2B2B2BD2
+  string_lights_left_center_to_top_center_light_sizes = 
+  string_lights_left_center_to_top_center_light_colors = 
+  string_lights_right_center_to_top_center = true
+  string_lights_right_center_to_top_center_christmas_mode = false
   string_lights_right_center_to_top_center_color_hex = #FFD27A
+  string_lights_right_center_to_top_center_light_count = 0
+  string_lights_right_center_to_top_center_string_color_hex = #2B2B2BD2
+  string_lights_right_center_to_top_center_light_sizes = 
+  string_lights_right_center_to_top_center_light_colors = 
+  string_lights_bottom_left_to_top_center = false
+  string_lights_bottom_left_to_top_center_christmas_mode = false
   string_lights_bottom_left_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_left_to_top_center_light_count = 0
+  string_lights_bottom_left_to_top_center_string_color_hex = #2B2B2BD2
+  string_lights_bottom_left_to_top_center_light_sizes = 
+  string_lights_bottom_left_to_top_center_light_colors = 
+  string_lights_bottom_right_to_top_center = false
+  string_lights_bottom_right_to_top_center_christmas_mode = false
   string_lights_bottom_right_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_right_to_top_center_light_count = 0
+  string_lights_bottom_right_to_top_center_string_color_hex = #2B2B2BD2
+  string_lights_bottom_right_to_top_center_light_sizes = 
+  string_lights_bottom_right_to_top_center_light_colors = 
+  string_lights_top_left_to_top_right = true
+  string_lights_top_left_to_top_right_christmas_mode = false
   string_lights_top_left_to_top_right_color_hex = #FFD27A
+  string_lights_top_left_to_top_right_light_count = 0
+  string_lights_top_left_to_top_right_string_color_hex = #2B2B2BD2
+  string_lights_top_left_to_top_right_light_sizes = 
+  string_lights_top_left_to_top_right_light_colors = 
+  string_lights_bottom_left_to_bottom_right = false
+  string_lights_bottom_left_to_bottom_right_christmas_mode = false
   string_lights_bottom_left_to_bottom_right_color_hex = #FFD27A
+  string_lights_bottom_left_to_bottom_right_light_count = 0
+  string_lights_bottom_left_to_bottom_right_string_color_hex = #2B2B2BD2
+  string_lights_bottom_left_to_bottom_right_light_sizes = 
+  string_lights_bottom_left_to_bottom_right_light_colors = 
+  string_lights_loose_left_top = false
+  string_lights_loose_left_top_christmas_mode = false
   string_lights_loose_left_top_color_hex = #FFD27A
+  string_lights_loose_left_top_light_count = 0
+  string_lights_loose_left_top_string_color_hex = #2B2B2BD2
+  string_lights_loose_left_top_light_sizes = 
+  string_lights_loose_left_top_light_colors = 
+  string_lights_loose_right_top = false
+  string_lights_loose_right_top_christmas_mode = false
   string_lights_loose_right_top_color_hex = #FFD27A
+  string_lights_loose_right_top_light_count = 0
+  string_lights_loose_right_top_string_color_hex = #2B2B2BD2
+  string_lights_loose_right_top_light_sizes = 
+  string_lights_loose_right_top_light_colors = 
 }
 
 decoration_overlay {
@@ -325,6 +364,13 @@ decoration_overlay {
   confetti_color_mix_mode = true
   confetti_mouse_click_mode = false
   confetti_color_hex = #FFFFFF
+}
+
+screen_audio_settings {
+  open_audio_volume = 1.0
+  open_audio_sound_channel = master
+  close_audio_volume = 1.0
+  close_audio_sound_channel = master
 }
 
 customization {
@@ -425,6 +471,12 @@ element {
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
+  click_sound_volume = 1.0
+  click_sound_channel = master
+  hover_sound_volume = 1.0
+  hover_sound_channel = master
+  unhover_sound_volume = 1.0
+  unhover_sound_channel = master
 }
 
 element {
@@ -460,14 +512,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = -162
+  anchor_point = mid-left
+  x = 158
   y = -100
   width = 137
-  height = 13
+  height = 15
   stay_on_screen = true
   element_loading_requirement_container_identifier = f6eb1f74-4dd5-49a9-81fd-79fc0c330dfd-1766514544875
   [loading_requirement_container_meta:f6eb1f74-4dd5-49a9-81fd-79fc0c330dfd-1766514544875] = [groups:][instances:]
@@ -586,12 +638,18 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
+  click_sound_volume = 1.0
+  click_sound_channel = master
+  hover_sound_volume = 1.0
+  hover_sound_channel = master
   label_scale = 1.0
   label_shadow = true
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
+  unhover_sound_volume = 1.0
+  unhover_sound_channel = master
 }
 
 element {
@@ -623,8 +681,8 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
-  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 563158a6-e5bc-426b-98a9-37980868717f-1766515230924
@@ -674,6 +732,12 @@ element {
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
+  click_sound_volume = 1.0
+  click_sound_channel = master
+  hover_sound_volume = 1.0
+  hover_sound_channel = master
+  unhover_sound_volume = 1.0
+  unhover_sound_channel = master
 }
 
 element {
@@ -709,14 +773,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1083
-  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = 26
+  anchor_point = mid-right
+  x = -294
   y = -100
   width = 137
-  height = 13
+  height = 15
   stay_on_screen = true
   element_loading_requirement_container_identifier = f6eb1f74-4dd5-49a9-81fd-79fc0c330dfd-1766514544875
   [loading_requirement_container_meta:f6eb1f74-4dd5-49a9-81fd-79fc0c330dfd-1766514544875] = [groups:][instances:]
@@ -793,8 +857,8 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1083
-  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 563158a6-e5bc-426b-98a9-37980868717f-1766515230924
@@ -835,12 +899,18 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
+  click_sound_volume = 1.0
+  click_sound_channel = master
+  hover_sound_volume = 1.0
+  hover_sound_channel = master
   label_scale = 1.0
   label_shadow = true
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
+  unhover_sound_volume = 1.0
+  unhover_sound_channel = master
 }
 
 element {
@@ -882,8 +952,8 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1083
-  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 64e83fdc-8c7e-4d49-a5d5-d33e7e3f7124-1766523588128
@@ -924,11 +994,17 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
+  click_sound_volume = 1.0
+  click_sound_channel = master
+  hover_sound_volume = 1.0
+  hover_sound_channel = master
   label_scale = 1.0
   label_shadow = true
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
+  unhover_sound_volume = 1.0
+  unhover_sound_channel = master
 }
 

@@ -39,3 +39,6 @@ net.minecraft.client.gui.screens.options.OptionsScreen {
 net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
 }
 
+net.minecraft.client.gui.screens.ChatScreen {
+}
+

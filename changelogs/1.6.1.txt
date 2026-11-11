@@ -18,14 +18,20 @@ Technical changes:
 - The pack now uses AnyBind instead of ChatBinds since the latter wasn't being updated. This means that keybinds can't be sent as a text component since this mod doesn't allow it. Happy to hear alternatives!
 
 Fixed bugs:
+- #18: Character Icon Size slider does not correctly adjust for resolution
+- #125: "Mark" and "Clear Mark" buttons overlap with chat
+- #136: 'TP to House' Menu non functional
+- #144: The log can get spammed with FM errors the first time a given menu is opened.
 - #160: Community Created Content icon in pause menu does not scale properly with gui scale
 - #176: Upgrading to v1.6.0 changes simple voice chat default port value
 - #177: Text refering to keybind-specific messages does not change when modifying the given keybind (thanks @Jvkeh)
 - #179: Using the /script command doesnt open the correct script layout
 - #181: Spectators can /whisper only the player in the 1st slot
+- #186: Make fancy menu assets resource packable
 - #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
 - #191: Spectators still see multiple istances of "There is a demon about" message.
 - #193: Cannot make a spectator without them being a storyteller first
+- #196: Voting items can be removed from the offhand, which causes issues
 - #197: Wraith doesn't translate
 - Time sometimes advances during the "day" phase.
 - Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.

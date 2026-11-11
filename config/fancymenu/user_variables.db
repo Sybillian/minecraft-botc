@@ -152,7 +152,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 13
+  value = 10
   reset_on_launch = false
 }
 
@@ -266,7 +266,7 @@ variable {
 
 variable {
   name = role
-  value = none
+  value = assassin
   reset_on_launch = false
 }
 
@@ -458,7 +458,7 @@ variable {
 
 variable {
   name = quickaction
-  value = none
+  value = tp
   reset_on_launch = false
 }
 
@@ -1226,7 +1226,7 @@ variable {
 
 variable {
   name = day_start
-  value = 17:03
+  value = 20:04
   reset_on_launch = false
 }
 
@@ -2234,7 +2234,7 @@ variable {
 
 variable {
   name = player_count
-  value = 0
+  value = 11
   reset_on_launch = false
 }
 
@@ -2276,7 +2276,7 @@ variable {
 
 variable {
   name = current_nominator
-  value = Efe
+  value = Celeste
   reset_on_launch = false
 }
 
@@ -2492,7 +2492,7 @@ variable {
 
 variable {
   name = p1_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2648,7 +2648,7 @@ variable {
 
 variable {
   name = phase
-  value = 2
+  value = 3
   reset_on_launch = false
 }
 
@@ -3158,7 +3158,7 @@ variable {
 
 variable {
   name = ghost_votes
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 

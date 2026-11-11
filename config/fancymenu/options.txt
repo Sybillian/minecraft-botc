@@ -21,14 +21,15 @@ B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
 F:game_intro_volume = '1.0';
 S:custom_game_intro_skip_text = '';
+B:game_intro_ignore_animation_loops = 'true';
 
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
+B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/imp_32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/imp_32.png';
-S:custom_window_title = 'Blood on the Clocktower v1.6.0-BETA 5';
+S:custom_window_title = 'Blood on the Clocktower v{"placeholder":"getvariable","values":{"name":"version"}}';
 S:custom_window_icon_16 = '/config/fancymenu/assets/imp_16.png';
 
 
@@ -42,6 +43,7 @@ S:global_button_background_inactive = '';
 B:global_button_background_nine_slice = 'false';
 S:global_button_label_hover_color = '';
 F:global_slider_label_scale = '1.0';
+S:global_button_click_sound_channel = 'master';
 S:global_button_label_base_color = '';
 S:global_button_click_sound = '';
 S:global_slider_label_base_color = '';
@@ -68,7 +70,9 @@ B:global_slider_label_underline_on_hover = 'false';
 B:global_slider_handle_nine_slice = 'false';
 I:global_button_background_nine_slice_border_left = '5';
 B:global_button_background_transparent = 'false';
+B:show_achievement_toasts = 'true';
 B:seamless_world_loading = 'false';
+F:global_button_click_sound_volume = '1.0';
 B:global_slider_background_transparent = 'false';
 S:global_slider_handle_normal = '';
 I:global_slider_background_nine_slice_border_right = '5';

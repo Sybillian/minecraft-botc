@@ -5,12 +5,12 @@
     },
     "minecraft:custom": {
       "minecraft:damage_resisted": 210,
-      "minecraft:time_since_rest": 772144,
-      "minecraft:total_world_time": 946769,
-      "minecraft:leave_game": 30,
-      "minecraft:play_time": 772144,
-      "minecraft:time_since_death": 772144
+      "minecraft:time_since_rest": 952060,
+      "minecraft:total_world_time": 1141897,
+      "minecraft:leave_game": 31,
+      "minecraft:play_time": 952060,
+      "minecraft:time_since_death": 952060
     }
   },
-  "DataVersion": 4671
+  "DataVersion": 5023
 }
