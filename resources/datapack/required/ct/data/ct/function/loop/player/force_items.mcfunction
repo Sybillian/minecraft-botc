@@ -1,0 +1,3 @@
+execute unless items entity @s ct:whole_inventory minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["script"]}] run function ct:item/give/script
+execute unless items entity @s ct:whole_inventory minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["grimoire"]}] run function ct:item/give/grimoire
+execute if score phase game_data matches 0 unless items entity @s[tag=storyteller] ct:whole_inventory minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["ct_bag"]}] run function ct:item/give/bag

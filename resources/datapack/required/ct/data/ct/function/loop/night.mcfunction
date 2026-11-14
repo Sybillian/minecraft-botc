@@ -1,5 +1,7 @@
+# Manage whether the player has a compass
 execute as @a if score @s id = @s vc run tag @s add in_house
 clear @a[tag=in_house] minecraft:compass
+execute as @a[tag=!storyteller,tag=!spectator,tag=!in_house] unless items entity @s ct:whole_inventory minecraft:compass run function ct:item/give/compass
 tag @a remove in_house
 
 execute if entity @a[tag=!storyteller,tag=!spectator,scores={vc=0}] run title @a[tag=storyteller] actionbar [{"selector": "@a[tag=!storyteller,tag=!spectator,scores={vc=0}]"},{"text":" is not in a house.","color":"red"}]

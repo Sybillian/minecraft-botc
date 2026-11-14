@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:filtered",
+  "item_filter": {
+    "count": {
+      "max": 0
+    }
+  },
+  "slot_source": [
+    {
+      "type": "minecraft:slot_range",
+      "source": "this",
+      "slots": "hotbar.*"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "source": "this",
+      "slots": "inventory.*"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "source": "this",
+      "slots": "player.cursor"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute unless items entity @s ct:whole_inventory minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["grimoire"]}] run give @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["grimoire"]},custom_name=[{text:"Grimoire",color:"red",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
+kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_model_data":{strings:["grimoire"]}}}}]

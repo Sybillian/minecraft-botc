@@ -6,12 +6,6 @@ de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
 }
 
@@ -40,5 +34,8 @@ net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
 }
 
 net.minecraft.client.gui.screens.ChatScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 

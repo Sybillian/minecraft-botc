@@ -1,15 +1,15 @@
 {
   "stats": {
-    "minecraft:used": {
-      "minecraft:carrot_on_a_stick": 8
-    },
     "minecraft:custom": {
       "minecraft:damage_resisted": 460,
-      "minecraft:time_since_rest": 1079859,
-      "minecraft:total_world_time": 1309173,
-      "minecraft:leave_game": 32,
-      "minecraft:play_time": 1079859,
-      "minecraft:time_since_death": 1079859
+      "minecraft:time_since_rest": 1089208,
+      "minecraft:total_world_time": 1318535,
+      "minecraft:leave_game": 33,
+      "minecraft:play_time": 1089208,
+      "minecraft:time_since_death": 1089208
+    },
+    "minecraft:used": {
+      "minecraft:carrot_on_a_stick": 8
     }
   },
   "DataVersion": 5023

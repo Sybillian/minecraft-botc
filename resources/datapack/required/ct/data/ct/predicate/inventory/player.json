@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:slots": {
+      "inventory.*": {
+        "items": "minecraft:carrot_on_a_stick",
+        "count": 1
+      }
+    }
+  }
+}

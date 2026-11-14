@@ -3,6 +3,7 @@ BotC v1.6.1 - XX XX, 2026
 Changes and features:
 - Updated to Minecraft 26.3
 - Finished the upstairs interior of the Inn.
+- Added several new trees around the build.
 - Added Rinku mod to enable FM's browser feature.
 - Added Default Options mod to handle keybinds better.
 - Added a HUD element to display the current number of votes as well as the required majority.
@@ -20,7 +21,7 @@ Changes and features:
 
 Technical changes:
 - The pack now uses AnyBind instead of ChatBinds since the latter wasn't being updated. This means that keybinds can't be sent as a text component since this mod doesn't allow it. Happy to hear alternatives!
-- Added a section in set_grim_roles.mcfunction to show a player's own role in their Grimoire upon reveal.
+- Added a section in set_grim_roles.mcfunction to show a player's own role in their Grimoire upon reveal. Homebrew tools may need to update for this.
 
 Fixed bugs:
 - #18: Character Icon Size slider does not correctly adjust for resolution
@@ -40,7 +41,11 @@ Fixed bugs:
 - #193: Cannot make a spectator without them being a storyteller first
 - #196: Voting items can be removed from the offhand, which causes issues
 - #197: Wraith doesn't translate
-- Time sometimes advances during the "day" phase.
+- #202: Players can drop items that they should not be able to
+- World time sometimes advances during the "day" phase.
 - Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.
 - Subtitles for "player dies" and "player nominated" are swapped.
-- FancyMenu no longer spams the server console with packet data errors.
+- FancyMenu spams the server console with packet data errors.
+
+Known issues:
+- Home compasses broke in 26.3

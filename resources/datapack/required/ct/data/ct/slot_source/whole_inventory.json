@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:group",
+  "terms": [
+    {
+      "type": "minecraft:slot_range",
+      "source": "this",
+      "slots": "player.cursor"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "source": "this",
+      "slots": "hotbar.*"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "source": "this",
+      "slots": "inventory.*"
+    }
+  ]
+}
