@@ -4,13 +4,13 @@ layout-meta {
   identifier = ct-noms
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1783305620978
-  is_enabled = false
+  is_enabled = true
   widget_identifier_revision = 2
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:67a8ac44-30e3-4eea-a924-6d2609c435ec-1794385868693] = [groups:][instances:]
+  [loading_requirement_container_meta:0acdeaea-c70a-471a-8da4-31bc51259f5c-1794643910012] = [groups:][instances:]
 }
 
 menu_background {

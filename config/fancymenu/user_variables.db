@@ -152,7 +152,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 14
+  value = 12
   reset_on_launch = false
 }
 
@@ -458,7 +458,7 @@ variable {
 
 variable {
   name = quickaction
-  value = tp
+  value = none
   reset_on_launch = false
 }
 
@@ -1226,7 +1226,7 @@ variable {
 
 variable {
   name = day_start
-  value = 20:59
+  value = 21:10
   reset_on_launch = false
 }
 
@@ -2096,7 +2096,7 @@ variable {
 
 variable {
   name = p4_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2276,7 +2276,7 @@ variable {
 
 variable {
   name = current_nominator
-  value = none
+  value = Selina
   reset_on_launch = false
 }
 
@@ -2648,7 +2648,7 @@ variable {
 
 variable {
   name = phase
-  value = 4
+  value = 3
   reset_on_launch = false
 }
 
@@ -2780,7 +2780,7 @@ variable {
 
 variable {
   name = p3_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -3158,7 +3158,7 @@ variable {
 
 variable {
   name = ghost_votes
-  value = 0
+  value = 2
   reset_on_launch = false
 }
 

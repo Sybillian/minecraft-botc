@@ -4,6 +4,6 @@ title @s[tag=!storyteller,tag=!spectator,tag=voting_banshee] actionbar [{"text":
 title @s[tag=!storyteller,tag=!spectator,tag=!voting_yes,tag=!voting_banshee] actionbar [{"text":"You are voting","color":"white"},{"text":" NO ","color":"red"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
 
 execute if entity @s[tag=voting_yes,tag=!active_banshee] unless items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_yes"]}] run function ct:loop/vote/force_offhand
-execute if entity @s[tag=voting_banshee,tag=active_banshee] unless items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_yes"]}] run function ct:loop/vote/force_offhand
-execute if entity @s[tag=voting_banshee] unless items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_yes"]}] run function ct:loop/vote/force_offhand
-execute if entity @s[tag=!voting_yes,tag=!voting_banshee] unless items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_yes"]}] run function ct:loop/vote/force_offhand
+execute if entity @s[tag=voting_banshee,tag=active_banshee] unless items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_banshee"]}] run function ct:loop/vote/force_offhand
+execute if entity @s[tag=voting_ghost] unless items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_ghost"]}] run function ct:loop/vote/force_offhand
+execute if entity @s[tag=voting_no] unless items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_no"]}] run function ct:loop/vote/force_offhand

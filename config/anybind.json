@@ -33,6 +33,36 @@
       },
       "enabled": true,
       "confirmed": false
+    },
+    {
+      "id": "0f3600b3-11ba-4f18-8888-02b96e6a4fcd",
+      "name": "Storyteller: Quick Actions",
+      "key": "key.keyboard.r",
+      "keys": [
+        "key.keyboard.r"
+      ],
+      "modifiers": [],
+      "action": {
+        "type": "GAME_CHAT",
+        "message": "/quickactions root"
+      },
+      "enabled": true,
+      "confirmed": false
+    },
+    {
+      "id": "82e57731-f417-46cc-8d5f-ea1801848b08",
+      "name": "Storyteller: Nominate",
+      "key": "key.keyboard.c",
+      "keys": [
+        "key.keyboard.c"
+      ],
+      "modifiers": [],
+      "action": {
+        "type": "GAME_CHAT",
+        "message": "/noms_menu"
+      },
+      "enabled": true,
+      "confirmed": false
     }
   ]
 }

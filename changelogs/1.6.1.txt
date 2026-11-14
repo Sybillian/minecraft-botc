@@ -41,6 +41,7 @@ Fixed bugs:
 - #193: Cannot make a spectator without them being a storyteller first
 - #196: Voting items can be removed from the offhand, which causes issues
 - #197: Wraith doesn't translate
+- #200: Ghost votes can be lowered after use
 - #202: Players can drop items that they should not be able to
 - World time sometimes advances during the "day" phase.
 - Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.

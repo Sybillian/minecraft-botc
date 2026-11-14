@@ -1,5 +1,6 @@
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_yes"]}]
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_ghost"]}]
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_banshee"]}]
 
 tag @s add voting_now
