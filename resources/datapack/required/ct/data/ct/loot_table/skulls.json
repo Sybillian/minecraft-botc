@@ -1,9 +1,9 @@
 {
   "type": "minecraft:command",
-  "functions": [
-    { "function": "minecraft:set_name", "name": [{ "text": "☠ ", "color": "dark_red", "italic": false },{ "text": "YOU ARE DEAD", "color": "red", "italic": false }] },
+  "modifier": [
+    { "type": "minecraft:set_name", "name": [{ "text": "☠ ", "color": "dark_red", "italic": false },{ "text": "YOU ARE DEAD", "color": "red", "italic": false }] },
     {
-      "function": "minecraft:set_lore",
+      "type": "minecraft:set_lore",
       "mode": "replace_all",
       "lore": [
         {"text": "You cannot nominate and", "color": "gray", "italic": false},
@@ -16,13 +16,13 @@
       ]
     },
     {
-      "function": "minecraft:set_enchantments",
+      "type": "minecraft:set_enchantments",
       "enchantments": {
         "minecraft:binding_curse": 1
       }
     },
     {
-      "function": "minecraft:toggle_tooltips",
+      "type": "minecraft:toggle_tooltips",
       "toggles": {
         "minecraft:enchantments": false
       }
@@ -35,10 +35,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:profile": {
                   "id": [ -1479391167, -950123400, -1858000734, 1659469774 ],
@@ -56,9 +56,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:profile": {
                   "id": [ -1479392167, -950123400, -1858000734, 1659469774 ],
@@ -76,9 +76,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:profile": {
                   "id": [ -1479392163, -950123400, -1858000734, 1659469774 ],
@@ -96,9 +96,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:profile": {
                   "id": [ -1479392163, -950122400, -1858000734, 1659469774 ],
@@ -116,9 +116,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:profile": {
                   "id": [ -1479392163, -950122400, -1858000734, 1659463774 ],
@@ -136,9 +136,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:profile": {
                   "id": [ -1479392163, -950122400, -1858002734, 1659463774 ],

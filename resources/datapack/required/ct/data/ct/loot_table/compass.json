@@ -1,473 +1,361 @@
 {
-  "type": "minecraft:generic",
   "pools": [
     {
-      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:compass",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       80,
                       64,
                       108
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "01_red"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "01_red"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       68,
                       63,
                       124
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "02_orange"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "02_orange"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       55,
                       64,
                       111
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "03_yellow"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "03_yellow"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       98,
                       65,
                       27
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "04_lime"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "04_lime"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       110,
                       69,
                       15
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "05_green"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "05_green"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       124,
                       69,
                       12
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "06_mint"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "06_mint"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       141,
                       63,
                       16
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "07_cyan"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "07_cyan"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       165,
                       64,
                       37
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "08_blue"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "08_blue"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       179,
                       63,
                       47
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "09_navy"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "09_navy"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       182,
                       65,
                       63
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "10_purple"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "10_purple"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       169,
                       65,
                       89
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "12_lavender"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "12_lavender"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       152,
                       65,
                       85
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "11_magenta"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "11_magenta"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       179,
                       65,
                       97
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "13_white"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "13_white"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       170,
                       65,
                       106
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "14_gray"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "14_gray"
                 }
-              ]
+              }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lodestone_tracker": {
                   "target": {
+                    "dimension": "minecraft:overworld",
                     "pos": [
                       151,
                       65,
                       112
-                    ],
-                    "dimension": "minecraft:overworld"
+                    ]
                   },
                   "tracked": false
                 }
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "15_black"
-                      }
-                    }
-                  ]
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "15_black"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Home Compass",
-                "italic": false
               }
             }
-          ]
+          ],
+          "name": "minecraft:compass",
+          "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1
     }
-  ]
+  ],
+  "type": "minecraft:generic"
 }

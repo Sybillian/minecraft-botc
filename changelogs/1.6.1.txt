@@ -21,6 +21,7 @@ Changes and features:
 Technical changes:
 - The pack now uses AnyBind instead of ChatBinds since the latter wasn't being updated. This means that keybinds can't be sent as a text component since this mod doesn't allow it. Happy to hear alternatives!
 - Added a section in set_grim_roles.mcfunction to show a player's own role in their Grimoire upon reveal. Homebrew tools may need to update for this.
+- The loot table format has changed in Minecraft 26.3. You will need to update this if you have changed compass positions or player skulls.
 - Many previously-hardcoded texts are now translated.
 
 Fixed bugs:
@@ -49,5 +50,4 @@ Fixed bugs:
 - FancyMenu spams the server console with packet data errors.
 
 Known issues:
-- Home compasses broke in 26.3
 - AnyBind doesn't support keybinds, so #177's fix is no longer functional.
