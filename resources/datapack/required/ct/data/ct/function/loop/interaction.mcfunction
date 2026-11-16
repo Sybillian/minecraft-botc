@@ -1,0 +1,2 @@
+execute if entity @e[type=minecraft:item_display,sort=nearest,limit=1,tag=chair_head,nbt={view_range:1.0f}] on target run return run seat 0 empty
+execute unless entity @e[type=minecraft:item_display,sort=nearest,limit=1,tag=chair_head,nbt={view_range:1.0f}] on target run return run seat 0 sit

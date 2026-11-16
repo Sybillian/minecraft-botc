@@ -4,4 +4,4 @@ gamerule send_command_feedback true
 gamerule reduced_debug_info false
 gamerule spectators_generate_chunks true
 
-tellraw @s [{"translate":"clocktower.prefix.notification",color:"yellow"},{"text":" Enabled Dev Mode."}]
+tellraw @s [{"translate":"clocktower.prefix.notification",color:"yellow"},{"translate":"clocktower.notice.dev_mode_enabled"}]

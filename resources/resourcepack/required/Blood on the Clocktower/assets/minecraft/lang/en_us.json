@@ -172,6 +172,11 @@
     //
     // NOTICE MESSAGES
     //
+    "clocktower.notice.died": "%s died.",
+    "clocktower.notice.revived": "%s died.",
+    "clocktower.notice.executed": "%s has been executed.",
+    "clocktower.notice.marked": "%s has been marked for execution.",
+    "clocktower.notice.remove_mark": "Nobody is about to die.",
     "clocktower.notice.ferryman": "The Ferryman has restored all dead players' vote tokens.",
     "clocktower.notice.tpallhome.storyteller": "All players were teleported to their homes.",
     "clocktower.notice.tpallhome.player": "A mysterious force teleported you home.",
@@ -181,6 +186,7 @@
     "clocktower.notice.in_play": " is in play.",
     "clocktower.notice.bag_created": "You've made a bag with the characters you selected. Press %s and click \"Start Night 1\" in the top right to hand them out.",
     "clocktower.notice.dev_mode": "Dev Mode is currently active. Make sure to run the package function and reload again before shipping.",
+    "clocktower.notice.dev_mode_enabled": "Enabled dev mode.",
     "clocktower.notice.hover_hint":"Press %s to release your mouse, then hover over your character icon in the top left to see your ability.",
     "clocktower.notice.night_chat.storyteller.enabled": "§aEveryone§r can hear you. Press %s to toggle.",
     "clocktower.notice.night_chat.storyteller.disabled": "§cOnly local players§r can hear you. Press %s to toggle.",
@@ -189,12 +195,21 @@
     "clocktower.notice.night_chat.spectator.enabled": "Listening to §anight chat§r. Press %s to toggle.",
     "clocktower.notice.night_chat.spectator.disabled": "Listening to §alocal players§r. Press %s to toggle.",
     //
+    // SEAT NOTICES
+    //
+    "clocktower.notice.sit_down": "You have sat in seat %s.",
+    "clocktower.notice.stand_up": "You are no longer seated and will spectate the upcoming game.",
+    // SEAT STRINGS
+    "clocktower.seat.unoccupied": "Unoccupied",
+    "clocktower.seat.interact_to_claim": "Interact to claim",
+    //
     // RANDOM STRINGS
     //
     "clocktower.command.spectator": "/spectator",
     "clocktower.command.msg": "%s §7→ %s§7: %s",
     "clocktower.command.msg.you": "You",
     "clocktower.command.msg.st_visible": "This message is visible to you, the recipient, and the Storyteller.",
+    "clocktower.boom": "BOOM!!!",
     //
     // ROLE NAMES
     //

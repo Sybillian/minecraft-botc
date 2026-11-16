@@ -22,6 +22,13 @@ scoreboard objectives add vote dummy
 scoreboard objectives add vote_tokens dummy
 scoreboard objectives add vote_value dummy
 
+# Data related to seats
+scoreboard objectives add seats dummy
+scoreboard players set alive seats 0
+scoreboard players set occupied seats 0
+scoreboard players set available seats 0
+scoreboard players set travellers seats 0
+
 # Numbers used in math operations, specifically for the timer
 # and for calculating vote majority.
 scoreboard players set minute math 60

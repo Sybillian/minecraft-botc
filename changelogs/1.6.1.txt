@@ -4,7 +4,6 @@ Changes and features:
 - Updated to Minecraft 26.3
 - Finished the upstairs interior of the Inn.
 - Added several new trees around the build.
-- Added Rinku mod to enable FM's browser feature.
 - Added Default Options mod to handle keybinds better.
 - Added a HUD element to display the current number of votes as well as the required majority.
 - Added a nice little bug to the Report Modpack Bugs button.
@@ -22,6 +21,7 @@ Changes and features:
 Technical changes:
 - The pack now uses AnyBind instead of ChatBinds since the latter wasn't being updated. This means that keybinds can't be sent as a text component since this mod doesn't allow it. Happy to hear alternatives!
 - Added a section in set_grim_roles.mcfunction to show a player's own role in their Grimoire upon reveal. Homebrew tools may need to update for this.
+- Many previously-hardcoded texts are now translated.
 
 Fixed bugs:
 - #18: Character Icon Size slider does not correctly adjust for resolution
@@ -50,3 +50,4 @@ Fixed bugs:
 
 Known issues:
 - Home compasses broke in 26.3
+- AnyBind doesn't support keybinds, so #177's fix is no longer functional.

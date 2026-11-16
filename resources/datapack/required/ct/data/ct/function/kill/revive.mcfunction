@@ -17,7 +17,8 @@ execute as @s[team=12_lavender] run team modify 12_lavender suffix {"text":""}
 execute as @s[team=13_white] run team modify 13_white suffix {"text":""}
 execute as @s[team=14_gray] run team modify 14_gray suffix {"text":""}
 execute as @s[team=15_black] run team modify 15_black suffix {"text":""}
-tellraw @a [{"selector":"@s"},{"text":" came back to life.","color":"green"}]
+
+tellraw @a [{"translate":"clocktower.notice.revived","color":"green","with":[{"selector":"@s","color":"white"}]}]
 execute as @a at @s run playsound ct:clocktower.revive voice @s ~ ~ ~ 1
 
 execute as @a run function ct:util/update_shrouds

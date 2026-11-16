@@ -11,6 +11,3 @@ clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["star
 gamerule send_command_feedback false
 gamerule reduced_debug_info true
 gamerule spectators_generate_chunks false
-
-tellraw @s {"text":"Packaging Reminders:",bold:true}
-tellraw @s "- Disable Axiom\n- Disable ArmorPoser\n- Disable Carpet"

@@ -24,4 +24,4 @@ execute as @a[tag=!storyteller,tag=!spectator] run scoreboard players add player
 execute unless score player_count game_data = stored_player_count game_data run function ct:util/update_game_data
 
 # Handlers for interaction entities
-execute as @e[tag=interaction,nbt={interaction:{}}] at @s run function ct:loop/seat/interaction
+execute as @e[type=minecraft:interaction,tag=chair_interaction,nbt={interaction:{}}] at @s run function ct:loop/interaction
