@@ -536,7 +536,7 @@ variable {
 
 variable {
   name = seat_data
-  value = [{alive:0,pronouns:"",reminders:[],role:0,username:"Sybillian"}]
+  value = [{alive:0,pronouns:"",reminders:[],role:0,username:""},{alive:1b,pronouns:"",reminders:[],role:{alignment:"good",id:"none",team:"townsfolk"},username:""}]
   reset_on_launch = false
 }
 

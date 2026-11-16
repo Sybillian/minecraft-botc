@@ -24,6 +24,7 @@ scoreboard objectives add vote_value dummy
 
 # Data related to seats
 scoreboard objectives add seats dummy
+scoreboard objectives add seat_id dummy
 scoreboard players set alive seats 0
 scoreboard players set occupied seats 0
 scoreboard players set available seats 0
