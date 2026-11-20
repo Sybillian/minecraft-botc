@@ -1,1 +1,1 @@
-tellraw @s [{"translate":"clocktower.prefix.notification",color:"yellow"},{"translate":"clocktower.error.whisper_spectator","color":"gray"}]
+tellraw @s [{"translate":"clocktower.prefix.generic",color:"yellow"},{"translate":"clocktower.error.whisper_spectator","color":"gray"}]

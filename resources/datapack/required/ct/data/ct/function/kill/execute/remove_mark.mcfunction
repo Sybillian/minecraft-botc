@@ -1,7 +1,7 @@
 function ct:loop/vote/end_voting
 
 tag @a remove marked_for_execution
-tellraw @a [{"translate":"clocktower.prefix.notification","color":"yellow"},{"translate":"clocktower.notice.remove_mark","color":"gray","bold":false}]
+tellraw @a [{"translate":"clocktower.prefix.generic","color":"yellow"},{"translate":"clocktower.notice.remove_mark","color":"gray","bold":false}]
 execute as @a run fmvariable set current_nominee false none
 
 function ct:util/color_prefixes

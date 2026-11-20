@@ -1,22 +1,22 @@
 {
   "stats": {
-    "minecraft:dropped": {
-      "minecraft:compass": 1
-    },
-    "minecraft:custom": {
-      "minecraft:damage_resisted": 500,
-      "minecraft:time_since_rest": 1098135,
-      "minecraft:total_world_time": 1330345,
-      "minecraft:leave_game": 34,
-      "minecraft:play_time": 1098135,
-      "minecraft:time_since_death": 1098135,
-      "minecraft:drop": 1
-    },
     "minecraft:picked_up": {
       "minecraft:compass": 1
     },
     "minecraft:used": {
       "minecraft:carrot_on_a_stick": 6
+    },
+    "minecraft:dropped": {
+      "minecraft:compass": 1
+    },
+    "minecraft:custom": {
+      "minecraft:damage_resisted": 500,
+      "minecraft:time_since_rest": 1098527,
+      "minecraft:total_world_time": 1338750,
+      "minecraft:leave_game": 35,
+      "minecraft:play_time": 1098527,
+      "minecraft:time_since_death": 1098527,
+      "minecraft:drop": 1
     }
   },
   "DataVersion": 5023

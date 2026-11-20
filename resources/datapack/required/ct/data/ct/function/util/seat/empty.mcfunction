@@ -7,7 +7,7 @@ scoreboard players remove occupied seats 1
 scoreboard players add available seats 1
 
 # Player visuals
-tellraw @s [{"translate":"clocktower.prefix.notification",color:"yellow"},{"translate":"clocktower.notice.stand_up","color":"gray",with:["1"]}]
+tellraw @s [{"translate":"clocktower.prefix.generic",color:"yellow"},{"translate":"clocktower.notice.stand_up","color":"gray",with:["1"]}]
 team join 00_spectator @s
 
 # Run the seat-specific function
