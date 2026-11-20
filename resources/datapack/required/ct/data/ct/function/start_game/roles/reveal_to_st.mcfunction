@@ -1,4 +1,4 @@
-execute unless entity @a[scores={role=404}] if entity @a[scores={role=65}] run scoreboard players set @a[scores={role=0},tag=!storyteller,tag=!spectator] role 65
+execute unless entity @a[scores={role=404}] if entity @a[scores={role=67}] run scoreboard players set @a[scores={role=0},tag=!storyteller,tag=!spectator] role 67
 execute if entity @a[scores={role=404}] run scoreboard players set @a[scores={role=0},tag=!storyteller,tag=!spectator] role 404
 
 execute as @a[scores={id=1}] run function ct:start_game/roles/set_grim_roles {id:1}

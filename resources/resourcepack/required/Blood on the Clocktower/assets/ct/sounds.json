@@ -91,7 +91,7 @@
         ]
     },
     "clocktower.night_death": {
-        "subtitle": "Player is Nominated",
+        "subtitle": "Player Dies",
         "sounds": [
             {
                 "name": "ct:clocktower/night_death",
@@ -100,7 +100,7 @@
         ]
     },
     "clocktower.nominate": {
-        "subtitle": "Player Dies",
+        "subtitle": "Player is Nominated",
         "sounds": [
             {
                 "name": "ct:clocktower/nominate",

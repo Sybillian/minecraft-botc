@@ -7,7 +7,7 @@ tellraw @s[scores={vc=21}] [{"text":" Joined the Inn chat.","color":"gray","ital
 tellraw @s[scores={vc=22}] [{"text":" Joined the Bakery chat.","color":"gray","italic":true,"bold":false}]
 tellraw @s[scores={vc=23}] [{"text":" Joined the Storyteller Den chat.","color":"gray","italic":true,"bold":false}]
 
-execute if score phase game_data matches 4 run execute as @a[tag=!in_vc,tag=!storyteller] if score @s id = @s vc run tellraw @s [{"text":"⌚ ","color":"red"},{"text":"There is a demon about. Do not leave your house at night.","color":"gray"}]
+execute if score phase game_data matches 4 run execute as @a[tag=!in_vc,tag=!storyteller,tag=!spectator] if score @s id = @s vc run tellraw @s [{"text":"⌚ ","color":"red"},{"text":"There is a demon about. Do not leave your house at night.","color":"gray"}]
 
 # if it's the night phase, don't send these messages
 execute if score phase game_data matches 4 run return fail

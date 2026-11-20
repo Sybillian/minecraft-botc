@@ -41,10 +41,21 @@
     "clocktower.header.demons": "Demons",
     "clocktower.header.jinxes": "Jinxes",
     "clocktower.header.fabled": "Fabled",
-    "clocktower.header.travellers": "travellers",
+    "clocktower.header.travellers": "Travellers",
     // Main Menu
     "clocktower.ui.holiday.christmas": "Merry Christmas!",
     "clocktower.ui.holiday.pride": "Happy Pride Month!",
+    "clocktower.ui.important": "IMPORTANT",
+    "clocktower.ui.beta_warning": "You are using a **BETA** version of the modpack. Here there be bugs!",
+    "clocktower.ui.discord": "Click to join the official Discord server for updates, support, and games!",
+    "clocktower.ui.view_changelog": "Click here to view the latest Changelog!",
+    "clocktower.ui.update_available": "Update available!",
+    "clocktower.ui.botc": "BotC",
+    // Options Menu
+    "clocktower.button.botc_options.label": "BotC Options",
+    "clocktower.button.botc_options.hint": "Edit BotC game settings.",
+    "clocktower.button.botc_options.hint_alt": "This menu is only accessible while in a world.",
+    "clocktower.button.credits.label": "Modpack Credits",
     // Grimoire Action Menu Buttons
     "clocktower.button.game_actions.label": "Game Actions",
     "clocktower.button.special_actions.label": "Special Actions",
@@ -84,6 +95,7 @@
     "clocktower.ui.demon_bluffs": "Demon Bluffs",
     "clocktower.ui.first_night_order": "First Night",
     "clocktower.ui.other_nights_order": "Other Nights",
+    "clocktower.itemGroup.custom": "Clocktower Items",
     // Items
     "clocktower.item.skull.name": "Notebook [Right Click]",
     "clocktower.item.skull.lore": "whatever lore",
@@ -137,9 +149,11 @@
     //
     // PREFIXES
     //
-    "clocktower.prefix.notification": "§l!§r ",
+    "clocktower.prefix.generic": "§l!§r ",
     "clocktower.prefix.error": "§c!§r ",
     "clocktower.prefix.the": "The ",
+    "clocktower.prefix.team.storyteller": "✎ ",
+    "clocktower.prefix.team.spectator": "👁 ",
     //
     // ERROR MESSAGES
     //
@@ -149,13 +163,45 @@
     "clocktower.error.not_storyteller": "You must be a Storyteller to do this.",
     "clocktower.error.game_not_active": "This command can only be run during a game.",
     "clocktower.error.game_active": "This command cannot be run during a game.",
+    "clocktower.error.too_many_seats": "There cannot be more than 20 seats in a game.",
     "clocktower.error.whisper_not_neighbor": "During a game, you can only whisper to your neighbors or the Storyteller.",
     "clocktower.error.whisper_self": "You can't whisper to yourself!",
+    "clocktower.error.whisper_spectator": "Spectators can't whisper to players in the game.",
     "clocktower.error.whisper_wrong_phase": "You cannot whisper during the private chats phase.",
     //
     // NOTICE MESSAGES
     //
+    "clocktower.notice.died": "%s died.",
+    "clocktower.notice.revived": "%s died.",
+    "clocktower.notice.executed": "%s has been executed.",
+    "clocktower.notice.marked": "%s has been marked for execution.",
+    "clocktower.notice.remove_mark": "Nobody is about to die.",
     "clocktower.notice.ferryman": "The Ferryman has restored all dead players' vote tokens.",
+    "clocktower.notice.tpallhome.storyteller": "All players were teleported to their homes.",
+    "clocktower.notice.tpallhome.player": "A mysterious force teleported you home.",
+    "clocktower.notice.tpchurch.storyteller": "Minions and Demons were teleported to the church.",
+    "clocktower.notice.tpchurch.player": "A mysterious force teleported you to the church.",
+    "clocktower.notice.new_target": " has selected a new target.",
+    "clocktower.notice.in_play": " is in play.",
+    "clocktower.notice.awoken": " has awoken.",
+    "clocktower.notice.bag_created": "You've made a bag with the characters you selected. Press %s and click \"Start Night 1\" in the top right to hand them out.",
+    "clocktower.notice.dev_mode": "Dev Mode is currently active. Make sure to run the package function and reload again before shipping.",
+    "clocktower.notice.dev_mode_enabled": "Enabled dev mode.",
+    "clocktower.notice.hover_hint":"Press %s to release your mouse, then hover over your character icon in the top left to see your ability.",
+    "clocktower.notice.night_chat.storyteller.enabled": "§aEveryone§r can hear you. Press %s to toggle.",
+    "clocktower.notice.night_chat.storyteller.disabled": "§cOnly local players§r can hear you. Press %s to toggle.",
+    "clocktower.notice.night_chat.player.enabled": "§aEveryone§r can hear you. Press %s to toggle.",
+    "clocktower.notice.night_chat.player.disabled": "§cOnly the Storyteller§r can hear you. Press %s to toggle.",
+    "clocktower.notice.night_chat.spectator.enabled": "Listening to §anight chat§r. Press %s to toggle.",
+    "clocktower.notice.night_chat.spectator.disabled": "Listening to §alocal players§r. Press %s to toggle.",
+    //
+    // SEAT NOTICES
+    //
+    "clocktower.notice.sit_down": "You have sat in seat %s.",
+    "clocktower.notice.stand_up": "You are no longer seated and will spectate the upcoming game.",
+    // SEAT STRINGS
+    "clocktower.seat.unoccupied": "Unoccupied",
+    "clocktower.seat.interact_to_claim": "Interact to claim",
     //
     // RANDOM STRINGS
     //
@@ -163,6 +209,7 @@
     "clocktower.command.msg": "%s §7→ %s§7: %s",
     "clocktower.command.msg.you": "You",
     "clocktower.command.msg.st_visible": "This message is visible to you, the recipient, and the Storyteller.",
+    "clocktower.boom": "BOOM!!!",
     //
     // ROLE NAMES
     //
@@ -287,6 +334,7 @@
     "clocktower.role.vizier.name": "Vizier",
     "clocktower.role.widow.name": "Widow",
     "clocktower.role.wizard.name": "Wizard",
+    "clocktower.role.wraith.name": "Wraith",
     "clocktower.role.xaan.name": "Xaan",
     "clocktower.role.imp.name": "Imp",
     "clocktower.role.fanggu.name": "Fang Gu",
@@ -471,6 +519,7 @@
     "clocktower.role.vizier.desc": "All players know you are the Vizier. You cannot die during the day. If good voted, you may choose to execute immediately.",
     "clocktower.role.widow.desc": "On your 1st night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play.",
     "clocktower.role.wizard.desc": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature.",
+    "clocktower.role.wraith.desc": "You may choose to open your eyes at night. You wake when other evil players do.",
     "clocktower.role.xaan.desc": "On night X, all Townsfolk are poisoned until dusk. §7[X §7Outsiders]§r",
     "clocktower.role.imp.desc": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
     "clocktower.role.fanggu.desc": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. §7[+1 §7Outsider]§r",
