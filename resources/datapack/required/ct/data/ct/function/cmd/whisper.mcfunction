@@ -1,4 +1,6 @@
 # $(target) $(msg)
+$execute if entity @s[tag=spectator] if entity @a[name=$(target),tag=!storyteller,tag=!spectator] run return run function ct:error/whisper_spectator 
+
 execute as @a run scoreboard players operation @s neighbor_check = @s id
 $scoreboard players operation @s neighbor_check -= $(target) id
 $execute if entity @a[name=$(target),tag=storyteller] run scoreboard players set @s neighbor_check 1

@@ -11,11 +11,11 @@ Fixed bugs:
 - #125: "Mark" and "Clear Mark" buttons overlap with chat
 // CARRIED OVER - #177: Text refering to keybind-specific messages does not change when modifying the given keybind (thanks @Jvkeh)
 - #179: Using the /script command doesnt open the correct script layout
-- #181: Spectators can /whisper only the player in the 1st slot
+// CARRIED OVER - #181: Spectators can /whisper only the player in the 1st slot
 // CARRIED OVER - #184: Storytellers are removed from the night chat when flying through public voice rooms
 // CARRIED OVER - #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
 // CARRIED OVER - #191: Spectators still see multiple istances of "There is a demon about" message.
-- #193: Cannot make a spectator without them being a storyteller first
+// CARRIED OVER - #193: Cannot make a spectator without them being a storyteller first
 // CARRIED OVER - #197: Wraith doesn't translate
 // CARRIED OVER - #200: Ghost votes can be lowered after use
 // CARRIED OVER - World time sometimes advances during the "day" phase.

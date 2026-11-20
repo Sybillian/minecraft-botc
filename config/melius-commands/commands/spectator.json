@@ -8,7 +8,7 @@
 					"id": "player",
 					"type": "minecraft:entity players",
 					"executes": [
-						"execute as ${player} run function ct:cmd/spectator/add {target:${player}}"
+						"function ct:cmd/spectator/add {target:${player}}"
 					]
 				}
 			]
@@ -20,7 +20,7 @@
 					"id": "player",
 					"type": "minecraft:entity players",
 					"executes": [
-						"execute as ${player} run function ct:cmd/spectator/remove {target:${player}}"
+						"function ct:cmd/spectator/remove {target:${player}}"
 					]
 				}
 			]
