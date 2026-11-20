@@ -1,16 +1,15 @@
 BotC v1.6.1 - XX XX, 2026
 
 Changes and features:
-- Finished the upstairs interior of the Inn.
-- Added several new trees around the build.
 - Added Default Options mod to handle keybinds better.
 - Changed the countdown sound.
 - Changed the vote sound to use the old countdown sound.
+- Balanced audio levels of many sounds so they're not so loud compared to other game sounds and each other.
 
 Fixed bugs:
 - #125: "Mark" and "Clear Mark" buttons overlap with chat
 // CARRIED OVER - #177: Text refering to keybind-specific messages does not change when modifying the given keybind (thanks @Jvkeh)
-- #179: Using the /script command doesnt open the correct script layout
+// CARRIED OVER - #179: Using the /script command doesnt open the correct script layout
 // CARRIED OVER - #181: Spectators can /whisper only the player in the 1st slot
 // CARRIED OVER - #184: Storytellers are removed from the night chat when flying through public voice rooms
 // CARRIED OVER - #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
