@@ -1,0 +1,53 @@
+BotC v1.6.1 - XX XX, 2026
+
+Changes and features:
+- Updated to Minecraft 26.3
+- Finished the upstairs interior of the Inn.
+- Added several new trees around the build.
+- Added Default Options mod to handle keybinds better.
+- Added a HUD element to display the current number of votes as well as the required majority.
+- Added a nice little bug to the Report Modpack Bugs button.
+- Added a Discord button to the Multiplayer menu.
+- Added a "Clocktower Items" creative tab to quickly grab copies of items that can normally only be spawned in.
+- Redid the Storyteller HUD element for managing an active nomination.
+- Redid the Modpack Credits screen to scroll and look a bit nicer.
+- Character tokens in the bag menu now get slightly larger when they are selected.
+- Reduced the volume of most custom sounds to be consistent with each other and with Minecraft sounds.
+- Changed the countdown sound.
+- Changed the vote sound to use the old countdown sound.
+- When a player receives a role, it now automatically appears on their spot in the Grimoire.
+- Vote items can no longer be removed from your offhand.
+
+Technical changes:
+- The pack now uses AnyBind instead of ChatBinds since the latter wasn't being updated. This means that keybinds can't be sent as a text component since this mod doesn't allow it. Happy to hear alternatives!
+- Added a section in set_grim_roles.mcfunction to show a player's own role in their Grimoire upon reveal. Homebrew tools may need to update for this.
+- The loot table format has changed in Minecraft 26.3. You will need to update this if you have changed compass positions or player skulls.
+- Many previously-hardcoded texts are now translated.
+
+Fixed bugs:
+- #18: Character Icon Size slider does not correctly adjust for resolution
+- #125: "Mark" and "Clear Mark" buttons overlap with chat
+- #136: 'TP to House' Menu non functional
+- #144: The log can get spammed with FM errors the first time a given menu is opened.
+- #160: Community Created Content icon in pause menu does not scale properly with gui scale
+- #176: Upgrading to v1.6.0 changes simple voice chat default port value
+- #177: Text refering to keybind-specific messages does not change when modifying the given keybind (thanks @Jvkeh)
+- #179: Using the /script command doesnt open the correct script layout
+- #181: Spectators can /whisper only the player in the 1st slot
+- #184: Storytellers are removed from the night chat when flying through public voice rooms
+- #185: Changing Reminder Tokens or Character in Grim changes its size
+- #186: Make fancy menu assets resource packable
+- #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
+- #191: Spectators still see multiple istances of "There is a demon about" message.
+- #193: Cannot make a spectator without them being a storyteller first
+- #196: Voting items can be removed from the offhand, which causes issues
+- #197: Wraith doesn't translate
+- #200: Ghost votes can be lowered after use
+- #202: Players can drop items that they should not be able to
+- World time sometimes advances during the "day" phase.
+- Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.
+- Subtitles for "player dies" and "player nominated" are swapped.
+- FancyMenu spams the server console with packet data errors.
+
+Known issues:
+- AnyBind doesn't support keybinds, so #177's fix is no longer functional.
