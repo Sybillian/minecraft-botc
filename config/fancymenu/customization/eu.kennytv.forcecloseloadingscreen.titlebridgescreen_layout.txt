@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = eu.kennytv.forcecloseloadingscreen.TitleBridgeScreen
+  identifier = title_screen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1781189777704
   is_enabled = true
@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:50fa9415-a793-40f1-b84c-5da297770fcd-1781189775272] = [groups:][instances:]
+  [loading_requirement_container_meta:3ab7f895-e973-4170-a8a1-02312085f793-1795329256180] = [groups:][instances:]
 }
 
 customization {
@@ -71,8 +71,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = beb6c6f2-fdd9-4332-affc-bc5cd0e342f6-1781063988249
-  background_type = video_mcef
+  instance_identifier = b1dff56f-b331-447c-bbde-540a3fdaa726-1795329040325
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -138,13 +138,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 1c4d1f0b-4d9c-4ea0-8f6c-10e1909973ab-1781063988249
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {

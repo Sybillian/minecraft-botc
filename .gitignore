@@ -96,3 +96,9 @@ config/lingua_bib.json
 config/gpu_booster_config.json
 /saves/world/advancements
 .vscode/
+config/cwb.json
+config/NoChatRestrictions.json
+config/scribble.client.json
+config/serilum/collective.json
+/saves/world/players
+/saves/world/poi
