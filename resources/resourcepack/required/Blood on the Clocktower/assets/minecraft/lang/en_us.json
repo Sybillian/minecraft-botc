@@ -149,6 +149,7 @@
     //
     // PREFIXES
     //
+    "clocktower.prefix.notification": "! ",
     "clocktower.prefix.generic": "§l!§r ",
     "clocktower.prefix.error": "§c!§r ",
     "clocktower.prefix.the": "The ",
