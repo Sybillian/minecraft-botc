@@ -15,11 +15,7 @@
 
 Messages-To-Hide-Filter:
   contains:
-    - 'First example message'
-    - 'Second example message'
-  regex:
-    - '^Third example message$'
-    - '^\[.*\] Fourth example message$'
+    - '[FANCYMENU] No codec for packet data found with identifier: spiffy_structures'
 
 #Write each hidden (filtered) message to its own file under logs/.
 #File names follow the pattern yyyy-MM-dd-N-filtered.log (e.g. 2026-07-03-1-filtered.log)

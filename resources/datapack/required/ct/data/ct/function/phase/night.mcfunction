@@ -40,4 +40,5 @@ tag @a remove died_today
 tag @a remove voted_today
 tag @a remove being_executed
 
+schedule function ct:util/motd/store_data 1t
 function ct:util/sync_variables

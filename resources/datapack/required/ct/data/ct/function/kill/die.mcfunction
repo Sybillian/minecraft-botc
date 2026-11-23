@@ -24,5 +24,6 @@ execute as @s[team=15_black] run team modify 15_black suffix {"text":" ☠","col
 #put this in later: $execute as @s[team=$(team)] run team modify $(team) suffix {"text":" ☠","color":"dark_gray"}
 
 execute as @a run function ct:util/update_shrouds
+schedule function ct:util/motd/store_data 1t
 function ct:admin/variables/score
 function ct:util/sync_variables

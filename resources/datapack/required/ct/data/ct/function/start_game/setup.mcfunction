@@ -165,4 +165,5 @@ scoreboard players set @a[tag=!storyteller,tag=!spectator] vote_value 1
 schedule function ct:start_game/roles/reveal_to_st 1t
 schedule function ct:start_game/apply_labels 2t
 schedule function ct:admin/variables/score 3t
+schedule function ct:util/motd/store_data 4t
 schedule function ct:util/sync_variables 4t

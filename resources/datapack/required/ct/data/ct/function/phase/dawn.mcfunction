@@ -35,4 +35,5 @@ execute as @a run voicechat leave
 
 clear @a minecraft:compass[minecraft:custom_name={italic:0b,text:"Home Compass"}]
 
+schedule function ct:util/motd/store_data 1t
 function ct:util/sync_variables

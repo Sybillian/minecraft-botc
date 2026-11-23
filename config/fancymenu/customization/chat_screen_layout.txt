@@ -2,14 +2,14 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = chat_screen
-  render_custom_elements_behind_vanilla = true
-  last_edited_time = 1786581659524
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1795379563910
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:94280bdf-ecc7-495f-b696-0a3544b0ed9a-1786581641429] = [groups:][instances:]
+  [loading_requirement_container_meta:21cfb019-e4df-45eb-962f-afb9a07857f8-1795379551513] = [groups:][instances:]
 }
 
 menu_background {
@@ -954,7 +954,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = vanilla
   x = 4
-  y = 241
+  y = 259
   width = 476
   height = 12
   stay_on_screen = true
@@ -1033,7 +1033,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = vanilla
   x = 457
-  y = 216
+  y = 234
   width = 20
   height = 20
   stay_on_screen = true

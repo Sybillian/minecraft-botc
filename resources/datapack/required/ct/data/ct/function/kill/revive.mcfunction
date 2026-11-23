@@ -20,4 +20,5 @@ execute as @s[team=15_black] run team modify 15_black suffix {"text":""}
 tellraw @a [{"selector":"@s"},{"text":" came back to life.","color":"green"}]
 execute as @a at @s run playsound ct:clocktower.revive voice @s ~ ~ ~ 1
 
+schedule function ct:util/motd/store_data 1t
 execute as @a run function ct:util/update_shrouds

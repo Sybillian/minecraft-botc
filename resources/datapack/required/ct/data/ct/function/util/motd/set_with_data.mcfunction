@@ -1,0 +1,2 @@
+$execute if score phase game_data matches 4 run motd §cBlood on the Clocktower §8v1.6.0§r\n§rNight $(current_day) - $(alive_players)/$(player_count) players alive§r
+$execute unless score phase game_data matches 4 run motd §cBlood on the Clocktower §8v1.6.0§r\n§rDay $(current_day) - $(alive_players)/$(player_count) players alive§r

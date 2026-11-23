@@ -1,23 +1,24 @@
 BotC v1.6.1 - XX XX, 2026
 
 Changes and features:
-- Added Default Options mod to handle keybinds better.
+- Updated the Credits screen to scroll and look a bit nicer.
 - Changed the countdown sound.
 - Changed the vote sound to use the old countdown sound.
 - Balanced audio levels of many sounds so they're not so loud compared to other game sounds and each other.
+- The current day and number of players alive now automatically appears in a server's MOTD.
 
 Fixed bugs:
 - #125: "Mark" and "Clear Mark" buttons overlap with chat
-// CARRIED OVER - #177: Text refering to keybind-specific messages does not change when modifying the given keybind (thanks @Jvkeh)
-// CARRIED OVER - #179: Using the /script command doesnt open the correct script layout
-// CARRIED OVER - #181: Spectators can /whisper only the player in the 1st slot
-// CARRIED OVER - #184: Storytellers are removed from the night chat when flying through public voice rooms
-// CARRIED OVER - #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
-// CARRIED OVER - #191: Spectators still see multiple istances of "There is a demon about" message.
-// CARRIED OVER - #193: Cannot make a spectator without them being a storyteller first
-// CARRIED OVER - #197: Wraith doesn't translate
-// CARRIED OVER - #200: Ghost votes can be lowered after use
-// CARRIED OVER - World time sometimes advances during the "day" phase.
-// CARRIED OVER - Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.
-// CARRIED OVER - Subtitles for "player dies" and "player nominated" are swapped.
+- #177: Text refering to keybind-specific messages does not change when modifying the given keybind (thanks @Jvkeh)
+- #179: Using the /script command doesnt open the correct script layout
+- #181: Spectators can /whisper only the player in the 1st slot
+- #184: Storytellers are removed from the night chat when flying through public voice rooms
+- #189: Town Crier Tokens are distributed instead of Village Idiot tokens (thanks @Jvkeh)
+- #191: Spectators still see multiple istances of "There is a demon about" message.
+- #193: Cannot make a spectator without them being a storyteller first
+- #197: Wraith doesn't translate
+- #200: Ghost votes can be lowered after use
+- World time sometimes advances during the "day" phase.
+- Sitting in the waterlogged stairs in the Greenhouse removes you from the chat room.
+- Subtitles for "player dies" and "player nominated" are swapped.
 - FancyMenu spams the server console with packet data errors.
