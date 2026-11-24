@@ -6,6 +6,10 @@ Changes and features:
 - Changed the vote sound to use the old countdown sound.
 - Balanced audio levels of many sounds so they're not so loud compared to other game sounds and each other.
 - The current day and number of players alive now automatically appears in a server's MOTD.
+- Finished the upstairs of the Inn!
+- Added a few more trees around the map and finished all the stumps.
+- Added the Default Server Options mod - all this really does is allow the world folder to be in ./saves by default.
+- Added Playtest Icons for the last few Lorics.
 
 Fixed bugs:
 - #125: "Mark" and "Clear Mark" buttons overlap with chat

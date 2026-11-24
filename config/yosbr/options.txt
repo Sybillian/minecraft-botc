@@ -1,0 +1,30 @@
+key_View Grimoire:key.keyboard.g
+key_View Script:key.keyboard.h
+key_Nomination:key.keyboard.c
+key_Storyteller Quick Actions:key.keyboard.r
+key_Toggle Night Voice Chat:key.keyboard.enter
+key_tab.bettertab.keybind.toggle_mod:key.keyboard.unknown
+key_tab.bettertab.keybind.open_config:key.keyboard.unknown
+key_tab.bettertab.keybind.scroll_right:key.keyboard.unknown
+key_tab.bettertab.keybind.scroll_left:key.keyboard.unknown
+key_chatbinds.key.menu:key.keyboard.unknown
+key_chatbinds.key.add_chat:key.keyboard.unknown
+key_key.advancements:key.keyboard.unknown
+key_key.svcvisualizer.open_config:key.keyboard.unknown
+key_key.svcvisualizer.toggle:key.keyboard.unknown
+key_key.push_to_talk:key.keyboard.unknown
+key_key.whisper:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.m
+key_key.disable_voice_chat:key.keyboard.unknown
+key_key.hide_icons:key.keyboard.unknown
+key_key.voice_chat:key.keyboard.v
+key_key.voice_chat_settings:key.keyboard.unknown
+key_key.voice_chat_group:key.keyboard.unknown
+key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_key.sit!.toggle:key.keyboard.unknown
+key_key.sit!.config:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_iris.keybind.wireframe:key.keyboard.unknown
