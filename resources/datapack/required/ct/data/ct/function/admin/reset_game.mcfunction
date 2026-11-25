@@ -8,7 +8,7 @@ execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s vie
 
 schedule clear ct:loop/vote/cycle
 
-motd §cBlood on the Clocktower §8v1.6.0§r\n§aIn between games!§r
+motd §cBlood on the Clocktower §8v1.6.1§r\n§aIn between games!§r
 
 data modify storage ct:seats seats set value [{username:"Nobody",role:0,alive:0,reminders:[]}]
 data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}

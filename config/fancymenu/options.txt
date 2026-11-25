@@ -8,7 +8,7 @@ B:play_vanilla_menu_music = 'true';
 ##[customization]
 
 B:modpack_mode = 'false';
-B:show_customization_overlay = 'true';
+B:show_customization_overlay = 'false';
 B:advanced_customization_mode = 'false';
 
 
@@ -25,10 +25,10 @@ S:custom_game_intro_skip_text = '';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
+B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/imp_32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/imp_32.png';
-S:custom_window_title = 'Blood on the Clocktower v1.6.0';
+S:custom_window_title = 'Blood on the Clocktower v1.6.1';
 S:custom_window_icon_16 = '/config/fancymenu/assets/imp_16.png';
 
 
